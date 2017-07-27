@@ -1,0 +1,164 @@
+{
+    "Individual": [{
+        "idCRM": "Z001",
+        "text": "Perfil de Producto",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z002",
+        "text": "El Cliente no Aceptó Condiciones",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z004",
+        "text": "Decisión de Fuerza de Ventas",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z006",
+        "text": "Referencias Negativas Personales",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z007",
+        "text": "Referencias Negativas Buró",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z008",
+        "text": "Error de Captura",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z010",
+        "text": "Otro",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z011",
+        "text": "Sin Aval",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z012",
+        "text": "Decisión Del Cliente/Grupo",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z013",
+        "text": "Cliente ya No Quiere El Crédito",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z016",
+        "text": "Convivencia De Productos",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z017",
+        "text": "Por Documentos",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z018",
+        "text": "Verificación no Exitosa, Domicilio/Negoc",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z019",
+        "text": "Arraigo Insuficiente, Domicilio/Negocio",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z020",
+        "text": "Capacidad de Pago",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z021",
+        "text": "Días De Atraso Actual",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z022",
+        "text": "Exigibilidades Cubiertas",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z024",
+        "text": "Por Duplicidad",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }],
+    "Grupal": [{
+        "idCRM": "Z001",
+        "text": "Decisión del Cliente/Grupo",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z002",
+        "text": "El Cliente no Aceptó Condiciones",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z003",
+        "text": "Cliente ya no quiere el crédito",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z005",
+        "text": "Decisión de Fuerza de Ventas",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z007",
+        "text": "Referencias Negativas Personales",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z008",
+        "text": "Referencias Negativas Buró",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z009",
+        "text": "Error de Captura",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z011",
+        "text": "Otro",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z012",
+        "text": "Perfil de Producto",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z014",
+        "text": "Capacidad de Pago",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z015",
+        "text": "Convivencia De Productos",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z016",
+        "text": "Por Documentos",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO06"
+    }, {
+        "idCRM": "Z017",
+        "text": "Exigibilidades Cubiertas",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }, {
+        "idCRM": "Z018",
+        "text": "Días De Atraso Actual",
+        "idCatalog": "O1",
+        "idCodeGroup": "ZCRMRO02"
+    }]
+}

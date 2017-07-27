@@ -1,0 +1,22 @@
+{
+    "tipo": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "1",
+            "text": "PROPIA"
+    },
+    {
+            "idCRM": "2",
+            "text": "RENTADA"
+    },
+    {
+            "idCRM": "3",
+            "text": "FAMILIAR"
+    },
+    {
+            "idCRM": "4",
+            "text": "PAGANDO"
+    }]
+}

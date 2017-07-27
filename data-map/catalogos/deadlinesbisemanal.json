@@ -1,0 +1,112 @@
+{
+    "Nuevo": {
+        "Muy Alto": {
+         	"p1":{
+	            "monto_min":"20000",
+	            "monto_max":"25000",
+	            "plazo_min":"12",
+	            "plazo_max":"24"
+        	}
+         },
+         "Alto": {
+         	"p1":{
+	            "monto_min":"20000",
+	            "monto_max":"25000",
+	            "plazo_min":"12",
+	            "plazo_max":"24"
+        	}
+         },
+         "Medio": {
+         	"p1":{
+         		"monto_min":"20000",
+	            "monto_max":"30000",
+	            "plazo_min":"12",
+	            "plazo_max":"24"
+            },
+            "p2":{
+         		"monto_min":"30001",
+	            "monto_max":"50000",
+	            "plazo_min":"12",
+	            "plazo_max":"36"
+            }
+            
+         },
+          "Bajo": {
+         	"p1":{
+         		"monto_min":"20000",
+	            "monto_max":"30000",
+	            "plazo_min":"12",
+	            "plazo_max":"24"
+            },
+            "p2":{
+         		"monto_min":"30001",
+	            "monto_max":"50000",
+	            "plazo_min":"12",
+	            "plazo_max":"36"
+            },
+            "p3":{
+         		"monto_min":"50001",
+	            "monto_max":"70000",
+	            "plazo_min":"12",
+	            "plazo_max":"48"
+            }
+         },
+         "Muy Bajo": {
+         	"p1":{
+         		"monto_min":"20000",
+	            "monto_max":"30000",
+	            "plazo_min":"12",
+	            "plazo_max":"24"
+            },
+            "p2":{
+         		"monto_min":"30001",
+	            "monto_max":"50000",
+	            "plazo_min":"12",
+	            "plazo_max":"36"
+            },
+            "p3":{
+         		"monto_min":"50001",
+	            "monto_max":"100000",
+	            "plazo_min":"12",
+	            "plazo_max":"48"
+            }
+
+            
+         }
+    },
+    "Subsecuente": {
+        "Muy Alto": {
+            "monto_min":"20000",
+            "monto_max":"30000",
+            "plazo_min":"12",
+            "plazo_max":"24"
+         },
+         "Alto": {
+            "monto_min":"20000",
+            "monto_max":"30000",
+            "plazo_min":"12",
+            "plazo_max":"24"
+         },
+         "Medio": {
+     		"monto_min":"30001",
+            "monto_max":"50000",
+            "plazo_min":"12",
+            "plazo_max":"36"
+         },
+         "Bajo": {
+     		"monto_min":"50001",
+            "monto_max":"100000",
+            "plazo_min":"12",
+            "plazo_max":"48"
+         },
+         "Muy Bajo": {
+     		"monto_min":"50001",
+            "monto_max":"100000",
+            "plazo_min":"12",
+            "plazo_max":"48"
+         }
+
+    }
+
+
+}

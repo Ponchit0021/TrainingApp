@@ -1,0 +1,50 @@
+{
+    "causes": [{
+        "causeId": "",
+        "causeName": ""
+    },
+    {
+        "causeId": "1",
+        "causeName": "Por Filtros"
+    },
+    {
+        "causeId": "3",
+        "causeName": "Perfil de Producto"
+    },
+    {
+        "causeId": "4",
+        "causeName": "Decisión del Cliente/Grupo"
+    },
+    {
+        "causeId": "5",
+        "causeName": "Decisión de Fuerza de Ventas"
+    },
+    {
+        "causeId": "8",
+        "causeName": "Error de Captura"
+    },
+    {
+        "causeId": "9",
+        "causeName": "Cliente No Aceptó Condiciones"
+    },
+    {
+        "causeId": "10",
+        "causeName": "Convivencia de Productos"
+    },
+    {
+        "causeId": "11",
+        "causeName": "Exigibilidades Cubiertas"
+    },
+    {
+        "causeId": "12",
+        "causeName": "Días de Atraso Actual"
+    },
+    {
+        "causeId": "13",
+        "causeName": "Otro"
+    },
+    {
+        "causeId": "14",
+        "causeName": "Por Documentos"
+    }]
+}

@@ -1,0 +1,271 @@
+[{
+    "AddressTypeId": "AddressTypeId 1",
+    "CustomerIdCRM": "CustomerIdCRM 1",
+    "IsMainAddress": false,
+    "Latitude": 1.7004786092460655,
+    "Longitude": 5.532674060521396,
+    "CustomerIdMD": "CustomerIdMD 1",
+    "Place": {
+        "PostalCode": "PostalCode 1",
+        "CountryID": "CountryID 1",
+        "StateId": "StateId 1",
+        "TownId": "TownId 1",
+        "City": "City 1",
+        "Suburb": "Suburb 1",
+        "Street": "Street 1",
+        "OutsideNumber": "OutsideNumber 1",
+        "BetweenStreets1": "BetweenStreets1 1",
+        "BetweenStreets2": "BetweenStreets2 1",
+        "LocationReference": "LocationReference 1",
+        "InteriorNumber": "InteriorNumber 1",
+        "Comments": "Comments 1"
+    },
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%201',CustomerIdCRM='CustomerIdCRM%201')",
+        "type": "AOMobile.Address"
+    }
+}, {
+    "AddressTypeId": "AddressTypeId 2",
+    "CustomerIdCRM": "CustomerIdCRM 2",
+    "IsMainAddress": false,
+    "Latitude": 2.9820969097953065,
+    "Longitude": 4.303653031884844,
+    "CustomerIdMD": "CustomerIdMD 2",
+    "Place": {
+        "PostalCode": "PostalCode 2",
+        "CountryID": "CountryID 2",
+        "StateId": "StateId 2",
+        "TownId": "TownId 2",
+        "City": "City 2",
+        "Suburb": "Suburb 2",
+        "Street": "Street 2",
+        "OutsideNumber": "OutsideNumber 2",
+        "BetweenStreets1": "BetweenStreets1 2",
+        "BetweenStreets2": "BetweenStreets2 2",
+        "LocationReference": "LocationReference 2",
+        "InteriorNumber": "InteriorNumber 2",
+        "Comments": "Comments 2"
+    },
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%202',CustomerIdCRM='CustomerIdCRM%202')",
+        "type": "AOMobile.Address"
+    }
+}, {
+    "AddressTypeId": "AddressTypeId 3",
+    "CustomerIdCRM": "CustomerIdCRM 3",
+    "IsMainAddress": true,
+    "Latitude": 2.792085653094707,
+    "Longitude": 9.40219726746843,
+    "CustomerIdMD": "CustomerIdMD 3",
+    "Place": {
+        "PostalCode": "PostalCode 3",
+        "CountryID": "CountryID 3",
+        "StateId": "StateId 3",
+        "TownId": "TownId 3",
+        "City": "City 3",
+        "Suburb": "Suburb 3",
+        "Street": "Street 3",
+        "OutsideNumber": "OutsideNumber 3",
+        "BetweenStreets1": "BetweenStreets1 3",
+        "BetweenStreets2": "BetweenStreets2 3",
+        "LocationReference": "LocationReference 3",
+        "InteriorNumber": "InteriorNumber 3",
+        "Comments": "Comments 3"
+    },
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%203',CustomerIdCRM='CustomerIdCRM%203')",
+        "type": "AOMobile.Address"
+    }
+}, {
+    "AddressTypeId": "AddressTypeId 4",
+    "CustomerIdCRM": "CustomerIdCRM 4",
+    "IsMainAddress": true,
+    "Latitude": 5.906080137087024,
+    "Longitude": 5.503509915451832,
+    "CustomerIdMD": "CustomerIdMD 4",
+    "Place": {
+        "PostalCode": "PostalCode 4",
+        "CountryID": "CountryID 4",
+        "StateId": "StateId 4",
+        "TownId": "TownId 4",
+        "City": "City 4",
+        "Suburb": "Suburb 4",
+        "Street": "Street 4",
+        "OutsideNumber": "OutsideNumber 4",
+        "BetweenStreets1": "BetweenStreets1 4",
+        "BetweenStreets2": "BetweenStreets2 4",
+        "LocationReference": "LocationReference 4",
+        "InteriorNumber": "InteriorNumber 4",
+        "Comments": "Comments 4"
+    },
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%204',CustomerIdCRM='CustomerIdCRM%204')",
+        "type": "AOMobile.Address"
+    }
+}, {
+    "AddressTypeId": "AddressTypeId 5",
+    "CustomerIdCRM": "CustomerIdCRM 5",
+    "IsMainAddress": true,
+    "Latitude": 9.681014655476332,
+    "Longitude": 6.692242167669757,
+    "CustomerIdMD": "CustomerIdMD 5",
+    "Place": {
+        "PostalCode": "PostalCode 5",
+        "CountryID": "CountryID 5",
+        "StateId": "StateId 5",
+        "TownId": "TownId 5",
+        "City": "City 5",
+        "Suburb": "Suburb 5",
+        "Street": "Street 5",
+        "OutsideNumber": "OutsideNumber 5",
+        "BetweenStreets1": "BetweenStreets1 5",
+        "BetweenStreets2": "BetweenStreets2 5",
+        "LocationReference": "LocationReference 5",
+        "InteriorNumber": "InteriorNumber 5",
+        "Comments": "Comments 5"
+    },
+   "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%205',CustomerIdCRM='CustomerIdCRM%205')",
+        "type": "AOMobile.Address"
+    }
+}, {
+    "AddressTypeId": "AddressTypeId 6",
+    "CustomerIdCRM": "CustomerIdCRM 6",
+    "IsMainAddress": true,
+    "Latitude": 1.7535942970585139,
+    "Longitude": 5.768558669469348,
+    "CustomerIdMD": "CustomerIdMD 6",
+    "Place": {
+        "PostalCode": "PostalCode 6",
+        "CountryID": "CountryID 6",
+        "StateId": "StateId 6",
+        "TownId": "TownId 6",
+        "City": "City 6",
+        "Suburb": "Suburb 6",
+        "Street": "Street 6",
+        "OutsideNumber": "OutsideNumber 6",
+        "BetweenStreets1": "BetweenStreets1 6",
+        "BetweenStreets2": "BetweenStreets2 6",
+        "LocationReference": "LocationReference 6",
+        "InteriorNumber": "InteriorNumber 6",
+        "Comments": "Comments 6"
+    },
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%206',CustomerIdCRM='CustomerIdCRM%206')",
+        "type": "AOMobile.Address"
+    }
+}, {
+    "AddressTypeId": "AddressTypeId 7",
+    "CustomerIdCRM": "CustomerIdCRM 7",
+    "IsMainAddress": false,
+    "Latitude": 2.10612111501862,
+    "Longitude": 1.142479043188409,
+    "CustomerIdMD": "CustomerIdMD 7",
+    "Place": {
+        "PostalCode": "PostalCode 7",
+        "CountryID": "CountryID 7",
+        "StateId": "StateId 7",
+        "TownId": "TownId 7",
+        "City": "City 7",
+        "Suburb": "Suburb 7",
+        "Street": "Street 7",
+        "OutsideNumber": "OutsideNumber 7",
+        "BetweenStreets1": "BetweenStreets1 7",
+        "BetweenStreets2": "BetweenStreets2 7",
+        "LocationReference": "LocationReference 7",
+        "InteriorNumber": "InteriorNumber 7",
+        "Comments": "Comments 7"
+    },
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%207',CustomerIdCRM='CustomerIdCRM%207')",
+        "type": "AOMobile.Address"
+    }
+}, {
+    "AddressTypeId": "AddressTypeId 8",
+    "CustomerIdCRM": "CustomerIdCRM 8",
+    "IsMainAddress": false,
+    "Latitude": 1.5492697419328882,
+    "Longitude": 4.013696818734786,
+    "CustomerIdMD": "CustomerIdMD 8",
+    "Place": {
+        "PostalCode": "PostalCode 8",
+        "CountryID": "CountryID 8",
+        "StateId": "StateId 8",
+        "TownId": "TownId 8",
+        "City": "City 8",
+        "Suburb": "Suburb 8",
+        "Street": "Street 8",
+        "OutsideNumber": "OutsideNumber 8",
+        "BetweenStreets1": "BetweenStreets1 8",
+        "BetweenStreets2": "BetweenStreets2 8",
+        "LocationReference": "LocationReference 8",
+        "InteriorNumber": "InteriorNumber 8",
+        "Comments": "Comments 8"
+    },
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%208',CustomerIdCRM='CustomerIdCRM%208')",
+        "type": "AOMobile.Address"
+    }
+}, {
+    "AddressTypeId": "AddressTypeId 9",
+    "CustomerIdCRM": "CustomerIdCRM 9",
+    "IsMainAddress": true,
+    "Latitude": 7.705747240567775,
+    "Longitude": 0.6157203163959846,
+    "CustomerIdMD": "CustomerIdMD 9",
+    "Place": {
+        "PostalCode": "PostalCode 9",
+        "CountryID": "CountryID 9",
+        "StateId": "StateId 9",
+        "TownId": "TownId 9",
+        "City": "City 9",
+        "Suburb": "Suburb 9",
+        "Street": "Street 9",
+        "OutsideNumber": "OutsideNumber 9",
+        "BetweenStreets1": "BetweenStreets1 9",
+        "BetweenStreets2": "BetweenStreets2 9",
+        "LocationReference": "LocationReference 9",
+        "InteriorNumber": "InteriorNumber 9",
+        "Comments": "Comments 9"
+    },
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%209',CustomerIdCRM='CustomerIdCRM%209')",
+        "type": "AOMobile.Address"
+    }
+}, {
+    "AddressTypeId": "AddressTypeId 10",
+    "CustomerIdCRM": "CustomerIdCRM 10",
+    "IsMainAddress": false,
+    "Latitude": 2.7807510981483996,
+    "Longitude": 7.614733931060824,
+    "CustomerIdMD": "CustomerIdMD 10",
+    "Place": {
+        "PostalCode": "PostalCode 10",
+        "CountryID": "CountryID 10",
+        "StateId": "StateId 10",
+        "TownId": "TownId 10",
+        "City": "City 10",
+        "Suburb": "Suburb 10",
+        "Street": "Street 10",
+        "OutsideNumber": "OutsideNumber 10",
+        "BetweenStreets1": "BetweenStreets1 10",
+        "BetweenStreets2": "BetweenStreets2 10",
+        "LocationReference": "LocationReference 10",
+        "InteriorNumber": "InteriorNumber 10",
+        "Comments": "Comments 10"
+    },
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "AddressSet(AddressTypeId='AddressTypeId%2010',CustomerIdCRM='CustomerIdCRM%2010')",
+        "type": "AOMobile.Address"
+    }
+}]

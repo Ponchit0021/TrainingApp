@@ -1,0 +1,71 @@
+[{
+	"ProductID": "ProductID 1",
+	"InsuranceMinCycle": "InsuranceMinCycle 1",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%201')",
+		"type": "AOMobile.Product"
+	}
+}, {
+	"ProductID": "ProductID 2",
+	"InsuranceMinCycle": "InsuranceMinCycle 2",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%202')",
+		"type": "AOMobile.Product"
+	}
+}, {
+	"ProductID": "ProductID 3",
+	"InsuranceMinCycle": "InsuranceMinCycle 3",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%203')",
+		"type": "AOMobile.Product"
+	}
+}, {
+	"ProductID": "ProductID 4",
+	"InsuranceMinCycle": "InsuranceMinCycle 4",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%204')",
+		"type": "AOMobile.Product"
+	}
+}, {
+	"ProductID": "ProductID 5",
+	"InsuranceMinCycle": "InsuranceMinCycle 5",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%205')",
+		"type": "AOMobile.Product"
+	}
+}, {
+	"ProductID": "ProductID 6",
+	"InsuranceMinCycle": "InsuranceMinCycle 6",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%206')",
+		"type": "AOMobile.Product"
+	}
+}, {
+	"ProductID": "ProductID 7",
+	"InsuranceMinCycle": "InsuranceMinCycle 7",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%207')",
+		"type": "AOMobile.Product"
+	}
+}, {
+	"ProductID": "ProductID 8",
+	"InsuranceMinCycle": "InsuranceMinCycle 8",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%208')",
+		"type": "AOMobile.Product"
+	}
+}, {
+	"ProductID": "ProductID 9",
+	"InsuranceMinCycle": "InsuranceMinCycle 9",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%209')",
+		"type": "AOMobile.Product"
+	}
+}, {
+	"ProductID": "ProductID 10",
+	"InsuranceMinCycle": "InsuranceMinCycle 10",
+	"__metadata": {
+		"uri": "ProductSet('ProductID%2010')",
+		"type": "AOMobile.Product"
+	}
+}]

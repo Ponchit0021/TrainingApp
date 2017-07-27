@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+
+    
+    <!-- 
+    <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+    <script src="js/vendor/sweetalert.min.js"></script>
+    <script src="js/vendor/pouchdb-5.1.0.min.js"></script>
+    <script src="js/vendor/pouchdb.relational-pouch.js"></script>
+    <script src="js/vendor/pouchdb.find.js"></script>
+    <script src="js/vendor/moment.min.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="cordova.js"></script>
+</head>
+
+<body class="sapUiBody" role="application">
+
+    <div id="preloader">
+        <div>
+            <img class="preloader-logo" src="img/logo.png" alt="">
+        </div>
+        <svg class="spinner" width="5em" height="5em" viewBox="0 0 66 66">
+            <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+        </svg>
+        <div id="preloaderSvg">
+        </div>
+        <div id="preloaderLegend" class="preloader-legend">
+            Cargando componentes ...
+        </div>
+        <!-- Igualar la versión de prod con esta versión -->
+        <div class="version-ao">
+            Versión 3.0.0
+        </div>
+    </div>
+
+    <div id="content">
+
+        <div id="stores">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+            <div id="storesDesc" class="stores">
+                Cargando datos...
+            </div>
+            <div id="actionStore" class="stores">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

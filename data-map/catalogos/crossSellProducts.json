@@ -1,0 +1,22 @@
+{
+    "crossSellProducts": [{
+        "idCRM": "",
+        "productName": ""
+    }, {
+        "idCRM": "C_IND_CA",
+        "productName": "Crédito Adicional (CA)",
+        "shortName":"CA"
+    }, {
+        "idCRM": "C_IND_CA_CCR",
+        "productName": "Crédito Adicional (CA)",
+        "shortName":"CA"
+    }, {
+        "idCRM": "C_IND_CCM_CCR",
+        "productName": "Crédito Crece y Mejora (CCM)",
+        "shortName":"CCM"
+    }, {
+        "idCRM": "C_IND_CCM",
+        "productName": "Crédito Crece y Mejora (CCM)",
+        "shortName":"CCM"
+    }]
+}

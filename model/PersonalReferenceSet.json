@@ -1,0 +1,171 @@
+[{
+	"PersonalReferenceID": "PersonalReferenceID 1",
+	"CustomerIdCRM": "CustomerIdCRM 1",
+	"Name": {
+		"FirstName": "FirstName 1",
+		"MiddleName": "MiddleName 1",
+		"LastName": "LastName 1",
+		"SecondName": "SecondName 1"
+	},
+	"Phone": "Phone 1",
+	"CollaboratorID": "CollaboratorID 1",
+	"ReferenceTypeID": "ReferenceTypeID 1",
+	"CustomerIdMD": "CustomerIdMD 1",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%201')",
+		"type": "AOMobile.PersonalReference"
+	}
+}, {
+	"PersonalReferenceID": "PersonalReferenceID 2",
+	"CustomerIdCRM": "CustomerIdCRM 2",
+	"Name": {
+		"FirstName": "FirstName 2",
+		"MiddleName": "MiddleName 2",
+		"LastName": "LastName 2",
+		"SecondName": "SecondName 2"
+	},
+	"Phone": "Phone 2",
+	"CollaboratorID": "CollaboratorID 2",
+	"ReferenceTypeID": "ReferenceTypeID 2",
+	"CustomerIdMD": "CustomerIdMD 2",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%202')",
+		"type": "AOMobile.PersonalReference"
+	}
+}, {
+	"PersonalReferenceID": "PersonalReferenceID 3",
+	"CustomerIdCRM": "CustomerIdCRM 3",
+	"Name": {
+		"FirstName": "FirstName 3",
+		"MiddleName": "MiddleName 3",
+		"LastName": "LastName 3",
+		"SecondName": "SecondName 3"
+	},
+	"Phone": "Phone 3",
+	"CollaboratorID": "CollaboratorID 3",
+	"ReferenceTypeID": "ReferenceTypeID 3",
+	"CustomerIdMD": "CustomerIdMD 3",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%203')",
+		"type": "AOMobile.PersonalReference"
+	}
+}, {
+	"PersonalReferenceID": "PersonalReferenceID 4",
+	"CustomerIdCRM": "CustomerIdCRM 4",
+	"Name": {
+		"FirstName": "FirstName 4",
+		"MiddleName": "MiddleName 4",
+		"LastName": "LastName 4",
+		"SecondName": "SecondName 4"
+	},
+	"Phone": "Phone 4",
+	"CollaboratorID": "CollaboratorID 4",
+	"ReferenceTypeID": "ReferenceTypeID 4",
+	"CustomerIdMD": "CustomerIdMD 4",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%204')",
+		"type": "AOMobile.PersonalReference"
+	}
+}, {
+	"PersonalReferenceID": "PersonalReferenceID 5",
+	"CustomerIdCRM": "CustomerIdCRM 5",
+	"Name": {
+		"FirstName": "FirstName 5",
+		"MiddleName": "MiddleName 5",
+		"LastName": "LastName 5",
+		"SecondName": "SecondName 5"
+	},
+	"Phone": "Phone 5",
+	"CollaboratorID": "CollaboratorID 5",
+	"ReferenceTypeID": "ReferenceTypeID 5",
+	"CustomerIdMD": "CustomerIdMD 5",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%205')",
+		"type": "AOMobile.PersonalReference"
+	}
+}, {
+	"PersonalReferenceID": "PersonalReferenceID 6",
+	"CustomerIdCRM": "CustomerIdCRM 6",
+	"Name": {
+		"FirstName": "FirstName 6",
+		"MiddleName": "MiddleName 6",
+		"LastName": "LastName 6",
+		"SecondName": "SecondName 6"
+	},
+	"Phone": "Phone 6",
+	"CollaboratorID": "CollaboratorID 6",
+	"ReferenceTypeID": "ReferenceTypeID 6",
+	"CustomerIdMD": "CustomerIdMD 6",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%206')",
+		"type": "AOMobile.PersonalReference"
+	}
+}, {
+	"PersonalReferenceID": "PersonalReferenceID 7",
+	"CustomerIdCRM": "CustomerIdCRM 7",
+	"Name": {
+		"FirstName": "FirstName 7",
+		"MiddleName": "MiddleName 7",
+		"LastName": "LastName 7",
+		"SecondName": "SecondName 7"
+	},
+	"Phone": "Phone 7",
+	"CollaboratorID": "CollaboratorID 7",
+	"ReferenceTypeID": "ReferenceTypeID 7",
+	"CustomerIdMD": "CustomerIdMD 7",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%207')",
+		"type": "AOMobile.PersonalReference"
+	}
+}, {
+	"PersonalReferenceID": "PersonalReferenceID 8",
+	"CustomerIdCRM": "CustomerIdCRM 8",
+	"Name": {
+		"FirstName": "FirstName 8",
+		"MiddleName": "MiddleName 8",
+		"LastName": "LastName 8",
+		"SecondName": "SecondName 8"
+	},
+	"Phone": "Phone 8",
+	"CollaboratorID": "CollaboratorID 8",
+	"ReferenceTypeID": "ReferenceTypeID 8",
+	"CustomerIdMD": "CustomerIdMD 8",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%208')",
+		"type": "AOMobile.PersonalReference"
+	}
+}, {
+	"PersonalReferenceID": "PersonalReferenceID 9",
+	"CustomerIdCRM": "CustomerIdCRM 9",
+	"Name": {
+		"FirstName": "FirstName 9",
+		"MiddleName": "MiddleName 9",
+		"LastName": "LastName 9",
+		"SecondName": "SecondName 9"
+	},
+	"Phone": "Phone 9",
+	"CollaboratorID": "CollaboratorID 9",
+	"ReferenceTypeID": "ReferenceTypeID 9",
+	"CustomerIdMD": "CustomerIdMD 9",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%209')",
+		"type": "AOMobile.PersonalReference"
+	}
+}, {
+	"PersonalReferenceID": "PersonalReferenceID 10",
+	"CustomerIdCRM": "CustomerIdCRM 10",
+	"Name": {
+		"FirstName": "FirstName 10",
+		"MiddleName": "MiddleName 10",
+		"LastName": "LastName 10",
+		"SecondName": "SecondName 10"
+	},
+	"Phone": "Phone 10",
+	"CollaboratorID": "CollaboratorID 10",
+	"ReferenceTypeID": "ReferenceTypeID 10",
+	"CustomerIdMD": "CustomerIdMD 10",
+	"__metadata": {
+		"uri": "PersonalReferenceSet('PersonalReferenceID%2010')",
+		"type": "AOMobile.PersonalReference"
+	}
+}]

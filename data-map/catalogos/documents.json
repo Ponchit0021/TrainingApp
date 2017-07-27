@@ -1,0 +1,92 @@
+{
+    "results": [{
+        "title":"Identificación Oficial",
+        "customerIdMD":"",
+        "documentStatusId":"",
+        "documentStatusText": "Sin Captura",
+        "isReceived":"",
+        "ImageIdSharepoint":"",
+        "documentId":"IDO",
+        "imageBase64":"",
+        "BPIdCRM":"",
+        "insuranceID":"",
+        "front-back": "Frente",
+        "status": "",
+        "dueDate":""
+
+    }, {
+        "title":"Identificación Oficial",
+        "customerIdMD":"",
+        "documentStatusId":"",
+        "documentStatusText": "Sin Captura",
+        "isReceived":"",
+        "ImageIdSharepoint":"",
+        "documentId":"ID2",
+        "imageBase64":"",
+        "BPIdCRM":"",
+        "insuranceID":"",
+        "front-back": "Reverso",
+        "viewButtonStatus": "Default",
+        "status": "",
+        "dueDate":""
+
+    }, {
+        "title":"Comprobante de domicilio",
+        "customerIdMD":"",
+        "documentStatusId":"",
+        "documentStatusText": "Sin Captura",
+        "isReceived":"Sin Captura",
+        "ImageIdSharepoint":"",
+        "documentId":"CDO",
+        "imageBase64":"",
+        "BPIdCRM":"",
+        "insuranceID":"",
+        "front-back": "",
+        "status": "",
+        "dueDate":""
+
+    },{
+        "title":"Autorización Buró/Avisos",
+        "customerIdMD":"",
+        "documentStatusId":"",
+        "documentStatusText": "Sin Captura",
+        "isReceived":"Sin Captura",
+        "ImageIdSharepoint":"",
+        "documentId":"CBU",
+        "imageBase64":"",
+        "BPIdCRM":"",
+        "insuranceID":"",
+        "front-back": "",
+        "viewButtonStatus": "Default",
+        "status": "",
+        "dueDate":""
+    },{
+        "title":"CUFE",
+        "customerIdMD":"",
+        "documentStatusId":"",
+        "documentStatusText": "Sin Captura",
+        "isReceived":"",
+        "ImageIdSharepoint":"",
+        "documentId":"CUF",
+        "imageBase64":"",
+        "insuranceID":"",
+        "BPIdCRM":"",
+        "front-back": "",
+        "status": "",
+        "dueDate":""
+    },{
+        "title":"Foto de negocio",
+        "customerIdMD":"",
+        "documentStatusId":"",
+        "documentStatusText": "Sin Captura",
+        "isReceived":"",
+        "ImageIdSharepoint":"",
+        "documentId":"IMN",
+        "imageBase64":"",
+        "insuranceID":"",
+        "BPIdCRM":"",
+        "front-back": "",
+        "status": "",
+        "dueDate":""
+    }]
+}

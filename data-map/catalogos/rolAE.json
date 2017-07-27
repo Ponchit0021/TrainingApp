@@ -1,0 +1,22 @@
+{
+    "giro": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "28",
+            "text": "COMERCIO"
+    },
+    {
+            "idCRM": "99",
+            "text": "OTRO"
+    },
+    {
+            "idCRM": "8",
+            "text": "PRODUCCION"
+    },
+    {
+            "idCRM": "22",
+            "text": "SERVICIO"
+    }]
+}

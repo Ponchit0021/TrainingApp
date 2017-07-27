@@ -1,0 +1,13 @@
+{
+    "aporta": [{
+            "idCRM": "",
+            "text": ""
+    },{
+            "idCRM": "001",
+            "text": "El negocio es la principal fuente de ingreso del hogar"
+    },
+    {
+            "idCRM": "002",
+            "text": "El negocio ayuda a complementar el ingreso del hogar"
+    }]
+}

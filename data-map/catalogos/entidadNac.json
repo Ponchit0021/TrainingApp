@@ -1,0 +1,103 @@
+{
+    "entidad": [{
+            "idCRM": "",
+            "text": ""
+        }, {
+            "idCRM": "AGS",
+            "text": "Aguascalientes"
+        }, {
+            "idCRM": "BCN",
+            "text": "Baja California"
+        }, {
+            "idCRM": "BCS",
+            "text": "Baja California Sur"
+        }, {
+            "idCRM": "CAM",
+            "text": "Campeche"
+        }, {
+            "idCRM": "CHI",
+            "text": "Chihuahua"
+        }, {
+            "idCRM": "CHS",
+            "text": "Chiapas"
+        }, {
+            "idCRM": "COA",
+            "text": "Coahuila de Zaragoza"
+        }, {
+            "idCRM": "COL",
+            "text": "Colima"
+        }, {
+            "idCRM": "DF",
+            "text": "Distrito Federal"
+        }, {
+            "idCRM": "DGO",
+            "text": "Durango"
+        }, {
+            "idCRM": "EM",
+            "text": "Mexico"
+        }, {
+            "idCRM": "GRO",
+            "text": "Guerrero"
+        }, {
+            "idCRM": "GTO",
+            "text": "Guanajuato"
+        }, {
+            "idCRM": "HGO",
+            "text": "Hidalgo"
+        }, {
+            "idCRM": "JAL",
+            "text": "Jalisco"
+        }, {
+            "idCRM": "MIC",
+            "text": "Michoacan"
+        }, {
+            "idCRM": "MOR",
+            "text": "Morelos"
+        }, {
+            "idCRM": "NAY",
+            "text": "Nayarit"
+        }, {
+            "idCRM": "NL",
+            "text": "Nuevo Leon"
+        }, {
+            "idCRM": "OAX",
+            "text": "Oaxaca"
+        }, {
+            "idCRM": "PUE",
+            "text": "Puebla"
+        }, {
+            "idCRM": "QR",
+            "text": "Quintana Roo"
+        }, {
+            "idCRM": "QRO",
+            "text": "Queretaro Arteaga"
+        }, {
+            "idCRM": "SIN",
+            "text": "Sinaloa"
+        }, {
+            "idCRM": "SLP",
+            "text": "San Luis Potosi"
+        }, {
+            "idCRM": "SON",
+            "text": "Sonora"
+        }, {
+            "idCRM": "TAB",
+            "text": "Tabasco"
+        }, {
+            "idCRM": "TAM",
+            "text": "Tamaulipas"
+        }, {
+            "idCRM": "TLA",
+            "text": "Tlaxcala"
+        }, {
+            "idCRM": "VER",
+            "text": "Veracruz"
+        }, {
+            "idCRM": "YUC",
+            "text": "Yucatan"
+        }, {
+            "idCRM": "ZAC",
+            "text": "Zacatecas"
+        }
+    ]
+}

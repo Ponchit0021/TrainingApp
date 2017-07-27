@@ -1,0 +1,15 @@
+{
+    "rol": [
+    {
+            "idCRM": "ZG04",
+            "text": "Representante"
+    },
+    {
+            "idCRM": "ZG05",
+            "text": "Integrante"
+    },
+    {
+            "idCRM": "ZG06",
+            "text": "Suplente"
+    }]
+}

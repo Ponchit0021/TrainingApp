@@ -1,0 +1,98 @@
+{
+    "E0000": [{
+        "idCRM": "E0003",
+        "text": "Interesado"
+    }, {
+        "idCRM": "E0006",
+        "text": "En proceso de originación"
+    }],
+    "E0001": [{
+        "idCRM": "E0001",
+        "text": "Por contactar"
+    }, {
+        "idCRM": "E0005",
+        "text": "Rechazado"
+    }, {
+        "idCRM": "E0003",
+        "text": "Interesado"
+    }, {
+        "idCRM": "E0004",
+        "text": "Contactar posteriormente"
+    }, {
+        "idCRM": "E0002",
+        "text": "Por reasignar"
+    }],
+    "E0002": [{
+        "idCRM": "E0002",
+        "text": "Por reasignar"
+    }, {
+        "idCRM": "E0001",
+        "text": "Por contactar"
+    }, {
+        "idCRM": "E0003",
+        "text": "Interesado"
+    }, {
+        "idCRM": "E0005",
+        "text": "Rechazado"
+    }, {
+        "idCRM": "E0004",
+        "text": "Contactar posteriormente"
+    }, {
+        "idCRM": "E0006",
+        "text": "En proceso de originación"
+    }, {
+        "idCRM": "E0007",
+        "text": "Actualización de datos"
+    }],
+    "E0003": [{
+        "idCRM": "E0003",
+        "text": "Interesado"
+    }, {
+        "idCRM": "E0005",
+        "text": "Rechazado"
+    }, {
+        "idCRM": "E0004",
+        "text": "Contactar posteriormente"
+    }, {
+        "idCRM": "E0002",
+        "text": "Por reasignar"
+    }, {
+        "idCRM": "E0006",
+        "text": "En proceso de originación"
+    }],
+    "E0004": [{
+        "idCRM": "E0004",
+        "text": "Contactar posteriormente"
+    }, {
+        "idCRM": "E0005",
+        "text": "Rechazado"
+    }, {
+        "idCRM": "E0003",
+        "text": "Interesado"
+    }, {
+        "idCRM": "E0002",
+        "text": "Por reasignar"
+    }],
+    "E0005": [{
+        "idCRM": "E0005",
+        "text": "Rechazado"
+    }],
+    "E0006": [{
+        "idCRM": "E0003",
+        "text": "Interesado"
+    }, {
+        "idCRM": "E0006",
+        "text": "En proceso de originación"
+    }],
+    "E0007Z14": [{
+        "idCRM": "E0006",
+        "text": "En proceso de originación"
+    }, {
+        "idCRM": "E0007",
+        "text": "Actualización de datos"
+    }],
+    "E0007": [{
+        "idCRM": "E0007",
+        "text": "Actualización de datos"
+    }]
+}

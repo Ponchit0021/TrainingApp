@@ -1,0 +1,50 @@
+{
+    "realizaAE": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "1",
+            "text": "Puesto en Tianguis"
+    },
+    {
+            "idCRM": "10",
+            "text": "Venta por Catálogo"
+    },
+    {
+            "idCRM": "11",
+            "text": "Otro"
+    },
+    {
+            "idCRM": "2",
+            "text": "Puesto en Vía Pública"
+    },
+    {
+            "idCRM": "3",
+            "text": "Ambulante/de Casa en Casa"
+    },
+    {
+            "idCRM": "4",
+            "text": "Oficios a Domicilio"
+    },
+    {
+            "idCRM": "5",
+            "text": "En el Domicilio del Cliente"
+    },
+    {
+            "idCRM": "6",
+            "text": "Puesto en mercado o Techo común "
+    },
+    {
+            "idCRM": "7",
+            "text": "Taller"
+    },
+    {
+            "idCRM": "8",
+            "text": "En un vehículo "
+    },
+    {
+            "idCRM": "9",
+            "text": "Tienda, Accesoria, Tendajon"
+    }]
+}

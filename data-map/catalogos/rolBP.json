@@ -1,0 +1,38 @@
+{
+    "rolBP": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "ZFS001",
+            "text": "Cliente"
+    },
+    {
+            "idCRM": "ZFS002",
+            "text": "Grupo"
+    },
+    {
+            "idCRM": "ZFS003",
+            "text": "Prospecto"
+    },
+    {
+            "idCRM": "ZFS004",
+            "text": "Solicitante"
+    },
+    {
+            "idCRM": "ZFS005",
+            "text": "Aval"
+    },
+    {
+            "idCRM": "ZFS006",
+            "text": "Canal"
+    },
+    {
+            "idCRM": "ZFS007",
+            "text": "Cliente Organizacional"
+    },
+    {
+            "idCRM": "ZFS008",
+            "text": "Cotitular Cuenta Mancomunada"
+    }]
+}

@@ -1,0 +1,131 @@
+[{
+	"BPIdCRM": "BPIdCRM 1",
+	"FirstName": "FirstName 1",
+	"SecondName": "SecondName 1",
+	"LastName": "LastName 1",
+	"MiddleName": "MiddleName 1",
+	"BirthdDate": "/Date(1535828966000)/",
+	"IsGuarantor": true,
+	"BPIdDM": "BPIdDM 1",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%201')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}, {
+	"BPIdCRM": "BPIdCRM 2",
+	"FirstName": "FirstName 2",
+	"SecondName": "SecondName 2",
+	"LastName": "LastName 2",
+	"MiddleName": "MiddleName 2",
+	"BirthdDate": "/Date(1505243366000)/",
+	"IsGuarantor": true,
+	"BPIdDM": "BPIdDM 2",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%202')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}, {
+	"BPIdCRM": "BPIdCRM 3",
+	"FirstName": "FirstName 3",
+	"SecondName": "SecondName 3",
+	"LastName": "LastName 3",
+	"MiddleName": "MiddleName 3",
+	"BirthdDate": "/Date(1409771366000)/",
+	"IsGuarantor": true,
+	"BPIdDM": "BPIdDM 3",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%203')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}, {
+	"BPIdCRM": "BPIdCRM 4",
+	"FirstName": "FirstName 4",
+	"SecondName": "SecondName 4",
+	"LastName": "LastName 4",
+	"MiddleName": "MiddleName 4",
+	"BirthdDate": "/Date(1112472566000)/",
+	"IsGuarantor": true,
+	"BPIdDM": "BPIdDM 4",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%204')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}, {
+	"BPIdCRM": "BPIdCRM 5",
+	"FirstName": "FirstName 5",
+	"SecondName": "SecondName 5",
+	"LastName": "LastName 5",
+	"MiddleName": "MiddleName 5",
+	"BirthdDate": "/Date(1562180966000)/",
+	"IsGuarantor": true,
+	"BPIdDM": "BPIdDM 5",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%205')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}, {
+	"BPIdCRM": "BPIdCRM 6",
+	"FirstName": "FirstName 6",
+	"SecondName": "SecondName 6",
+	"LastName": "LastName 6",
+	"MiddleName": "MiddleName 6",
+	"BirthdDate": "/Date(1208372966000)/",
+	"IsGuarantor": true,
+	"BPIdDM": "BPIdDM 6",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%206')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}, {
+	"BPIdCRM": "BPIdCRM 7",
+	"FirstName": "FirstName 7",
+	"SecondName": "SecondName 7",
+	"LastName": "LastName 7",
+	"MiddleName": "MiddleName 7",
+	"BirthdDate": "/Date(1432580966000)/",
+	"IsGuarantor": true,
+	"BPIdDM": "BPIdDM 7",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%207')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}, {
+	"BPIdCRM": "BPIdCRM 8",
+	"FirstName": "FirstName 8",
+	"SecondName": "SecondName 8",
+	"LastName": "LastName 8",
+	"MiddleName": "MiddleName 8",
+	"BirthdDate": "/Date(1078171766000)/",
+	"IsGuarantor": true,
+	"BPIdDM": "BPIdDM 8",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%208')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}, {
+	"BPIdCRM": "BPIdCRM 9",
+	"FirstName": "FirstName 9",
+	"SecondName": "SecondName 9",
+	"LastName": "LastName 9",
+	"MiddleName": "MiddleName 9",
+	"BirthdDate": "/Date(1345662566000)/",
+	"IsGuarantor": false,
+	"BPIdDM": "BPIdDM 9",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%209')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}, {
+	"BPIdCRM": "BPIdCRM 10",
+	"FirstName": "FirstName 10",
+	"SecondName": "SecondName 10",
+	"LastName": "LastName 10",
+	"MiddleName": "MiddleName 10",
+	"BirthdDate": "/Date(1312225766000)/",
+	"IsGuarantor": false,
+	"BPIdDM": "BPIdDM 10",
+	"__metadata": {
+		"uri": "GuarantorCandidateResponseSet('BPIdCRM%2010')",
+		"type": "AOMobile.GuarantorCandidateResponse"
+	}
+}]

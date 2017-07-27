@@ -1,0 +1,18 @@
+{
+    "tipoLocal": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "001",
+            "text": "Establecido"
+    },
+    {
+            "idCRM": "002",
+            "text": "Semiestablecido"
+    },
+    {
+            "idCRM": "003",
+            "text": "No Establecido"
+    }]
+}

@@ -1,0 +1,242 @@
+{
+    "8": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "132",
+            "text": "EXPLOTACION, EXTRACCION"
+    },
+    {
+            "idCRM": "2224B",
+            "text": "CONSTRUCCION"
+    },
+    {
+            "idCRM": "2227B",
+            "text": "TRANSPORTE"
+    },
+    {
+            "idCRM": "251B",
+            "text": "AGROPECUARIO"
+    },
+    {
+            "idCRM": "2831A",
+            "text": "FERRETERIA, TLAPALERIA, CERRAJERIA, HERRERIA"
+    },
+    {
+            "idCRM": "2833B",
+            "text": "MUEBLES Y ARTICULOS DE DECORACION"
+    },
+    {
+            "idCRM": "2834B",
+            "text": "TEXTILES, ROPA, CALZADO, HILADOS, TEJIDOS,"
+    },
+    {
+            "idCRM": "292B",
+            "text": "PAPELERIA/LIBROS/IMPRENTA"
+    },
+    {
+            "idCRM": "399",
+            "text": "INDUSTRIA MANUFACTURERA"
+    },
+    {
+            "idCRM": "622B",
+            "text": "JOYERIA"
+    },
+    {
+            "idCRM": "641B",
+            "text": "ELECTRONICOS, HERRAMIENTAS, MAQUINARIA Y EQUIPO"
+    },
+    {
+            "idCRM": "661A",
+            "text": "ARTICULOS DE CUERO O PIEL"
+    },
+    {
+            "idCRM": "699A",
+            "text": "PLASTICO/HULE"
+    },
+    {
+            "idCRM": "741A",
+            "text": "OTROS SERVICIOS"
+    },
+    {
+            "idCRM": "809B",
+            "text": "ALIMENTOS Y BEBIDAS"
+    },
+    {
+            "idCRM": "810B",
+            "text": "AGRICULTURA"
+    },
+    {
+            "idCRM": "815B",
+            "text": "MADERA"
+    },
+    {
+            "idCRM": "816B",
+            "text": "METALES"
+    },
+    {
+            "idCRM": "819A",
+            "text": "QUIMICOS"
+    }],
+    "22": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "2223",
+            "text": "ALQUILER O RENTA"
+    },
+    {
+            "idCRM": "2224",
+            "text": "CONSTRUCCION"
+    },
+    {
+            "idCRM": "2227",
+            "text": "TRANSPORTE"
+    },
+    {
+            "idCRM": "251",
+            "text": "AGROPECUARIO"
+    },
+    {
+            "idCRM": "2833",
+            "text": "MUEBLES Y ARTICULOS DE DECORACION"
+    },
+    {
+            "idCRM": "2834",
+            "text": "TEXTILES, ROPA, CALZADO, HILADOS, TEJIDOS,"
+    },
+    {
+            "idCRM": "292",
+            "text": "PAPELERIA/LIBROS/IMPRENTA"
+    },
+    {
+            "idCRM": "622",
+            "text": "JOYERIA"
+    },
+    {
+            "idCRM": "641",
+            "text": "ELECTRONICOS, HERRAMIENTAS, MAQUINARIA Y EQUIPO"
+    },
+    {
+            "idCRM": "691",
+            "text": "FINANCIERO"
+    },
+    {
+            "idCRM": "741",
+            "text": "OTROS SERVICIOS"
+    },
+    {
+            "idCRM": "809",
+            "text": "ALIMENTOS Y BEBIDAS"
+    },
+    {
+            "idCRM": "810",
+            "text": "AGRICULTURA"
+    },
+    {
+            "idCRM": "815",
+            "text": "MADERA"
+    },
+    {
+            "idCRM": "816",
+            "text": "METALES"
+    },
+    {
+            "idCRM": "941",
+            "text": "GOBIERNO"
+    }],
+    "28": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "2224A",
+            "text": "CONSTRUCCION"
+    },
+    {
+            "idCRM": "2227A",
+            "text": "TRANSPORTE"
+    },
+    {
+            "idCRM": "251A",
+            "text": "AGROPECUARIO"
+    },
+    {
+            "idCRM": "2831",
+            "text": "FERRETERIA, TLAPALERIA, CERRAJERIA, HERRERIA"
+    },
+    {
+            "idCRM": "2833A",
+            "text": "MUEBLES Y ARTICULOS DE DECORACION"
+    },
+    {
+            "idCRM": "2834A",
+            "text": "TEXTILES, ROPA, CALZADO, HILADOS, TEJIDOS,"
+    },
+    {
+            "idCRM": "292A",
+            "text": "PAPELERIA/LIBROS/IMPRENTA,"
+    },    
+    {
+            "idCRM": "622A",
+            "text": "JOYERIA"
+    },
+    {
+            "idCRM": "632",
+            "text": "OTROS COMERCIOS"
+    },
+    {
+            "idCRM": "641A",
+            "text": "ELECTRONICOS, HERRAMIENTAS, MAQUINARIA Y EQUIPO"
+    },
+    {
+            "idCRM": "661",
+            "text": "ARTICULOS DE CUERO O PIEL"
+    },
+    {
+            "idCRM": "669",
+            "text": "ARTICULOS DE CUERO Y PIEL"
+    },
+    {
+            "idCRM": "699",
+            "text": "PLASTICO/HULE"
+    },
+    {
+            "idCRM": "809A",
+            "text": "ALIMENTOS Y BEBIDAS"
+    },
+    {
+            "idCRM": "810A",
+            "text": "AGRICULTURA"
+    },
+    {
+            "idCRM": "815A",
+            "text": "MADERA"
+    },
+    {
+            "idCRM": "816A",
+            "text": "METALES"
+    },
+    {
+            "idCRM": "819",
+            "text": "QUIMICOS"
+    }],
+    "99": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "2834C",
+            "text": "TEXTILES, ROPA, CALZADO, HILADOS, TEJIDOS,"
+    },
+    {
+            "idCRM": "2835",
+            "text": "OTRO"
+    },
+    {
+            "idCRM": "815C",
+            "text": "MADERA"
+    }]
+}

@@ -1,0 +1,81 @@
+[{
+	"ApprovalResponseID": "ApprovalResponseID 1",
+	"CustomerIdCRM": "CustomerIdCRM 1",
+	"ErrorMessage": "ErrorMessage 1",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%201')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}, {
+	"ApprovalResponseID": "ApprovalResponseID 2",
+	"CustomerIdCRM": "CustomerIdCRM 2",
+	"ErrorMessage": "ErrorMessage 2",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%202')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}, {
+	"ApprovalResponseID": "ApprovalResponseID 3",
+	"CustomerIdCRM": "CustomerIdCRM 3",
+	"ErrorMessage": "ErrorMessage 3",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%203')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}, {
+	"ApprovalResponseID": "ApprovalResponseID 4",
+	"CustomerIdCRM": "CustomerIdCRM 4",
+	"ErrorMessage": "ErrorMessage 4",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%204')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}, {
+	"ApprovalResponseID": "ApprovalResponseID 5",
+	"CustomerIdCRM": "CustomerIdCRM 5",
+	"ErrorMessage": "ErrorMessage 5",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%205')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}, {
+	"ApprovalResponseID": "ApprovalResponseID 6",
+	"CustomerIdCRM": "CustomerIdCRM 6",
+	"ErrorMessage": "ErrorMessage 6",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%206')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}, {
+	"ApprovalResponseID": "ApprovalResponseID 7",
+	"CustomerIdCRM": "CustomerIdCRM 7",
+	"ErrorMessage": "ErrorMessage 7",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%207')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}, {
+	"ApprovalResponseID": "ApprovalResponseID 8",
+	"CustomerIdCRM": "CustomerIdCRM 8",
+	"ErrorMessage": "ErrorMessage 8",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%208')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}, {
+	"ApprovalResponseID": "ApprovalResponseID 9",
+	"CustomerIdCRM": "CustomerIdCRM 9",
+	"ErrorMessage": "ErrorMessage 9",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%209')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}, {
+	"ApprovalResponseID": "ApprovalResponseID 10",
+	"CustomerIdCRM": "CustomerIdCRM 10",
+	"ErrorMessage": "ErrorMessage 10",
+	"__metadata": {
+		"uri": "ApprovalResponseSet('ApprovalResponseID%2010')",
+		"type": "AOMobile.ApprovalResponse"
+	}
+}]

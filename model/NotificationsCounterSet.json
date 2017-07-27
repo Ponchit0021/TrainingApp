@@ -1,0 +1,161 @@
+[{
+	"promoterID": "promoterID 1",
+	"pendingsCount": "pendingsCount 1",
+	"announcementsCount": "announcementsCount 1",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%201')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 2",
+	"pendingsCount": "pendingsCount 2",
+	"announcementsCount": "announcementsCount 2",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%202')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 3",
+	"pendingsCount": "pendingsCount 3",
+	"announcementsCount": "announcementsCount 3",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%203')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 4",
+	"pendingsCount": "pendingsCount 4",
+	"announcementsCount": "announcementsCount 4",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%204')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 5",
+	"pendingsCount": "pendingsCount 5",
+	"announcementsCount": "announcementsCount 5",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%205')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 6",
+	"pendingsCount": "pendingsCount 6",
+	"announcementsCount": "announcementsCount 6",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%206')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 7",
+	"pendingsCount": "pendingsCount 7",
+	"announcementsCount": "announcementsCount 7",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%207')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 8",
+	"pendingsCount": "pendingsCount 8",
+	"announcementsCount": "announcementsCount 8",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%208')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 9",
+	"pendingsCount": "pendingsCount 9",
+	"announcementsCount": "announcementsCount 9",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%209')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 10",
+	"pendingsCount": "pendingsCount 10",
+	"announcementsCount": "announcementsCount 10",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%2010')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 1",
+	"pendingsCount": "pendingsCount 1",
+	"announcementsCount": "announcementsCount 1",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%201')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 2",
+	"pendingsCount": "pendingsCount 2",
+	"announcementsCount": "announcementsCount 2",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%202')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 3",
+	"pendingsCount": "pendingsCount 3",
+	"announcementsCount": "announcementsCount 3",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%203')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 4",
+	"pendingsCount": "pendingsCount 4",
+	"announcementsCount": "announcementsCount 4",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%204')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 5",
+	"pendingsCount": "pendingsCount 5",
+	"announcementsCount": "announcementsCount 5",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%205')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 6",
+	"pendingsCount": "pendingsCount 6",
+	"announcementsCount": "announcementsCount 6",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%206')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 7",
+	"pendingsCount": "pendingsCount 7",
+	"announcementsCount": "announcementsCount 7",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%207')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 8",
+	"pendingsCount": "pendingsCount 8",
+	"announcementsCount": "announcementsCount 8",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%208')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 9",
+	"pendingsCount": "pendingsCount 9",
+	"announcementsCount": "announcementsCount 9",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%209')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}, {
+	"promoterID": "promoterID 10",
+	"pendingsCount": "pendingsCount 10",
+	"announcementsCount": "announcementsCount 10",
+	"__metadata": {
+		"uri": "NotificationsCounterSet('promoterID%2010')",
+		"type": "AOServices.NotificationsCounter"
+	}
+}]

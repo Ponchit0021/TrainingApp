@@ -1,0 +1,39 @@
+{
+  "status": [
+  {
+    "idCRM": "E0001",
+    "text": "Por contactar",
+    "show":"E0001"
+  },
+  {
+    "idCRM": "E0002",
+    "text": "Por reasignar",
+    "show":"E0002"
+  },
+  {
+    "idCRM": "E0003",
+    "text": "Interesado",
+    "show":"E0003"
+  },
+  {
+    "idCRM": "E0004",
+    "text": "Contactar posteriormente",
+    "show":"E0004"
+  },
+  {
+    "idCRM": "E0005",
+    "text": "Rechazado",
+    "show":"E0005"
+  },
+  {
+    "idCRM": "E0006",
+    "text": "En proceso de originación",
+    "show":"E0006"
+  },
+  {
+    "idCRM": "E0007",
+    "text": "Actualización de Datos",
+    "show":"E0007"
+  }
+  ]
+}

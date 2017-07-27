@@ -1,0 +1,15 @@
+{
+    "exception": [{
+        "exceptionId": "1",
+        "cause": "Homonimia en reporte Buró Externo"
+    }, {
+        "exceptionId": "2",
+        "cause": "Error / desactualización en reporte de Buró Externo"
+    }, {
+        "exceptionId": "3",
+        "cause": "Error en reporte BI"
+    }, {
+        "exceptionId": "4",
+        "cause": "Criterio de Ventas"
+    }]
+}

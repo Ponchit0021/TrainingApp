@@ -1,0 +1,91 @@
+[{
+    "CustomerIdCRM": "9900000001",
+    "LoanRequestIdCRM": "8800000100",
+    "GuarantorCandidateName": {
+        "FirstName": "SELENE",
+        "MiddleName": "ARACELI",
+        "LastName": "DIAZ",
+        "SecondName": "MONCADA"
+    },
+    "RegistrationDate": "/Date(1486425600000)/",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='9900000001',LoanRequestIdCRM='8800000100')",
+        "type": "AOMobile.GroupCrossSellGuarantorCandidate"
+    }
+}, {
+    "CustomerIdCRM": "9900000010",
+    "LoanRequestIdCRM": "8800000100",
+    "GuarantorCandidateName": {
+        "FirstName": "IRMA",
+        "MiddleName": "SORAYA",
+        "LastName": "SAENZ",
+        "SecondName": "LIMANTUR"
+    },
+    "RegistrationDate": "/Date(1486425600000)/",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='9900000010',LoanRequestIdCRM='8800000100')",
+        "type": "AOMobile.GroupCrossSellGuarantorCandidate"
+    }
+}, {
+    "CustomerIdCRM": "9900000014",
+    "LoanRequestIdCRM": "8800000100",
+    "GuarantorCandidateName": {
+        "FirstName": "GABRIELA",
+        "MiddleName": "MARLENE",
+        "LastName": "TORIBIO",
+        "SecondName": "CHAVEZ"
+    },
+    "RegistrationDate": "/Date(1486425600000)/",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='9900000011',LoanRequestIdCRM='8800000200')",
+        "type": "AOMobile.GroupCrossSellGuarantorCandidate"
+    }
+}, {
+    "CustomerIdCRM": "9900000002",
+    "LoanRequestIdCRM": "8800000200",
+    "GuarantorCandidateName": {
+        "FirstName": "JUAN",
+        "MiddleName": "SALOMON",
+        "LastName": "CHAVEZ",
+        "SecondName": "BOLIVAR"
+    },
+    "RegistrationDate": "/Date(1486425600000)/",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='9900000002',LoanRequestIdCRM='8800000200')",
+        "type": "AOMobile.GroupCrossSellGuarantorCandidate"
+    }
+}, {
+    "CustomerIdCRM": "9900000011",
+    "LoanRequestIdCRM": "8800000200",
+    "GuarantorCandidateName": {
+        "FirstName": "GABRIEL",
+        "MiddleName": "MACLOVIO",
+        "LastName": "TUDOR",
+        "SecondName": "CHAPLIN"
+    },
+    "RegistrationDate": "/Date(1486425600000)/",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='9900000011',LoanRequestIdCRM='8800000200')",
+        "type": "AOMobile.GroupCrossSellGuarantorCandidate"
+    }
+},{
+    "CustomerIdCRM": "9900000011",
+    "LoanRequestIdCRM": "8800000100",
+    "GuarantorCandidateName": {
+        "FirstName": "SELENE",
+        "MiddleName": "ARACELI",
+        "LastName": "DIAZ",
+        "SecondName": "MONCADA"
+    },
+    "RegistrationDate": "/Date(1486425600000)/",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='9900000001',LoanRequestIdCRM='8800000100')",
+        "type": "AOMobile.GroupCrossSellGuarantorCandidate"
+    }
+}]

@@ -1,0 +1,321 @@
+[{
+	"EmployerID": "EmployerID 1",
+	"IsCompany": true,
+	"BusinessName": "BusinessName 1",
+	"CustomerIdCRM": "CustomerIdCRM 1",
+	"CustomerIdMD": "CustomerIdMD 1",
+	"Name": {
+		"FirstName": "FirstName 1",
+		"MiddleName": "MiddleName 1",
+		"LastName": "LastName 1",
+		"SecondName": "SecondName 1"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 1",
+		"CountryID": "CountryID 1",
+		"StateId": "StateId 1",
+		"TownId": "TownId 1",
+		"City": "City 1",
+		"Suburb": "Suburb 1",
+		"Street": "Street 1",
+		"OutsideNumber": "OutsideNumber 1",
+		"BetweenStreets1": "BetweenStreets1 1",
+		"BetweenStreets2": "BetweenStreets2 1",
+		"LocationReference": "LocationReference 1",
+		"InteriorNumber": "InteriorNumber 1",
+		"Comments": "Comments 1"
+	},
+	"CollaboratorID": "CollaboratorID 1",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%201')",
+		"type": "AOMobile.Employer"
+	}
+}, {
+	"EmployerID": "EmployerID 2",
+	"IsCompany": false,
+	"BusinessName": "BusinessName 2",
+	"CustomerIdCRM": "CustomerIdCRM 2",
+	"CustomerIdMD": "CustomerIdMD 2",
+	"Name": {
+		"FirstName": "FirstName 2",
+		"MiddleName": "MiddleName 2",
+		"LastName": "LastName 2",
+		"SecondName": "SecondName 2"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 2",
+		"CountryID": "CountryID 2",
+		"StateId": "StateId 2",
+		"TownId": "TownId 2",
+		"City": "City 2",
+		"Suburb": "Suburb 2",
+		"Street": "Street 2",
+		"OutsideNumber": "OutsideNumber 2",
+		"BetweenStreets1": "BetweenStreets1 2",
+		"BetweenStreets2": "BetweenStreets2 2",
+		"LocationReference": "LocationReference 2",
+		"InteriorNumber": "InteriorNumber 2",
+		"Comments": "Comments 2"
+	},
+	"CollaboratorID": "CollaboratorID 2",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%202')",
+		"type": "AOMobile.Employer"
+	}
+}, {
+	"EmployerID": "EmployerID 3",
+	"IsCompany": false,
+	"BusinessName": "BusinessName 3",
+	"CustomerIdCRM": "CustomerIdCRM 3",
+	"CustomerIdMD": "CustomerIdMD 3",
+	"Name": {
+		"FirstName": "FirstName 3",
+		"MiddleName": "MiddleName 3",
+		"LastName": "LastName 3",
+		"SecondName": "SecondName 3"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 3",
+		"CountryID": "CountryID 3",
+		"StateId": "StateId 3",
+		"TownId": "TownId 3",
+		"City": "City 3",
+		"Suburb": "Suburb 3",
+		"Street": "Street 3",
+		"OutsideNumber": "OutsideNumber 3",
+		"BetweenStreets1": "BetweenStreets1 3",
+		"BetweenStreets2": "BetweenStreets2 3",
+		"LocationReference": "LocationReference 3",
+		"InteriorNumber": "InteriorNumber 3",
+		"Comments": "Comments 3"
+	},
+	"CollaboratorID": "CollaboratorID 3",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%203')",
+		"type": "AOMobile.Employer"
+	}
+}, {
+	"EmployerID": "EmployerID 4",
+	"IsCompany": false,
+	"BusinessName": "BusinessName 4",
+	"CustomerIdCRM": "CustomerIdCRM 4",
+	"CustomerIdMD": "CustomerIdMD 4",
+	"Name": {
+		"FirstName": "FirstName 4",
+		"MiddleName": "MiddleName 4",
+		"LastName": "LastName 4",
+		"SecondName": "SecondName 4"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 4",
+		"CountryID": "CountryID 4",
+		"StateId": "StateId 4",
+		"TownId": "TownId 4",
+		"City": "City 4",
+		"Suburb": "Suburb 4",
+		"Street": "Street 4",
+		"OutsideNumber": "OutsideNumber 4",
+		"BetweenStreets1": "BetweenStreets1 4",
+		"BetweenStreets2": "BetweenStreets2 4",
+		"LocationReference": "LocationReference 4",
+		"InteriorNumber": "InteriorNumber 4",
+		"Comments": "Comments 4"
+	},
+	"CollaboratorID": "CollaboratorID 4",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%204')",
+		"type": "AOMobile.Employer"
+	}
+}, {
+	"EmployerID": "EmployerID 5",
+	"IsCompany": true,
+	"BusinessName": "BusinessName 5",
+	"CustomerIdCRM": "CustomerIdCRM 5",
+	"CustomerIdMD": "CustomerIdMD 5",
+	"Name": {
+		"FirstName": "FirstName 5",
+		"MiddleName": "MiddleName 5",
+		"LastName": "LastName 5",
+		"SecondName": "SecondName 5"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 5",
+		"CountryID": "CountryID 5",
+		"StateId": "StateId 5",
+		"TownId": "TownId 5",
+		"City": "City 5",
+		"Suburb": "Suburb 5",
+		"Street": "Street 5",
+		"OutsideNumber": "OutsideNumber 5",
+		"BetweenStreets1": "BetweenStreets1 5",
+		"BetweenStreets2": "BetweenStreets2 5",
+		"LocationReference": "LocationReference 5",
+		"InteriorNumber": "InteriorNumber 5",
+		"Comments": "Comments 5"
+	},
+	"CollaboratorID": "CollaboratorID 5",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%205')",
+		"type": "AOMobile.Employer"
+	}
+}, {
+	"EmployerID": "EmployerID 6",
+	"IsCompany": false,
+	"BusinessName": "BusinessName 6",
+	"CustomerIdCRM": "CustomerIdCRM 6",
+	"CustomerIdMD": "CustomerIdMD 6",
+	"Name": {
+		"FirstName": "FirstName 6",
+		"MiddleName": "MiddleName 6",
+		"LastName": "LastName 6",
+		"SecondName": "SecondName 6"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 6",
+		"CountryID": "CountryID 6",
+		"StateId": "StateId 6",
+		"TownId": "TownId 6",
+		"City": "City 6",
+		"Suburb": "Suburb 6",
+		"Street": "Street 6",
+		"OutsideNumber": "OutsideNumber 6",
+		"BetweenStreets1": "BetweenStreets1 6",
+		"BetweenStreets2": "BetweenStreets2 6",
+		"LocationReference": "LocationReference 6",
+		"InteriorNumber": "InteriorNumber 6",
+		"Comments": "Comments 6"
+	},
+	"CollaboratorID": "CollaboratorID 6",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%206')",
+		"type": "AOMobile.Employer"
+	}
+}, {
+	"EmployerID": "EmployerID 7",
+	"IsCompany": false,
+	"BusinessName": "BusinessName 7",
+	"CustomerIdCRM": "CustomerIdCRM 7",
+	"CustomerIdMD": "CustomerIdMD 7",
+	"Name": {
+		"FirstName": "FirstName 7",
+		"MiddleName": "MiddleName 7",
+		"LastName": "LastName 7",
+		"SecondName": "SecondName 7"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 7",
+		"CountryID": "CountryID 7",
+		"StateId": "StateId 7",
+		"TownId": "TownId 7",
+		"City": "City 7",
+		"Suburb": "Suburb 7",
+		"Street": "Street 7",
+		"OutsideNumber": "OutsideNumber 7",
+		"BetweenStreets1": "BetweenStreets1 7",
+		"BetweenStreets2": "BetweenStreets2 7",
+		"LocationReference": "LocationReference 7",
+		"InteriorNumber": "InteriorNumber 7",
+		"Comments": "Comments 7"
+	},
+	"CollaboratorID": "CollaboratorID 7",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%207')",
+		"type": "AOMobile.Employer"
+	}
+}, {
+	"EmployerID": "EmployerID 8",
+	"IsCompany": true,
+	"BusinessName": "BusinessName 8",
+	"CustomerIdCRM": "CustomerIdCRM 8",
+	"CustomerIdMD": "CustomerIdMD 8",
+	"Name": {
+		"FirstName": "FirstName 8",
+		"MiddleName": "MiddleName 8",
+		"LastName": "LastName 8",
+		"SecondName": "SecondName 8"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 8",
+		"CountryID": "CountryID 8",
+		"StateId": "StateId 8",
+		"TownId": "TownId 8",
+		"City": "City 8",
+		"Suburb": "Suburb 8",
+		"Street": "Street 8",
+		"OutsideNumber": "OutsideNumber 8",
+		"BetweenStreets1": "BetweenStreets1 8",
+		"BetweenStreets2": "BetweenStreets2 8",
+		"LocationReference": "LocationReference 8",
+		"InteriorNumber": "InteriorNumber 8",
+		"Comments": "Comments 8"
+	},
+	"CollaboratorID": "CollaboratorID 8",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%208')",
+		"type": "AOMobile.Employer"
+	}
+}, {
+	"EmployerID": "EmployerID 9",
+	"IsCompany": true,
+	"BusinessName": "BusinessName 9",
+	"CustomerIdCRM": "CustomerIdCRM 9",
+	"CustomerIdMD": "CustomerIdMD 9",
+	"Name": {
+		"FirstName": "FirstName 9",
+		"MiddleName": "MiddleName 9",
+		"LastName": "LastName 9",
+		"SecondName": "SecondName 9"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 9",
+		"CountryID": "CountryID 9",
+		"StateId": "StateId 9",
+		"TownId": "TownId 9",
+		"City": "City 9",
+		"Suburb": "Suburb 9",
+		"Street": "Street 9",
+		"OutsideNumber": "OutsideNumber 9",
+		"BetweenStreets1": "BetweenStreets1 9",
+		"BetweenStreets2": "BetweenStreets2 9",
+		"LocationReference": "LocationReference 9",
+		"InteriorNumber": "InteriorNumber 9",
+		"Comments": "Comments 9"
+	},
+	"CollaboratorID": "CollaboratorID 9",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%209')",
+		"type": "AOMobile.Employer"
+	}
+}, {
+	"EmployerID": "EmployerID 10",
+	"IsCompany": true,
+	"BusinessName": "BusinessName 10",
+	"CustomerIdCRM": "CustomerIdCRM 10",
+	"CustomerIdMD": "CustomerIdMD 10",
+	"Name": {
+		"FirstName": "FirstName 10",
+		"MiddleName": "MiddleName 10",
+		"LastName": "LastName 10",
+		"SecondName": "SecondName 10"
+	},
+	"Place": {
+		"PostalCode": "PostalCode 10",
+		"CountryID": "CountryID 10",
+		"StateId": "StateId 10",
+		"TownId": "TownId 10",
+		"City": "City 10",
+		"Suburb": "Suburb 10",
+		"Street": "Street 10",
+		"OutsideNumber": "OutsideNumber 10",
+		"BetweenStreets1": "BetweenStreets1 10",
+		"BetweenStreets2": "BetweenStreets2 10",
+		"LocationReference": "LocationReference 10",
+		"InteriorNumber": "InteriorNumber 10",
+		"Comments": "Comments 10"
+	},
+	"CollaboratorID": "CollaboratorID 10",
+	"__metadata": {
+		"uri": "EmployerSet('EmployerID%2010')",
+		"type": "AOMobile.Employer"
+	}
+}]

@@ -1,0 +1,30 @@
+{
+    "referencia": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "ZC11",
+            "text": "CÓNYUGE"
+    },
+    {
+            "idCRM": "ZC12",
+            "text": "ARRENDADOR CASA"
+    },
+    {
+            "idCRM": "ZC13",
+            "text": "ARRENDADOR LOCAL (NEGOCIO)"
+    },
+    {
+            "idCRM": "ZC14",
+            "text": "REFERENCIA PERSONAL/FAMILIAR"
+    },
+    {
+            "idCRM": "ZC15",
+            "text": "REFERENCIA COMERCIAL"
+    },
+    {
+            "idCRM": "ZC16",
+            "text": "EMPLEADOR"
+    }]
+}

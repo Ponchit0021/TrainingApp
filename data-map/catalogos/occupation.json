@@ -1,0 +1,39 @@
+{
+    "ocupacion": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "DESE",
+            "text": "DESEMPLEADO"
+    },
+    {
+            "idCRM": "EST",
+            "text": "ESTUDIANTE"
+    },
+    {
+            "idCRM": "HOGA",
+            "text": "HOGAR"
+    },
+    {
+            "idCRM": "JUBL",
+            "text": "JUBILADO"
+    },
+    {
+            "idCRM": "ASAL",
+            "text": "ASALARIADO"
+    },
+    {
+            "idCRM": "COMR",
+            "text": "COMERCIANTE"
+    },
+    {
+            "idCRM": "OTRO",
+            "text": "OTRO"
+    },
+    {
+            "idCRM": "EXEM",
+            "text": "EXEMPLEADO"
+    }
+    ]
+}

@@ -1,0 +1,108 @@
+[{
+    "CandidateIdCRM": "1000000001",
+    "CandidateName": {
+        "FirstName": "JUAN",
+        "MiddleName": "SALOMON",
+        "LastName": "CHAVEZ",
+        "SecondName": "BOLIVAR"
+    },
+    "ParentGroupName": "LOS COMERCIANTES",
+    "ParentLoanRequestIdCRM": "0010005871",
+    "IsMarkedToDownload": false,
+    "WeeklyMeetingDay": "Miércoles",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "CrossSellingCandidateSet('1000000001')",
+        "type": "AOMobile.CrossSellingCandidate"
+    },
+    "CrossSellOfferSet": {
+        "__deferred": {
+            "uri": "CrossSellingCandidateSet('1000000001')/CrossSellOfferSet"
+        }
+    }
+}, {
+    "CandidateIdCRM": "1000000002",
+    "CandidateName": {
+        "FirstName": "SELENE",
+        "MiddleName": "ARACELI",
+        "LastName": "DIAZ",
+        "SecondName": "MONCADA"
+    },
+    "ParentGroupName": "LAS FLORES",
+    "ParentLoanRequestIdCRM": "0010005852",
+    "IsMarkedToDownload": false,
+    "WeeklyMeetingDay": "Miércoles",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "CrossSellingCandidateSet('1000000002')",
+        "type": "AOMobile.CrossSellingCandidate"
+    },
+    "CrossSellOfferSet": {
+        "__deferred": {
+            "uri": "CrossSellingCandidateSet('1000000002')/CrossSellOfferSet"
+        }
+    }
+}, {
+    "CandidateIdCRM": "1000000003",
+    "CandidateName": {
+        "FirstName": "SPENCER",
+        "LastName": "STIGLITZ",
+        "SecondName": "CRUZ"
+    },
+    "ParentGroupName": "FULANOS",
+    "ParentLoanRequestIdCRM": "0010000003",
+    "IsMarkedToDownload": false,
+    "WeeklyMeetingDay": "Jueves",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "CrossSellingCandidateSet('1000000003')",
+        "type": "AOMobile.CrossSellingCandidate"
+    },
+    "CrossSellOfferSet": {
+        "__deferred": {
+            "uri": "CrossSellingCandidateSet('1000000003')/CrossSellOfferSet"
+        }
+    }
+}, {
+    "CandidateIdCRM": "1000000004",
+    "CandidateName": {
+        "FirstName": "MARIA",
+        "LastName": "LANUZ"
+    },
+    "ParentGroupName": "LAS CELESTES",
+    "ParentLoanRequestIdCRM": "0010000004",
+    "IsMarkedToDownload": false,
+    "WeeklyMeetingDay": "Viernes",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "CrossSellingCandidateSet('1000000004')",
+        "type": "AOMobile.CrossSellingCandidate"
+    },
+    "CrossSellOfferSet": {
+        "__deferred": {
+            "uri": "CrossSellingCandidateSet('1000000004')/CrossSellOfferSet"
+        }
+    }
+}, {
+    "CandidateIdCRM": "1000000005",
+    "CandidateName": {
+        "FirstName": "MARLENE",
+        "MiddleName": "KENYA",
+        "LastName": "TORRES",
+        "SecondName": "FELIX"
+    },
+    "ParentGroupName": "LAS CELESTES",
+    "ParentLoanRequestIdCRM": "0010000005",
+    "IsMarkedToDownload": false,
+    "WeeklyMeetingDay": "Viernes",
+    "CollaboratorID": "DVALENCIA",
+    "__metadata": {
+        "uri": "CrossSellingCandidateSet('1000000005')",
+        "type": "AOMobile.CrossSellingCandidate"
+    },
+    "CrossSellOfferSet": {
+        "__deferred": {
+            "uri": "CrossSellingCandidateSet('1000000005')/CrossSellOfferSet"
+        }
+    }
+}]

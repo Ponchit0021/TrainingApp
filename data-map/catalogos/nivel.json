@@ -1,0 +1,15 @@
+{
+    "nivel": [{
+        "idNivel": "",
+        "desNivel": ""
+    },{
+        "idNivel": "1",
+        "desNivel": "Atención en tiempo"
+    }, {
+        "idNivel": "2",
+        "desNivel": "En limite de tiempo"
+    }, {
+        "idNivel": "3",
+        "desNivel": "Fuera de tiempo"
+    }]
+}

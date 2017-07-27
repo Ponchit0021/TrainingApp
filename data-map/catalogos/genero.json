@@ -1,0 +1,18 @@
+{
+    "genero": [
+    {
+            "idCRM": "",
+            "text": ""
+    },{
+            "idCRM": " ",
+            "text": "Desconocido"
+    },
+    {
+            "idCRM": "1",
+            "text": "Femenino"
+    },
+    {
+            "idCRM": "2",
+            "text": "Masculino"
+    }]
+}

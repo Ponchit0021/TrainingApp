@@ -1,0 +1,21 @@
+{
+    "antiguedad": [{
+            "idCRM": "",
+            "text": ""
+    },{
+            "idCRM": "001",
+            "text": "MENOR IGUAL A 1 AÑO"
+    },
+    {
+            "idCRM": "002",
+            "text": "DE 2 A 3 AÑOS"
+    },
+    {
+            "idCRM": "003",
+            "text": "DE 4 A 5 AÑOS"
+    },
+    {
+            "idCRM": "004",
+            "text": "MAS DE 5 AÑOS"
+    }]
+}

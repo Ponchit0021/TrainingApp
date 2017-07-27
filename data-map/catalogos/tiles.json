@@ -1,0 +1,103 @@
+{
+    "options": [{
+        "option": {
+            "id":"tileSolicitantes",
+            "title": "Solicitantes",
+            "description": "",
+            "icon": "sap-icon://leads",
+            "number": "",
+            "routeName": "applicantList"
+        }
+    }, {
+        "option": {
+            "id":"tileSolicitudes",
+            "title": "Solicitudes",
+            "description": "",
+            "icon": "sap-icon://opportunities",
+            "number": "",
+            "routeName": "applicationList",
+            "query": {
+                "module": "applications"
+            }
+        }
+    }, {
+        "option": {
+            "id":"tileAvales",
+            "title": "Avales",
+            "description": "",
+            "icon": "sap-icon://monitor-payments",
+            "number": "",
+            "routeName": "guarantorList"
+        }
+    }, {
+        "option": {
+            "id":"tileRenovaciones",
+            "title": "Próximas renovaciones",
+            "description": "",
+            "icon": "sap-icon://customer-history",
+            "number": "",
+            "routeName": "renovationList",
+            "query": {
+                "dashBoardOpt": 1,
+                "typeId": 1
+            }
+        }
+    }, {
+        "option": {
+            "id":"tileSeguros",
+            "title": "Seguros",
+            "description": "",
+            "icon": "sap-icon://family-protection",
+            "number": "",
+            "routeName": "applicationList",
+            "query": {
+                "module": "insurances"
+            }
+        }
+    }, {
+        "option": {
+            "id":"tileVentaCruzada",
+            "title": "Venta Cruzada",
+            "description": "",
+            "icon": "sap-icon://account",
+            "number": "",
+            "routeName": "crossSellDashboard"
+        }
+    }, {
+        "option": {
+            "id":"tilePendientes",
+            "title": "Mis pendientes",
+            "description": "",
+            "icon": "sap-icon://task",
+            "number": "0",
+            "routeName": "pendingList",
+            "query": {
+
+            }
+        }
+    }, {
+        "option": {
+            "id":"tileAvisos",
+            "title": "Avisos",
+            "description": "",
+            "icon": "sap-icon://notification-2",
+            "number": "0",
+            "routeName": "announcementList",
+            "query": {
+                "announcement": 0          
+            }
+        }
+    },{
+        "option": {
+            "id":"tileAcercaDe",
+            "title": "Versión",
+            "description": "",
+            "icon": "sap-icon://message-information",
+            "number": "",
+            "routeName": "about",
+            "query": {
+                "module": "about"         
+            }
+        }
+    }]
+}

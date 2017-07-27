@@ -1,0 +1,397 @@
+[{
+    "LoanRequestIdCRM": "8800000001",
+    "LoanRequestIdMD": "88000000000000000000000000001",
+    "CollaboratorID": "DVALENCIA",
+    "ProductID": "C_IND_CCM",
+    "ProcessType": "",
+    "GroupRequestData": {
+        "GroupID": "",
+        "GroupName": "",
+        "ContractID": "",
+        "MemberIDSharingHouseCRM": "",
+        "MeetingDate": "",
+        "MeetingTime": "",
+        "DelayPenalty": 0,
+        "MinimumSavingsAmount": 0,
+        "AbsencePenalty": 0,
+        "MemberIDSharingHouseMD": "",
+        "GroupMeetingPlace": {
+            "PostalCode": "",
+            "CountryID": "",
+            "StateId": "",
+            "TownId": "",
+            "City": "",
+            "Suburb": "",
+            "Street": "",
+            "OutsideNumber": "",
+            "BetweenStreets1": "",
+            "BetweenStreets2": "",
+            "LocationReference": "",
+            "InteriorNumber": "",
+            "Comments": ""
+        },
+        "GroupMeetingPhone": {
+            "PhoneTypeId": "",
+            "PhoneNumber": ""
+        }
+    },
+    "GeneralLoanRequestData": {
+        "IsRenewal": false,
+        "StartDate": "/Date(1486425600000)/",
+        "Cycle": 0,
+        "StatusId": "E0007",
+        "StatusText": "EN PROCESO",
+        "FirstPaymentDate": "",
+        "ExpenditureDate": "",
+        "Term": "",
+        "Frequency": "",
+        "IsReadyToApprove": false,
+        "IsReadyToApproveDescription": "",
+        "InsuranceMinimumCycle": "",
+        "InsuranceProductId": ""
+    },
+    "LoanRequestIdCRMParent": "",
+    "SubsequenceType": "",
+    "IsApproved": false,
+    "LRGeneralCrossSell": {
+        "ParentLoanRequestIdCRM": "8800000100",
+        "ParentLoanRequestIdMD": "88000000000000000000000000100",
+        "ParentProductId": "C_GRUPAL_CM",
+        "CrossSellProductId": "C_IND_CCM"
+    },
+    "LRGroupCrossSell": {
+        "ParentGroupId": "6600000000",
+        "ParentGroupName": "LAS FLORES"
+    },
+    "__metadata": {
+        "uri": "LoanRequestSet('8800000001')",
+        "type": "AOMobile.LoanRequest"
+    },
+    "LinkSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000001')/LinkSet"
+        }
+    },
+    "LinkGuarantorSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000001')/LinkGuarantorSet"
+        }
+    },
+    "InsuranceSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000001')/InsuranceSet"
+        }
+    },
+    "ElectronicSignatureSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000001')/ElectronicSignatureSet"
+        }
+    },
+    "ImageSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000001')/ImageSet"
+        }
+    },
+    "GroupCrossSellAssignedGuarantorSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000001')/GroupCrossSellAssignedGuarantorSet"
+        }
+    }
+},{
+    "LoanRequestIdCRM": "8800000002",
+    "LoanRequestIdMD": "88000000000000000000000000002",
+    "CollaboratorID": "DVALENCIA",
+    "ProductID": "C_IND_CA",
+    "ProcessType": "",
+    "GroupRequestData": {
+        "GroupID": "",
+        "GroupName": "",
+        "ContractID": "",
+        "MemberIDSharingHouseCRM": "",
+        "MeetingDate": "",
+        "MeetingTime": "",
+        "DelayPenalty": 0,
+        "MinimumSavingsAmount": 0,
+        "AbsencePenalty": 0,
+        "MemberIDSharingHouseMD": "",
+        "GroupMeetingPlace": {
+            "PostalCode": "",
+            "CountryID": "",
+            "StateId": "",
+            "TownId": "",
+            "City": "",
+            "Suburb": "",
+            "Street": "",
+            "OutsideNumber": "",
+            "BetweenStreets1": "",
+            "BetweenStreets2": "",
+            "LocationReference": "",
+            "InteriorNumber": "",
+            "Comments": ""
+        },
+        "GroupMeetingPhone": {
+            "PhoneTypeId": "",
+            "PhoneNumber": ""
+        }
+    },
+    "GeneralLoanRequestData": {
+        "IsRenewal": false,
+        "StartDate": "/Date(1486425600000)/",
+        "Cycle": 0,
+        "StatusId": "E0007",
+        "StatusText": "EN PROCESO",
+        "FirstPaymentDate": "",
+        "ExpenditureDate": "",
+        "Term": "",
+        "Frequency": "",
+        "IsReadyToApprove": false,
+        "IsReadyToApproveDescription": "",
+        "InsuranceMinimumCycle": "",
+        "InsuranceProductId": ""
+    },
+    "LoanRequestIdCRMParent": "",
+    "SubsequenceType": "",
+    "IsApproved": false,
+    "LRGeneralCrossSell": {
+        "ParentLoanRequestIdCRM": "8800000200",
+        "ParentLoanRequestIdMD": "88000000000000000000000000200",
+        "ParentProductId": "C_GRUPAL_CCR",
+        "CrossSellProductId": "C_IND_CA"
+    },
+    "LRGroupCrossSell": {
+        "ParentGroupId": "6600000000",
+        "ParentGroupName": "LOS COMERCIANTES"
+    },
+    "__metadata": {
+        "uri": "LoanRequestSet('8800000002')",
+        "type": "AOMobile.LoanRequest"
+    },
+    "LinkSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000002')/LinkSet"
+        }
+    },
+    "LinkGuarantorSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000002')/LinkGuarantorSet"
+        }
+    },
+    "InsuranceSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000002')/InsuranceSet"
+        }
+    },
+    "ElectronicSignatureSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000002')/ElectronicSignatureSet"
+        }
+    },
+    "ImageSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000002')/ImageSet"
+        }
+    },
+    "GroupCrossSellAssignedGuarantorSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000002')/GroupCrossSellAssignedGuarantorSet"
+        }
+    }
+},{
+    "LoanRequestIdCRM": "8800000003",
+    "LoanRequestIdMD": "88000000000000000000000000003",
+    "CollaboratorID": "DVALENCIA",
+    "ProductID": "C_IND_CI",
+    "ProcessType": "",
+    "GroupRequestData": {
+        "GroupID": "",
+        "GroupName": "",
+        "ContractID": "",
+        "MemberIDSharingHouseCRM": "",
+        "MeetingDate": "",
+        "MeetingTime": "",
+        "DelayPenalty": 0,
+        "MinimumSavingsAmount": 0,
+        "AbsencePenalty": 0,
+        "MemberIDSharingHouseMD": "",
+        "GroupMeetingPlace": {
+            "PostalCode": "",
+            "CountryID": "",
+            "StateId": "",
+            "TownId": "",
+            "City": "",
+            "Suburb": "",
+            "Street": "",
+            "OutsideNumber": "",
+            "BetweenStreets1": "",
+            "BetweenStreets2": "",
+            "LocationReference": "",
+            "InteriorNumber": "",
+            "Comments": ""
+        },
+        "GroupMeetingPhone": {
+            "PhoneTypeId": "",
+            "PhoneNumber": ""
+        }
+    },
+    "GeneralLoanRequestData": {
+        "IsRenewal": false,
+        "StartDate": "/Date(1486425600000)/",
+        "Cycle": 0,
+        "StatusId": "E0007",
+        "StatusText": "EN PROCESO",
+        "FirstPaymentDate": "",
+        "ExpenditureDate": "",
+        "Term": "",
+        "Frequency": "",
+        "IsReadyToApprove": false,
+        "IsReadyToApproveDescription": "",
+        "InsuranceMinimumCycle": "",
+        "InsuranceProductId": ""
+    },
+    "LoanRequestIdCRMParent": "",
+    "SubsequenceType": "",
+    "IsApproved": false,
+    "LRGeneralCrossSell": {
+        "ParentLoanRequestIdCRM": "",
+        "ParentLoanRequestIdMD": "",
+        "ParentProductId": "",
+        "CrossSellProductId": ""
+    },
+    "LRGroupCrossSell": {
+        "ParentGroupId": "",
+        "ParentGroupName": ""
+    },
+    "__metadata": {
+        "uri": "LoanRequestSet('8800000003')",
+        "type": "AOMobile.LoanRequest"
+    },
+    "LinkSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000003')/LinkSet"
+        }
+    },
+    "LinkGuarantorSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000003')/LinkGuarantorSet"
+        }
+    },
+    "InsuranceSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000003')/InsuranceSet"
+        }
+    },
+    "ElectronicSignatureSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000003')/ElectronicSignatureSet"
+        }
+    },
+    "ImageSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000003')/ImageSet"
+        }
+    },
+    "GroupCrossSellAssignedGuarantorSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000003')/GroupCrossSellAssignedGuarantorSet"
+        }
+    }
+},{
+    "LoanRequestIdCRM": "8800000004",
+    "LoanRequestIdMD": "88000000000000000000000000004",
+    "CollaboratorID": "DVALENCIA",
+    "ProductID": "C_GRUPAL_CM",
+    "ProcessType": "",
+    "GroupRequestData": {
+        "GroupID": "",
+        "GroupName": "ABEJITAS",
+        "ContractID": "",
+        "MemberIDSharingHouseCRM": "",
+        "MeetingDate": "",
+        "MeetingTime": "",
+        "DelayPenalty": 0,
+        "MinimumSavingsAmount": 0,
+        "AbsencePenalty": 0,
+        "MemberIDSharingHouseMD": "",
+        "GroupMeetingPlace": {
+            "PostalCode": "",
+            "CountryID": "",
+            "StateId": "",
+            "TownId": "",
+            "City": "",
+            "Suburb": "",
+            "Street": "",
+            "OutsideNumber": "",
+            "BetweenStreets1": "",
+            "BetweenStreets2": "",
+            "LocationReference": "",
+            "InteriorNumber": "",
+            "Comments": ""
+        },
+        "GroupMeetingPhone": {
+            "PhoneTypeId": "",
+            "PhoneNumber": ""
+        }
+    },
+    "GeneralLoanRequestData": {
+        "IsRenewal": false,
+        "StartDate": "/Date(1486425600000)/",
+        "Cycle": 0,
+        "StatusId": "E0007",
+        "StatusText": "EN PROCESO",
+        "FirstPaymentDate": "",
+        "ExpenditureDate": "",
+        "Term": "",
+        "Frequency": "",
+        "IsReadyToApprove": false,
+        "IsReadyToApproveDescription": "",
+        "InsuranceMinimumCycle": "",
+        "InsuranceProductId": ""
+    },
+    "LoanRequestIdCRMParent": "",
+    "SubsequenceType": "",
+    "IsApproved": false,
+    "LRGeneralCrossSell": {
+        "ParentLoanRequestIdCRM": "",
+        "ParentLoanRequestIdMD": "",
+        "ParentProductId": "",
+        "CrossSellProductId": ""
+    },
+    "LRGroupCrossSell": {
+        "ParentGroupId": "",
+        "ParentGroupName": ""
+    },
+    "__metadata": {
+        "uri": "LoanRequestSet('8800000004')",
+        "type": "AOMobile.LoanRequest"
+    },
+    "LinkSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000004')/LinkSet"
+        }
+    },
+    "LinkGuarantorSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000004')/LinkGuarantorSet"
+        }
+    },
+    "InsuranceSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000004')/InsuranceSet"
+        }
+    },
+    "ElectronicSignatureSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000004')/ElectronicSignatureSet"
+        }
+    },
+    "ImageSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000004')/ImageSet"
+        }
+    },
+    "GroupCrossSellAssignedGuarantorSet": {
+        "__deferred": {
+            "uri": "LoanRequestSet('8800000004')/GroupCrossSellAssignedGuarantorSet"
+        }
+    }
+}]

@@ -1,0 +1,271 @@
+[{
+	"InsuranceIdCRM": "InsuranceIdCRM 1",
+	"InsuranceIdMD": "InsuranceIdMD 1",
+	"CustomerIdMD": "CustomerIdMD 1",
+	"InsuranceOptional": true,
+	"StartDateTerm": "/Date(967489754000)/",
+	"InsuranceTerm": "InsuranceTerm 1",
+	"LoanRequestIdMD": "LoanRequestIdMD 1",
+	"CollaboratorID": "CollaboratorID 1",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
+	"CustomerIdCRM": "CustomerIdCRM 1",
+	"InsurancePaymentID": "InsurancePaymentID 1",
+	"InsuranceModalityID": "InsuranceModalityID 1",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%201',InsuranceIdMD='InsuranceIdMD%201')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%201',InsuranceIdMD='InsuranceIdMD%201')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%201',InsuranceIdMD='InsuranceIdMD%201')/ElectronicSignatureSet"
+		}
+	}
+}, {
+	"InsuranceIdCRM": "InsuranceIdCRM 2",
+	"InsuranceIdMD": "InsuranceIdMD 2",
+	"CustomerIdMD": "CustomerIdMD 2",
+	"InsuranceOptional": true,
+	"StartDateTerm": "/Date(1048709354000)/",
+	"InsuranceTerm": "InsuranceTerm 2",
+	"LoanRequestIdMD": "LoanRequestIdMD 2",
+	"CollaboratorID": "CollaboratorID 2",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
+	"CustomerIdCRM": "CustomerIdCRM 2",
+	"InsurancePaymentID": "InsurancePaymentID 2",
+	"InsuranceModalityID": "InsuranceModalityID 2",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%202',InsuranceIdMD='InsuranceIdMD%202')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%202',InsuranceIdMD='InsuranceIdMD%202')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%202',InsuranceIdMD='InsuranceIdMD%202')/ElectronicSignatureSet"
+		}
+	}
+}, {
+	"InsuranceIdCRM": "InsuranceIdCRM 3",
+	"InsuranceIdMD": "InsuranceIdMD 3",
+	"CustomerIdMD": "CustomerIdMD 3",
+	"InsuranceOptional": true,
+	"StartDateTerm": "/Date(1410980954000)/",
+	"InsuranceTerm": "InsuranceTerm 3",
+	"LoanRequestIdMD": "LoanRequestIdMD 3",
+	"CollaboratorID": "CollaboratorID 3",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
+	"CustomerIdCRM": "CustomerIdCRM 3",
+	"InsurancePaymentID": "InsurancePaymentID 3",
+	"InsuranceModalityID": "InsuranceModalityID 3",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%203',InsuranceIdMD='InsuranceIdMD%203')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%203',InsuranceIdMD='InsuranceIdMD%203')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%203',InsuranceIdMD='InsuranceIdMD%203')/ElectronicSignatureSet"
+		}
+	}
+}, {
+	"InsuranceIdCRM": "InsuranceIdCRM 4",
+	"InsuranceIdMD": "InsuranceIdMD 4",
+	"CustomerIdMD": "CustomerIdMD 4",
+	"InsuranceOptional": false,
+	"StartDateTerm": "/Date(1227989354000)/",
+	"InsuranceTerm": "InsuranceTerm 4",
+	"LoanRequestIdMD": "LoanRequestIdMD 4",
+	"CollaboratorID": "CollaboratorID 4",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
+	"CustomerIdCRM": "CustomerIdCRM 4",
+	"InsurancePaymentID": "InsurancePaymentID 4",
+	"InsuranceModalityID": "InsuranceModalityID 4",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%204',InsuranceIdMD='InsuranceIdMD%204')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%204',InsuranceIdMD='InsuranceIdMD%204')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%204',InsuranceIdMD='InsuranceIdMD%204')/ElectronicSignatureSet"
+		}
+	}
+}, {
+	"InsuranceIdCRM": "InsuranceIdCRM 5",
+	"InsuranceIdMD": "InsuranceIdMD 5",
+	"CustomerIdMD": "CustomerIdMD 5",
+	"InsuranceOptional": false,
+	"StartDateTerm": "/Date(960491354000)/",
+	"InsuranceTerm": "InsuranceTerm 5",
+	"LoanRequestIdMD": "LoanRequestIdMD 5",
+	"CollaboratorID": "CollaboratorID 5",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
+	"CustomerIdCRM": "CustomerIdCRM 5",
+	"InsurancePaymentID": "InsurancePaymentID 5",
+	"InsuranceModalityID": "InsuranceModalityID 5",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%205',InsuranceIdMD='InsuranceIdMD%205')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%205',InsuranceIdMD='InsuranceIdMD%205')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%205',InsuranceIdMD='InsuranceIdMD%205')/ElectronicSignatureSet"
+		}
+	}
+}, {
+	"InsuranceIdCRM": "InsuranceIdCRM 6",
+	"InsuranceIdMD": "InsuranceIdMD 6",
+	"CustomerIdMD": "CustomerIdMD 6",
+	"InsuranceOptional": true,
+	"StartDateTerm": "/Date(1047758954000)/",
+	"InsuranceTerm": "InsuranceTerm 6",
+	"LoanRequestIdMD": "LoanRequestIdMD 6",
+	"CollaboratorID": "CollaboratorID 6",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
+	"CustomerIdCRM": "CustomerIdCRM 6",
+	"InsurancePaymentID": "InsurancePaymentID 6",
+	"InsuranceModalityID": "InsuranceModalityID 6",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%206',InsuranceIdMD='InsuranceIdMD%206')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%206',InsuranceIdMD='InsuranceIdMD%206')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%206',InsuranceIdMD='InsuranceIdMD%206')/ElectronicSignatureSet"
+		}
+	}
+}, {
+	"InsuranceIdCRM": "InsuranceIdCRM 7",
+	"InsuranceIdMD": "InsuranceIdMD 7",
+	"CustomerIdMD": "CustomerIdMD 7",
+	"InsuranceOptional": true,
+	"StartDateTerm": "/Date(1569438554000)/",
+	"InsuranceTerm": "InsuranceTerm 7",
+	"LoanRequestIdMD": "LoanRequestIdMD 7",
+	"CollaboratorID": "CollaboratorID 7",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 7",
+	"CustomerIdCRM": "CustomerIdCRM 7",
+	"InsurancePaymentID": "InsurancePaymentID 7",
+	"InsuranceModalityID": "InsuranceModalityID 7",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%207',InsuranceIdMD='InsuranceIdMD%207')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%207',InsuranceIdMD='InsuranceIdMD%207')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%207',InsuranceIdMD='InsuranceIdMD%207')/ElectronicSignatureSet"
+		}
+	}
+}, {
+	"InsuranceIdCRM": "InsuranceIdCRM 8",
+	"InsuranceIdMD": "InsuranceIdMD 8",
+	"CustomerIdMD": "CustomerIdMD 8",
+	"InsuranceOptional": false,
+	"StartDateTerm": "/Date(1165608554000)/",
+	"InsuranceTerm": "InsuranceTerm 8",
+	"LoanRequestIdMD": "LoanRequestIdMD 8",
+	"CollaboratorID": "CollaboratorID 8",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
+	"CustomerIdCRM": "CustomerIdCRM 8",
+	"InsurancePaymentID": "InsurancePaymentID 8",
+	"InsuranceModalityID": "InsuranceModalityID 8",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%208',InsuranceIdMD='InsuranceIdMD%208')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%208',InsuranceIdMD='InsuranceIdMD%208')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%208',InsuranceIdMD='InsuranceIdMD%208')/ElectronicSignatureSet"
+		}
+	}
+}, {
+	"InsuranceIdCRM": "InsuranceIdCRM 9",
+	"InsuranceIdMD": "InsuranceIdMD 9",
+	"CustomerIdMD": "CustomerIdMD 9",
+	"InsuranceOptional": false,
+	"StartDateTerm": "/Date(1345230554000)/",
+	"InsuranceTerm": "InsuranceTerm 9",
+	"LoanRequestIdMD": "LoanRequestIdMD 9",
+	"CollaboratorID": "CollaboratorID 9",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
+	"CustomerIdCRM": "CustomerIdCRM 9",
+	"InsurancePaymentID": "InsurancePaymentID 9",
+	"InsuranceModalityID": "InsuranceModalityID 9",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%209',InsuranceIdMD='InsuranceIdMD%209')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%209',InsuranceIdMD='InsuranceIdMD%209')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%209',InsuranceIdMD='InsuranceIdMD%209')/ElectronicSignatureSet"
+		}
+	}
+}, {
+	"InsuranceIdCRM": "InsuranceIdCRM 10",
+	"InsuranceIdMD": "InsuranceIdMD 10",
+	"CustomerIdMD": "CustomerIdMD 10",
+	"InsuranceOptional": false,
+	"StartDateTerm": "/Date(1163794154000)/",
+	"InsuranceTerm": "InsuranceTerm 10",
+	"LoanRequestIdMD": "LoanRequestIdMD 10",
+	"CollaboratorID": "CollaboratorID 10",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
+	"CustomerIdCRM": "CustomerIdCRM 10",
+	"InsurancePaymentID": "InsurancePaymentID 10",
+	"InsuranceModalityID": "InsuranceModalityID 10",
+	"__metadata": {
+		"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%2010',InsuranceIdMD='InsuranceIdMD%2010')",
+		"type": "AOMobile.Insurance"
+	},
+	"InsuranceBeneficiarySet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%2010',InsuranceIdMD='InsuranceIdMD%2010')/InsuranceBeneficiarySet"
+		}
+	},
+	"ElectronicSignatureSet": {
+		"__deferred": {
+			"uri": "InsuranceSet(InsuranceIdCRM='InsuranceIdCRM%2010',InsuranceIdMD='InsuranceIdMD%2010')/ElectronicSignatureSet"
+		}
+	}
+}]

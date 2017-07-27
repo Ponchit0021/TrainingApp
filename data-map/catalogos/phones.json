@@ -1,0 +1,26 @@
+{
+    "tipo": [{
+            "idCRM": "",
+            "type": ""
+    },
+    {
+            "idCRM": "1",
+            "type": "CASA"
+    },
+    {
+            "idCRM": "2",
+            "type": "CELULAR"
+    },
+    {
+            "idCRM": "3",
+            "type": "NEGOCIO"
+    },
+    {
+            "idCRM": "4",
+            "type": "RECADOS"
+    },
+    {
+            "idCRM": "5",
+            "type": "TRABAJO"
+    }]
+}

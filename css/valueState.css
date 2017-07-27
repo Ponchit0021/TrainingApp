@@ -1,0 +1,13 @@
+.selectErrorValueState{
+      border-width: 2px;
+      border-style: Solid;
+      border-color:  #CC0000;
+      /*background-color: #FFDDD9;*/
+      background-color: #ffffff;
+      padding: 0 0.6875rem;
+}
+.selectNormalValueState{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #c0c0c0;
+}

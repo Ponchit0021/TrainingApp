@@ -1,0 +1,161 @@
+[{
+	"ImageIdSharepoint": "ImageIdSharepoint 1",
+	"TypeOfSignature": "TypeOfSignature 1",
+	"ImageBase64": "01011111010100110100010101010010",
+	"NameRAndE": "NameRAndE 1",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
+	"CustomerIdCRM": "CustomerIdCRM 1",
+	"CollaboratorID": "CollaboratorID 1",
+	"CustomerIdMD": "CustomerIdMD 1",
+	"LoanRequestIdMD": "LoanRequestIdMD 1",
+	"InsuranceIdCRM": "InsuranceIdCRM 1",
+	"InsuranceIdMD": "InsuranceIdMD 1",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%201')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 2",
+	"TypeOfSignature": "TypeOfSignature 2",
+	"ImageBase64": "11001000001101111110101100011000",
+	"NameRAndE": "NameRAndE 2",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
+	"CustomerIdCRM": "CustomerIdCRM 2",
+	"CollaboratorID": "CollaboratorID 2",
+	"CustomerIdMD": "CustomerIdMD 2",
+	"LoanRequestIdMD": "LoanRequestIdMD 2",
+	"InsuranceIdCRM": "InsuranceIdCRM 2",
+	"InsuranceIdMD": "InsuranceIdMD 2",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%202')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 3",
+	"TypeOfSignature": "TypeOfSignature 3",
+	"ImageBase64": "00100010100100011010010001110111",
+	"NameRAndE": "NameRAndE 3",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
+	"CustomerIdCRM": "CustomerIdCRM 3",
+	"CollaboratorID": "CollaboratorID 3",
+	"CustomerIdMD": "CustomerIdMD 3",
+	"LoanRequestIdMD": "LoanRequestIdMD 3",
+	"InsuranceIdCRM": "InsuranceIdCRM 3",
+	"InsuranceIdMD": "InsuranceIdMD 3",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%203')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 4",
+	"TypeOfSignature": "TypeOfSignature 4",
+	"ImageBase64": "01001011101111100110011100010010",
+	"NameRAndE": "NameRAndE 4",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
+	"CustomerIdCRM": "CustomerIdCRM 4",
+	"CollaboratorID": "CollaboratorID 4",
+	"CustomerIdMD": "CustomerIdMD 4",
+	"LoanRequestIdMD": "LoanRequestIdMD 4",
+	"InsuranceIdCRM": "InsuranceIdCRM 4",
+	"InsuranceIdMD": "InsuranceIdMD 4",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%204')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 5",
+	"TypeOfSignature": "TypeOfSignature 5",
+	"ImageBase64": "01000101011011110110100000110100",
+	"NameRAndE": "NameRAndE 5",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
+	"CustomerIdCRM": "CustomerIdCRM 5",
+	"CollaboratorID": "CollaboratorID 5",
+	"CustomerIdMD": "CustomerIdMD 5",
+	"LoanRequestIdMD": "LoanRequestIdMD 5",
+	"InsuranceIdCRM": "InsuranceIdCRM 5",
+	"InsuranceIdMD": "InsuranceIdMD 5",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%205')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 6",
+	"TypeOfSignature": "TypeOfSignature 6",
+	"ImageBase64": "00101011110110000001101001100110",
+	"NameRAndE": "NameRAndE 6",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
+	"CustomerIdCRM": "CustomerIdCRM 6",
+	"CollaboratorID": "CollaboratorID 6",
+	"CustomerIdMD": "CustomerIdMD 6",
+	"LoanRequestIdMD": "LoanRequestIdMD 6",
+	"InsuranceIdCRM": "InsuranceIdCRM 6",
+	"InsuranceIdMD": "InsuranceIdMD 6",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%206')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 7",
+	"TypeOfSignature": "TypeOfSignature 7",
+	"ImageBase64": "11000011101001110111111100111111",
+	"NameRAndE": "NameRAndE 7",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 7",
+	"CustomerIdCRM": "CustomerIdCRM 7",
+	"CollaboratorID": "CollaboratorID 7",
+	"CustomerIdMD": "CustomerIdMD 7",
+	"LoanRequestIdMD": "LoanRequestIdMD 7",
+	"InsuranceIdCRM": "InsuranceIdCRM 7",
+	"InsuranceIdMD": "InsuranceIdMD 7",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%207')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 8",
+	"TypeOfSignature": "TypeOfSignature 8",
+	"ImageBase64": "11001110001100010111100101101101",
+	"NameRAndE": "NameRAndE 8",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
+	"CustomerIdCRM": "CustomerIdCRM 8",
+	"CollaboratorID": "CollaboratorID 8",
+	"CustomerIdMD": "CustomerIdMD 8",
+	"LoanRequestIdMD": "LoanRequestIdMD 8",
+	"InsuranceIdCRM": "InsuranceIdCRM 8",
+	"InsuranceIdMD": "InsuranceIdMD 8",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%208')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 9",
+	"TypeOfSignature": "TypeOfSignature 9",
+	"ImageBase64": "00111101010011001100110101001111",
+	"NameRAndE": "NameRAndE 9",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
+	"CustomerIdCRM": "CustomerIdCRM 9",
+	"CollaboratorID": "CollaboratorID 9",
+	"CustomerIdMD": "CustomerIdMD 9",
+	"LoanRequestIdMD": "LoanRequestIdMD 9",
+	"InsuranceIdCRM": "InsuranceIdCRM 9",
+	"InsuranceIdMD": "InsuranceIdMD 9",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%209')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 10",
+	"TypeOfSignature": "TypeOfSignature 10",
+	"ImageBase64": "00000100000010100011101111010101",
+	"NameRAndE": "NameRAndE 10",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
+	"CustomerIdCRM": "CustomerIdCRM 10",
+	"CollaboratorID": "CollaboratorID 10",
+	"CustomerIdMD": "CustomerIdMD 10",
+	"LoanRequestIdMD": "LoanRequestIdMD 10",
+	"InsuranceIdCRM": "InsuranceIdCRM 10",
+	"InsuranceIdMD": "InsuranceIdMD 10",
+	"__metadata": {
+		"uri": "ElectronicSignatureSet('ImageIdSharepoint%2010')",
+		"type": "AOMobile.ElectronicSignature"
+	}
+}]

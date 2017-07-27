@@ -1,0 +1,30 @@
+{
+    "rol": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "ZG01",
+            "text": "Presidenta"
+    },
+    {
+            "idCRM": "ZG02",
+            "text": "Tesorera"
+    },
+    {
+            "idCRM": "ZG03",
+            "text": "Secretaria"
+    },
+    {
+            "idCRM": "ZG04",
+            "text": "Representante"
+    },
+    {
+            "idCRM": "ZG05",
+            "text": "Integrante"
+    },
+    {
+            "idCRM": "ZG06",
+            "text": "Suplente"
+    }]
+}

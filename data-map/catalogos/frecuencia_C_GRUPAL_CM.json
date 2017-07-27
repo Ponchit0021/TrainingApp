@@ -1,0 +1,18 @@
+{
+    "frecuencias": [{
+        "idCRM": "",
+        "text": ""
+    },{
+        "idCRM": "Z0716",
+        "text": "Semanal - 16 PAGOS"
+    },{
+        "idCRM": "Z1408",
+        "text": "Bi-Semanal - 8 PAGOS"
+    }, {
+        "idCRM": "Z1410",
+        "text": "Bi-Semanal - 10 PAGOS"
+    }, {
+        "idCRM": "Z1412",
+        "text": "Bi-Semanal - 12 PAGOS"
+    }]
+}

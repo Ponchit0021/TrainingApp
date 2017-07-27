@@ -1,0 +1,231 @@
+[{
+	"CustomerIdCRM": "00000000001",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
+	"GuarantorName": {
+		"FirstName": "FirstName 1",
+		"MiddleName": "MiddleName 1",
+		"LastName": "LastName 1",
+		"SecondName": "SecondName 1"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 7.860355846592622,
+		"ControlListsResult": 1,
+		"RiskLevel": 3,
+		"SavingsAmount": 6.6780317975877175,
+		"DispersionMediumId": "DispersionMediumId 1",
+		"DispersionChannelId": "DispersionChannelId 1",
+		"SemaphoreResultFilters": 2
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%201',LoanRequestIdCRM='LoanRequestIdCRM%201')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}, {
+	"CustomerIdCRM": "CustomerIdCRM 2",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
+	"GuarantorName": {
+		"FirstName": "FirstName 2",
+		"MiddleName": "MiddleName 2",
+		"LastName": "LastName 2",
+		"SecondName": "SecondName 2"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 1.8913591063872937,
+		"ControlListsResult": 259,
+		"RiskLevel": 5895,
+		"SavingsAmount": 3.1649115657277793,
+		"DispersionMediumId": "DispersionMediumId 2",
+		"DispersionChannelId": "DispersionChannelId 2",
+		"SemaphoreResultFilters": 8973
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%202',LoanRequestIdCRM='LoanRequestIdCRM%202')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}, {
+	"CustomerIdCRM": "CustomerIdCRM 3",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
+	"GuarantorName": {
+		"FirstName": "FirstName 3",
+		"MiddleName": "MiddleName 3",
+		"LastName": "LastName 3",
+		"SecondName": "SecondName 3"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 4.782992636184806,
+		"ControlListsResult": 9717,
+		"RiskLevel": 4826,
+		"SavingsAmount": 2.8880669777147205,
+		"DispersionMediumId": "DispersionMediumId 3",
+		"DispersionChannelId": "DispersionChannelId 3",
+		"SemaphoreResultFilters": 2877
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%203')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}, {
+	"CustomerIdCRM": "CustomerIdCRM 4",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
+	"GuarantorName": {
+		"FirstName": "FirstName 4",
+		"MiddleName": "MiddleName 4",
+		"LastName": "LastName 4",
+		"SecondName": "SecondName 4"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 7.39963921995205,
+		"ControlListsResult": 6229,
+		"RiskLevel": 1195,
+		"SavingsAmount": 6.677513212689203,
+		"DispersionMediumId": "DispersionMediumId 4",
+		"DispersionChannelId": "DispersionChannelId 4",
+		"SemaphoreResultFilters": 6312
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%204',LoanRequestIdCRM='LoanRequestIdCRM%204')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}, {
+	"CustomerIdCRM": "CustomerIdCRM 5",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
+	"GuarantorName": {
+		"FirstName": "FirstName 5",
+		"MiddleName": "MiddleName 5",
+		"LastName": "LastName 5",
+		"SecondName": "SecondName 5"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 9.358353637694329,
+		"ControlListsResult": 6231,
+		"RiskLevel": 496,
+		"SavingsAmount": 7.495584023086699,
+		"DispersionMediumId": "DispersionMediumId 5",
+		"DispersionChannelId": "DispersionChannelId 5",
+		"SemaphoreResultFilters": 2083
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%205',LoanRequestIdCRM='LoanRequestIdCRM%205')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}, {
+	"CustomerIdCRM": "CustomerIdCRM 6",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
+	"GuarantorName": {
+		"FirstName": "FirstName 6",
+		"MiddleName": "MiddleName 6",
+		"LastName": "LastName 6",
+		"SecondName": "SecondName 6"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 4.695771932419703,
+		"ControlListsResult": 6137,
+		"RiskLevel": 2663,
+		"SavingsAmount": 3.2243571775568625,
+		"DispersionMediumId": "DispersionMediumId 6",
+		"DispersionChannelId": "DispersionChannelId 6",
+		"SemaphoreResultFilters": 9985
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%206',LoanRequestIdCRM='LoanRequestIdCRM%206')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}, {
+	"CustomerIdCRM": "CustomerIdCRM 7",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 7",
+	"GuarantorName": {
+		"FirstName": "FirstName 7",
+		"MiddleName": "MiddleName 7",
+		"LastName": "LastName 7",
+		"SecondName": "SecondName 7"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 1.5896922693275783,
+		"ControlListsResult": 7688,
+		"RiskLevel": 1457,
+		"SavingsAmount": 6.894846185354206,
+		"DispersionMediumId": "DispersionMediumId 7",
+		"DispersionChannelId": "DispersionChannelId 7",
+		"SemaphoreResultFilters": 9709
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%207',LoanRequestIdCRM='LoanRequestIdCRM%207')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}, {
+	"CustomerIdCRM": "CustomerIdCRM 8",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
+	"GuarantorName": {
+		"FirstName": "FirstName 8",
+		"MiddleName": "MiddleName 8",
+		"LastName": "LastName 8",
+		"SecondName": "SecondName 8"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 2.4498785388592714,
+		"ControlListsResult": 6464,
+		"RiskLevel": 381,
+		"SavingsAmount": 6.892299257317099,
+		"DispersionMediumId": "DispersionMediumId 8",
+		"DispersionChannelId": "DispersionChannelId 8",
+		"SemaphoreResultFilters": 2764
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%208',LoanRequestIdCRM='LoanRequestIdCRM%208')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}, {
+	"CustomerIdCRM": "CustomerIdCRM 9",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
+	"GuarantorName": {
+		"FirstName": "FirstName 9",
+		"MiddleName": "MiddleName 9",
+		"LastName": "LastName 9",
+		"SecondName": "SecondName 9"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 4.603340192163765,
+		"ControlListsResult": 2328,
+		"RiskLevel": 9756,
+		"SavingsAmount": 9.710601219630885,
+		"DispersionMediumId": "DispersionMediumId 9",
+		"DispersionChannelId": "DispersionChannelId 9",
+		"SemaphoreResultFilters": 2268
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%209',LoanRequestIdCRM='LoanRequestIdCRM%209')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}, {
+	"CustomerIdCRM": "CustomerIdCRM 10",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
+	"GuarantorName": {
+		"FirstName": "FirstName 10",
+		"MiddleName": "MiddleName 10",
+		"LastName": "LastName 10",
+		"SecondName": "SecondName 10"
+	},
+	"FilterResults": {
+		"InsuranceAmount": 3.351739478812088,
+		"ControlListsResult": 7170,
+		"RiskLevel": 7874,
+		"SavingsAmount": 3.6476442726956693,
+		"DispersionMediumId": "DispersionMediumId 10",
+		"DispersionChannelId": "DispersionChannelId 10",
+		"SemaphoreResultFilters": 6783
+	},
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%2010',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
+		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
+	}
+}]

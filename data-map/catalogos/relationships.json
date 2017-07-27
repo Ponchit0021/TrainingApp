@@ -1,0 +1,119 @@
+{
+    "parentescoSeguros": [{
+        "idCRM": "",
+        "text": "",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA01",
+        "text": "Cónyuge",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA02",
+        "text": "Padre",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA03",
+        "text": "Madre",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA04",
+        "text": "Hijo (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA05",
+        "text": "Hermano (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA06",
+        "text": "Abuelo (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA07",
+        "text": "Primo (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA08",
+        "text": "Tío (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA09",
+        "text": "Sobrino (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA10",
+        "text": "Yerno",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA11",
+        "text": "Nuera",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA12",
+        "text": "Cuñado (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA13",
+        "text": "Suegro (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA14",
+        "text": "Compañero (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA15",
+        "text": "Amigo (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA16",
+        "text": "Padrino",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA17",
+        "text": "Madrina",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA18",
+        "text": "Compadre",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA19",
+        "text": "Comadre",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA20",
+        "text": "Otros",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA21",
+        "text": "Concubino (a)",
+        "tipo": "00001100"
+    }, {
+        "idCRM": "ZA22",
+        "text": "Compañero (a) de grupo",
+        "tipo": "00001100"
+    },{
+        "idCRM": "",
+        "text": "",
+        "tipo": "Z0001100"
+    }, {
+        "idCRM": "ZF01",
+        "text": "Concubino (a)",
+        "tipo": "Z0001100"
+    }, {
+        "idCRM": "ZF02",
+        "text": "Esposo (a)",
+        "tipo": "Z0001100"
+    }, {
+        "idCRM": "ZF03",
+        "text": "Hijo (a)",
+        "tipo": "Z0001100"
+    }, {
+        "idCRM": "ZF04",
+        "text": "Padre",
+        "tipo": "Z0001100"
+    }, {
+        "idCRM": "ZF05",
+        "text": "Madre",
+        "tipo": "Z0001100"
+    }]
+}

@@ -1,0 +1,5153 @@
+{
+    "actEco": [{
+        "idCRM": "1111012",
+        "text": "EXTRACCION Y BENEFICIO DE CARBON MINERAL Y GRAFITO",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1211010",
+        "text": "EXPLORACION DE PETROLEO POR COMPAÐIAS",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1211028",
+        "text": "EXTRACCION DE PETROLEO CRUDO Y GAS NATURAL",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1311018",
+        "text": "EXTRACCION Y BENEFICIO DE MINERAL DE HIERRO",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1321017",
+        "text": "EXTRACCION Y BENEFICIO DE ORO PLATA Y OTROS METALE",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1322015",
+        "text": "EXTRACCION Y BENEFICIO DE MERCURIO Y ANTIMONIO",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1329011",
+        "text": "EXTRACCION Y BENEFICIO DE COBRE, PLOMO, ZINC Y OTR",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1411016",
+        "text": "EXTRACCION Y BENEFICIO DE PIEDRA",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1412014",
+        "text": "EXTRACCION DE YESO",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1413012",
+        "text": "EXTRACCION Y BENEFICIO DE ARENA Y GRAVA",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1419010",
+        "text": "EXTRACCION Y BENEFICIO DE OTROS MATERIALES PARA CO",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1421015",
+        "text": "EXTRACCION Y BENEFICIO DE ARCILLAS REFRACTARIAS",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1431014",
+        "text": "EXTRACCION Y BENEFICIO DE BARITA Y ROCA FOSFORICA",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1432012",
+        "text": "EXTRACCION Y BENEFICIO DE FLUORITA",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1433010",
+        "text": "EXTRACCION Y BENEFICIO DE SILICE",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1439018",
+        "text": "EXTRACCION Y BENEFICIO DE OTROS MINERALES NO METAL",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "1511014",
+        "text": "EXPLOTACION DE SAL MARINA Y DE YACIMIENTOS",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "313015",
+        "text": "EXTRACCION DE CARBON VEGETAL",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "321018",
+        "text": "EXTRACCION DE CHICLE",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "322016",
+        "text": "EXPLOTACION DE CANDELILLA",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "322024",
+        "text": "EXPLOTACION DE HULE",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "322032",
+        "text": "EXTRACCION DE COLOFONIA",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "322040",
+        "text": "EXTRACCION DE OTRAS RESINAS",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "323014",
+        "text": "EXPLOTACION DE RAICES",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "323022",
+        "text": "EXTRACCION DE ALQUITRAN VEGETAL",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "323030",
+        "text": "EXTRACCION DE TREMENTINA",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "329020",
+        "text": "EXPLOTACION DE BARBASCO,ARBORESCENTES Y ARBUSTOS",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "4194015",
+        "text": "PERFORACION DE POZOS PETROLEROS Y DE GAS",
+        "idIndustry": "132",
+        "idRol": "8"
+    }, {
+        "idCRM": "7519020",
+        "text": "ALQUILER DE LANCHAS Y VELEROS",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8311011",
+        "text": "ALQUILER DE TERRENOS, LOCALES Y EDIFICIOS NO RESID",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8312019",
+        "text": "ARRENDAMIENTO DE INMUEBLES RESIDENCIALES",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8313017",
+        "text": "SERVICIO DE CORREDORES DE BIENES RAICES",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8314015",
+        "text": "ADMINISTRACION DE INMUEBLES",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8511017",
+        "text": "ARRENDAMIENTO DE MAQUINARIA",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8519011",
+        "text": "ALQUILER DE MOBILIARIO Y EQUIPO PARA COMERCIOS, SE",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8522014",
+        "text": "ALQUILER DE SILLAS Y VAJILLAS PARA BANQUETES",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8523012",
+        "text": "ALQUILER DE EQUIPOS ELECTRONICOS",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8524010",
+        "text": "ALQUILER O RENTA DE AUTOMOVILES SIN CHOFER",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8529010",
+        "text": "ALQUILER DE ROPA",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "8822018",
+        "text": "DISTRIBUCION Y ALQUILER DE PELICULAS",
+        "idIndustry": "2223",
+        "idRol": "22"
+    }, {
+        "idCRM": "4121026",
+        "text": "PAVIMENTACION",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4121034",
+        "text": "URBANIZACION",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4192019",
+        "text": "PERFORACION DE NORIAS Y POZOS PARA AGUA",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4211017",
+        "text": "PREMEZCLADO Y COLADO DE CONCRETO",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4212015",
+        "text": "DEMOLICION DE INMUEBLES",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4221016",
+        "text": "TALLER DE PLOMERIA",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4222014",
+        "text": "INSTALACIONES DEL SISTEMA ELECTRICO INCLUYE SISTEM",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4229010",
+        "text": "INSTALACIONES DE SISTEMAS DE AIRE ACONDICIONADO Y",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4292017",
+        "text": "LABRADO Y COLOCACION DE PIEDRA",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4293015",
+        "text": "COLOCACION DE DUELAS PARQUET LAMBRINES Y OTROS TRA",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "4299013",
+        "text": "OTROS SERVICIOS DE ACABADO PRESTADOS POR SUBCONTRA",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "7121015",
+        "text": "AUTOTRANSPORTE DE MATERIALES DE CONSTRUCCION",
+        "idIndustry": "2224",
+        "idRol": "22"
+    }, {
+        "idCRM": "6621016",
+        "text": "COMPRA VENTA DE CEMENTO CAL YESO Y OTROS PRODUCTOS",
+        "idIndustry": "2224A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6625018",
+        "text": "COMPRA VENTA DE VIDRIOS CRISTALES Y EMPLOMADOS",
+        "idIndustry": "2224A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6627014",
+        "text": "COMPRA DE ARTICULOS SANITARIOS",
+        "idIndustry": "2224A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6629010",
+        "text": "COMPRA VENTA DE MATERIALES PARA CONSTRUCCION",
+        "idIndustry": "2224A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6911029",
+        "text": "COMPRA DE CASA HABITACION",
+        "idIndustry": "2224A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6911045",
+        "text": "COMPRA VENTA DE CASAS Y OTROS INMUEBLES",
+        "idIndustry": "2224A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6911053",
+        "text": "COMPRA VENTA DE TERRENOS",
+        "idIndustry": "2224A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6911079",
+        "text": "ADQUISICION DE VIVIENDA TIPO MEDIO",
+        "idIndustry": "2224A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6911095",
+        "text": "ADQUISICION DE VIVIENDA RESIDENCIAL",
+        "idIndustry": "2224A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2632033",
+        "text": "FABRICACION DE ASBESTOS Y CORCHOS AISLANTES",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3221017",
+        "text": "FABRICACION DE LAMINAS PERFILES TUBOS Y OTROS MATE",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3319028",
+        "text": "FABRICACION DE AZULEJOS",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3331014",
+        "text": "FABRICACION DE ADOBE",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3331022",
+        "text": "FABRICACION DE LADRILLOS",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3331030",
+        "text": "FABRICACION DE TEJA Y TUBO DE ARCILLA",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3332012",
+        "text": "FABRICACION DE MATERIALES PARA MUROS",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3341013",
+        "text": "FABRICACION DE CEMENTO",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3341021",
+        "text": "FABRICACION DE CONCRETO CIENTIFICO",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3341039",
+        "text": "FABRICACION DE CONCRETO PARA CONSTRUCCION",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3342011",
+        "text": "FABRICACION DE BLOQUES DE CEMENTO",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3342029",
+        "text": "FABRICACION DE YESO",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3343019",
+        "text": "HORNO DE CAL",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3351012",
+        "text": "FABRICACION DE TINACOS DE ASBESTO",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3353018",
+        "text": "TALLER DE MARMOLERIA",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3354016",
+        "text": "FABRICACION DE MOSAICOS TERRAZOS Y GRANITO",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3354024",
+        "text": "FABRICACION DE POSTES Y DURMIENTES DE CONCRETO",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3354032",
+        "text": "FABRICACION DE TUBOS DE CONCRETO",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999094",
+        "text": "FABRICACION DE TRAGALUCES Y MARQUESINAS",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4111019",
+        "text": "CONSTRUCCION DE CASAS Y TECHOS DESARMABLES",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4111027",
+        "text": "CONSTRUCCION DE INMUEBLES",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4111051",
+        "text": "DESARROLLADORES DE VIVIENDA",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4111928",
+        "text": "CONSTRUCCION DE VIVIENDA TIPO MEDIO",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4111944",
+        "text": "CONSTRUCCION DE VIVIENDA RESIDENCIAL",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4112017",
+        "text": "CONSTRUCCION DE EDIFICIOS PARA OFICINAS ESCUELAS H",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4113015",
+        "text": "CONSTRUCCION DE EDIFICIOS INDUSTRIALES Y PARA FINE",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4121018",
+        "text": "CONSTRUCCION DE VIAS DE COMUNICACION",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4122016",
+        "text": "CONSTRUCCION DE PUERTOS",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4123014",
+        "text": "CONSTRUCCION E INSTALACION DE LINEAS TELEFONICAS T",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4129012",
+        "text": "CONSTRUCCION DE PISTAS DE ATERRIZAJE DUCTOS Y OTRA",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4191011",
+        "text": "CONSTRUCCION DE PRESAS",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4193017",
+        "text": "CONSTRUCCION E INSTALACION DE PLANTAS GENERADORAS",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "4199015",
+        "text": "CONSTRUCCION DE ESTADIOS MONUMENTOS Y OTRAS OBRAS",
+        "idIndustry": "2224B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3212024",
+        "text": "VULCANIZACION DE LLANTAS Y CAMARAS",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7111016",
+        "text": "TRANSPORTE EN AUTOBUS URBANO Y SUBURBANO DE PASAJE",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7112014",
+        "text": "TRANSPORTE EN AUTOBUS FORANEO DE PASAJEROS",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7113012",
+        "text": "TRANSPORTE EN AUTOMOVIL DE RULETEO",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7114010",
+        "text": "TRANSPORTE EN AUTOMOVILES DE SITIO Y TURISMO",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7115018",
+        "text": "TRANSPORTE EN AUTOMOVIL DE RUTA FIJA",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7119010",
+        "text": "AUTOTRANSPORTE ESCOLAR TURISTICO EN AUTOBUS Y OTRO",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7123011",
+        "text": "AUTOTRANSPORTE DE CARGA DE PRODUCTOS ESPECIFICOS",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7131014",
+        "text": "FERROCARRILES",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7132012",
+        "text": "TRANVIAS Y TROLEBUSES",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7133010",
+        "text": "TRANSPORTE EN FERROCARRIL URBANO (METRO)",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7212012",
+        "text": "TRANSPORTES MARITIMOS DE CABOTAJE",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7291016",
+        "text": "TRANSPORTE FLUVIAL Y LACUSTRE",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7311012",
+        "text": "TRANSPORTACION AEREA DE PASAJEROS",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "7519038",
+        "text": "RENTA DE VEHICULOS AEREOS",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "8911019",
+        "text": "TALLER DE REPARACION GENERAL DE AUTOMOVILES Y CAMI",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "8912017",
+        "text": "SERVICIOS DE REPARACION DE MOTOCICLETAS Y BICICLET",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "8913015",
+        "text": "SERVICIOS DE REPARACION ESPECIALIZADO EN PARTES DE",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "8914013",
+        "text": "SERVICIOS DE REPARACION DE CARROCERIAS PINTURA TAP",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "8915011",
+        "text": "SERVICIOS DE LAVADO Y LUBRICACION DE AUTOMOVILES",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "8919013",
+        "text": "SERVICIO DE REPARACION DE VEHICULOS DE TRACCION AN",
+        "idIndustry": "2227",
+        "idRol": "22"
+    }, {
+        "idCRM": "6811013",
+        "text": "COMPRA VENTA DE AUTOMOVILES Y CAMIONES NUEVOS",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6812011",
+        "text": "COMPRA VENTA DE AUTOMOVILES Y CAMIONES USADOS",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6813019",
+        "text": "COMPRA VENTA DE BICICLETAS Y SUS ACCESORIOS",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6813027",
+        "text": "COMPRA VENTA DE MOTOCICLETAS Y SUS ACCESORIOS",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6814017",
+        "text": "COMPRA VENTA DE LLANTAS",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6815015",
+        "text": "COMPRAVENTA DE REFACCIONES Y ACCESORIOS NUEVOS PAR",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6816013",
+        "text": "COMPRA VENTA DE REFACCIONES Y ACCESORIOS USADOS PA",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6819017",
+        "text": "COMPRA VENTA DE PARTES Y REFACCIONES PARA VEHICULO",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6819025",
+        "text": "COMPRA VENTA DE VEHICULOS ACUATICOS Y SUS REFACCIO",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6819033",
+        "text": "COMPRAVENTA DE VEHICULOS AEREOS",
+        "idIndustry": "2227A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2432011",
+        "text": "FABRICACION DE CUBREASIENTOS PARA VEHICULOS",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3211018",
+        "text": "FABRICACION DE LLANTAS Y CAMARAS PARA VEHICULOS",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3322013",
+        "text": "FABRICACION DE CRISTALES PARA AUTOMOVIL",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3611010",
+        "text": "FABRICACION ENSAMBLE Y REPARACION DE VEHICULOS DE",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3791010",
+        "text": "FABRICACION DE ACUMULADORES",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3811016",
+        "text": "FABRICACION Y ENSAMBLE DE AUTOMOVILES Y CAMIONES",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3812014",
+        "text": "FABRICACION DE CARROCERIAS DE METAL",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3812022",
+        "text": "FABRICACION DE FURGONES Y VAGONES",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3812030",
+        "text": "FABRICACION Y ENSAMBLE DE OTROS VEHICULOS",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3815018",
+        "text": "FABRICACION DE MUELLES Y RESORTES PARA VEHICULOS",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3816016",
+        "text": "FABRICACION DE PARTES PARA EL SISTEMA DE FRENOS DE",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3817014",
+        "text": "FABRICACION DE BUJIAS",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3819010",
+        "text": "FABRICACION DE REFACCIONES Y ACCESORIOS AUTOMOTRIC",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3821015",
+        "text": "FABRICACION ENSAMBLE Y REPARACION DE CARROS DE FER",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3831014",
+        "text": "FABRICACION Y REPARACION DE BUQUES Y BARCOS",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3831022",
+        "text": "FABRICACION Y REPARACION DE OTROS VEHICULOS ACUATI",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3832012",
+        "text": "FABRICACION ENSAMBLE Y REPARACION DE AERONAVES",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3891018",
+        "text": "FABRICACION Y ENSAMBLE DE MOTOCICLETAS BICICLETAS",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3892016",
+        "text": "FABRICACION DE PARTES REFACCIONES Y ACCESORIOS PAR",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3961069",
+        "text": "FABRICACION DE TAXIMETROS",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3993020",
+        "text": "FABRICACION DE SELLOS PARA CARROS DE FERROCARRIL",
+        "idIndustry": "2227B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2041010",
+        "text": "RASTRO",
+        "idIndustry": "251",
+        "idRol": "22"
+    }, {
+        "idCRM": "291021",
+        "text": "INSEMINACION ARTIFICIAL Y OTROS SERVICIOS DE GANAD",
+        "idIndustry": "251",
+        "idRol": "22"
+    }, {
+        "idCRM": "491019",
+        "text": "SERVICIOS DE PESQUERIAS MARITIMAS Y DE AGUA DULCE",
+        "idIndustry": "251",
+        "idRol": "22"
+    }, {
+        "idCRM": "511015",
+        "text": "CAPTURA Y PRESERVACION DE ESPECIES ANIMALES SALVAJES",
+        "idIndustry": "251",
+        "idRol": "22"
+    }, {
+        "idCRM": "6114011",
+        "text": "COMPRA VENTA DE FORRAJES EN ESTADO NATURAL",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6119011",
+        "text": "COMPRA VENTA DE OTROS PRODUCTOS ALIMENTICIOS AGRIC",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6121016",
+        "text": "COMPRA VENTA DE AVES EN PIE",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6121024",
+        "text": "COMPRA VENTA DE GANADO MAYOR EN PIE",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6121032",
+        "text": "COMPRA VENTA DE GANADO MENOR EN PIE",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6126024",
+        "text": "COMPRA VENTA DE MATERIAS PRIMAS ANIMALES",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6126032",
+        "text": "COMPRA VENTA DE PESCADOS Y MARISCOS",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6133011",
+        "text": "COMPRAVENTA DE ALIMENTO PARA GANADO",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6133029",
+        "text": "COMPRAVENTA DE ALIMENTOS Y BEBIDAS PARA AVES Y OTROS ANIMALE",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6993019",
+        "text": "COMPRAVENTA DE PRODUCTOS VETERINARIOS Y OTROS ARTI",
+        "idIndustry": "251A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2098011",
+        "text": "DESHIDRATACION DE PLANTAS PARA FORRAJES",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2098029",
+        "text": "FABRICACION DE ALIMENTO PARA GANADO Y OTROS ANIMAL",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2098037",
+        "text": "FABRICACION DE ALIMENTOS Y BEBIDAS PARA AVES",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "211011",
+        "text": "CRIA Y EXPLOTACION DE GANADO VACUNO PARA CARNE",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "212019",
+        "text": "CRIA Y EXPLOTACION DE GANADO VACUNO PARA LECHE",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "213017",
+        "text": "CRIA DE GANADO DE LIDIA",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "214015",
+        "text": "CRIA DE GANADO CABALLAR",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "219015",
+        "text": "CRIA DE OTROS EQUINOS Y GANADO PARA EL TRABAJO",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "221010",
+        "text": "CRIA Y EXPLOTACION DE GANADO PORCINO",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "222018",
+        "text": "CRIA Y EXPLOTACION DE GANADO OVINO",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "223016",
+        "text": "CRIA Y EXPLOTACION DE GANADO CAPRINO",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "231019",
+        "text": "CRIA Y EXPLOTACION DE GALLINA PARA PRODUCCION DE H",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "232017",
+        "text": "CRIA Y EXPLOTACION DE POLLOS",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "233015",
+        "text": "CRIA Y EXPLOTACION DE OTRAS AVES PARA ALIMENTACION",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "241018",
+        "text": "CRIA Y EXPLOTACION DE ABEJAS",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "251017",
+        "text": "CRIA Y EXPLOTACION DE CONEJOS Y LIEBRES",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "259011",
+        "text": "CRIA Y EXPLOTACION",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "259029",
+        "text": "CRIA Y EXPLOTACION DE GUSANO DE SEDA",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "411017",
+        "text": "CAPTURA DE ATUN BONITO BARRILETE Y SIMILARES",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "412015",
+        "text": "CAPTURA DE SARDINA Y SIMILARES",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "413013",
+        "text": "CAPTURA DE TIBURON CAZON RAYA Y SIMILARES",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "419011",
+        "text": "CAPTURA DE OTROS PECES EN ESTUARIOS, COSTAS O ALTA",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "421016",
+        "text": "CAPTURA DE CAMARON",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "422014",
+        "text": "CAPTURA DE OSTION",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "429010",
+        "text": "CAPTURA DE OTROS CRUSTACEOS Y MOLUSCOS MARINOS",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "431015",
+        "text": "CAPTURA DE TORTUGA Y OTROS REPTILES MARINOS",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "439019",
+        "text": "CAPTURA DE MAMIFEROS ANFIBIOS Y DIVERSOS INVERTEBR",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "441014",
+        "text": "RECOLECCION DE CONCHAS HUEVOS CORALES ESPONJAS Y P",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "442012",
+        "text": "RECOLECCION DE ALGAS Y OTRAS PLANTAS ACUATICAS",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "451013",
+        "text": "CAPTURA DE PECES EN RIOS, LAGOS Y ESTUARIOS",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "452011",
+        "text": "CAPTURA DE CRUSTACEOS MOLUSCOS REPTILES ANFIBIOS Y",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "459017",
+        "text": "CRIA Y EXPLOTACION DE OSTRAS",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "459025",
+        "text": "CRIA Y EXPLOTACION DE PECES, OTRAS ESPECIES ANIMAL",
+        "idIndustry": "251B",
+        "idRol": "8"
+    }, {
+        "idCRM": "6622022",
+        "text": "COMPRAVENTA DE ARTICULOS DE FERRETERIA",
+        "idIndustry": "2831",
+        "idRol": "28"
+    }, {
+        "idCRM": "6623020",
+        "text": "COMPRA VENTA DE PINTURAS BARNICES Y BROCHAS",
+        "idIndustry": "2831",
+        "idRol": "28"
+    }, {
+        "idCRM": "6626016",
+        "text": "COMPRA VENTA DE ANILINAS",
+        "idIndustry": "2831",
+        "idRol": "28"
+    }, {
+        "idCRM": "6626024",
+        "text": "COMPRA VENTA DE ARTICULOS DE TLAPALERIA",
+        "idIndustry": "2831",
+        "idRol": "28"
+    }, {
+        "idCRM": "3513018",
+        "text": "FABRICACION DE REMACHES",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3513026",
+        "text": "FABRICACION DE TORNILLOS TUERCAS Y PIJAS",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3514016",
+        "text": "FABRICACION DE CLAVOS CADENAS GRAPAS Y TACHUELAS",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3515014",
+        "text": "FABRICACION DE CANDADOS",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3515022",
+        "text": "FABRICACION DE CERRADURAS",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3516012",
+        "text": "FABRICACION DE CORTINAS DE METAL",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3516020",
+        "text": "FABRICACION DE JAULAS DE METAL",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3516038",
+        "text": "FABRICACION DE OTROS ARTICULOS DE ALUMINIO",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3516046",
+        "text": "FABRICACION DE PERFILES PUERTAS Y VENTANAS DE META",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3516054",
+        "text": "TALLER DE HERRERIA",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3591022",
+        "text": "TALLER DE HOJALATERIA",
+        "idIndustry": "2831A",
+        "idRol": "8"
+    }, {
+        "idCRM": "4291019",
+        "text": "SERVICIOS DE PINTADO Y TAPIZADO DE INMUEBLES",
+        "idIndustry": "2833",
+        "idRol": "22"
+    }, {
+        "idCRM": "8924012",
+        "text": "TALLER DE TAPICERIA",
+        "idIndustry": "2833",
+        "idRol": "22"
+    }, {
+        "idCRM": "8942014",
+        "text": "DECORACION EN GENERAL",
+        "idIndustry": "2833",
+        "idRol": "22"
+    }, {
+        "idCRM": "6312011",
+        "text": "COMPRA VENTA DE MUEBLES",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6321012",
+        "text": "COMPRA VENTA DE ARTICULOS DE CRISTAL LOZA Y PORCEL",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6322010",
+        "text": "COMPRA VENTA DE ARTICULOS PARA DECORACION",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6322028",
+        "text": "COMPRA VENTA DE TAPETES Y ALFOMBRAS",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6325014",
+        "text": "COMPRA VENTA DE ANTIGUEDADES",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6326012",
+        "text": "COMPRA VENTA DE FLORES Y ADORNOS FLORALES ARTIFICI",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6326020",
+        "text": "COMPRA VENTA DE FLORES Y ADORNOS FLORALES NATURALE",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6629028",
+        "text": "COMPRA VENTA DE TAPICES",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6721022",
+        "text": "COMPRA VENTA DE MUEBLES Y ARTICULOS PARA OFICINA",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6722012",
+        "text": "COMPRA VENTA DE EQUIPO Y MOBILIARIO PARA HOTELES R",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6729026",
+        "text": "COMPRA VENTA DE ACCESORIOS PARA MUEBLES",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6732037",
+        "text": "COMPRA VENTA DE MUEBLES PARA CONSULTORIOS Y SANATO",
+        "idIndustry": "2833A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2392017",
+        "text": "FABRICACION DE TAPETES Y ALFOMBRAS",
+        "idIndustry": "2833B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2711027",
+        "text": "FABRICACION DE MUEBLES DE MATERIAL SINTETICO",
+        "idIndustry": "2833B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3311016",
+        "text": "FABRICACION DE VAJILLAS Y OTROS PRODUCTOS DE ALFAR",
+        "idIndustry": "2833B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3319010",
+        "text": "ELABORACION DE OBJETOS ARTISTICOS DE ALFARERIA Y C",
+        "idIndustry": "2833B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3319044",
+        "text": "FABRICACION DE MUEBLES Y ARTICULOS SANITARIOS",
+        "idIndustry": "2833B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3324019",
+        "text": "FABRICACION DE EMPLOMADOS",
+        "idIndustry": "2833B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3521037",
+        "text": "FABRICACION DE OTROS MUEBLES DE METAL",
+        "idIndustry": "2833B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3799022",
+        "text": "FABRICACION DE CANDILES Y ARBOTANTES",
+        "idIndustry": "2833B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999052",
+        "text": "FABRICACION DE FLORES ARTIFICIALES",
+        "idIndustry": "2833B",
+        "idRol": "8"
+    }, {
+        "idCRM": "8921018",
+        "text": "TALLER DE REPARACION DE CALZADO",
+        "idIndustry": "2834",
+        "idRol": "22"
+    }, {
+        "idCRM": "8929020",
+        "text": "TALLER DE REPARACION DE ROPA Y MEDIAS",
+        "idIndustry": "2834",
+        "idRol": "22"
+    }, {
+        "idCRM": "8929038",
+        "text": "TALLER DE REPARACION DE SOMBREROS",
+        "idIndustry": "2834",
+        "idRol": "22"
+    }, {
+        "idCRM": "6211015",
+        "text": "COMPRA VENTA DE ARTICULOS DE LENCERIA",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6211023",
+        "text": "COMPRA VENTA DE ROPA",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6212013",
+        "text": "COMPRA VENTA DE CALZADO",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6213011",
+        "text": "COMPRA VENTA DE SOMBREROS",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6215017",
+        "text": "COMPRA VENTA DE ARTICULOS DE MERCERIA Y SEDERIA",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6215025",
+        "text": "COMPRAVENTA DE ARTICULOS DE BONETERIA",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6216015",
+        "text": "COMPRA VENTA DE CASIMIRES",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6216023",
+        "text": "COMPRA VENTA DE OTROS PRODUCTOS TEXTILES",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6216031",
+        "text": "COMPRA VENTA DE TELAS",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6239017",
+        "text": "COMPRA VENTA DE PARAGUAS SOMBRILLAS ROPA USADA Y O",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6325022",
+        "text": "COMPRA VENTA DE ARTICULOS DE YUTE Y HENEQUEN",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6619029",
+        "text": "COMPRA VENTA DE LANA",
+        "idIndustry": "2834A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2312031",
+        "text": "FABRICACION DE HILADOS Y TEJIDOS DE ALGODON",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2312049",
+        "text": "FABRICACION DE HILADOS Y TEJIDOS DE LANA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2313013",
+        "text": "FABRICACION DE HILOS PARA COSER",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2313021",
+        "text": "ACABADO DE HILOS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2313039",
+        "text": "FABRICACION DE OTROS HILADOS Y TEJIDOS NO SINTETIC",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2314011",
+        "text": "FABRICACION DE ESTAMBRES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2315019",
+        "text": "FABRICACION DE SARAPES Y COBIJAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2315027",
+        "text": "FABRICACION DE CASIMIRES Y PAÐOS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2316017",
+        "text": "FABRICACION DE TOALLAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2316025",
+        "text": "FABRICACION DE COLCHAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2317015",
+        "text": "FABRICACION DE HILADOS Y TEJIDOS DE SEDA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2317023",
+        "text": "FABRICACION DE OTROS ARTICULOS DE LANA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2317031",
+        "text": "FABRICACION DE OTRAS TELAS MIXTAS  DE FIBRAS BLAND",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2318013",
+        "text": "FABRICACION DE CINTAS AGUJETAS Y LISTONES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2318021",
+        "text": "FABRICACION DE ENCAJES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2318039",
+        "text": "FABRICACION DE TELAS ELASTICAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2319011",
+        "text": "ACABADO DE TELAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2321016",
+        "text": "FABRICACION DE CALCETINES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2321024",
+        "text": "FABRICACION DE MEDIAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2322014",
+        "text": "FABRICACION DE SUETERES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2329010",
+        "text": "FABRICACION DE HILADOS Y TEJIDOS DE OTRAS FIBRAS S",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2332013",
+        "text": "FABRICACION DE HILADOS Y TEJIDOS DE HENEQUEN",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2333029",
+        "text": "FABRICACION DE TEJIDOS Y TORCIDOS DE PALMA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2333037",
+        "text": "FABRICACION DE TEJIDOS Y TORCIDOS DE IXTLE",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2339019",
+        "text": "FABRICACION DE HILADOS Y TEJIDOS DE YUTE",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2339027",
+        "text": "FABRICACION DE HILADOS Y TEJIDOS DE FIBRA DE COCO",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2391019",
+        "text": "FABRICACION DE ARTICULOS DE LONA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2391027",
+        "text": "FABRICACION DE LONA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2391035",
+        "text": "FABRICACION DE TELAS IMPERMEABLES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2392025",
+        "text": "FABRICACION DE TELAS PARA TAPICERIA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2393015",
+        "text": "FABRICACION DE ENTRETELAS Y FIELTROS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2411015",
+        "text": "FABRICACION DE VESTIDOS Y OTRAS PRENDAS EXTERIORES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2411023",
+        "text": "TALLER DE CONFECCION DE VESTIDOS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2412013",
+        "text": "FABRICACION DE OTRAS PRENDAS EXTERIORES DE VESTIR",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2412021",
+        "text": "FABRICACION DE TRAJES PARA CABALLERO",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2412039",
+        "text": "TALLER DE SASTRERIA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2413011",
+        "text": "FABRICACION DE UNIFORMES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2414019",
+        "text": "FABRICACION DE CAMISAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2415017",
+        "text": "FABRICACION DE OTRAS PRENDAS EXTERIORES DE VESTIR",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2416015",
+        "text": "FABRICACION DE CORBATAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2416023",
+        "text": "FABRICACION DE GUANTES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2416031",
+        "text": "FABRICACION DE PAÑUELOS PAÑOLETAS Y MASCADAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2417013",
+        "text": "FABRICACION DE CACHUCHAS Y GORRAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2417021",
+        "text": "FABRICACION DE SOMBREROS EXCEPTO DE PALMA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2418011",
+        "text": "FABRICACION DE SOMBREROS DE PALMA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2419019",
+        "text": "FABRICACION DE CHAMARRAS Y ABRIGOS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2419027",
+        "text": "FABRICACION DE IMPERMEABLES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2419035",
+        "text": "FABRICACION DE TIRANTES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2419043",
+        "text": "FABRICACION DE MANTONES Y CHALINAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2419051",
+        "text": "FABRICACION DE REBOZOS Y CINTURONES TEJIDOS DE HIL",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2421014",
+        "text": "FABRICACION DE CORSETERIA Y ROPA INTERIOR PARA DAM",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2429018",
+        "text": "FABRICACION DE ROPA INTERIOR PARA CABALLERO",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2431013",
+        "text": "FABRICACION DE SABANAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2431021",
+        "text": "FABRICACION DE CORTINAS DE TELA Y MANTELERIA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2434017",
+        "text": "FABRICACION DE ARTICULOS BORDADOS Y DESHILADOS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2434025",
+        "text": "FORRADO DE BOTONES Y HEBILLAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2439017",
+        "text": "FABRICACION DE BANDERAS Y ADORNOS DE TELA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2511013",
+        "text": "FABRICACION DE CALZADO PARA DEPORTE EXCEPTO DE PLA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2512011",
+        "text": "FABRICACION DE ALPARGATAS BABUCHAS Y PANTUFLAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2512029",
+        "text": "FABRICACION DE GUARACHES Y SANDALIAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2713015",
+        "text": "FABRICACION DE ALMOHADAS Y COJINES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3223013",
+        "text": "FABRICACION DE CALZADO DE PLASTICO",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3995018",
+        "text": "FABRICACION DE CERCOS PARA CALZADO",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3995026",
+        "text": "FABRICACION DE HORMAS PARA CALZADO Y TACONES",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999010",
+        "text": "FABRICACION DE ABANICOS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999028",
+        "text": "FABRICACION DE ARTICULOS DE CAREY",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999036",
+        "text": "FABRICACION DE ARTICULOS DE CONCHA",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999044",
+        "text": "FABRICACION DE BASTONES PARAGUAS Y SOMBRILLAS",
+        "idIndustry": "2834B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2312015",
+        "text": "BENEFICIO DE LANAS",
+        "idIndustry": "2834C",
+        "idRol": "99"
+    }, {
+        "idCRM": "2312023",
+        "text": "BENEFICIO DE OTRAS FIBRAS TEXTILES",
+        "idIndustry": "2834C",
+        "idRol": "99"
+    }, {
+        "idCRM": "2394013",
+        "text": "BENEFICIO DE PELO Y CERDA PARA LA INDUSTRIA TEXTIL",
+        "idIndustry": "2834C",
+        "idRol": "99"
+    }, {
+        "idCRM": "2911015",
+        "text": "EDICION DE PERIODICOS Y REVISTAS",
+        "idIndustry": "292",
+        "idRol": "22"
+    }, {
+        "idCRM": "2912005",
+        "text": "EDICION DE LIBROS Y SIMILARES",
+        "idIndustry": "292",
+        "idRol": "22"
+    }, {
+        "idCRM": "2912013",
+        "text": "EDICION DE LIBROS",
+        "idIndustry": "292",
+        "idRol": "22"
+    }, {
+        "idCRM": "2921014",
+        "text": "ENCUADERNACION",
+        "idIndustry": "292",
+        "idRol": "22"
+    }, {
+        "idCRM": "2921048",
+        "text": "FOTOCOPIADO",
+        "idIndustry": "292",
+        "idRol": "22"
+    }, {
+        "idCRM": "2929034",
+        "text": "GRABADO E IMPRESION EN PIEDRA, VIDRIO Y OTROS MATE",
+        "idIndustry": "292",
+        "idRol": "22"
+    }, {
+        "idCRM": "2929042",
+        "text": "GRABADO E IMPRESION FOTOMECANICA MEDIANTE AGUA FUE",
+        "idIndustry": "292",
+        "idRol": "22"
+    }, {
+        "idCRM": "2929050",
+        "text": "GRABADO EN METAL (FABRICACION DE CLICHES Y FOTOGRA",
+        "idIndustry": "292",
+        "idRol": "22"
+    }, {
+        "idCRM": "8425010",
+        "text": "SERVICIOS DE COPIAS FOTOSTATICAS XEROGRAFICAS Y SI",
+        "idIndustry": "292",
+        "idRol": "22"
+    }, {
+        "idCRM": "6227012",
+        "text": "COMPRA VENTA DE LIBROS",
+        "idIndustry": "292A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6228010",
+        "text": "DISTRIBUCION Y COMPRAVENTA DE PERIODICOS Y REVISTA",
+        "idIndustry": "292A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6233019",
+        "text": "COMPRA VENTA DE PAPELERIA Y ARTICULOS DE ESCRITORI",
+        "idIndustry": "292A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2921022",
+        "text": "FABRICACION DE FORMULARIOS Y FORMAS CONTINUAS",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2921030",
+        "text": "FABRICACION DE LIBRETAS CUADERNOS Y HOJAS PARA ENC",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2921056",
+        "text": "IMPRENTA ( TIPOGRAFIA )",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2921064",
+        "text": "IMPRESION MEDIANTE CILINDROS DE CAUCHO",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2921072",
+        "text": "IMPRESION MEDIANTE CILINDROS (ROTOGRABADO)",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2929018",
+        "text": "FABRICACION DE CALCOMANIAS",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3992014",
+        "text": "FABRICACION DE ARTICULOS PARA ESCRITORIO",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3992048",
+        "text": "FABRICACION DE LAPICES",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3992056",
+        "text": "FABRICACION DE PIZARRONES",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3993012",
+        "text": "FABRICACION DE SELLOS DE GOMA",
+        "idIndustry": "292B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2211019",
+        "text": "DESECADO DE TABACO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2212017",
+        "text": "FABRICACION DE CIGARROS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2219013",
+        "text": "FABRICACION DE PUROS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2219021",
+        "text": "PICADO DE TABACO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2333011",
+        "text": "FABRICACION DE ARTICULOS DE PALMA Y TULE",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2394021",
+        "text": "FABRICACION DE BORRAS Y ESTOPAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2432029",
+        "text": "FABRICACION DE TAPICES PLASTICOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2439025",
+        "text": "FABRICACION DE COSTALES",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2521020",
+        "text": "PREPARACION DE VISCERAS PARA INDUSTRIAS NO ALIMENT",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529016",
+        "text": "FABRICACION DE CEPILLOS Y PLUMEROS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529082",
+        "text": "FABRICACION DE BROCHAS Y PINCELES",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2612019",
+        "text": "FABRICACION DE TRIPLAY Y OTROS AGLOMERADOS DE MADE",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2621010",
+        "text": "FABRICACION DE CAJAS Y EMPAQUES DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2621028",
+        "text": "FABRICACION DE TONELES Y BARRICAS DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2622018",
+        "text": "FABRICACION DE ARTICULOS DE PALMA VARA CARRIZO MIM",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2631019",
+        "text": "FABRICACION DE ATAUDES DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2633015",
+        "text": "FABRICACION DE DUELAS Y OTROS MATERIALES DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2633023",
+        "text": "FABRICACION DE PUERTAS Y VENTANAS DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2639013",
+        "text": "FABRICACION DE CARROCERIAS Y REDILAS DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2639021",
+        "text": "FABRICACION DE MANGOS DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2639039",
+        "text": "FABRICACION DE OTROS ARTICULOS DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2711019",
+        "text": "FABRICACION DE MUEBLES DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2712017",
+        "text": "FABRICACION DE PERSIANAS DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2713023",
+        "text": "FABRICACION DE COLCHONES Y COLCHONETAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2719013",
+        "text": "FABRICACION DE MARCOS Y MOLDURAS DE MADERA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2811017",
+        "text": "FABRICACION DE PAPEL",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2811025",
+        "text": "FABRICACION DE PAPEL PARA CIGARROS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2811033",
+        "text": "FABRICACION DE PASTA DE CELULOSA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2811041",
+        "text": "FABRICACION DE PASTA O PULPA PARA PAPEL",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2812015",
+        "text": "FABRICACION DE CARTON",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2821016",
+        "text": "FABRICACION DE SACOS Y BOLSAS DE PAPEL PARA ENVASE",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2822014",
+        "text": "FABRICACION DE ENVASES DE CARTON",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2829010",
+        "text": "FABRICACION DE OTROS ARTICULOS DE CARTON",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "2829028",
+        "text": "FABRICACION DE OTROS ARTICULOS DE PAPEL",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3072014",
+        "text": "FABRICACION Y REFINACION DE SEBO GRASAS Y ACEITES",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3072022",
+        "text": "FUNDICION DE SEBO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3072030",
+        "text": "HIDROGENADORA DE PRODUCTOS DIVERSOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3219020",
+        "text": "FABRICACION DE LINOLEO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3222015",
+        "text": "FABRICACION DE ARTICULOS DE POLIETILENO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3222023",
+        "text": "FABRICACION DE CELULOIDE Y POLIETILENO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3229011",
+        "text": "FABRICACION DE ARTICULOS DE CELULOIDE",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3229061",
+        "text": "FABRICACION DE PEINES PEINETAS Y CEPILLOS PARA USO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3319036",
+        "text": "FABRICACION DE LOZA Y PORCELANA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3321015",
+        "text": "FABRICACION DE VIDRIO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3323011",
+        "text": "FABRICACION DE AMPOLLETAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3323029",
+        "text": "FABRICACION DE BOTELLAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3323037",
+        "text": "FABRICACION DE CRISOLES",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3323045",
+        "text": "FABRICACION DE OTROS ENVASES DE VIDRIO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3324027",
+        "text": "FABRICACION DE ESPEJOS Y LUNAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3329019",
+        "text": "FABRICACION DE ESFERAS DE VIDRIO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3329027",
+        "text": "FABRICACION DE OBJETOS ARTISTICOS DE VIDRIO Y CRIS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3329035",
+        "text": "FABRICACION DE OTROS OBJETOS DE CRISTAL",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3332020",
+        "text": "FABRICACION DE PRODUCTOS REFRACTARIOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3352036",
+        "text": "FABRICACION DE LIJA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3423027",
+        "text": "FABRICACION DE EQUIPOS PARA SOLDAR Y SOLDADURAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3429017",
+        "text": "FUNDICION DE METALES NO FERRUGINOSOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3521029",
+        "text": "FABRICACION DE ESTUFAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3531028",
+        "text": "FABRICACION DE TANQUES PARA ENVASADO DE GASES O LI",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3532026",
+        "text": "FABRICACION DE CALENTADORES PARA BAÐO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3721017",
+        "text": "FABRICACION DE RADIOS TOCADISCOS GRABADORAS Y TELE",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3722015",
+        "text": "FABRICACION DE DISCOS Y CINTAS PARA GRABACIONES",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3723013",
+        "text": "FABRICACION DE APARATOS DE INTERCOMUNICACION",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3729011",
+        "text": "FABRICACION DE PARTES DISPOSITIVOS Y ACCESORIOS PA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3731024",
+        "text": "FABRICACION DE REFRIGERADORES Y EQUIPOS DE CALEFAC",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3791028",
+        "text": "FABRICACION DE PILAS SECAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3792018",
+        "text": "FABRICACION DE FOCOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3793024",
+        "text": "FABRICACION DE MATERIAL PARA INSTALACIONES ELECTRI",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3799014",
+        "text": "FABRICACION DE ANUNCIOS LUMINOSOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3799030",
+        "text": "FABRICACION DE LAMPARAS ELECTRICAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3813012",
+        "text": "FABRICACION DE PISTONES BIELAS ANILLOS CIGUEÐALES",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3814010",
+        "text": "FABRICACION DE PARTES PARA EL SISTEMA DE TRANSMISI",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3899012",
+        "text": "FABRICACION DE CARREOLAS Y ANDADERAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3911014",
+        "text": "FABRICACION Y REPARACION DE ARTICULOS DE OPTICA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3912012",
+        "text": "FABRICACION DE CAMARAS FOTOGRAFICAS DE CINE Y PROY",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3912020",
+        "text": "FABRICACION DE MATERIAL FOTOGRAFICO",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3931012",
+        "text": "FABRICACION DE MEDALLAS INSIGNIAS Y PLACAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3941011",
+        "text": "FABRICACION DE CUERDAS PARA GUITARRA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3941029",
+        "text": "FABRICACION Y REPARACION DE INSTRUMENTOS MUSICALES",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3951010",
+        "text": "FABRICACION DE APARATOS PARA GIMNASIA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3951028",
+        "text": "FABRICACION DE MESAS DE BILLAR",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3951036",
+        "text": "FABRICACION DE OTROS ARTICULOS PARA DEPORTES",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3961051",
+        "text": "FABRICACION DE APARATOS OZONIZADORES",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3962017",
+        "text": "FABRICACION Y REPARACION DE APARATOS ORTOPEDICOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3962025",
+        "text": "FABRICACION Y REPARACION DE INSTRUMENTOS DE CIRUGI",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3991016",
+        "text": "FABRICACION DE JUGUETES EXCEPTO LOS DE HULE Y DE P",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3992022",
+        "text": "FABRICACION DE CANUTEROS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3992030",
+        "text": "FABRICACION DE CINTAS PARA MAQUINAS CALCULADORAS R",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3994010",
+        "text": "FABRICACION DE ARTICULOS PARA DENTISTA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3996016",
+        "text": "FABRICACION DE ESCOBAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3997014",
+        "text": "FABRICACION DE ARMAS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3997022",
+        "text": "FABRICACION DE CARTUCHOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3997030",
+        "text": "FABRICACION DE CASQUILLOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3997048",
+        "text": "FABRICACION DE MUNICIONES PARA CAZA",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999060",
+        "text": "FABRICACION DE OTROS ARTICULOS DE PLUMA DE AVE",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999078",
+        "text": "FABRICACION DE ROTULOS",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999086",
+        "text": "FABRICACION DE TALCO INDUSTRIAL",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3999101",
+        "text": "FABRICACION DE PRODUCTOS MANUFACTURADOS NO CLASIFI",
+        "idIndustry": "399",
+        "idRol": "8"
+    }, {
+        "idCRM": "3932036",
+        "text": "TALLADO DE PIEDRAS PRECIOSAS",
+        "idIndustry": "622",
+        "idRol": "22"
+    }, {
+        "idCRM": "8923014",
+        "text": "SERVICIOS DE REPARACION DE RELOJES Y JOYAS",
+        "idIndustry": "622",
+        "idRol": "22"
+    }, {
+        "idCRM": "6225016",
+        "text": "COMPRA VENTA DE ARTICULOS DE PLATA",
+        "idIndustry": "622A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6225024",
+        "text": "COMPRA VENTA DE OTRAS JOYAS",
+        "idIndustry": "622A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6225032",
+        "text": "COMPRA VENTA DE RELOJES",
+        "idIndustry": "622A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6999017",
+        "text": "COMPRA VENTA DE DIAMANTES",
+        "idIndustry": "622A",
+        "idRol": "28"
+    }, {
+        "idCRM": "3921013",
+        "text": "FABRICACION DE RELOJES",
+        "idIndustry": "622B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3932010",
+        "text": "FABRICACION DE ARTICULOS DE JOYERIA",
+        "idIndustry": "622B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3933018",
+        "text": "FABRICACION DE ARTICULOS DE QUINCALLERIA Y BISUTER",
+        "idIndustry": "622B",
+        "idRol": "8"
+    }, {
+        "idCRM": "6221014",
+        "text": "COMPRA VENTA DE ARTICULOS PARA DEPORTE",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6222012",
+        "text": "COMPRA VENTA DE ARTICULOS DE OPTICA",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6223010",
+        "text": "COMPRA VENTA DE JUGUETES",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6224018",
+        "text": "COMPRA VENTA DE INSTRUMENTOS Y ARTICULOS MUSICALES",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6229018",
+        "text": "COMPRA VENTA DE ARTICULOS FOTOGRAFICOS Y CINEMATOG",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6231013",
+        "text": "COMPRA VENTA DE MEDICINAS",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6311013",
+        "text": "COMPRA VENTA DE REFRIGERADORES LAVADORAS Y ESTUFAS",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6311021",
+        "text": "COMPRA VENTA DE TELEVISORES CONSOLAS RADIOS MODULA",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6323018",
+        "text": "COMPRA VENTA DE DISCOS Y CASSETTES",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6324016",
+        "text": "COMPRA VENTA DE ARTICULOS RELIGIOSOS",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6325030",
+        "text": "COMPRA VENTA DE ARTICULOS PARA REGALO",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6325048",
+        "text": "COMPRA VENTA DE ARTICULOS REGIONALES CURIOSIDADES",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6329016",
+        "text": "COMPRA VENTA DE OTROS ARTICULOS PARA EL HOGAR",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6519013",
+        "text": "COMPRA VENTA DE CARBON Y OTROS COMBUSTIBLES",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6619037",
+        "text": "COMPRA VENTA DE OTRAS MATERIAS PRIMAS VEGETALES",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6619045",
+        "text": "COMPRA VENTA DE OTRAS FIBRAS COMERCIALES",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6619053",
+        "text": "COMPRA VENTA DE OTRAS MATERIAS PRIMAS DE ORIGEN AN",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6626032",
+        "text": "COMPRA VENTA DE COSTALES Y BOLSAS",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6628012",
+        "text": "COMPRA VENTA DE MATERIAL PARA INSTALACIONES ELECTR",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6693015",
+        "text": "COMPRA VENTA DE DESPERDICIOS DE PAPEL",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6699021",
+        "text": "COMPRA VENTA DE DESPERDICIOS INDUSTRIALES",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6699039",
+        "text": "COMPRA VENTA DE MATERIAS PRIMAS DE ORIGEN MINERAL",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6732011",
+        "text": "COMPRA VENTA DE ARTICULOS MEDICOS",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6732029",
+        "text": "COMPRA VENTA DE ARTICULOS Y APARATOS ORTOPEDICOS",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6991013",
+        "text": "COMPRA VENTA DE ARMAS DE FUEGO",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6992011",
+        "text": "AGENCIAS DE RIFAS Y SORTEOS (QUINIELAS Y LOTERIA)",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6999033",
+        "text": "COMPRAVENTA DE JARCIERIA REATAS CANASTAS Y ARTICUL",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6999075",
+        "text": "COMPRA VENTA DE VELAS Y VELADORAS",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "6999108",
+        "text": "COMPRA VENTA DE ARTICULOS NO CLASIFICADOS EN OTRA",
+        "idIndustry": "632",
+        "idRol": "28"
+    }, {
+        "idCRM": "3699024",
+        "text": "TALLER MECANICO DE FABRICACION Y REPARACION DE PAR",
+        "idIndustry": "641",
+        "idRol": "22"
+    }, {
+        "idCRM": "8427016",
+        "text": "SERVICIOS DE INSTALACION Y MANTENIMIENTO DE MAQUIN",
+        "idIndustry": "641",
+        "idRol": "22"
+    }, {
+        "idCRM": "8922024",
+        "text": "TALLER DE REPARACION DE ARTICULOS ELECTRICOS Y ELE",
+        "idIndustry": "641",
+        "idRol": "22"
+    }, {
+        "idCRM": "6311039",
+        "text": "COMPRAVENTA DE OTROS APARATOS ELECTRICOS Y ELECTRO",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6313019",
+        "text": "COMPRA VENTA DE MAQUINAS DE COSER Y TEJEDORAS",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6314017",
+        "text": "COMPRA VENTA DE REFACCIONES Y ACCESORIOS DE MAQUIN",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6419015",
+        "text": "COMPRA VENTA DE OTROS APARATOS ELECTRICOS",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6419023",
+        "text": "COMPRA VENTA DE REFACCIONES PARA APARATOS ELECTRIC",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6711015",
+        "text": "COMPRA VENTA DE MAQUINARIA EQUIPO E IMPLEMENTOS PA",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6712013",
+        "text": "COMPRA VENTA DE ARTICULOS PARA LA EXPLOTACION DE M",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6713011",
+        "text": "COMPRAVENTA MAQ, EQ, IMPLEM Y HERRAM PARA TRABAJAR",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6714019",
+        "text": "COMPRA VENTA DE MAQUINARIA NUEVA",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6714027",
+        "text": "COMPRA VENTA DE MAQUINARIA USADA",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6714035",
+        "text": "COMPRA VENTA DE EQUIPO DE TRABAJO Y PROTECCION IND",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6719019",
+        "text": "COMPRA VENTA DE REFACCIONES PARA MAQUINARIA",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6721014",
+        "text": "COMPRA VENTA DE MAQUINAS DE ESCRIBIR",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6721036",
+        "text": "COMPRA VENTA EQUIPO DE PROCE. ELECTRONICO DE DATOS",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6729018",
+        "text": "COMPRA VENTA DE EQUIPOS DE REFRIGERACION COMERCIAL",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6729034",
+        "text": "COMPRA VENTA DE EQUIPO CONTRA INCENDIO",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6731013",
+        "text": "COMPRA VENTA DE BASCULAS BALANZAS Y APARATOS SIMIL",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6732045",
+        "text": "COMPRAVENTA DE EQUIPOS QUIMICOS Y PARA LABORATORIO",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6739017",
+        "text": "COMPRA VENTA DE APARATOS CIENTIFICOS Y DE PRECISIO",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6999025",
+        "text": "COMPRA VENTA DE EQUIPOS Y APARATOS DE AIRE ACONDIC",
+        "idIndustry": "641A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2929026",
+        "text": "FABRICACION DE TIPOS PARA IMPRENTA",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3352028",
+        "text": "FABRICACION DE ESMERILES",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3512010",
+        "text": "FABRICACION DE UTENSILIOS AGRICOLAS Y HERRAMIENTAS",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599117",
+        "text": "FABRICACION DE PLANCHAS INDUSTRIALES",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599133",
+        "text": "FABRICACION DE TROQUELES",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3611028",
+        "text": "FABRICACION DE MAQUINARIA E IMPLEMENTOS AGRICOLAS",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3621019",
+        "text": "FABRICACION DE HERRAMIENTAS DE METAL",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3621027",
+        "text": "FABRICACION DE REFACCIONES Y MAQUINARIA INDUSTRIAL",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3631018",
+        "text": "FABRICACION ENSAMBLE Y REPARACION DE MAQUINARIA Y",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3632016",
+        "text": "FABRICACION ENSAMBLE Y REPARACION DE MAQUINARIA EQ",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3639012",
+        "text": "FABRICACION DE MOLINOS PARA GRANOS",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3641017",
+        "text": "FABRICACION DE MAQUINAS CALCULADORAS REGISTRADORAS",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3641025",
+        "text": "FAB. DE EQ. DE PROCES. ELECTR. DE DATOS",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3691012",
+        "text": "FABRICACION DE MAQUINAS DE COSER",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3692010",
+        "text": "FABRICACION ENSAMBLE Y REPARACION DE GRUAS MONTACA",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3693018",
+        "text": "FABRICACION ENSAMBLE Y REPARACION DE MOTORES NO EL",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3694016",
+        "text": "FABRICACION DE EXTINGUIDORES",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3694024",
+        "text": "FABRICACION DE BOMBAS PARA AGUA",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3695014",
+        "text": "FABRICACION DE VALVULAS DE METAL",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3696012",
+        "text": "FABRICACION DE FILTROS DE METAL",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3697010",
+        "text": "FABRICACION E INSTALACION DE EQUIPOS Y APARATOS DE",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3699016",
+        "text": "FABRICACION DE ENGRANES DE METAL",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3699032",
+        "text": "FABRICACION DE ACCESORIOS PARA LA INDUSTRIA TEXTIL",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3711018",
+        "text": "FABRICACION ENSAMBLE Y REPARACION DE TRANSFORMADOR",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3731016",
+        "text": "FABRICACION DE OTROS APARATOS ELECTRICOS PARA EL H",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3793032",
+        "text": "FABRICACION DE REFACCIONES PARA APARATOS ELECTRICO",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3961019",
+        "text": "FABRICACION DE OTROS INSTRUMENTOS DE MEDICION",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3961027",
+        "text": "FABRICACION Y REPARACION DE BASCULAS Y BALANZAS",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3961035",
+        "text": "FABRICACION Y REPARACION DE INTRUMENTOS DE FISICA",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3961043",
+        "text": "FABRICACION Y REPARACION DE INSTRUMENTOS DE INGENI",
+        "idIndustry": "641B",
+        "idRol": "8"
+    }, {
+        "idCRM": "6214019",
+        "text": "COMPRA VENTA DE PIELES FINAS CON PELO",
+        "idIndustry": "661",
+        "idRol": "28"
+    }, {
+        "idCRM": "6226014",
+        "text": "COMPRA VENTA DE ARTICULOS DE TALABARTERIA",
+        "idIndustry": "661",
+        "idRol": "28"
+    }, {
+        "idCRM": "6226022",
+        "text": "COMPRA VENTA DE OTROS ARTICULOS DE PIEL",
+        "idIndustry": "661",
+        "idRol": "28"
+    }, {
+        "idCRM": "6226030",
+        "text": "COMPRA VENTA DE SILLAS DE MONTAR",
+        "idIndustry": "661",
+        "idRol": "28"
+    }, {
+        "idCRM": "6613013",
+        "text": "COMPRA VENTA DE CUEROS Y PIELES SIN CURTIR",
+        "idIndustry": "661",
+        "idRol": "28"
+    }, {
+        "idCRM": "2419069",
+        "text": "FABRICACION DE ROPA CON PIEL",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2519017",
+        "text": "FABRICACION DE CALZADO DE CUERO O PIEL",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2521012",
+        "text": "CURTIDURIA",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529024",
+        "text": "FABRICACION DE ARTICULOS DE CUERO PARA VIAJE",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529032",
+        "text": "FABRICACION DE ARTICULOS DE CUERO Y HUESO",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529040",
+        "text": "FABRICACION DE ARTICULOS DE CUERO Y PIEL PARA ZAPA",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529058",
+        "text": "FABRICACION DE ARTICULOS TEJIDOS DE CUERO",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529066",
+        "text": "FABRICACION DE BANDAS Y CORREAS DE CUERO",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529074",
+        "text": "FABRICACION DE BOLSAS Y CARTERAS DE CUERO",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529090",
+        "text": "FABRICACION DE FORNITURAS MILITARES DE CUERO",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529107",
+        "text": "FABRICACION DE OTROS ARTICULOS DE CUERO",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2529115",
+        "text": "TALABARTERIA",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3229079",
+        "text": "FABRICACION DE PIELES ARTIFICIALES",
+        "idIndustry": "661A",
+        "idRol": "8"
+    }, {
+        "idCRM": "6692017",
+        "text": "COMPRA VENTA DE ARTICULOS DE PELETERIA",
+        "idIndustry": "669",
+        "idRol": "28"
+    }, {
+        "idCRM": "4111035",
+        "text": "PRESTAMOS PARA LA CONSTRUCCION DE VIVIENDA, TANTO",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "4111043",
+        "text": "PRESTAMOS PARA LA CONSTRUCCION DE VIVIENDA PARA AC",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "6911011",
+        "text": "PRESTAMOS PARA LA ADQUISISION DE VIVIENDA PARA ACR",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "6911037",
+        "text": "PRESTAMOS PARA LA ADQUISICION DE VIVIENDA TANTO DE",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "6911061",
+        "text": "ACTUALIZACION MENSUAL DEL SALDO OPERACIONES DE CRE",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "6999083",
+        "text": "CREDITOS PERSONALES AL CONSUMO",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "6999091",
+        "text": "PRESTAMOS AL PERSONAL DE LA INSTITUCION",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "6999124",
+        "text": "CREDITOS PARA ADQUISICION DE BIENES DE CONSUMO DUR",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "6999992",
+        "text": "CENTROS CAMBIARIOS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8113011",
+        "text": "SERVICIOS DE LA BANCA NACIONAL",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8113029",
+        "text": "SERVICIOS DE LA BANCA NACIONAL POR OPERACIONES DE",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8114019",
+        "text": "SERVICIOS DE FONDOS Y FIDEICOMISOS DE FOMENTO ECON",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8123010",
+        "text": "SERVICIOS DE LA BANCA PRIVADA Y MIXTA MULTIPLE",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8123028",
+        "text": "SERVICIOS DE LA BANCA PRIVADA ESPECIALIZADA",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8123036",
+        "text": "SERVICIOS DE LA BANCA PRIVADA Y MIXTA MULTIPLE POR",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8123044",
+        "text": "SERVICIOS DE LA BANCA PRIVADA ESPECIALIZADA POR OP",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8123052",
+        "text": "SOCIEDADES DE AHORRO Y PRESTAMO",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8123060",
+        "text": "SOCIEDADES DE AHORRO Y CREDITO POPULAR",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8123078",
+        "text": "SOCIEDADES FINANCIERAS DE OBJETO LIMITADO",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8123086",
+        "text": "SOCIEDADES FINANCIERAS DE OBJETO MILTIPLE REGULADA",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8123094",
+        "text": "SOCIEDADES FINANCIERAS DE OBJETO MILTIPLE NO REGUL",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8131013",
+        "text": "ALMACENES DE DEPOSITO NACIONALES",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8131021",
+        "text": "ALMACENES DE DEPOSITO PRIVADOS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8132011",
+        "text": "UNIONES DE CREDITO NACIONALES",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8132029",
+        "text": "UNIONES DE CREDITO PRIVADAS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8133019",
+        "text": "COMPAÑIAS DE FIANZAS NACIONALES",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8133027",
+        "text": "COMPAÐIAS DE FIANZAS PRIVADAS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8133035",
+        "text": "AJ. INT. FINANCIEROS NO BANCARIOS UDIS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8141012",
+        "text": "BOLSA DE VALORES",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8142010",
+        "text": "SOCIEDADES DE INVERSION",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8151011",
+        "text": "COMPAÐIAS DE SEGUROS NACIONALES",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8151029",
+        "text": "COMPAÐIAS DE SEGUROS PRIVADAS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8211013",
+        "text": "INVERSIONISTA",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8211021",
+        "text": "AGENTE DE BOLSA",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8211039",
+        "text": "BOLSA DE VALORES",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8211047",
+        "text": "CASAS DE BOLSA PRIVADAS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219017",
+        "text": "AGENTE DE SEGUROS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219025",
+        "text": "CASA DE CAMBIO",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219033",
+        "text": "CORRESPONSAL BANCARIO",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219041",
+        "text": "CAJA DE AHORROS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219059",
+        "text": "MONTEPIO",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219067",
+        "text": "PRESTAMISTA",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219075",
+        "text": "FACTORING",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219083",
+        "text": "EMPRESAS CONTROLADORAS FINANCIERAS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219114",
+        "text": "ADMINISTRADORAS DE TARJETAS DE CREDITO",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219122",
+        "text": "EMPRESAS DE AUTOFINANCIAMIENTO AUTOMOTRIZ",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8219130",
+        "text": "EMPRESAS DE AUTOFINANCIAMIENTO RESIDENCIAL",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8220014",
+        "text": "FOBAPROA-IPAB",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8429046",
+        "text": "EMPRESAS TRANSPORTADORAS DE VALORES",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8511025",
+        "text": "ARRENDADORAS FINANCIERAS NACIONALES",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "8511033",
+        "text": "ARRENDADORAS FINANCIERAS PRIVADAS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "9311044",
+        "text": "SOCIEDADES COOPERATIVAS",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "9911018",
+        "text": "INSTITUCIONES FINANCIERAS DEL EXTRANJERO",
+        "idIndustry": "691",
+        "idRol": "22"
+    }, {
+        "idCRM": "6999041",
+        "text": "COMPRA VENTA DE OTROS ARTICULOS DE PLASTICO",
+        "idIndustry": "699",
+        "idRol": "28"
+    }, {
+        "idCRM": "6999067",
+        "text": "COMPRAVENTA DE OTROS PRODUCTOS DE HULE",
+        "idIndustry": "699",
+        "idRol": "28"
+    }, {
+        "idCRM": "3212016",
+        "text": "REGENERACION DE HULE",
+        "idIndustry": "699A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3219012",
+        "text": "FABRICACION DE ARTICULOS CON HULE USADO",
+        "idIndustry": "699A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3219038",
+        "text": "FABRICACION DE OTROS ARTICULOS DE HULE",
+        "idIndustry": "699A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3223021",
+        "text": "FABRICACION DE OTROS JUGUETES DE PLASTICO",
+        "idIndustry": "699A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3229029",
+        "text": "FABRICACION DE BALONES GLOBOS Y PELOTAS",
+        "idIndustry": "699A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3229037",
+        "text": "FABRICACION DE BOTONES DE PLASTICO",
+        "idIndustry": "699A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3229045",
+        "text": "FABRICACION DE OTROS ARTICULOS DE PLASTICO",
+        "idIndustry": "699A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3229053",
+        "text": "FABRICACION DE OTROS MATERIALES DE PLASTICO",
+        "idIndustry": "699A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3099042",
+        "text": "INDUSTRIALIZACION DE BASURA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "3999119",
+        "text": "AJUSTE PROGRAMA VENTA DE CARTERA FOBAPROA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "3999127",
+        "text": "AJUSTE ESTADISTICO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "4219011",
+        "text": "IMPERMEABILIZACION DE INMUEBLES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "5011010",
+        "text": "GENERACION Y SUMINISTRO DE ENERGIA ELECTRICA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "5012018",
+        "text": "DISTRIBUCION DE ENERGIA ELECTRICA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "5111018",
+        "text": "CAPTACION, TRATAMIENTO, CONDUCCION Y DISTRIBUCION",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7122013",
+        "text": "AGENCIA DE MUDANZAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7129019",
+        "text": "TRANSPORTE DE CARGA FORANEA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7191018",
+        "text": "TRANSPORTE POR DUCTOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7211014",
+        "text": "AGENCIA DE VAPORES Y BUQUES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7299010",
+        "text": "CARGA Y ESTIBA PORTUARIA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7312010",
+        "text": "SERVICIOS RELACIONADOS CON EL TRANSPORTE EN AERONA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7411010",
+        "text": "ADMINISTRACION DE CAMINOS PUENTES Y SERVICIOS AUXI",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7412018",
+        "text": "AEROPUERTO CIVIL",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7413016",
+        "text": "ADMINISTRACION DE PUERTOS MARITIMOS LACUSTRES Y FL",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7414014",
+        "text": "ADMINISTRACION DE CENTRALES CAMIONERAS Y SERVICIOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7511018",
+        "text": "SERVICIOS DE ALMACENAMIENTO Y REFRIGERACION",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7512016",
+        "text": "AGENCIA DE TURISMO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7513014",
+        "text": "AGENCIA ADUANAL",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7514012",
+        "text": "SERVICIOS DE BASCULA Y DE GRUA PARA VEHICULOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7519012",
+        "text": "AGENCIA DE FERROCARRIL",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7611016",
+        "text": "EMPRESA DE TELEFONOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7612014",
+        "text": "EMPRESA DE TELEGRAFOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7613012",
+        "text": "OTROS SERVS. DE TELECOMUNICACIONES (EXCEPTO RADIO.",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "7614010",
+        "text": "SERVICIOS POSTALES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8411019",
+        "text": "SERVICIOS DE NOTARIAS PUBLICAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8412017",
+        "text": "SERVICIOS DE BUFETES JURIDICOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8413015",
+        "text": "SERVICIOS DE CONTADURIA Y AUDITORIA INCLUSO TENED",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8414013",
+        "text": "SERVICIOS DE ASESORIA Y ESTUDIOS TECNICOS DE ARQUI",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8415011",
+        "text": "DESPACHO DE OTROS PROFESIONISTAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8419013",
+        "text": "SERVICIO DE INVESTIGACION DE MERCADO, SOLVENCIA FI",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8421018",
+        "text": "SERVICIOS DE ANALISIS DE SISTEMAS Y PROCESAMIENTO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8422016",
+        "text": "AGENCIA DE PUBLICIDAD",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8423014",
+        "text": "AGENCIA NOTICIOSA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8424012",
+        "text": "SERVICIOS ADMINISTRATIVOS DE TRAMITE Y COBRANZA IN",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8426018",
+        "text": "COMISIONISTA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8426026",
+        "text": "REPRESENTACION DE ARTISTAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8426034",
+        "text": "REPRESENTANTE CASAS EXTRANJERAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8426042",
+        "text": "REPRESENTANTE CASAS NACIONALES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8428014",
+        "text": "SERVICIOS DE AGENCIAS DE COLOCACION Y SELECCION DE",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8429012",
+        "text": "PRESTACION DE OTROS SERVICIOS TECNICOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8429020",
+        "text": "EMPRESAS CONTROLADORAS NO FINANCIERAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8429038",
+        "text": "EMPRESAS DE SEGURIDAD PRIVADA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8512015",
+        "text": "ARRENDAMIENTO DE EQUIPO PARA PROCESAMIENTO ELECTRO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8521016",
+        "text": "SALON DE FIESTAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8611015",
+        "text": "HOTEL",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8612013",
+        "text": "SERVICIOS DE ALOJAMIENTO EN MOTELES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8613011",
+        "text": "CAMPOS DE TURISMO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8619019",
+        "text": "CASA DE HUESPEDES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8811011",
+        "text": "SERVICIOS EN BALNEARIOS Y ALBERCAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8812019",
+        "text": "SALON DE BILLAR",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8812027",
+        "text": "SALON DE BOLICHE",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8813017",
+        "text": "CLUB SOCIAL",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8814015",
+        "text": "CENTRO DEPORTIVO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8819015",
+        "text": "SERVICIOS Y EXPLOTACION DE PLAYAS Y PARQUES DE DES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8821010",
+        "text": "ESTUDIOS CINEMATOGRAFICOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8821028",
+        "text": "GRABACION DE SONIDO EN PELICULAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8821036",
+        "text": "LABORATORIOS CINEMATOGRAFICOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8823016",
+        "text": "SALA DE CINE",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8824014",
+        "text": "RADIODIFUSORA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8825012",
+        "text": "TELEDIFUSORA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8826010",
+        "text": "TEATRO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8827018",
+        "text": "ACTIVIDADES DE CLUBES DEPORTIVOS PROFESIONALES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8829014",
+        "text": "ESTADIOS Y ARENAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8829022",
+        "text": "HIPODROMO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8829030",
+        "text": "PLAZA DE TOROS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8829048",
+        "text": "PROMOCION DE ESPECTACULOS DEPORTIVOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8829056",
+        "text": "PROMOCION DE ESPECTACULOS TAURINOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8831019",
+        "text": "CENTRO NOCTURNO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8832017",
+        "text": "GALERIAS DE ARTES GRAFICAS Y MUSEOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8833015",
+        "text": "FEDERACIONES Y ASOCIACIONES DEPORTIVAS Y OTRAS CON",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8839013",
+        "text": "JUEGOS DE FERIA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8916019",
+        "text": "ESTACIONAMIENTO PRIVADO PARA VEHICULOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8916027",
+        "text": "ESTACIONAMIENTO PUBLICO PARA VEHICULOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8922016",
+        "text": "TALLER DE REPARACION DE APARATOS ELECTRICOS Y ELEC",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8929012",
+        "text": "TALLER DE REPARACION DE PARAGUAS Y SOMBRILLAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8931017",
+        "text": "BAÑOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8932015",
+        "text": "BARBERIA Y PELUQUERIA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8933013",
+        "text": "SALON DE BELLEZA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8934011",
+        "text": "LAVANDERIA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8934029",
+        "text": "TINTORERIA Y PLANCHADURIA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8935019",
+        "text": "EMPRESA DE SERVICIO DE LIMPIEZA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8936017",
+        "text": "SERVICIOS DE FUMIGACION, DESINFECCION Y CONTROL DE",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8939011",
+        "text": "SERVICIOS DE BOLERIAS, MASAJISTAS, SANITARIOS PUBL",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8943012",
+        "text": "AGENCIA DE INHUMACIONES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8944010",
+        "text": "PANTEON",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8944098",
+        "text": "EMPLEADO PRIVADO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8949010",
+        "text": "TAXIDERMISTA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "8991011",
+        "text": "QUEHACERES DEL HOGAR",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9112012",
+        "text": "SERVICIOS DE ENSEÐANZA PREPRIMARIA Y PRIMARIA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9113010",
+        "text": "SERVICIOS DE ENSEÐANZA SECUNDARIA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9115016",
+        "text": "ESTABLECIMIENTOS PUBLICOS DE INSTRUCCION, EDUCACIO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9119018",
+        "text": "ESTABLECIMIENTOS PRIVADOS DE INSTRUCCION EDUCACION",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9121013",
+        "text": "SERVICIOS DE ENSEÐANZA COMERCIAL Y DE IDIOMA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9122011",
+        "text": "SERVICIOS DE CAPACITACION TECNICA DE OFICIOS Y ART",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9129017",
+        "text": "SERVICIOS DE ENSEÐANZA DE MUSICA DANZA Y OTRAS ART",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9191016",
+        "text": "SERVICIOS DE INVESTIGACION CIENTIFICA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9199010",
+        "text": "SERVICIOS DE BIBLIOTECAS MUSEOS JARDINES BOTANICOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9211012",
+        "text": "HOSPITALES, SANATORIOS, CLINICAS Y MATERNIDADES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9212010",
+        "text": "SERVICIOS MEDICO GENERAL Y ESPECIALIZADO EN CONSUL",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9213018",
+        "text": "SERVICIOS DE CONSULTORIOS Y CLINICAS DENTALES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9214016",
+        "text": "LABORATORIOS DE ANALISIS CLINICOS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9215014",
+        "text": "SERVICIOS DE LABORATORIOS DE RADIOLOGIA Y RADIOSCO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9219016",
+        "text": "SERVICIOS DE FISIOTERAPIA, BANCOS DE SANGRE Y OTRO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9221011",
+        "text": "CENTRO DE BENEFICENCIA",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9231010",
+        "text": "SERVICIOS VETERINARIOS EN CLINICAS Y CONSULTORIOS,",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9311010",
+        "text": "ASOCIACIONES Y CONFEDERACIONES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9311028",
+        "text": "CAMARAS DE COMERCIO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9311036",
+        "text": "CAMARAS INDUSTRIALES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9312018",
+        "text": "ORGANIZACIONES DE ABOGADOS MEDICOS INGENIEROS Y OT",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9319014",
+        "text": "ORGANIZACIONES CIVICAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9321019",
+        "text": "ORGANIZACIONES LABORALES Y SINDICALES",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9322017",
+        "text": "ORGANIZACIONES POLITICAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9331018",
+        "text": "ORGANIZACIONES RELIGIOSAS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9912016",
+        "text": "CONSULADO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9912024",
+        "text": "GOBIERNO EXTRANJERO",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "9919012",
+        "text": "SERVICIOS DE OFICINAS Y REPRESENTACIONES DE OTROS",
+        "idIndustry": "741",
+        "idRol": "22"
+    }, {
+        "idCRM": "3722023",
+        "text": "GRABACION DE DISCOS Y CINTAS",
+        "idIndustry": "741A",
+        "idRol": "8"
+    }, {
+        "idCRM": "8821044",
+        "text": "PRODUCCION DE PELICULAS",
+        "idIndustry": "741A",
+        "idRol": "8"
+    }, {
+        "idCRM": "8941016",
+        "text": "ESTUDIO FOTOGRAFICO",
+        "idIndustry": "741A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2012011",
+        "text": "EMPACADORA DE CONSERVAS ALIMENTICIAS",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2027010",
+        "text": "EMPACADORA DE TE",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2049014",
+        "text": "EMPACADORA DE CARNE",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2049030",
+        "text": "REFRIGERACION DE CARNES",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2051027",
+        "text": "PASTEURIZACION HOMOGENEIZACION Y ENVASADO DE LECHE",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2061018",
+        "text": "CONGELADORA DE PRODUCTOS MARINOS",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2061026",
+        "text": "EMPACADORA DE OTROS MARISCOS",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2061034",
+        "text": "EMPACADORA DE PESCADO",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2099019",
+        "text": "EMPACADORA DE ESPECIAS",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2131019",
+        "text": "EMBOTELLADO DE AGUAS MINERALES",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "8711013",
+        "text": "CAFETERIA",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "8711021",
+        "text": "RESTAURANTE",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "8712011",
+        "text": "SERVICIOS DE ALIMENTOS Y BEBIDAS EN LONCHERIAS TAQUERIAS Y T",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "8713019",
+        "text": "SERVICIOS EN OSTIONERIAS Y PREPARACION DE OTROS MA",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "8714017",
+        "text": "NEVERIA Y REFRESQUERIA",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "8719017",
+        "text": "SERVICIOS EN MERENDEROS CENADURIAS Y PREPARACION D",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "8721012",
+        "text": "BARES Y CANTINAS",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "8722010",
+        "text": "CERVECERIA",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "8723018",
+        "text": "SERVICIOS EN PULQUERIAS",
+        "idIndustry": "809",
+        "idRol": "22"
+    }, {
+        "idCRM": "2025014",
+        "text": "BENEFICIO DE CAFE EXCEPTO MOLIENDA Y TOSTADO",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2028018",
+        "text": "BENEFICIO DE ARROZ EXCEPTO MOLIENDA",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6111017",
+        "text": "COMPRA VENTA DE SEMILLAS Y GRANOS",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6112015",
+        "text": "COMPRA VENTA DE FRUTAS",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6112023",
+        "text": "COMPRA VENTA DE LEGUMBRES Y HORTALIZAS",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6113013",
+        "text": "COMPRA VENTA DE CHILE SECO Y ESPECIAS",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6122014",
+        "text": "COMPRA VENTA DE CARNE DE RES Y OTRAS ESPECIES DE G",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6123012",
+        "text": "COMPRA VENTA DE VISCERAS DE GANADO CRUDAS Y SEMICR",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6124010",
+        "text": "COMPRA VENTA DE CARNE DE AVES",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6125018",
+        "text": "COMPRA VENTA DE HUEVO",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6126016",
+        "text": "COMPRA VENTA DE MANTECA",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6131015",
+        "text": "SALCHICHONERIA",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6131023",
+        "text": "TIENDA DE ABARROTES Y MISCELANEA",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6132013",
+        "text": "COMPRA VENTA DE DULCES",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6132021",
+        "text": "COMPRA VENTA DE ESPECIAS Y ARTICULOS ALIMENTICOS D",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6132039",
+        "text": "COMPRA VENTA DE LECHE",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6132047",
+        "text": "COMPRA VENTA DE OTROS PRODUCTOS LACTEOS",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6132055",
+        "text": "COMPRA VENTA DE PAN Y PASTELES",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6132063",
+        "text": "COMPRA VENTA DE SAL",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6132071",
+        "text": "VENTA Y DISTRIBUCION DE DESPENSAS FAMILIARES",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6132089",
+        "text": "COMPRA VENTA DE AZUCAR",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6134019",
+        "text": "COMPRA VENTA DE REFRESCOS AGUAS GASEOSAS Y AGUAS P",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6135017",
+        "text": "COMPRA VENTA DE CERVEZA",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6136015",
+        "text": "COMPRA VENTA DE PULQUE",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6136023",
+        "text": "COMPRA VENTA DE VINOS Y LICORES",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6139019",
+        "text": "COMPRA VENTA DE TABACO",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6139027",
+        "text": "COMPRA VENTA DE TABACOS PUROS Y CIGARROS",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6411011",
+        "text": "TIENDA DE AUTOSERVICIO",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6412019",
+        "text": "TIENDAS DE DEPARTAMENTOS ESPECIALIZADOS EXCEPTO DE",
+        "idIndustry": "809A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2011013",
+        "text": "DESHIDRATACION DE FRUTAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2012029",
+        "text": "EMPACADORA DE FRUTAS Y LEGUMBRES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2012037",
+        "text": "FABRICACION DE CONCENTRADOS DE FRUTAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2012045",
+        "text": "FABRICACION DE ENCURTIDOS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2013019",
+        "text": "FABRICACION DE ATES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2013027",
+        "text": "FABRICACION DE QUESO Y MIEL DE TUNA",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2014017",
+        "text": "FABRICACION DE SALSAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2028026",
+        "text": "DESCASCARADO Y TOSTADO DE CACAHUATE Y NUEZ",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2028034",
+        "text": "DESCASCARADORA Y TOSTADORA DE SEMILLA DE CALABAZA",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2031011",
+        "text": "FABRICACION DE MARQUETAS Y ESTUCHADOS DE AZUCAR",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2032019",
+        "text": "FABRICACION DE PILONCILLO",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2049022",
+        "text": "FABRICACION DE CARNES FRIAS Y EMBUTIDOS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2051019",
+        "text": "FABRICACION Y REHIDRATACION DE LECHE",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2052017",
+        "text": "FABRICACION DE CREMA MANTEQUILLA Y QUESO",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2053015",
+        "text": "FABRICACION DE LECHE CONDENSADA EVAPORADA Y PULVER",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2054013",
+        "text": "FABRICACION DE GELATINAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2054021",
+        "text": "FABRICACION DE GRENETINA",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2059013",
+        "text": "FABRICACION DE CAJETAS YOGOURTS Y OTROS PRODUCTOS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2071017",
+        "text": "FABRICACION DE PAN Y PASTELES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2072015",
+        "text": "FABRICACION DE CONOS PARA NIEVE",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2072023",
+        "text": "FABRICACION DE GALLETAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2072031",
+        "text": "FABRICACION DE PASTAS ALIMENTICIAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2081016",
+        "text": "FABRICACION DE CHOCOLATES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2082014",
+        "text": "FABRICACION DE DULCES BOMBONES Y CONFITES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2083012",
+        "text": "FABRICACION DE GOMA DE MASCAR",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2084010",
+        "text": "TRATAMIENTO Y ENVASE DE MIEL DE ABEJA",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2089010",
+        "text": "FABRICACION DE JARABES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2091015",
+        "text": "FABRICACION DE ACEITES VEGETALES COMESTIBLES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2091023",
+        "text": "FABRICACION DE MANTECAS VEGETALES COMESTIBLES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2092021",
+        "text": "FABRICACION DE LEVADURAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2093011",
+        "text": "TORTILLERIA",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2094019",
+        "text": "FABRICACION DE FRITURAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2094027",
+        "text": "FABRICACION DE OTROS PREPARADOS ALIMENTICIOS DERIV",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2095017",
+        "text": "FABRICACION DE VINAGRE",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2095025",
+        "text": "REFINACION DE SAL",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2096015",
+        "text": "FABRICACION DE HIELO",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2097013",
+        "text": "FABRICACION DE HELADOS NIEVES Y PALETAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2099027",
+        "text": "FABRICACION DE ACEITES Y MANTECAS ANIMALES COMESTI",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2099035",
+        "text": "FABRICACION DE HARINA DE PESCADO",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2099043",
+        "text": "FABRICACION DE OTROS PRODUCTOS ALIMENTICIOS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2099051",
+        "text": "FABRICACION DE PASTAS PARA GUISOS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2111011",
+        "text": "FABRICACION DE TEQUILA Y MEZCAL",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2112019",
+        "text": "FABRICACION DE AGUARDIENTE DE CAÐA",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2113017",
+        "text": "FABRICACION DE SOTOL",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2114015",
+        "text": "FABRICACION DE OTROS AGUARDIENTES NO DE CAÐA",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2114023",
+        "text": "FABRICACION DE VINOS Y OTROS LICORES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2115013",
+        "text": "ELABORACION DE PULQUE",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2119015",
+        "text": "FABRICACION DE SIDRA, CHAMPAÑA Y OTRAS BEBIDAS FER",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2121010",
+        "text": "FABRICACION DE MALTA",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2122018",
+        "text": "FABRICACION DE CERVEZA",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2131027",
+        "text": "FABRICACION DE BEBIDAS GASEOSAS",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2131035",
+        "text": "FABRICACION DE REFRESCOS DE FRUTAS NATURALES",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2131043",
+        "text": "PURIFICACION DE AGUA, EXCEPTO CAPTACION TRATAMIENT",
+        "idIndustry": "809B",
+        "idRol": "8"
+    }, {
+        "idCRM": "191015",
+        "text": "IRRIGACION DE TIERRAS",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "191023",
+        "text": "PREPARACION DE TIERRAS DE CULTIVO Y OTROS SERVICIO",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "2021012",
+        "text": "MOLINO DE TRIGO",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "2022010",
+        "text": "MOLINO DE MAIZ",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "2023018",
+        "text": "MOLINO DE NIXTAMAL",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "2024016",
+        "text": "MOLINO DE ARROZ",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "2026012",
+        "text": "MOLINO Y TOSTADOR DE CAFE",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "2028042",
+        "text": "MOLINO PARA OTROS GRANOS EXCEPTO CEREALES",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "2029016",
+        "text": "MOLINO DE AVENA",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "2029024",
+        "text": "MOLINO DE CEBADA",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "2029032",
+        "text": "MOLINO DE OTROS CEREALES",
+        "idIndustry": "810",
+        "idRol": "22"
+    }, {
+        "idCRM": "6611017",
+        "text": "COMPRA VENTA DE ALGODON",
+        "idIndustry": "810A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6612015",
+        "text": "COMPRA VENTA DE SEMILLAS PARA SIEMBRA",
+        "idIndustry": "810A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6619011",
+        "text": "COMPRA VENTA DE HENEQUEN E IXTLE",
+        "idIndustry": "810A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6691019",
+        "text": "COMPRA VENTA DE FERTILIZANTES Y PLAGUICIDAS",
+        "idIndustry": "810A",
+        "idRol": "28"
+    }, {
+        "idCRM": "111021",
+        "text": "CULTIVO DE ARROZ",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "111031",
+        "text": "CULTIVO DE ALPISTE",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "111039",
+        "text": "CULTIVO DE AVENA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "111047",
+        "text": "CULTIVO DE CEBADA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "111055",
+        "text": "CULTIVO DE LINAZA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "111063",
+        "text": "CULTIVO DE MAIZ",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "111071",
+        "text": "CULTIVO DE MILO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "111089",
+        "text": "CULTIVO DE SORGO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "111097",
+        "text": "CULTIVO DE SOYA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "111104",
+        "text": "CULTIVO DE TRIGO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112011",
+        "text": "CULTIVO DE AJO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112029",
+        "text": "CULTIVO DE CALABAZA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112037",
+        "text": "CULTIVO DE CAMOTE",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112045",
+        "text": "CULTIVO DE CEBOLLA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112053",
+        "text": "CULTIVO DE CHILE",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112061",
+        "text": "CULTIVO DE ESPARRAGO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112079",
+        "text": "CULTIVO DE FRIJOL",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112087",
+        "text": "CULTIVO DE GARBANZO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112095",
+        "text": "CULTIVO DE JITOMATE",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112102",
+        "text": "CULTIVO DE LENTEJA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112110",
+        "text": "CULTIVO DE NOPAL",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112128",
+        "text": "CULTIVO DE OTRAS HORTALIZAS",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112136",
+        "text": "CULTIVO DE PAPA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112144",
+        "text": "CULTIVO DE REMOLACHA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112152",
+        "text": "CULTIVO DE TOMATE",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "112160",
+        "text": "CULTIVO DE YUCA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "113019",
+        "text": "CULTIVO DE ALFALFA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "119017",
+        "text": "CULTIVO DE FRESA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "119025",
+        "text": "CULTIVO DE MELON",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "119033",
+        "text": "CULTIVO DE PIÑA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "119041",
+        "text": "CULTIVO DE SANDIA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "121012",
+        "text": "CULTIVO DE ALGODON",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "122010",
+        "text": "CULTIVO DE CAÑA DE AZUCAR",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "123018",
+        "text": "CULTIVO DE TABACO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "124016",
+        "text": "CULTIVO DE AJONJOLI",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "124024",
+        "text": "CULTIVO DE CACAHUATE",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "124032",
+        "text": "CULTIVO DE CARTAMO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "124040",
+        "text": "CULTIVO DE NUEZ",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "124058",
+        "text": "CULTIVO DE OLIVO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "129016",
+        "text": "CULTIVO DE ESPECIAS",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "129024",
+        "text": "CULTIVO DE OTRAS SEMILLAS",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "129032",
+        "text": "CULTIVO DE SEMILLAS MEJORADAS",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "129040",
+        "text": "CULTIVO DE VAINILLA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "131011",
+        "text": "CULTIVO DE FLORES Y PLANTAS DE ORNATO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "141010",
+        "text": "CULTIVO DE CAFE",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142018",
+        "text": "CULTIVO DE AHUACATE",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142026",
+        "text": "CULTIVO DE DURAZNO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142034",
+        "text": "CULTIVO DE GUAYABA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142042",
+        "text": "CULTIVO DE LIMON",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142050",
+        "text": "CULTIVO DE MANGO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142068",
+        "text": "CULTIVO DE MANZANA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142076",
+        "text": "CULTIVO DE NARANJA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142084",
+        "text": "CULTIVO DE OTROS ARBOLES FRUTALES",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142092",
+        "text": "CULTIVO DE PAPAYA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142109",
+        "text": "CULTIVO DE PLATANO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142117",
+        "text": "CULTIVO DE TAMARINDO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "142125",
+        "text": "CULTIVO DE TORONJA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "143016",
+        "text": "CULTIVO DE VID",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "144014",
+        "text": "CULTIVO DE HENEQUEN",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "144022",
+        "text": "CULTIVO DE LINO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "144030",
+        "text": "CULTIVO DE OTRAS FIBRAS DURAS",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "145012",
+        "text": "CULTIVO DE AGAVE O MEZCAL",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "145020",
+        "text": "CULTIVO DE MAGUEY",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "146010",
+        "text": "CULTIVO DE COPRA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "147018",
+        "text": "CULTIVO DE CACAO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "149014",
+        "text": "OTROS CULTIVOS PERMANENTES",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2031029",
+        "text": "INGENIO AZUCARERO",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2311017",
+        "text": "DESFIBRACION DE ALGODON",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2311025",
+        "text": "DESPEPITE DE ALGODON",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2311033",
+        "text": "COMPRESORA DE ALGODON",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2331015",
+        "text": "DESFIBRACION DE HENEQUEN",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2394039",
+        "text": "FABRICACION DE OTROS ARTICULOS DE ALGODON",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2433019",
+        "text": "FABRICACION DE ALGODON ABSORBENTE VENDAS TELA ADEH",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "291013",
+        "text": "FORMACION DE PRADERAS Y POTREROS ARTIFICIALES",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3051018",
+        "text": "FABRICACION DE ALGODON ESTERILIZADO, GASAS Y VENDA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "329012",
+        "text": "CULTIVO Y EXPLOTACION DE PALMA Y LECHUGUILLA",
+        "idIndustry": "810B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2611011",
+        "text": "ASERRADERO",
+        "idIndustry": "815",
+        "idRol": "22"
+    }, {
+        "idCRM": "391011",
+        "text": "SERVICIOS DE CORTADO ESTIMACION DEL VOLUMEN DE MADERA",
+        "idIndustry": "815",
+        "idRol": "22"
+    }, {
+        "idCRM": "6624010",
+        "text": "COMPRA VENTA DE MADERA",
+        "idIndustry": "815A",
+        "idRol": "28"
+    }, {
+        "idCRM": "2632017",
+        "text": "FABRICACION DE JUNTAS Y EMPAQUES DE CORCHO",
+        "idIndustry": "815B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2632025",
+        "text": "FABRICACION DE OTROS ARTICULOS DE CORCHO",
+        "idIndustry": "815B",
+        "idRol": "8"
+    }, {
+        "idCRM": "311019",
+        "text": "PLANTACION Y REFORESTACION",
+        "idIndustry": "815B",
+        "idRol": "8"
+    }, {
+        "idCRM": "312017",
+        "text": "EXTRACCION DE TRONCOS PARA ASERRADEROS Y PARA PULP",
+        "idIndustry": "815B",
+        "idRol": "8"
+    }, {
+        "idCRM": "2611029",
+        "text": "BENEFICIO DE MADERAS (DESFLEMADO ESTUFADO CEPILLAD",
+        "idIndustry": "815C",
+        "idRol": "99"
+    }, {
+        "idCRM": "3595032",
+        "text": "TALLER DE COBRIZADO",
+        "idIndustry": "816",
+        "idRol": "22"
+    }, {
+        "idCRM": "3595040",
+        "text": "TALLER DE CROMADO Y NIQUELADO",
+        "idIndustry": "816",
+        "idRol": "22"
+    }, {
+        "idCRM": "3595058",
+        "text": "TALLER DE ESMALTADO",
+        "idIndustry": "816",
+        "idRol": "22"
+    }, {
+        "idCRM": "6622014",
+        "text": "COMPRA VENTA DE FIERRO LAMINADO Y EN LINGOTES",
+        "idIndustry": "816A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6694013",
+        "text": "COMPRA VENTA DE FIERRO USADO",
+        "idIndustry": "816A",
+        "idRol": "28"
+    }, {
+        "idCRM": "6699047",
+        "text": "COMPRAVENTA DE OTROS METALES Y MINERALES LAMINADOS",
+        "idIndustry": "816A",
+        "idRol": "28"
+    }, {
+        "idCRM": "3411014",
+        "text": "FABRICACION DE FIERRO ESPONJA",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3411022",
+        "text": "FUNDICION DE FIERRO Y ACERO",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3411030",
+        "text": "PLANTA METALURGICA",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3412012",
+        "text": "FABRICACION DE LAMINAS DE HIERRO Y ACERO",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3412020",
+        "text": "FABRICACION DE OTROS ARTICULOS DE LAMINA",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3413010",
+        "text": "FABRICACION DE TUBOS DE HIERRO Y ACERO",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3421013",
+        "text": "FUNDICION REFINACION LAMINACION EXTRUSION Y ESTIRA",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3422011",
+        "text": "FUNDICION LAMINACION EXTRUSION Y ESTIRAJE DE ALUMI",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3423019",
+        "text": "FABRICACION DE TUBOS DE ESTAÐO",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3511012",
+        "text": "FABRICACION DE CUBIERTOS Y CUCHILLERIA",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3521011",
+        "text": "FABRICACION DE BUTACAS DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3531010",
+        "text": "FABRICACION DE ESTRUCTURAS DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3532018",
+        "text": "FABRICACION DE CALDERAS TANQUES Y TINACOS DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3591014",
+        "text": "FABRICACION DE ENVASES DE LAMINA",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3592012",
+        "text": "FABRICACION DE CORCHOLATAS",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3593010",
+        "text": "FABRICACION DE ALAMBRADOS Y TELAS DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3593028",
+        "text": "FABRICACION DE ALAMBRE",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3593036",
+        "text": "FABRICACION DE OTROS ARTICULOS DE ALAMBRE",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3594018",
+        "text": "FABRICACION DE ARTICULOS DE PELTRE",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3595016",
+        "text": "GALVANIZACION DE LAMINA",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3595024",
+        "text": "GALVANIZACION DE TUBERIA",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3596014",
+        "text": "FABRICACION DE PIEZAS METALICAS POR FUNDICION Y MO",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3596022",
+        "text": "FABRICACION DE TUBOS DE COBRE, PLOMO Y ALUMINIO",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599018",
+        "text": "FABRICACION DE ALFILERES AGUJAS Y BROCHES",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599026",
+        "text": "FABRICACION DE CAJAS FUERTES",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599034",
+        "text": "FABRICACION DE CIERRES AUTOMATICOS DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599042",
+        "text": "FABRICACION DE ESPUELAS FRENOS Y ARNESES DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599050",
+        "text": "FABRICACION DE HEBILLAS DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599068",
+        "text": "FABRICACION DE HOJAS PARA RASURAR",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599076",
+        "text": "FABRICACION DE OJILLOS DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599084",
+        "text": "FABRICACION DE OTROS ARTICULOS DE LATON",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599092",
+        "text": "FABRICACION DE OTROS ARTICULOS DE METAL NO CLASIFI",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599109",
+        "text": "FABRICACION DE PASADORES Y HORQUILLAS",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3599125",
+        "text": "FABRICACION DE TAPONES DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3793016",
+        "text": "FABRICACION DE CABLES DE METAL",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "3932028",
+        "text": "ORFEBRERIA",
+        "idIndustry": "816B",
+        "idRol": "8"
+    }, {
+        "idCRM": "6231021",
+        "text": "COMPRA VENTA DE PERFUMES",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "6232011",
+        "text": "DISTRIBUCION DE OTROS PRODUCTOS QUIMICOS-FARMACEUT",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "6511019",
+        "text": "COMPRA VENTA DE FLUIDOS Y GASES",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "6512017",
+        "text": "COMPRA VENTA DE GAS PARA USO DOMESTICO O COMERCIAL",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "6513015",
+        "text": "COMPRA VENTA DE GASOLINA Y DIESEL",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "6514013",
+        "text": "COMPRA VENTA DE PETROLEO COMBUSTIBLE",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "6515011",
+        "text": "COMPRAVENTA DE LUBRICANTES",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "6623012",
+        "text": "COMPRA VENTA DE COLORANTES PARA LA INDUSTRIA",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "6695011",
+        "text": "COMPRAVENTA DE SUBSTANCIAS QUIMICAS PARA LA INDUST",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "6699013",
+        "text": "COMPRA VENTA DE CERAS Y PARAFINAS",
+        "idIndustry": "819",
+        "idRol": "28"
+    }, {
+        "idCRM": "2033017",
+        "text": "DESTILACION DE ALCOHOL ETILICO",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "2092013",
+        "text": "FABRICACION DE ALMIDON",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3011012",
+        "text": "FABRICACION DE ANIL",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3011020",
+        "text": "FABRICACION DE ANILINAS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3011038",
+        "text": "FABRICACION DE OTRAS MATERIAS COLORANTES",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3012010",
+        "text": "FABRICACION DE GAS ACETILENO",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3013018",
+        "text": "FABRICACION DE ACIDOS INDUSTRIALES",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3013026",
+        "text": "FABRICACION DE OTRAS SUBSTANCIAS QUIMICAS BASICAS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3013034",
+        "text": "FABRICACION DE PRODUCTOS AMONIACALES",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3013042",
+        "text": "FABRICACION DE SOSA",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3021011",
+        "text": "FABRICACION DE ABONOS Y FERTILIZANTES QUIMICOS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3022019",
+        "text": "FABRICACION DE INSECTICIDAS Y PLAGUICIDAS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3031010",
+        "text": "FABRICACION DE HULE ESPUMA",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3032018",
+        "text": "FABRICACION DE FIBRAS SINTETICAS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3041019",
+        "text": "FABRICACION DE PINTURAS, BARNICES Y LACAS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3051026",
+        "text": "FABRICACION DE OTROS PRODUCTOS FARMACEUTICOS Y MED",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3051034",
+        "text": "FABRICACION DE OXIGENO MEDICINAL",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3061017",
+        "text": "FABRICACION DE DENTIFRICO",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3061025",
+        "text": "FABRICACION DE JABON Y DETERGENTE",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3062015",
+        "text": "FABRICACION DE PERFUMES Y COSMETICOS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3071016",
+        "text": "FABRICACION DE ESENCIAS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3091014",
+        "text": "FABRICACION DE COLAS Y PEGAMENTOS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3091022",
+        "text": "FABRICACION DE IMPERMEABILIZANTES",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3092012",
+        "text": "FABRICACION DE CERA PULIMENTOS Y ABRILLANTADORES",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3092020",
+        "text": "FABRICACION DE DESINFECTANTES Y DESODORIZANTES",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3092038",
+        "text": "FABRICACION DE GRASAS Y CREMAS LUSTRADORAS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3092046",
+        "text": "FABRICACION DE LANOLINA",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3093010",
+        "text": "FABRICACION DE AGUARRAS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3094018",
+        "text": "FABRICACION DE CERILLOS Y FOSFOROS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3095016",
+        "text": "FABRICACION DE OTROS ARTICULOS DE CERA",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3095024",
+        "text": "FABRICACION DE VELAS VELADORAS Y CIRIOS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3096014",
+        "text": "FABRICACION DE TINTAS PARA IMPRESION",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3097012",
+        "text": "FABRICACION DE DINAMITA",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3097020",
+        "text": "FABRICACION DE MECHAS PARA MINAS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3097038",
+        "text": "FABRICACION DE OTROS EXPLOSIVOS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3097046",
+        "text": "FABRICACION DE POLVORA",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3097054",
+        "text": "FABRICACION DE PRODUCTOS PIROTECNICOS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3099018",
+        "text": "FABRICACION DE ARTICULOS DE BAQUELITA",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3099026",
+        "text": "FABRICACION DE DESINCRUSTANTES",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3099034",
+        "text": "FABRICACION DE HIELO SECO",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3111010",
+        "text": "FABRICACION DE GASOLINA Y OTROS PRODUCTOS DERIVADO",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3112018",
+        "text": "FABRICACION DE PRODUCTOS PETROQUIMICOS BASICOS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3113016",
+        "text": "FABRICACION DE ACEITES Y LUBRICANTES",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3121019",
+        "text": "FABRICACION DE COQUE Y OTROS DERIVADOS DEL CARBON",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3122017",
+        "text": "FABRICACION DE MATERIALES ASFALTICOS PARA PAVIMENT",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3322021",
+        "text": "FABRICACION DE FIBRA DE VIDRIO",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }, {
+        "idCRM": "3352010",
+        "text": "FABRICACION DE ABRASIVOS",
+        "idIndustry": "819A",
+        "idRol": "8"
+    }]
+}

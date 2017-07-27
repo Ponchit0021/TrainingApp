@@ -1,0 +1,178 @@
+{
+    "frecuencias": [{
+        "idCRM": "",
+        "text": ""
+    }, {
+        "idCRM": "Z1412",
+        "text": "BI -SEMANAL - 12 PAGOS"
+    }, {
+        "idCRM": "Z1414",
+        "text": "BI -SEMANAL - 14 PAGOS"
+    }, {
+        "idCRM": "Z1416",
+        "text": "BI -SEMANAL - 16 PAGOS"
+    }, {
+        "idCRM": "Z1418",
+        "text": "BI -SEMANAL - 18 PAGOS"
+    }, {
+        "idCRM": "Z1420",
+        "text": "BI -SEMANAL - 20 PAGOS"
+    }, {
+        "idCRM": "Z1422",
+        "text": "BI -SEMANAL - 22 PAGOS"
+    }, {
+        "idCRM": "Z1424",
+        "text": "BI -SEMANAL - 24 PAGOS"
+    }, {
+        "idCRM": "Z1426",
+        "text": "BI -SEMANAL - 26 PAGOS"
+    }, {
+        "idCRM": "Z1428",
+        "text": "BI -SEMANAL - 28 PAGOS"
+    }, {
+        "idCRM": "Z1430",
+        "text": "BI -SEMANAL - 30 PAGOS"
+    }, {
+        "idCRM": "Z1432",
+        "text": "BI -SEMANAL - 32 PAGOS"
+    }, {
+        "idCRM": "Z1434",
+        "text": "BI -SEMANAL - 34 PAGOS"
+    }, {
+        "idCRM": "Z1436",
+        "text": "BI -SEMANAL - 36 PAGOS"
+    }, {
+        "idCRM": "Z1438",
+        "text": "BI -SEMANAL - 38 PAGOS"
+    }, {
+        "idCRM": "Z1440",
+        "text": "BI -SEMANAL - 40 PAGOS"
+    }, {
+        "idCRM": "Z1442",
+        "text": "BI -SEMANAL - 42 PAGOS"
+    }, {
+        "idCRM": "Z1444",
+        "text": "BI -SEMANAL - 44 PAGOS"
+    }, {
+        "idCRM": "Z1446",
+        "text": "BI -SEMANAL - 46 PAGOS"
+    }, {
+        "idCRM": "Z1448",
+        "text": "BI -SEMANAL - 48 PAGOS"
+    },  {
+        "idCRM": "Z2806",
+        "text": "TETRASEMANAL - 6  PAGOS"
+    },  {
+        "idCRM": "Z2807",
+        "text": "TETRASEMANAL - 7  PAGOS"
+    },  {
+        "idCRM": "Z2808",
+        "text": "TETRASEMANAL - 8  PAGOS"
+    },  {
+        "idCRM": "Z2809",
+        "text": "TETRASEMANAL - 9  PAGOS"
+    },  {
+        "idCRM": "Z2810",
+        "text": "TETRASEMANAL - 10  PAGOS"
+    },  {
+        "idCRM": "Z2811",
+        "text": "TETRASEMANAL - 11  PAGOS"
+    },  {
+        "idCRM": "Z2812",
+        "text": "TETRASEMANAL - 12  PAGOS"
+    },  {
+        "idCRM": "Z2813",
+        "text": "TETRASEMANAL - 13  PAGOS"
+    },  {
+        "idCRM": "Z2814",
+        "text": "TETRASEMANAL - 14  PAGOS"
+    },  {
+        "idCRM": "Z2815",
+        "text": "TETRASEMANAL - 15  PAGOS"
+    },  {
+        "idCRM": "Z2816",
+        "text": "TETRASEMANAL - 16  PAGOS"
+    },  {
+        "idCRM": "Z2817",
+        "text": "TETRASEMANAL - 17  PAGOS"
+    },  {
+        "idCRM": "Z2818",
+        "text": "TETRASEMANAL - 18  PAGOS"
+    },  {
+        "idCRM": "Z2819",
+        "text": "TETRASEMANAL - 19  PAGOS"
+    },  {
+        "idCRM": "Z2820",
+        "text": "TETRASEMANAL - 20  PAGOS"
+    },  {
+        "idCRM": "Z2821",
+        "text": "TETRASEMANAL - 21  PAGOS"
+    },  {
+        "idCRM": "Z2822",
+        "text": "TETRASEMANAL - 22  PAGOS"
+    },  {
+        "idCRM": "Z2823",
+        "text": "TETRASEMANAL - 23  PAGOS"
+    },  {
+        "idCRM": "Z2824",
+        "text": "TETRASEMANAL - 24  PAGOS"
+    }, {
+        "idCRM": "Z3006",
+        "text": "MENSUAL -  6 PAGOS"
+    }, {
+        "idCRM": "Z3007",
+        "text": "MENSUAL -  7 PAGOS"
+    }, {
+        "idCRM": "Z3008",
+        "text": "MENSUAL -  8 PAGOS"
+    }, {
+        "idCRM": "Z3009",
+        "text": "MENSUAL -  9 PAGOS"
+    }, {
+        "idCRM": "Z3010",
+        "text": "MENSUAL -  10 PAGOS"
+    }, {
+        "idCRM": "Z3011",
+        "text": "MENSUAL -  11 PAGOS"
+    }, {
+        "idCRM": "Z3012",
+        "text": "MENSUAL -  12 PAGOS"
+    }, {
+        "idCRM": "Z3013",
+        "text": "MENSUAL -  13 PAGOS"
+    }, {
+        "idCRM": "Z3014",
+        "text": "MENSUAL -  14 PAGOS"
+    }, {
+        "idCRM": "Z3015",
+        "text": "MENSUAL -  15 PAGOS"
+    }, {
+        "idCRM": "Z3016",
+        "text": "MENSUAL -  16 PAGOS"
+    }, {
+        "idCRM": "Z3017",
+        "text": "MENSUAL -  17 PAGOS"
+    }, {
+        "idCRM": "Z3018",
+        "text": "MENSUAL -  18 PAGOS"
+    }, {
+        "idCRM": "Z3019",
+        "text": "MENSUAL -  19 PAGOS"
+    }, {
+        "idCRM": "Z3020",
+        "text": "MENSUAL -  20 PAGOS"
+    }, {
+        "idCRM": "Z3021",
+        "text": "MENSUAL -  21 PAGOS"
+    }, {
+        "idCRM": "Z3022",
+        "text": "MENSUAL -  22 PAGOS"
+    }, {
+        "idCRM": "Z3023",
+        "text": "MENSUAL -  23 PAGOS"
+    }, {
+        "idCRM": "Z3024",
+        "text": "MENSUAL -  24 PAGOS"
+    }]
+
+}

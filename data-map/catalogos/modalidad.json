@@ -1,0 +1,9 @@
+{
+    "modalidad": [{
+        "idCRM": "001",
+        "text": "Individual"
+    }, {
+        "idCRM": "002",
+        "text": "Familiar"
+    }]
+}

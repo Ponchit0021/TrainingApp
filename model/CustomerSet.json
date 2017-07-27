@@ -1,0 +1,533 @@
+[{
+    "CustomerIdCRM": "9900000001",
+    "CustomerIdMD": "99000000000000000000000000001",
+    "CollaboratorID": "DVALENCIA",
+    "BpName": {
+        "FirstName": "SELENE",
+        "MiddleName": "ARACELI",
+        "LastName": "DIAZ",
+        "SecondName": "MONCADA"
+    },
+    "BpMainData": {
+        "ProductId": "C_IND_CCM",
+        "RegistrationDate": "/Date(1486425600000)/",
+        "RoleId": "ZFS004",
+        "StatusId": "E0006",
+        "StatusReasonId": "",
+        "SourceName": "Promoción Directa",
+        "LeadIdCRM": "9900000001",
+        "ServiceOfficeID": "XYZ001",
+        "ServiceOfficeName": "TOLUCA",
+        "ContactLaterDate": "",
+        "ContactLaterTime": "",
+        "Cycle": 2,
+        "RemainingDays": 20,
+        "ServiceLevelId": 0,
+        "SourceId": "Z14",
+        "ControlListsResult": "0",
+        "RiskLevel": "0",
+        "IsContactLaterEditable": false,
+        "AccumulatedCycle": 2
+    },
+    "BpComplementaryData": {
+        "Curp": "MASM020203MDFRNTA6",
+        "Dependents": "0",
+        "JobId": "",
+        "Email": "",
+        "TimeInTheActivityId": "",
+        "HowActivityId": "",
+        "HowMuchBusinessId": "",
+        "OtherSourceId": "",
+        "TimeInTheBusiness": "",
+        "ShopFromWhoId": "",
+        "EconomicActivityId": "",
+        "IsIndivWBusiness": false,
+        "FielNumber": "",
+        "Rfc": "",
+        "Homoclave": "",
+        "MonthlySalary": 0
+    },
+    "BpBasicData": {
+        "GenderId": "",
+        "BirthdDate": "/Date(1301342561000)/",
+        "ElectorKey": "",
+        "CountryOfBirthId": "MX",
+        "BirthPlace": "",
+        "NationalityId": "",
+        "MaritalStatusId": "",
+        "Children": "",
+        "SchoolLevelId": "",
+        "HouseTypeId": "",
+        "TypeOfStoreId": "",
+        "GiroId": "",
+        "IndustryId": "",
+        "EconomicActivityId": "",
+        "VoterRegistration": "",
+        "IsPEP": false,
+        "NamePEP": "",
+        "IsRelatedToGentera": false,
+        "RelatedName": "",
+        "BasicDataStartDTime": "",
+        "RelationshipId": ""
+    },
+    "BpAdditionalData": {
+        "Spouse": {
+            "Job": "",
+            "WorkPhone": "",
+            "BPIdSpouse": "",
+            "BpNameData": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "SecondName": ""
+            }
+        }
+    },
+    "BpFlag": {
+        "BPFlagDistinction": 0
+    },
+    "PreLoanRequestID": "",
+    "__metadata": {
+        "uri": "CustomerSet('9900000001')",
+        "type": "AOMobile.Customer"
+    },
+    "LinkSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000001')/LinkSet"
+        }
+    },
+    "AddressSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000001')/AddressSet"
+        }
+    },
+    "PhoneSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000001')/PhoneSet"
+        }
+    },
+    "PersonalReferenceSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000001')/PersonalReferenceSet"
+        }
+    },
+    "ImageSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000001')/ImageSet"
+        }
+    },
+    "EmployerSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000001')/EmployerSet"
+        }
+    },
+    "InsuranceSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000001')/InsuranceSet"
+        }
+    },
+    "LinkPreloanRequest": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000001')/LinkPreloanRequest"
+        }
+    }
+}, {
+    "CustomerIdCRM": "9900000002",
+    "CustomerIdMD": "99000000000000000000000000002",
+    "CollaboratorID": "DVALENCIA",
+    "BpName": {
+        "FirstName": "JUAN",
+        "MiddleName": "SALOMON",
+        "LastName": "CHAVEZ",
+        "SecondName": "BOLIVAR"
+    },
+    "BpMainData": {
+        "ProductId": "C_IND_CA",
+        "RegistrationDate": "/Date(1486425600000)/",
+        "RoleId": "ZFS004",
+        "StatusId": "E0006",
+        "StatusReasonId": "",
+        "SourceName": "Promoción Directa",
+        "LeadIdCRM": "9900000002",
+        "ServiceOfficeID": "XYZ001",
+        "ServiceOfficeName": "TOLUCA",
+        "ContactLaterDate": "",
+        "ContactLaterTime": "",
+        "Cycle": 2,
+        "RemainingDays": 20,
+        "ServiceLevelId": 0,
+        "SourceId": "Z14",
+        "ControlListsResult": "0",
+        "RiskLevel": "0",
+        "IsContactLaterEditable": false,
+        "AccumulatedCycle": 2
+    },
+    "BpComplementaryData": {
+        "Curp": "MASM020203MDFRNTA6",
+        "Dependents": "0",
+        "JobId": "",
+        "Email": "",
+        "TimeInTheActivityId": "",
+        "HowActivityId": "",
+        "HowMuchBusinessId": "",
+        "OtherSourceId": "",
+        "TimeInTheBusiness": "",
+        "ShopFromWhoId": "",
+        "EconomicActivityId": "",
+        "IsIndivWBusiness": false,
+        "FielNumber": "",
+        "Rfc": "",
+        "Homoclave": "",
+        "MonthlySalary": 0
+    },
+    "BpBasicData": {
+        "GenderId": "",
+        "BirthdDate": "/Date(1301342561000)/",
+        "ElectorKey": "",
+        "CountryOfBirthId": "MX",
+        "BirthPlace": "",
+        "NationalityId": "",
+        "MaritalStatusId": "",
+        "Children": "",
+        "SchoolLevelId": "",
+        "HouseTypeId": "",
+        "TypeOfStoreId": "",
+        "GiroId": "",
+        "IndustryId": "",
+        "EconomicActivityId": "",
+        "VoterRegistration": "",
+        "IsPEP": false,
+        "NamePEP": "",
+        "IsRelatedToGentera": false,
+        "RelatedName": "",
+        "BasicDataStartDTime": "",
+        "RelationshipId": ""
+    },
+    "BpAdditionalData": {
+        "Spouse": {
+            "Job": "",
+            "WorkPhone": "",
+            "BPIdSpouse": "",
+            "BpNameData": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "SecondName": ""
+            }
+        }
+    },
+    "BpFlag": {
+        "BPFlagDistinction": 0
+    },
+    "PreLoanRequestID": "",
+    "__metadata": {
+        "uri": "CustomerSet('9900000002')",
+        "type": "AOMobile.Customer"
+    },
+    "LinkSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000002')/LinkSet"
+        }
+    },
+    "AddressSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000002')/AddressSet"
+        }
+    },
+    "PhoneSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000002')/PhoneSet"
+        }
+    },
+    "PersonalReferenceSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000002')/PersonalReferenceSet"
+        }
+    },
+    "ImageSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000002')/ImageSet"
+        }
+    },
+    "EmployerSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000002')/EmployerSet"
+        }
+    },
+    "InsuranceSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000002')/InsuranceSet"
+        }
+    },
+    "LinkPreloanRequest": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000002')/LinkPreloanRequest"
+        }
+    }
+}, {
+    "CustomerIdCRM": "9900000003",
+    "CustomerIdMD": "99000000000000000000000000003",
+    "CollaboratorID": "DVALENCIA",
+    "BpName": {
+        "FirstName": "FABIOLA",
+        "MiddleName": "",
+        "LastName": "LOPEZ",
+        "SecondName": ""
+    },
+    "BpMainData": {
+        "ProductId": "C_IND_CI",
+        "RegistrationDate": "/Date(1486425600000)/",
+        "RoleId": "ZFS004",
+        "StatusId": "E0006",
+        "StatusReasonId": "",
+        "SourceName": "Promoción Directa",
+        "LeadIdCRM": "9900000003",
+        "ServiceOfficeID": "XYZ001",
+        "ServiceOfficeName": "TOLUCA",
+        "ContactLaterDate": "",
+        "ContactLaterTime": "",
+        "Cycle": 2,
+        "RemainingDays": 20,
+        "ServiceLevelId": 0,
+        "SourceId": "Z01",
+        "ControlListsResult": "0",
+        "RiskLevel": "0",
+        "IsContactLaterEditable": false,
+        "AccumulatedCycle": 2
+    },
+    "BpComplementaryData": {
+        "Curp": "MASM020203MDFRNTA6",
+        "Dependents": "0",
+        "JobId": "",
+        "Email": "",
+        "TimeInTheActivityId": "",
+        "HowActivityId": "",
+        "HowMuchBusinessId": "",
+        "OtherSourceId": "",
+        "TimeInTheBusiness": "",
+        "ShopFromWhoId": "",
+        "EconomicActivityId": "",
+        "IsIndivWBusiness": false,
+        "FielNumber": "",
+        "Rfc": "",
+        "Homoclave": "",
+        "MonthlySalary": 0
+    },
+    "BpBasicData": {
+        "GenderId": "",
+        "BirthdDate": "/Date(1301342561000)/",
+        "ElectorKey": "",
+        "CountryOfBirthId": "MX",
+        "BirthPlace": "",
+        "NationalityId": "",
+        "MaritalStatusId": "",
+        "Children": "",
+        "SchoolLevelId": "",
+        "HouseTypeId": "",
+        "TypeOfStoreId": "",
+        "GiroId": "",
+        "IndustryId": "",
+        "EconomicActivityId": "",
+        "VoterRegistration": "",
+        "IsPEP": false,
+        "NamePEP": "",
+        "IsRelatedToGentera": false,
+        "RelatedName": "",
+        "BasicDataStartDTime": "",
+        "RelationshipId": ""
+    },
+    "BpAdditionalData": {
+        "Spouse": {
+            "Job": "",
+            "WorkPhone": "",
+            "BPIdSpouse": "",
+            "BpNameData": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "SecondName": ""
+            }
+        }
+    },
+    "BpFlag": {
+        "BPFlagDistinction": 0
+    },
+    "PreLoanRequestID": "",
+    "__metadata": {
+        "uri": "CustomerSet('9900000003')",
+        "type": "AOMobile.Customer"
+    },
+    "LinkSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000003')/LinkSet"
+        }
+    },
+    "AddressSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000003')/AddressSet"
+        }
+    },
+    "PhoneSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000003')/PhoneSet"
+        }
+    },
+    "PersonalReferenceSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000003')/PersonalReferenceSet"
+        }
+    },
+    "ImageSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000003')/ImageSet"
+        }
+    },
+    "EmployerSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000003')/EmployerSet"
+        }
+    },
+    "InsuranceSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000003')/InsuranceSet"
+        }
+    },
+    "LinkPreloanRequest": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000003')/LinkPreloanRequest"
+        }
+    }
+}, {
+    "CustomerIdCRM": "9900000004",
+    "CustomerIdMD": "99000000000000000000000000004",
+    "CollaboratorID": "DVALENCIA",
+    "BpName": {
+        "FirstName": "ESTELA",
+        "MiddleName": "",
+        "LastName": "GAVIRIA",
+        "SecondName": ""
+    },
+    "BpMainData": {
+        "ProductId": "C_GRUPAL_CM",
+        "RegistrationDate": "/Date(1486425600000)/",
+        "RoleId": "ZFS004",
+        "StatusId": "E0006",
+        "StatusReasonId": "",
+        "SourceName": "Promoción Directa",
+        "LeadIdCRM": "9900000004",
+        "ServiceOfficeID": "XYZ001",
+        "ServiceOfficeName": "TOLUCA",
+        "ContactLaterDate": "",
+        "ContactLaterTime": "",
+        "Cycle": 2,
+        "RemainingDays": 20,
+        "ServiceLevelId": 0,
+        "SourceId": "Z01",
+        "ControlListsResult": "0",
+        "RiskLevel": "0",
+        "IsContactLaterEditable": false,
+        "AccumulatedCycle": 2
+    },
+    "BpComplementaryData": {
+        "Curp": "MASM020203MDFRNTA6",
+        "Dependents": "0",
+        "JobId": "",
+        "Email": "",
+        "TimeInTheActivityId": "",
+        "HowActivityId": "",
+        "HowMuchBusinessId": "",
+        "OtherSourceId": "",
+        "TimeInTheBusiness": "",
+        "ShopFromWhoId": "",
+        "EconomicActivityId": "",
+        "IsIndivWBusiness": false,
+        "FielNumber": "",
+        "Rfc": "",
+        "Homoclave": "",
+        "MonthlySalary": 0
+    },
+    "BpBasicData": {
+        "GenderId": "",
+        "BirthdDate": "/Date(1301342561000)/",
+        "ElectorKey": "",
+        "CountryOfBirthId": "MX",
+        "BirthPlace": "",
+        "NationalityId": "",
+        "MaritalStatusId": "",
+        "Children": "",
+        "SchoolLevelId": "",
+        "HouseTypeId": "",
+        "TypeOfStoreId": "",
+        "GiroId": "",
+        "IndustryId": "",
+        "EconomicActivityId": "",
+        "VoterRegistration": "",
+        "IsPEP": false,
+        "NamePEP": "",
+        "IsRelatedToGentera": false,
+        "RelatedName": "",
+        "BasicDataStartDTime": "",
+        "RelationshipId": ""
+    },
+    "BpAdditionalData": {
+        "Spouse": {
+            "Job": "",
+            "WorkPhone": "",
+            "BPIdSpouse": "",
+            "BpNameData": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "SecondName": ""
+            }
+        }
+    },
+    "BpFlag": {
+        "BPFlagDistinction": 0
+    },
+    "PreLoanRequestID": "",
+    "__metadata": {
+        "uri": "CustomerSet('9900000004')",
+        "type": "AOMobile.Customer"
+    },
+    "LinkSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000004')/LinkSet"
+        }
+    },
+    "AddressSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000004')/AddressSet"
+        }
+    },
+    "PhoneSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000004')/PhoneSet"
+        }
+    },
+    "PersonalReferenceSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000004')/PersonalReferenceSet"
+        }
+    },
+    "ImageSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000004')/ImageSet"
+        }
+    },
+    "EmployerSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000004')/EmployerSet"
+        }
+    },
+    "InsuranceSet": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000004')/InsuranceSet"
+        }
+    },
+    "LinkPreloanRequest": {
+        "__deferred": {
+            "uri": "CustomerSet('9900000004')/LinkPreloanRequest"
+        }
+    }
+}]

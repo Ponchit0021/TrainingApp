@@ -1,0 +1,91 @@
+[{
+	"PropPeriod": "PropPeriod 1",
+	"PropAmount": 4.656211702253525,
+	"PropFee": 0.031278580432081426,
+	"PropFrequency": "PropFrequency 1",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%201')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}, {
+	"PropPeriod": "PropPeriod 2",
+	"PropAmount": 6.8239269633832915,
+	"PropFee": 6.700137884017603,
+	"PropFrequency": "PropFrequency 2",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%202')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}, {
+	"PropPeriod": "PropPeriod 3",
+	"PropAmount": 6.9781323699444275,
+	"PropFee": 5.9812674556982115,
+	"PropFrequency": "PropFrequency 3",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%203')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}, {
+	"PropPeriod": "PropPeriod 4",
+	"PropAmount": 4.99365045209029,
+	"PropFee": 8.548060717657329,
+	"PropFrequency": "PropFrequency 4",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%204')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}, {
+	"PropPeriod": "PropPeriod 5",
+	"PropAmount": 5.442327637298991,
+	"PropFee": 9.243651310651757,
+	"PropFrequency": "PropFrequency 5",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%205')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}, {
+	"PropPeriod": "PropPeriod 6",
+	"PropAmount": 9.57857045659826,
+	"PropFee": 1.6745553949813696,
+	"PropFrequency": "PropFrequency 6",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%206')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}, {
+	"PropPeriod": "PropPeriod 7",
+	"PropAmount": 9.127978485316186,
+	"PropFee": 6.244735557185839,
+	"PropFrequency": "PropFrequency 7",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%207')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}, {
+	"PropPeriod": "PropPeriod 8",
+	"PropAmount": 6.748301148993452,
+	"PropFee": 0.2386307227674056,
+	"PropFrequency": "PropFrequency 8",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%208')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}, {
+	"PropPeriod": "PropPeriod 9",
+	"PropAmount": 4.439898598436709,
+	"PropFee": 0.9758120404240223,
+	"PropFrequency": "PropFrequency 9",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%209')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}, {
+	"PropPeriod": "PropPeriod 10",
+	"PropAmount": 8.13902578477207,
+	"PropFee": 7.594598338577003,
+	"PropFrequency": "PropFrequency 10",
+	"__metadata": {
+		"uri": "SimulatorResponseSet('PropPeriod%2010')",
+		"type": "AOMobile.SimulatorResponse"
+	}
+}]

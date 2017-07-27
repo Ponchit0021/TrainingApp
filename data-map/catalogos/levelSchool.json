@@ -1,0 +1,34 @@
+{
+    "nivel": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "1",
+            "text": "SIN ESTUDIOS"
+    },
+    {
+            "idCRM": "2",
+            "text": "PRIMARIA"
+    },
+    {
+            "idCRM": "3",
+            "text": "SECUNDARIA"
+    },
+    {
+            "idCRM": "4",
+            "text": "PREPARATORIA"
+    },
+    {
+            "idCRM": "5",
+            "text": "TECNICA"
+    },
+    {
+            "idCRM": "6",
+            "text": "PROFESIONAL"
+    },
+    {
+            "idCRM": "7",
+            "text": "OTRO"
+    }]
+}

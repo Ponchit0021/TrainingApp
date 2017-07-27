@@ -1,0 +1,21 @@
+{
+    "destinos": [{
+        "idCRM": "",
+        "text": ""
+    }, {
+        "idCRM": "07",
+        "text": "Mejoramiento de la vivienda"
+    }, {
+        "idCRM": "08",
+        "text": "Inversión para el negocio"
+    }, {
+        "idCRM": "09",
+        "text": "Imprevistos"
+    }, {
+        "idCRM": "10",
+        "text": "Otros"
+    }, {
+        "idCRM": "12",
+        "text": "Compra de mercancía"
+    }]
+}

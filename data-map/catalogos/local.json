@@ -1,0 +1,22 @@
+{
+    "tipoLocal": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "001",
+            "text": "Propio"
+    },
+    {
+            "idCRM": "002",
+            "text": "Rentado"
+    },
+    {
+            "idCRM": "003",
+            "text": "Pagando"
+    },
+    {
+            "idCRM": "004",
+            "text": "Familiar"
+    }]
+}

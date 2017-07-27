@@ -1,0 +1,82 @@
+{
+    "Interesado": [{
+            "idCRM": "000",
+            "text": ""
+    },
+    {
+            "idCRM": "0001",
+            "text": "Documentos pendientes de entrega"
+    },
+    {
+            "idCRM": "0002",
+            "text": "No cubre perfil del Producto"
+    },
+    {
+            "idCRM": "0003",
+            "text": "Cliente no encontrado"
+    },
+    {
+            "idCRM": "0004",
+            "text": "Otro"
+    }],
+    "Por reasignar": [{
+            "idCRM": "000",
+            "text": ""
+    },
+    {
+            "idCRM": "0001",
+            "text": "Zona Incorrecta"
+    },
+    {
+            "idCRM": "0002",
+            "text": "Producto No Adecuado"
+    }],
+    "Rechazado": [{
+            "idCRM": "000",
+            "text": ""
+    },
+    {
+            "idCRM": "0001",
+            "text": "Información Cualitativa De La Fuerza De Ventas"
+    },
+    {
+            "idCRM": "0002",
+            "text": "El Cliente No Aceptó Condiciones"
+    },
+    {
+            "idCRM": "0003",
+            "text": "Sin Atención"
+    },
+    {
+            "idCRM": "0004",
+            "text": "Cliente moroso"
+    },
+    {
+            "idCRM": "0005",
+            "text": "Malas referencias"
+    },
+    {
+            "idCRM": "0006",
+            "text": "Buró de crédito"
+    },
+    {
+            "idCRM": "0007",
+            "text": "Prestanombres"
+    },
+    {
+            "idCRM": "0008",
+            "text": "Malos manejos"
+    },
+    {
+            "idCRM": "0009",
+            "text": "Giro restringido"
+    },
+    {
+            "idCRM": "0010",
+            "text": "Prospecto no quiere ser contactado"
+    },
+    {
+            "idCRM": "0011",
+            "text": "Cliente en legal"
+    }]
+}

@@ -1,0 +1,57 @@
+{
+    "parentescoPEP": [{
+            "idCRM": "",
+            "text": ""
+    },{
+            "idCRM": "1",
+            "text": "CONYUGE"
+    },
+    {
+            "idCRM": "2",
+            "text": "PADRE"
+    },
+    {
+            "idCRM": "3",
+            "text": "MADRE"
+    },
+    {
+            "idCRM": "4",
+            "text": "HIJO (A)"
+    },
+    {
+            "idCRM": "5",
+            "text": "HERMANO (A)"
+    },
+    {
+            "idCRM": "6",
+            "text": "ABUELO (A)"
+    },
+    {
+            "idCRM": "7",
+            "text": "PRIMO (A)"
+    },
+    {
+            "idCRM": "8",
+            "text": "TIO (A)"
+    },
+    {
+            "idCRM": "9",
+            "text": "SOBRINO (A)"
+    },
+    {
+            "idCRM": "10",
+            "text": "YERNO"
+    },
+    {
+            "idCRM": "11",
+            "text": "NUERA"
+    },
+    {
+            "idCRM": "12",
+            "text": "CUÑADO (A)"
+    },
+    {
+            "idCRM": "13",
+            "text": "SUEGRO (A)"
+    }]
+}

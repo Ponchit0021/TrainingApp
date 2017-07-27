@@ -1,0 +1,30 @@
+{
+    "eCivil": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "1",
+            "text": "SOLTERO"
+    },
+    {
+            "idCRM": "2",
+            "text": "CASADO"
+    },
+    {
+            "idCRM": "3",
+            "text": "VIUDO"
+    },
+    {
+            "idCRM": "4",
+            "text": "DIVORCIADO"
+    },
+    {
+            "idCRM": "5",
+            "text": "UNION LIBRE"
+    },
+    {
+            "idCRM": "6",
+            "text": "PADRE SOLTERO"
+    }]
+}

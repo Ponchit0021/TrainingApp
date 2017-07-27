@@ -1,0 +1,297 @@
+[{
+    "CustomerIdCRM": "9900000001",
+    "LoanRequestIdCRM": "8800000001",
+    "CustomerIdMD": "99000000000000000000000000001",
+    "LoanRequestIdMD": "88000000000000000000000000001",
+    "CollaboratorID": "DVALENCIA",
+    "GroupLoanData": {
+        "RoleInTheGroupId": "",
+        "CreditAmount": 0,
+        "AuthorizedAmount": 0,
+        "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+        "YearsOnHouse": 0,
+        "MonthsOnHouse": 0,
+        "YearsOnLocal": 0,
+        "MonthsOnLocal": 0,
+        "TotalIncomeAmount": 0,
+        "TotalOutcomeAmount": 0,
+        "FeeEnabledToPay": 0,
+        "LoanDestiny": "",
+        "IsCreditGuaranteeWarrant": false,
+        "RequiredAmount": 0,
+        "ProposedAmount": 0,
+        "ProposedFrequency": "",
+        "ProposedFee": 0,
+        "ProposedPeriod": 0,
+        "MaxLiquidity": 0,
+        "PaymentFrequency": "",
+        "MaxRecurrentAmount": 0
+    },
+    "GeneralLoanData": {
+        "InsuranceAmount": 0,
+        "ControlListsResult": 0,
+        "RiskLevel": 0,
+        "SavingsAmount": 0,
+        "DispersionMediumId": "",
+        "DispersionChannelId": "",
+        "SemaphoreResultFilters": 0
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+        "BusinessIncome": 0,
+        "SpouseContribution": 0,
+        "FamilyContribution": 0,
+        "MoneyTransfer": 0,
+        "OtherIncome": 0,
+        "TotalIncome": 0,
+        "BusinessExpenses": 0,
+        "HouseholdExpenses": 0,
+        "ServiceAndRentExpenses": 0,
+        "CompartamosFee": 0,
+        "OtherDebts": 0,
+        "TotalExpenses": 0,
+        "TotalMonthlyLiquidity": 0,
+        "MaxAllowedLiquidity": 0,
+        "RequiredAmount": 0,
+        "FeeEnabledToPay": 0,
+        "LoanDestiny": ""
+    },
+    "__metadata": {
+        "uri": "LinkSet(CustomerIdCRM='9900000001',LoanRequestIdCRM='8800000001')",
+        "type": "AOMobile.Link"
+    },
+    "Customer": {
+        "__deferred": {
+            "uri": "LinkSet(CustomerIdCRM='9900000001',LoanRequestIdCRM='8800000001')/Customer"
+        }
+    },
+    "LoanRequest": {
+        "__deferred": {
+            "uri": "LinkSet(CustomerIdCRM='9900000001',LoanRequestIdCRM='8800000001')/LoanRequest"
+        }
+    }
+}, {
+    "CustomerIdCRM": "9900000002",
+    "LoanRequestIdCRM": "8800000002",
+    "CustomerIdMD": "99000000000000000000000000002",
+    "LoanRequestIdMD": "88000000000000000000000000002",
+    "CollaboratorID": "DVALENCIA",
+    "GroupLoanData": {
+        "RoleInTheGroupId": "",
+        "CreditAmount": 0,
+        "AuthorizedAmount": 0,
+        "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+        "YearsOnHouse": 0,
+        "MonthsOnHouse": 0,
+        "YearsOnLocal": 0,
+        "MonthsOnLocal": 0,
+        "TotalIncomeAmount": 0,
+        "TotalOutcomeAmount": 0,
+        "FeeEnabledToPay": 0,
+        "LoanDestiny": "",
+        "IsCreditGuaranteeWarrant": false,
+        "RequiredAmount": 0,
+        "ProposedAmount": 0,
+        "ProposedFrequency": "",
+        "ProposedFee": 0,
+        "ProposedPeriod": 0,
+        "MaxLiquidity": 0,
+        "PaymentFrequency": "",
+        "MaxRecurrentAmount": 0
+    },
+    "GeneralLoanData": {
+        "InsuranceAmount": 0,
+        "ControlListsResult": 0,
+        "RiskLevel": 0,
+        "SavingsAmount": 0,
+        "DispersionMediumId": "",
+        "DispersionChannelId": "",
+        "SemaphoreResultFilters": 0
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+        "BusinessIncome": 0,
+        "SpouseContribution": 0,
+        "FamilyContribution": 0,
+        "MoneyTransfer": 0,
+        "OtherIncome": 0,
+        "TotalIncome": 0,
+        "BusinessExpenses": 0,
+        "HouseholdExpenses": 0,
+        "ServiceAndRentExpenses": 0,
+        "CompartamosFee": 0,
+        "OtherDebts": 0,
+        "TotalExpenses": 0,
+        "TotalMonthlyLiquidity": 0,
+        "MaxAllowedLiquidity": 0,
+        "RequiredAmount": 0,
+        "FeeEnabledToPay": 0,
+        "LoanDestiny": ""
+    },
+    "__metadata": {
+        "uri": "LinkSet(CustomerIdCRM='9900000002',LoanRequestIdCRM='8800000002')",
+        "type": "AOMobile.Link"
+    },
+    "Customer": {
+        "__deferred": {
+            "uri": "LinkSet(CustomerIdCRM='9900000002',LoanRequestIdCRM='8800000002')/Customer"
+        }
+    },
+    "LoanRequest": {
+        "__deferred": {
+            "uri": "LinkSet(CustomerIdCRM='9900000002',LoanRequestIdCRM='8800000002')/LoanRequest"
+        }
+    }
+}, {
+    "CustomerIdCRM": "9900000003",
+    "LoanRequestIdCRM": "8800000003",
+    "CustomerIdMD": "99000000000000000000000000003",
+    "LoanRequestIdMD": "88000000000000000000000000003",
+    "CollaboratorID": "DVALENCIA",
+    "GroupLoanData": {
+        "RoleInTheGroupId": "",
+        "CreditAmount": 0,
+        "AuthorizedAmount": 0,
+        "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+        "YearsOnHouse": 0,
+        "MonthsOnHouse": 0,
+        "YearsOnLocal": 0,
+        "MonthsOnLocal": 0,
+        "TotalIncomeAmount": 0,
+        "TotalOutcomeAmount": 0,
+        "FeeEnabledToPay": 0,
+        "LoanDestiny": "",
+        "IsCreditGuaranteeWarrant": false,
+        "RequiredAmount": 0,
+        "ProposedAmount": 0,
+        "ProposedFrequency": "",
+        "ProposedFee": 0,
+        "ProposedPeriod": 0,
+        "MaxLiquidity": 0,
+        "PaymentFrequency": "",
+        "MaxRecurrentAmount": 0
+    },
+    "GeneralLoanData": {
+        "InsuranceAmount": 0,
+        "ControlListsResult": 0,
+        "RiskLevel": 0,
+        "SavingsAmount": 0,
+        "DispersionMediumId": "",
+        "DispersionChannelId": "",
+        "SemaphoreResultFilters": 0
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+        "BusinessIncome": 0,
+        "SpouseContribution": 0,
+        "FamilyContribution": 0,
+        "MoneyTransfer": 0,
+        "OtherIncome": 0,
+        "TotalIncome": 0,
+        "BusinessExpenses": 0,
+        "HouseholdExpenses": 0,
+        "ServiceAndRentExpenses": 0,
+        "CompartamosFee": 0,
+        "OtherDebts": 0,
+        "TotalExpenses": 0,
+        "TotalMonthlyLiquidity": 0,
+        "MaxAllowedLiquidity": 0,
+        "RequiredAmount": 0,
+        "FeeEnabledToPay": 0,
+        "LoanDestiny": ""
+    },
+    "__metadata": {
+        "uri": "LinkSet(CustomerIdCRM='9900000003',LoanRequestIdCRM='8800000003')",
+        "type": "AOMobile.Link"
+    },
+    "Customer": {
+        "__deferred": {
+            "uri": "LinkSet(CustomerIdCRM='9900000003',LoanRequestIdCRM='8800000003')/Customer"
+        }
+    },
+    "LoanRequest": {
+        "__deferred": {
+            "uri": "LinkSet(CustomerIdCRM='9900000003',LoanRequestIdCRM='8800000003')/LoanRequest"
+        }
+    }
+}, {
+    "CustomerIdCRM": "9900000004",
+    "LoanRequestIdCRM": "8800000004",
+    "CustomerIdMD": "99000000000000000000000000004",
+    "LoanRequestIdMD": "88000000000000000000000000004",
+    "CollaboratorID": "DVALENCIA",
+    "GroupLoanData": {
+        "RoleInTheGroupId": "",
+        "CreditAmount": 0,
+        "AuthorizedAmount": 0,
+        "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+        "YearsOnHouse": 0,
+        "MonthsOnHouse": 0,
+        "YearsOnLocal": 0,
+        "MonthsOnLocal": 0,
+        "TotalIncomeAmount": 0,
+        "TotalOutcomeAmount": 0,
+        "FeeEnabledToPay": 0,
+        "LoanDestiny": "",
+        "IsCreditGuaranteeWarrant": false,
+        "RequiredAmount": 0,
+        "ProposedAmount": 0,
+        "ProposedFrequency": "",
+        "ProposedFee": 0,
+        "ProposedPeriod": 0,
+        "MaxLiquidity": 0,
+        "PaymentFrequency": "",
+        "MaxRecurrentAmount": 0
+    },
+    "GeneralLoanData": {
+        "InsuranceAmount": 0,
+        "ControlListsResult": 0,
+        "RiskLevel": 0,
+        "SavingsAmount": 0,
+        "DispersionMediumId": "",
+        "DispersionChannelId": "",
+        "SemaphoreResultFilters": 0
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+        "BusinessIncome": 0,
+        "SpouseContribution": 0,
+        "FamilyContribution": 0,
+        "MoneyTransfer": 0,
+        "OtherIncome": 0,
+        "TotalIncome": 0,
+        "BusinessExpenses": 0,
+        "HouseholdExpenses": 0,
+        "ServiceAndRentExpenses": 0,
+        "CompartamosFee": 0,
+        "OtherDebts": 0,
+        "TotalExpenses": 0,
+        "TotalMonthlyLiquidity": 0,
+        "MaxAllowedLiquidity": 0,
+        "RequiredAmount": 0,
+        "FeeEnabledToPay": 0,
+        "LoanDestiny": ""
+    },
+    "__metadata": {
+        "uri": "LinkSet(CustomerIdCRM='9900000004',LoanRequestIdCRM='8800000004')",
+        "type": "AOMobile.Link"
+    },
+    "Customer": {
+        "__deferred": {
+            "uri": "LinkSet(CustomerIdCRM='9900000004',LoanRequestIdCRM='8800000004')/Customer"
+        }
+    },
+    "LoanRequest": {
+        "__deferred": {
+            "uri": "LinkSet(CustomerIdCRM='9900000004',LoanRequestIdCRM='8800000004')/LoanRequest"
+        }
+    }
+}]

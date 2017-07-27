@@ -1,0 +1,87 @@
+/* ======================================= */
+/* CSS for control sap.m/RadioButtonGroup  */
+/* Base theme                              */
+/* ======================================= */
+
+.sapMRbG{
+	display: inline-block;
+}
+
+.sapMRbGTab{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.sapMRbGCol{
+	-ms-flex-positive: 1;
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	vertical-align: top;
+	min-width: 10px;
+	margin-right: 0;
+	padding: 1px;
+	overflow: hidden; /* needed in Safari */
+}
+
+.sapMRbGTabFlex > .sapMRbGCol{
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+}
+
+.sapMRbGDummy{
+	-ms-flex-positive: 100;
+	-webkit-box-flex: 100;
+	flex-grow: 100;
+	min-width: 1px;
+}
+
+.sapMRbG > .sapMRb,
+.sapMRbGCol > .sapMRb{
+	float: left;
+	clear: left;
+	text-overflow: ellipsis;
+}
+
+.sapMRbG.sapMRbG1Row > .sapMRb{
+	clear: none;
+	margin-right: 15px;
+}
+
+.sapMRbGCol > .sapMRb{
+	width: 100%;
+	outline-offset: -1px;
+}
+
+.sapMRbG .sapMRbB {
+	position: absolute;
+	left: 0;
+}
+
+.sapMRbG  .sapMRbHasLabel .sapMRbB {
+	width: 2.875rem;
+}
+
+.sapMRbG .sapMRbBLabel {
+	margin-left: 0;
+	padding-left: 2.875rem;
+	display: inline-block;
+}
+
+.sapMRbG .sapMRbHasLabel .sapMRbBOut {
+	margin: 0.8125rem;
+}
+
+.sapMRbG .sapMRbHasLabel .sapMRbBOut {
+	margin: 0.8125rem;
+}
+
+.sapMRbG[dir=rtl] .sapMRbB {
+	right: 0;
+}
+
+.sapMRbG[dir=rtl] .sapMRbBLabel {
+	padding-right: 2.875rem;
+}

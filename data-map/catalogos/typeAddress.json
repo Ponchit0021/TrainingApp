@@ -1,0 +1,45 @@
+{
+    "tipo": [{
+            "idCRM": "",
+            "text": ""
+    },{
+            "idCRM": "1",
+            "text": "CASA"
+    },
+    {
+            "idCRM": "2",
+            "text": "CREDENCIAL INE"
+    },
+    {
+            "idCRM": "3",
+            "text": "FAMILIAR"
+    },
+    {
+            "idCRM": "4",
+            "text": "NEGOCIO"
+    },
+    {
+            "idCRM": "5",
+            "text": "DOMICILIO FISCAL"
+    },
+    {
+            "idCRM": "6",
+            "text": "OTRO"
+    },
+    {
+            "idCRM": "7",
+            "text": "EMPRESA/TRABAJO"
+    },
+    {
+            "idCRM": "8",
+            "text": "DIRECCION ANTERIOR"
+    },
+    {
+            "idCRM": "9",
+            "text": "DOMICILIO CORRESPONDENCIA"
+    },
+    {
+            "idCRM": "XXDEFAULT",
+            "text": "PRINCIPAL"
+    }]
+}

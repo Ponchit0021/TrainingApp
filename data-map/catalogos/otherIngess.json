@@ -1,0 +1,38 @@
+{
+    "ingreso": [{
+            "idCRM": "",
+            "text": ""
+    },
+    {
+            "idCRM": "001",
+            "text": "Salario"
+    },
+    {
+            "idCRM": "002",
+            "text": "Apoyo familiar"
+    },
+    {
+            "idCRM": "003",
+            "text": "Envío de dinero"
+    },
+    {
+            "idCRM": "004",
+            "text": "Pensión"
+    },
+    {
+            "idCRM": "005",
+            "text": "Apoyo de gobierno"
+    },
+    {
+            "idCRM": "006",
+            "text": "Otro negocio"
+    },
+    {
+            "idCRM": "007",
+            "text": "Otro"
+    },
+    {
+            "idCRM": "008",
+            "text": "Ninguno"
+    }]
+}

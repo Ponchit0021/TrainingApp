@@ -1,0 +1,15 @@
+{
+    "products": [{
+        "idCRM": "",
+        "productName": ""
+    }, {
+        "idCRM": "C_GRUPAL_CCR",
+        "productName": "Crédito Comerciante"
+    }, {
+        "idCRM": "C_IND_CI",
+        "productName": "Crédito Individual"
+    }, {
+        "idCRM": "C_GRUPAL_CM",
+        "productName": "Crédito Mujer"
+    }]
+}

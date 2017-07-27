@@ -1,0 +1,9 @@
+{
+    "results": [
+        { "id": "0001", "message": "Solicitud creada", "nav": true, "tab": "Main", "toast": "" },
+        { "id": "0002", "message": "El aval asociado tiene el número máximo de relaciones disponibles.", "nav": true, "tab": "Main", "toast": "" },
+        { "id": "0003", "message": "No se permiten avales cruzados.", "nav": true, "tab": "Main", "toast": "" },
+        { "id": "0004", "message": "El credito no puedo ser creado por que la oferta expiró", "nav": false, "tab": "", "toast": "Notificación atendida." },
+        { "id": "0005", "message": "Oportunidad rechazada por aprobador", "nav": false, "tab": "", "toast": "Notificación atendida." }
+    ]
+}

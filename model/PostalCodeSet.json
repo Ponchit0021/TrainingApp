@@ -1,0 +1,151 @@
+[{
+	"Code": "01020",
+	"SuburbName": "SuburbName 1",
+	"CountryId": "CountryId 1",
+	"CountryName": "CountryName 1",
+	"StateId": "StateId 1",
+	"StateName": "StateName 1",
+	"TownId": "TownId 1",
+	"TownName": "TownName 1",
+	"City": "City 1",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%201',SuburbName='SuburbName%201')",
+		"type": "AOMobile.PostalCode"
+	}
+}, {
+	"Code": "Code 2",
+	"SuburbName": "SuburbName 2",
+	"CountryId": "CountryId 2",
+	"CountryName": "CountryName 2",
+	"StateId": "StateId 2",
+	"StateName": "StateName 2",
+	"TownId": "TownId 2",
+	"TownName": "TownName 2",
+	"City": "City 2",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%202',SuburbName='SuburbName%202')",
+		"type": "AOMobile.PostalCode"
+	}
+}, {
+	"Code": "Code 3",
+	"SuburbName": "SuburbName 3",
+	"CountryId": "CountryId 3",
+	"CountryName": "CountryName 3",
+	"StateId": "StateId 3",
+	"StateName": "StateName 3",
+	"TownId": "TownId 3",
+	"TownName": "TownName 3",
+	"City": "City 3",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%203',SuburbName='SuburbName%203')",
+		"type": "AOMobile.PostalCode"
+	}
+}, {
+	"Code": "Code 4",
+	"SuburbName": "SuburbName 4",
+	"CountryId": "CountryId 4",
+	"CountryName": "CountryName 4",
+	"StateId": "StateId 4",
+	"StateName": "StateName 4",
+	"TownId": "TownId 4",
+	"TownName": "TownName 4",
+	"City": "City 4",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%204',SuburbName='SuburbName%204')",
+		"type": "AOMobile.PostalCode"
+	}
+}, {
+	"Code": "Code 5",
+	"SuburbName": "SuburbName 5",
+	"CountryId": "CountryId 5",
+	"CountryName": "CountryName 5",
+	"StateId": "StateId 5",
+	"StateName": "StateName 5",
+	"TownId": "TownId 5",
+	"TownName": "TownName 5",
+	"City": "City 5",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%205',SuburbName='SuburbName%205')",
+		"type": "AOMobile.PostalCode"
+	}
+}, {
+	"Code": "Code 6",
+	"SuburbName": "SuburbName 6",
+	"CountryId": "CountryId 6",
+	"CountryName": "CountryName 6",
+	"StateId": "StateId 6",
+	"StateName": "StateName 6",
+	"TownId": "TownId 6",
+	"TownName": "TownName 6",
+	"City": "City 6",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%206',SuburbName='SuburbName%206')",
+		"type": "AOMobile.PostalCode"
+	}
+}, {
+	"Code": "Code 7",
+	"SuburbName": "SuburbName 7",
+	"CountryId": "CountryId 7",
+	"CountryName": "CountryName 7",
+	"StateId": "StateId 7",
+	"StateName": "StateName 7",
+	"TownId": "TownId 7",
+	"TownName": "TownName 7",
+	"City": "City 7",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%207',SuburbName='SuburbName%207')",
+		"type": "AOMobile.PostalCode"
+	}
+}, {
+	"Code": "Code 8",
+	"SuburbName": "SuburbName 8",
+	"CountryId": "CountryId 8",
+	"CountryName": "CountryName 8",
+	"StateId": "StateId 8",
+	"StateName": "StateName 8",
+	"TownId": "TownId 8",
+	"TownName": "TownName 8",
+	"City": "City 8",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%208',SuburbName='SuburbName%208')",
+		"type": "AOMobile.PostalCode"
+	}
+}, {
+	"Code": "Code 9",
+	"SuburbName": "SuburbName 9",
+	"CountryId": "CountryId 9",
+	"CountryName": "CountryName 9",
+	"StateId": "StateId 9",
+	"StateName": "StateName 9",
+	"TownId": "TownId 9",
+	"TownName": "TownName 9",
+	"City": "City 9",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%209',SuburbName='SuburbName%209')",
+		"type": "AOMobile.PostalCode"
+	}
+}, {
+	"Code": "Code 10",
+	"SuburbName": "SuburbName 10",
+	"CountryId": "CountryId 10",
+	"CountryName": "CountryName 10",
+	"StateId": "StateId 10",
+	"StateName": "StateName 10",
+	"TownId": "TownId 10",
+	"TownName": "TownName 10",
+	"City": "City 10",
+	"CollaboratorID": "DVALENCIA",
+	"__metadata": {
+		"uri": "PostalCodeSet(Code='Code%2010',SuburbName='SuburbName%2010')",
+		"type": "AOMobile.PostalCode"
+	}
+}]

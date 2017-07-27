@@ -1,0 +1,21 @@
+{
+    "options": [{
+        "option": {
+            "id": "tileCrSellCandidates",
+            "title": "Seleccionar Candidatos",
+            "description": "",
+            "icon": "sap-icon://survey",
+            "number": "",
+            "routeName": "crossSellCandidates"
+        }
+    }, {
+        "option": {
+            "id": "tileCreateCrossSell",
+            "title": "Crear Venta Cruzada",
+            "description": "",
+            "icon": "sap-icon://employee-approvals",
+            "number": "",
+            "routeName": "crossSellOfflineCandidateList"
+        }
+    }]
+}

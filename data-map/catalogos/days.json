@@ -1,0 +1,29 @@
+{
+    "days": [{
+        "idCRM": "",
+        "text": ""
+    },{
+        "idCRM": "1",
+        "text": "Lunes"
+    }, 
+    {
+        "idCRM": "2",
+        "text": "Martes"
+    },
+    {
+        "idCRM": "3",
+        "text": "Miercoles"
+    },
+    {
+        "idCRM": "4",
+        "text": "Jueves"
+    },
+    {
+        "idCRM": "5",
+        "text": "Viernes"
+    },
+    {
+        "idCRM": "6",
+        "text": "Sabado"
+    }]
+}

@@ -1,0 +1,9 @@
+{
+    "tipoPagoSeguro": [{
+        "idCRM": "001",
+        "text": "Pago Diferido"
+    }, {
+        "idCRM": "002",
+        "text": "Pago Unico"
+    }]
+}

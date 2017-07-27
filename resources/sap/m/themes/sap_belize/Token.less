@@ -1,0 +1,112 @@
+/* ============================ */
+/* CSS for control sap.m/Token  */
+/* Belize theme                 */
+/* ============================ */
+
+.sapMToken {
+	font-size: @sapMFontMediumSize;
+	background: @sapUiButtonBackground;
+	border: 1px solid darken(@sapUiButtonBackground, 10);
+	border-radius: 0.125rem;
+	color: @sapUiButtonTextColor;
+	padding-left: 0.375rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	height: 1.625rem;
+}
+
+.sapContrast .sapMToken,
+.sapContrast.sapMToken {
+	border: 1px solid lighten(@sapUiButtonBackground, 15);
+}
+
+.sapMToken.sapMTokenReadOnly {
+	padding: 0.25rem 0.375rem;
+	color: @sapUiContentForegroundTextColor;
+}
+
+html.sap-desktop .sapMToken:hover {
+	background: @sapUiButtonHoverBackground;
+	border: 1px solid darken(@sapUiButtonHoverBackground, 5);
+	border-radius: 0.125rem;
+}
+
+.sapMToken:focus {
+	outline: 1px dotted;
+	outline-offset: -3px;
+	outline-color: @sapUiContentContrastFocusColor;
+}
+
+.sapContrast .sapMToken:focus,
+.sapContrast.sapMToken:focus {
+	outline-color: @sapUiContentFocusColor;
+}
+
+html[data-sap-ui-browser^="ie"].sap-desktop,
+html[data-sap-ui-browser^="ed"].sap-desktop {
+	.sapMToken:focus{
+		position: relative;
+		outline: none;
+	}
+
+	.sapMTokenText:before {
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		right: 2px;
+		bottom: 2px;
+		border: 1px dashed @sapUiContentContrastFocusColor; //dashed only in IE due to visual issues with dotted - ticket 1670468323
+		content: "";
+		pointer-events: none;
+	}
+}
+
+.sapMTokenSelected,
+.sapMToken.sapMTokenReadOnly.sapMTokenSelected {
+	color: @sapUiToggleButtonPressedTextColor;
+	background: @sapUiToggleButtonPressedBackground;
+	border: 1px solid @sapUiToggleButtonPressedBorderColor;
+	border-radius: 0.125rem;
+}
+
+html.sap-desktop .sapMToken.sapMTokenSelected:hover,
+.sapMToken.sapMTokenSelected:hover {
+	background: @sapUiToggleButtonPressedHoverBackground;
+	border: 1px solid @sapUiToggleButtonPressedHoverBorderColor;
+	border-radius: 0.125rem;
+}
+
+.sapMTokenSelected .sapMTokenIcon {
+	color: @sapUiToggleButtonPressedTextColor;
+}
+
+.sapMTokenIcon {
+	padding: 0.25rem 0.5rem;
+	font-size: 1rem;
+	color: @sapUiContentIconColor;
+	vertical-align: middle;
+}
+
+.sapUiSizeCompact .sapMToken {
+	padding-left: 0.25rem;
+	padding-bottom: 0.1rem;
+	height: 1.25rem;
+}
+
+.sapUiSizeCompact .sapMToken.sapMTokenReadOnly {
+	padding: 0.1rem 0.25rem;
+}
+
+.sapUiSizeCompact .sapMTokenIcon {
+	font-size: 0.75rem;
+	padding: 0.1rem 0.25rem;
+	vertical-align: baseline;
+}
+
+.sapUiSizeCompact .sapMListTbl .sapMToken .sapUiIcon:not(.sapMLIBImgNav) {
+	font-size: 0.75rem;
+}
+
+.sapMToken.sapMTokenActive {
+	background: darken(@sapUiButtonBackground, 5);
+}

@@ -1,0 +1,191 @@
+[{
+	"ImageIdSharepoint": "",
+	"DocumentId": "IDO",
+	"ImageBase64": "01001100100010111000111101111101",
+	"CustomerIdCRM": "9900000002",
+	"InsuranceBeneficiaryIdMD": "",
+	"IsReceived": false,
+	"DocumentStatusId": "ACE",
+	"DocumentStatusText": "ACEPTADO",
+	"CustomerIdMD": "",
+	"DueDate": "/Date(1133985799000)/",
+	"InsuranceIdMD": "",
+	"LoanRequestIdCRM": "",
+	"CollaboratorID": "",
+	"LoanRequestIdMD": "",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%201')",
+		"type": "AOMobile.Image"
+	}
+}, {
+	"ImageIdSharepoint": "",
+	"DocumentId": "ID2",
+	"ImageBase64": "00000001000110110001111111010111",
+	"CustomerIdCRM": "9900000002",
+	"InsuranceBeneficiaryIdMD": "",
+	"IsReceived": false,
+	"DocumentStatusId": "ACE",
+	"DocumentStatusText": "ACEPTADO",
+	"CustomerIdMD": "99000000000000000000000000002",
+	"DueDate": "/Date(1570820599000)/",
+	"InsuranceIdMD": "",
+	"LoanRequestIdCRM": "",
+	"CollaboratorID": "",
+	"LoanRequestIdMD": "",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%202')",
+		"type": "AOMobile.Image"
+	}
+}, {
+	"ImageIdSharepoint": "",
+	"DocumentId": "CDO",
+	"ImageBase64": "11111000001101001111000111001010",
+	"CustomerIdCRM": "9900000002",
+	"InsuranceBeneficiaryIdMD": "",
+	"IsReceived": true,
+	"DocumentStatusId": "ACE",
+	"DocumentStatusText": "ACEPTADO",
+	"CustomerIdMD": "",
+	"DueDate": "/Date(1346785399000)/",
+	"InsuranceIdMD": "",
+	"LoanRequestIdCRM": "",
+	"CollaboratorID": "",
+	"LoanRequestIdMD": "",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%203')",
+		"type": "AOMobile.Image"
+	}
+}, {
+	"ImageIdSharepoint": "",
+	"DocumentId": "CBU",
+	"ImageBase64": "00011000101000111000100000001010",
+	"CustomerIdCRM": "9900000002",
+	"InsuranceBeneficiaryIdMD": "",
+	"IsReceived": false,
+	"DocumentStatusId": "ACE",
+	"DocumentStatusText": "ACEPTADO",
+	"CustomerIdMD": "",
+	"DueDate": "/Date(1317495799000)/",
+	"InsuranceIdMD": "",
+	"LoanRequestIdCRM": "",
+	"CollaboratorID": "",
+	"LoanRequestIdMD": "",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%204')",
+		"type": "AOMobile.Image"
+	}
+}, {
+	"ImageIdSharepoint": "",
+	"DocumentId": "CUR",
+	"ImageBase64": "10010101101101011011110000000110",
+	"CustomerIdCRM": "9900000002",
+	"InsuranceBeneficiaryIdMD": "",
+	"IsReceived": false,
+	"DocumentStatusId": "",
+	"DocumentStatusText": "",
+	"CustomerIdMD": "",
+	"DueDate": "/Date(1388692999000)/",
+	"InsuranceIdMD": "",
+	"LoanRequestIdCRM": "",
+	"CollaboratorID": "",
+	"LoanRequestIdMD": "",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%206')",
+		"type": "AOMobile.Image"
+	}
+},{
+	"ImageIdSharepoint": "",
+	"DocumentId": "CIF",
+	"ImageBase64": "10010101101101011011110000000110",
+	"CustomerIdCRM": "9900000002",
+	"InsuranceBeneficiaryIdMD": "",
+	"IsReceived": false,
+	"DocumentStatusId": "",
+	"DocumentStatusText": "",
+	"CustomerIdMD": "",
+	"DueDate": "/Date(1388692999000)/",
+	"InsuranceIdMD": "",
+	"LoanRequestIdCRM": "",
+	"CollaboratorID": "",
+	"LoanRequestIdMD": "",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%206')",
+		"type": "AOMobile.Image"
+	}
+}, {
+	"ImageIdSharepoint": "",
+	"DocumentId": "FEL",
+	"ImageBase64": "00100111101101010001110001011100",
+	"CustomerIdCRM": "9900000002",
+	"InsuranceBeneficiaryIdMD": "",
+	"IsReceived": true,
+	"DocumentStatusId": "",
+	"DocumentStatusText": "",
+	"CustomerIdMD": "",
+	"DueDate": "/Date(982353799000)/",
+	"InsuranceIdMD": "",
+	"LoanRequestIdCRM": "",
+	"CollaboratorID": "",
+	"LoanRequestIdMD": "",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%207')",
+		"type": "AOMobile.Image"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 8",
+	"DocumentId": "DocumentId 8",
+	"ImageBase64": "01010001010010110100001110010001",
+	"CustomerIdCRM": "CustomerIdCRM 8",
+	"InsuranceBeneficiaryIdMD": "InsuranceBeneficiaryIdMD 8",
+	"IsReceived": true,
+	"DocumentStatusId": "DocumentStatusId 8",
+	"DocumentStatusText": "DocumentStatusText 8",
+	"CustomerIdMD": "CustomerIdMD 8",
+	"DueDate": "/Date(1157223799000)/",
+	"InsuranceIdMD": "InsuranceIdMD 8",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
+	"CollaboratorID": "CollaboratorID 8",
+	"LoanRequestIdMD": "LoanRequestIdMD 8",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%208')",
+		"type": "AOMobile.Image"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 9",
+	"DocumentId": "DocumentId 9",
+	"ImageBase64": "01111011000011101101001000110100",
+	"CustomerIdCRM": "CustomerIdCRM 9",
+	"InsuranceBeneficiaryIdMD": "InsuranceBeneficiaryIdMD 9",
+	"IsReceived": false,
+	"DocumentStatusId": "DocumentStatusId 9",
+	"DocumentStatusText": "DocumentStatusText 9",
+	"CustomerIdMD": "CustomerIdMD 9",
+	"DueDate": "/Date(1011297799000)/",
+	"InsuranceIdMD": "InsuranceIdMD 9",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
+	"CollaboratorID": "CollaboratorID 9",
+	"LoanRequestIdMD": "LoanRequestIdMD 9",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%209')",
+		"type": "AOMobile.Image"
+	}
+}, {
+	"ImageIdSharepoint": "ImageIdSharepoint 10",
+	"DocumentId": "DocumentId 10",
+	"ImageBase64": "00100001110100111100001111100011",
+	"CustomerIdCRM": "CustomerIdCRM 10",
+	"InsuranceBeneficiaryIdMD": "InsuranceBeneficiaryIdMD 10",
+	"IsReceived": true,
+	"DocumentStatusId": "DocumentStatusId 10",
+	"DocumentStatusText": "DocumentStatusText 10",
+	"CustomerIdMD": "CustomerIdMD 10",
+	"DueDate": "/Date(951768199000)/",
+	"InsuranceIdMD": "InsuranceIdMD 10",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
+	"CollaboratorID": "CollaboratorID 10",
+	"LoanRequestIdMD": "LoanRequestIdMD 10",
+	"__metadata": {
+		"uri": "ImageSet('ImageIdSharepoint%2010')",
+		"type": "AOMobile.Image"
+	}
+}]

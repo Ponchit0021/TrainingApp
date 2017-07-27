@@ -1,0 +1,27 @@
+{
+    "origen": [{
+        "idOrigen": "",
+        "desOrigen": ""
+    },{
+        "idOrigen": "Z01",
+        "desOrigen": "Promoción Directa"
+    }, {
+        "idOrigen": "Z02",
+        "desOrigen": "Call Center"
+    },{
+        "idOrigen": "Z03",
+        "desOrigen": "Ejecutivo de Aten."
+    },{
+        "idOrigen": "Z04",
+        "desOrigen": "Portal Web"
+    },{
+        "idOrigen": "Z05",
+        "desOrigen": "Ex Clientes"
+    },{
+        "idOrigen": "Z07",
+        "desOrigen": "Subsecuente"
+    },{
+        "idOrigen": "Z14",
+        "desOrigen": "Venta Cruzada"
+    }]
+}

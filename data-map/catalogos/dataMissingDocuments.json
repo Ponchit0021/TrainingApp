@@ -1,0 +1,72 @@
+{
+    "IDO": {
+        "title": "Identificación oficial",
+        "front-back": "Frente",
+        "status": ""
+    },
+    "ID2": {
+        "title": "Identificación oficial",
+        "front-back": "Reverso",
+        "status": ""
+    },
+    "CDO": {
+        "title": "Comprobante de domicilio",
+        "front-back": "",
+        "status": ""
+    },
+    "CBU": {
+        "title": "Autorización Buró/Avisos",
+        "front-back": "",
+        "status": ""
+    },
+    "CUF": {
+        "title": "CUFE",
+        "front-back": "",
+        "status": ""
+    },
+    "IMN": {
+        "title": "Foto del negocio",
+        "front-back": "",
+        "status": ""
+    },
+    "IMI": {
+        "title": "Fachada del negocio",
+        "front-back": "",
+        "status": ""
+    },
+    "IME": {
+        "title": "Interior del negocio",
+        "front-back": "",
+        "status": ""
+    },
+    "CIF": {
+        "title": "Cédula de identificación fiscal",
+        "front-back": "",
+        "status": ""
+    },
+    "FEL": {
+        "title": "Firma electrónica avanzada",
+        "front-back": "",
+        "status": ""
+    },
+    "CUR": {
+        "title": "CURP",
+        "front-back": "",
+        "status": ""
+    },
+    "CAF": {
+        "title": "Identificación oficial",
+        "front-back": "Frente",
+        "status": ""
+    },
+    "CAR": {
+        "title": "Identificación oficial",
+        "front-back": "Reverso",
+        "status": ""
+    },
+    "SCC": {
+        "title": "Solicitud de Cambios y/o Correcciones",
+        "front-back": "",
+        "status": ""
+    }
+}

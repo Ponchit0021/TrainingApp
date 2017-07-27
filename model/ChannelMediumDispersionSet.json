@@ -1,0 +1,121 @@
+[{
+	"CollaboratorID": "DVALENCIA",
+	"ChannelID": "002",
+	"MediumID": "X",
+	"ChannelDescription": "BANAMEX",
+	"MediumDescription": "ODP",
+	"Min": 0.9095662453656406,
+	"Max": 4.4128572385983595,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%201',ChannelID='ChannelID%201',MediumID='MediumID%201')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}, {
+	"CollaboratorID": "DVALENCIA",
+	"ChannelID": "012",
+	"MediumID": "X",
+	"ChannelDescription": "BANCOMER",
+	"MediumDescription": "ODP",
+	"Min": 1.5225962283803485,
+	"Max": 7.993315115456225,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%202',ChannelID='ChannelID%202',MediumID='MediumID%202')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}, {
+	"CollaboratorID": "DVALENCIA",
+	"ChannelID": "099",
+	"MediumID": "Z",
+	"ChannelDescription": "NETPAY",
+	"MediumDescription": "TDD",
+	"Min": 2.5610797078613423,
+	"Max": 5.970080970565917,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%203',ChannelID='ChannelID%203',MediumID='MediumID%203')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}, {
+	"CollaboratorID": "CollaboratorID 4",
+	"ChannelID": "ChannelID 4",
+	"MediumID": "MediumID 4",
+	"ChannelDescription": "ChannelDescription 4",
+	"MediumDescription": "MediumDescription 4",
+	"Min": 5.675831882588726,
+	"Max": 4.998639360394743,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%204',ChannelID='ChannelID%204',MediumID='MediumID%204')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}, {
+	"CollaboratorID": "CollaboratorID 5",
+	"ChannelID": "ChannelID 5",
+	"MediumID": "MediumID 5",
+	"ChannelDescription": "ChannelDescription 5",
+	"MediumDescription": "MediumDescription 5",
+	"Min": 7.937702120938324,
+	"Max": 8.474750888773388,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%205',ChannelID='ChannelID%205',MediumID='MediumID%205')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}, {
+	"CollaboratorID": "CollaboratorID 6",
+	"ChannelID": "ChannelID 6",
+	"MediumID": "MediumID 6",
+	"ChannelDescription": "ChannelDescription 6",
+	"MediumDescription": "MediumDescription 6",
+	"Min": 4.808907883557767,
+	"Max": 6.23684885905506,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%206',ChannelID='ChannelID%206',MediumID='MediumID%206')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}, {
+	"CollaboratorID": "CollaboratorID 7",
+	"ChannelID": "ChannelID 7",
+	"MediumID": "MediumID 7",
+	"ChannelDescription": "ChannelDescription 7",
+	"MediumDescription": "MediumDescription 7",
+	"Min": 7.159642777346478,
+	"Max": 6.925470687404934,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%207',ChannelID='ChannelID%207',MediumID='MediumID%207')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}, {
+	"CollaboratorID": "CollaboratorID 8",
+	"ChannelID": "ChannelID 8",
+	"MediumID": "MediumID 8",
+	"ChannelDescription": "ChannelDescription 8",
+	"MediumDescription": "MediumDescription 8",
+	"Min": 1.6117326246344588,
+	"Max": 5.888169857087194,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%208',ChannelID='ChannelID%208',MediumID='MediumID%208')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}, {
+	"CollaboratorID": "CollaboratorID 9",
+	"ChannelID": "ChannelID 9",
+	"MediumID": "MediumID 9",
+	"ChannelDescription": "ChannelDescription 9",
+	"MediumDescription": "MediumDescription 9",
+	"Min": 1.7584541179875024,
+	"Max": 6.401890737069619,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%209',ChannelID='ChannelID%209',MediumID='MediumID%209')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}, {
+	"CollaboratorID": "CollaboratorID 10",
+	"ChannelID": "ChannelID 10",
+	"MediumID": "MediumID 10",
+	"ChannelDescription": "ChannelDescription 10",
+	"MediumDescription": "MediumDescription 10",
+	"Min": 4.673723004213612,
+	"Max": 7.911039664915556,
+	"__metadata": {
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%2010',ChannelID='ChannelID%2010',MediumID='MediumID%2010')",
+		"type": "AOMobile.ChannelMediumDispersion"
+	}
+}]
