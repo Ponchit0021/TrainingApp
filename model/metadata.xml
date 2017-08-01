@@ -1,467 +1,468 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Version="1.0">
+<?xml version="1.0" encoding="UTF-8"?><edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Version="1.0">
     <edmx:DataServices m:DataServiceVersion="2.0">
-        <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="AOMobile">
-            <!--MOdelo OData IGW-->
-            <EntityType Name="PendingsPromoter">
-                <Key>
-                    <PropertyRef Name="notificationID" />
-                </Key>
-                <Property Name="notificationID" Type="Edm.String" Nullable="false" MaxLength="512" />
-                <Property Name="promoterID" Type="Edm.String" />
-                <Property Name="dateTime" Type="Edm.DateTime" />
-                <Property Name="documentID" Type="Edm.String" />
-                <Property Name="documentType" Type="Edm.String" />
-                <Property Name="reason" Type="Edm.String" />
-                <Property Name="comment" Type="Edm.String" />
-                <Property Name="attended" Type="Edm.String" />
-                <Property Name="updateDateTime" Type="Edm.String" />
-                <Property Name="categoryID" Type="Edm.String" />
-                <Property Name="categoryName" Type="Edm.String" />
-                <Property Name="objectTypeID" Type="Edm.String" />
-                <Property Name="objectTypeName" Type="Edm.String" />
-                <Property Name="objectDMID" Type="Edm.String" />
-                <Property Name="objectCRMID" Type="Edm.String" />
-                <Property Name="productID" Type="Edm.String" />
-                <Property Name="objectName" Type="Edm.String" />
-                <Property Name="customerCRMID" Type="Edm.String" />
-            </EntityType>
-            <EntityType Name="AnnouncementsPromoter">
-                <Key>
-                    <PropertyRef Name="notificationID" />
-                </Key>
-                <Property Name="notificationID" Type="Edm.String" Nullable="false" MaxLength="512" />
-                <Property Name="promoterID" Type="Edm.String" />
-                <Property Name="dateTime" Type="Edm.DateTime" />
-                <Property Name="message" Type="Edm.String" />
-                <Property Name="attended" Type="Edm.String" />
-                <Property Name="updateDateTime" Type="Edm.String" />
-                <Property Name="categoryID" Type="Edm.String" />
-                <Property Name="categoryName" Type="Edm.String" />
-                <Property Name="objectTypeID" Type="Edm.String" />
-                <Property Name="objectTypeName" Type="Edm.String" />
-                <Property Name="objectDMID" Type="Edm.String" />
-                <Property Name="objectCRMID" Type="Edm.String" />
-                <Property Name="productID" Type="Edm.String" />
-                <Property Name="objectName" Type="Edm.String" />
-                <Property Name="customerCRMID" Type="Edm.String" />
-            </EntityType>
-            <EntityType Name="SystemNotifications">
-                <Key>
-                    <PropertyRef Name="notificationID" />
-                </Key>
-                <Property Name="notificationID" Type="Edm.String" Nullable="false" MaxLength="512" />
-                <Property Name="promoterID" Type="Edm.String" />
-                <Property Name="dateTime" Type="Edm.DateTime" />
-                <Property Name="status" Type="Edm.Int32" />
-                <Property Name="messageID" Type="Edm.Int32" />
-                <Property Name="message" Type="Edm.String" />
-                <Property Name="objectTypeID" Type="Edm.String" />
-                <Property Name="objectDMID" Type="Edm.String" />
-                <Property Name="objectCRMID" Type="Edm.String" />
-                <Property Name="attended" Type="Edm.String" />
-                <Property Name="insuranceDMID" Type="Edm.String" />
-            </EntityType>
+        <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:sap="http://www.sap.com/Protocols/SAPData" Namespace="AOMobile">
+            <!--Entidades GW-->
             <EntityType Name="Link">
                 <Key>
-                    <PropertyRef Name="CustomerIdCRM" />
-                    <PropertyRef Name="LoanRequestIdCRM" />
+                    <PropertyRef Name="CustomerIdCRM"/>
+                    <PropertyRef Name="LoanRequestIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property Name="GroupLoanData" Nullable="false" Type="AOMobile.GroupLoanCustomerData" />
-                <Property Name="IndividualLoanData" Nullable="false" Type="AOMobile.IndividualLoanCustomerData" />
-                <Property Name="GeneralLoanData" Nullable="false" Type="AOMobile.GeneralLoanCustomerData" />
-                <Property Name="AvailableToFilter" Type="Edm.String" />
-                <Property Name="GrpCrossSellData" Nullable="false" Type="AOMobile.GroupCrossSellLoanCustomerData" />
-                <NavigationProperty FromRole="To_Link" Name="Customer" Relationship="AOMobile.CustomerLink" ToRole="From_Customer" />
-                <NavigationProperty FromRole="To_Link" Name="LoanRequest" Relationship="AOMobile.LoanRequestLink" ToRole="From_LoanRequest" />
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property Name="GroupLoanData" Nullable="false" Type="AOMobile.GroupLoanCustomerData"/>
+                <Property Name="IndividualLoanData" Nullable="false" Type="AOMobile.IndividualLoanCustomerData"/>
+                <Property Name="GeneralLoanData" Nullable="false" Type="AOMobile.GeneralLoanCustomerData"/>
+                <Property Name="AvailableToFilter" Type="Edm.String"/>
+                <Property Name="GrpCrossSellData" Nullable="false" Type="AOMobile.GroupCrossSellLoanCustomerData"/>
+                <NavigationProperty FromRole="To_Link" Name="Customer" Relationship="AOMobile.CustomerLink" ToRole="From_Customer"/>
+                <NavigationProperty FromRole="To_Link" Name="LoanRequest" Relationship="AOMobile.LoanRequestLink" ToRole="From_LoanRequest"/>
             </EntityType>
             <EntityType Name="LoanRequest">
                 <Key>
-                    <PropertyRef Name="LoanRequestIdCRM" />
+                    <PropertyRef Name="LoanRequestIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property MaxLength="54" Name="ProductID" Type="Edm.String" />
-                <Property Name="ProcessType" Type="Edm.String" />
-                <Property Name="GroupRequestData" Nullable="false" Type="AOMobile.GroupRequest" />
-                <Property Name="GeneralLoanRequestData" Nullable="false" Type="AOMobile.LoanRequestGeneral" />
-                <Property MaxLength="10" Name="LoanRequestIdCRMParent" Type="Edm.String" />
-                <Property Name="SubsequenceType" Type="Edm.String" />
-                <Property Name="IsApproved" Type="Edm.Boolean" />
-                <Property Name="LRGeneralCrossSell" Nullable="false" Type="AOMobile.LoanRequestGeneralCrossSellData" />
-                <Property Name="LRGroupCrossSell" Nullable="false" Type="AOMobile.LoanRequestGroupCrossSellData" />
-                <NavigationProperty FromRole="From_LoanRequest" Name="LinkSet" Relationship="AOMobile.LoanRequestLink" ToRole="To_Link" />
-                <NavigationProperty FromRole="From_LoanRequest" Name="LinkGuarantorSet" Relationship="AOMobile.LoanRequestLinkGuarantor" ToRole="To_LinkGuarantor" />
-                <NavigationProperty FromRole="From_LoanRequest" Name="InsuranceSet" Relationship="AOMobile.LoanRequestInsurance" ToRole="To_Insurance" />
-                <NavigationProperty FromRole="From_LoanRequest" Name="ElectronicSignatureSet" Relationship="AOMobile.LoanRequestElectronicSignature" ToRole="To_ElectronicSignature" />
-                <NavigationProperty FromRole="From_LoanRequest" Name="ImageSet" Relationship="AOMobile.LoanRequestImage" ToRole="To_Image" />
-                <NavigationProperty FromRole="From_LoanRequest" Name="GroupCrossSellAssignedGuarantorSet" Relationship="AOMobile.LoanRequestGroupCrossSellAssignedGuarantor" ToRole="To_GroupCrossSellAssignedGuarantor" />
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property MaxLength="54" Name="ProductID" Type="Edm.String"/>
+                <Property Name="ProcessType" Type="Edm.String"/>
+                <Property Name="GroupRequestData" Nullable="false" Type="AOMobile.GroupRequest"/>
+                <Property Name="GeneralLoanRequestData" Nullable="false" Type="AOMobile.LoanRequestGeneral"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRMParent" Type="Edm.String"/>
+                <Property Name="SubsequenceType" Type="Edm.String"/>
+                <Property Name="IsApproved" Type="Edm.Boolean"/>
+                <Property Name="LRGeneralCrossSell" Nullable="false" Type="AOMobile.LoanRequestGeneralCrossSellData"/>
+                <Property Name="LRGroupCrossSell" Nullable="false" Type="AOMobile.LoanRequestGroupCrossSellData"/>
+                <NavigationProperty FromRole="From_LoanRequest" Name="LinkSet" Relationship="AOMobile.LoanRequestLink" ToRole="To_Link"/>
+                <NavigationProperty FromRole="From_LoanRequest" Name="LinkGuarantorSet" Relationship="AOMobile.LoanRequestLinkGuarantor" ToRole="To_LinkGuarantor"/>
+                <NavigationProperty FromRole="From_LoanRequest" Name="InsuranceSet" Relationship="AOMobile.LoanRequestInsurance" ToRole="To_Insurance"/>
+                <NavigationProperty FromRole="From_LoanRequest" Name="ElectronicSignatureSet" Relationship="AOMobile.LoanRequestElectronicSignature" ToRole="To_ElectronicSignature"/>
+                <NavigationProperty FromRole="From_LoanRequest" Name="ImageSet" Relationship="AOMobile.LoanRequestImage" ToRole="To_Image"/>
+                <NavigationProperty FromRole="From_LoanRequest" Name="GroupCrossSellAssignedGuarantorSet" Relationship="AOMobile.LoanRequestGroupCrossSellAssignedGuarantor" ToRole="To_GroupCrossSellAssignedGuarantor"/>
             </EntityType>
             <EntityType Name="Customer">
                 <Key>
-                    <PropertyRef Name="CustomerIdCRM" />
+                    <PropertyRef Name="CustomerIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property Name="BpName" Nullable="false" Type="AOMobile.BpNameData" />
-                <Property Name="BpMainData" Nullable="false" Type="AOMobile.BpMainData" />
-                <Property Name="BpComplementaryData" Nullable="false" Type="AOMobile.BpComplementaryData" />
-                <Property Name="BpBasicData" Nullable="false" Type="AOMobile.BpBasicData" />
-                <Property Name="BpAdditionalData" Nullable="false" Type="AOMobile.BpAdditionalData" />
-                <Property Name="BpFlag" Nullable="false" Type="AOMobile.BPFlag" />
-                <Property Name="PreLoanRequestID" Type="Edm.Guid" />
-                <NavigationProperty FromRole="From_Customer" Name="LinkSet" Relationship="AOMobile.CustomerLink" ToRole="To_Link" />
-                <NavigationProperty FromRole="From_Customer" Name="AddressSet" Relationship="AOMobile.CustomerAddress" ToRole="To_Address" />
-                <NavigationProperty FromRole="From_Customer" Name="PhoneSet" Relationship="AOMobile.CustomerPhone" ToRole="To_Phone" />
-                <NavigationProperty FromRole="From_Customer" Name="PersonalReferenceSet" Relationship="AOMobile.CustomerPersonalReference" ToRole="To_PersonalReference" />
-                <NavigationProperty FromRole="From_Customer" Name="ImageSet" Relationship="AOMobile.CustomerImage" ToRole="To_Image" />
-                <NavigationProperty FromRole="From_Customer" Name="EmployerSet" Relationship="AOMobile.CustomerEmployer" ToRole="To_Employer" />
-                <NavigationProperty FromRole="From_Customer" Name="InsuranceSet" Relationship="AOMobile.CustomerInsurance" ToRole="To_Insurance" />
-                <NavigationProperty FromRole="To_Customer" Name="LinkPreloanRequest" Relationship="AOMobile.LinkPreloanRequestCustomer" ToRole="From_LinkPreloanRequest" />
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property Name="BpName" Nullable="false" Type="AOMobile.BpNameData"/>
+                <Property Name="BpMainData" Nullable="false" Type="AOMobile.BpMainData"/>
+                <Property Name="BpComplementaryData" Nullable="false" Type="AOMobile.BpComplementaryData"/>
+                <Property Name="BpBasicData" Nullable="false" Type="AOMobile.BpBasicData"/>
+                <Property Name="BpAdditionalData" Nullable="false" Type="AOMobile.BpAdditionalData"/>
+                <Property Name="BpFlag" Nullable="false" Type="AOMobile.BPFlag"/>
+                <Property Name="PreLoanRequestID" Type="Edm.Guid"/>
+                <NavigationProperty FromRole="From_Customer" Name="LinkSet" Relationship="AOMobile.CustomerLink" ToRole="To_Link"/>
+                <NavigationProperty FromRole="From_Customer" Name="AddressSet" Relationship="AOMobile.CustomerAddress" ToRole="To_Address"/>
+                <NavigationProperty FromRole="From_Customer" Name="PhoneSet" Relationship="AOMobile.CustomerPhone" ToRole="To_Phone"/>
+                <NavigationProperty FromRole="From_Customer" Name="PersonalReferenceSet" Relationship="AOMobile.CustomerPersonalReference" ToRole="To_PersonalReference"/>
+                <NavigationProperty FromRole="From_Customer" Name="ImageSet" Relationship="AOMobile.CustomerImage" ToRole="To_Image"/>
+                <NavigationProperty FromRole="From_Customer" Name="EmployerSet" Relationship="AOMobile.CustomerEmployer" ToRole="To_Employer"/>
+                <NavigationProperty FromRole="From_Customer" Name="InsuranceSet" Relationship="AOMobile.CustomerInsurance" ToRole="To_Insurance"/>
+                <NavigationProperty FromRole="To_Customer" Name="LinkPreloanRequest" Relationship="AOMobile.LinkPreloanRequestCustomer" ToRole="From_LinkPreloanRequest"/>
             </EntityType>
             <EntityType Name="InsuranceBeneficiary">
                 <Key>
-                    <PropertyRef Name="InsuranceBeneficiaryIdMD" />
+                    <PropertyRef Name="InsuranceBeneficiaryIdMD"/>
                 </Key>
-                <Property MaxLength="29" Name="InsuranceBeneficiaryIdMD" Nullable="false" Type="Edm.String" />
-                <Property Name="BeneficiaryName" Nullable="false" Type="AOMobile.BpNameData" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String" />
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Type="Edm.String" />
-                <Property Name="BeneficiaryType" Type="Edm.String" />
-                <Property Name="BeneficiaryGenderID" Type="Edm.String" />
-                <Property Name="BeneficiaryRelationship" Type="Edm.String" />
-                <Property Name="BeneficiaryBirthday" Type="Edm.DateTime" />
-                <Property MaxLength="10" Name="InsuranceIdCRM" Type="Edm.String" />
-                <Property MaxLength="10" Name="InsuranceBeneficiaryIdCRM" Type="Edm.String" />
-                <Property MaxLength="29" Name="BeneficiaryIdMDToReplace" Type="Edm.String" />
-                <Property Name="RemoveBeneficiary" Type="Edm.Boolean" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property MaxLength="29" Name="InsuranceIdMD" Type="Edm.String" />
-                <NavigationProperty FromRole="From_InsuranceBeneficiary" Name="ImageSet" Relationship="AOMobile.InsuranceBeneficiaryImage" ToRole="To_Image" />
+                <Property MaxLength="29" Name="InsuranceBeneficiaryIdMD" Nullable="false" Type="Edm.String"/>
+                <Property Name="BeneficiaryName" Nullable="false" Type="AOMobile.BpNameData"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Type="Edm.String"/>
+                <Property Name="BeneficiaryType" Type="Edm.String"/>
+                <Property Name="BeneficiaryGenderID" Type="Edm.String"/>
+                <Property Name="BeneficiaryRelationship" Type="Edm.String"/>
+                <Property Name="BeneficiaryBirthday" Type="Edm.DateTime"/>
+                <Property MaxLength="10" Name="InsuranceIdCRM" Type="Edm.String"/>
+                <Property MaxLength="10" Name="InsuranceBeneficiaryIdCRM" Type="Edm.String"/>
+                <Property MaxLength="29" Name="BeneficiaryIdMDToReplace" Type="Edm.String"/>
+                <Property Name="RemoveBeneficiary" Type="Edm.Boolean"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property MaxLength="29" Name="InsuranceIdMD" Type="Edm.String"/>
+                <NavigationProperty FromRole="From_InsuranceBeneficiary" Name="ImageSet" Relationship="AOMobile.InsuranceBeneficiaryImage" ToRole="To_Image"/>
             </EntityType>
             <EntityType Name="PersonalReference">
                 <Key>
-                    <PropertyRef Name="PersonalReferenceID" />
+                    <PropertyRef Name="PersonalReferenceID"/>
                 </Key>
-                <Property MaxLength="10" Name="PersonalReferenceID" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String" />
-                <Property Name="Name" Nullable="false" Type="AOMobile.BpNameData" />
-                <Property MaxLength="20" Name="Phone" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property Name="ReferenceTypeID" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
+                <Property MaxLength="10" Name="PersonalReferenceID" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String"/>
+                <Property Name="Name" Nullable="false" Type="AOMobile.BpNameData"/>
+                <Property MaxLength="20" Name="Phone" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property Name="ReferenceTypeID" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="Phone">
                 <Key>
-                    <PropertyRef Name="PhoneTypeId" />
-                    <PropertyRef Name="CustomerIdCRM" />
+                    <PropertyRef Name="PhoneTypeId"/>
+                    <PropertyRef Name="CustomerIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="PhoneTypeId" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="20" Name="PhoneNumber" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
+                <Property MaxLength="10" Name="PhoneTypeId" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="20" Name="PhoneNumber" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="Address">
                 <Key>
-                    <PropertyRef Name="AddressTypeId" />
-                    <PropertyRef Name="CustomerIdCRM" />
+                    <PropertyRef Name="AddressTypeId"/>
+                    <PropertyRef Name="CustomerIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="AddressTypeId" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property Name="IsMainAddress" Type="Edm.Boolean" />
-                <Property Name="Latitude" Type="Edm.Double" />
-                <Property Name="Longitude" Type="Edm.Double" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property Name="Place" Nullable="false" Type="AOMobile.Place" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
+                <Property MaxLength="10" Name="AddressTypeId" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property Name="IsMainAddress" Type="Edm.Boolean"/>
+                <Property Name="Latitude" Type="Edm.Double"/>
+                <Property Name="Longitude" Type="Edm.Double"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property Name="Place" Nullable="false" Type="AOMobile.Place"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="Employer">
                 <Key>
-                    <PropertyRef Name="EmployerID" />
+                    <PropertyRef Name="EmployerID"/>
                 </Key>
-                <Property MaxLength="10" Name="EmployerID" Nullable="false" Type="Edm.String" />
-                <Property Name="IsCompany" Type="Edm.Boolean" />
-                <Property Name="BusinessName" Type="Edm.String" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property Name="Name" Nullable="false" Type="AOMobile.BpNameData" />
-                <Property Name="Place" Nullable="false" Type="AOMobile.Place" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
+                <Property MaxLength="10" Name="EmployerID" Nullable="false" Type="Edm.String"/>
+                <Property Name="IsCompany" Type="Edm.Boolean"/>
+                <Property Name="BusinessName" Type="Edm.String"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property Name="Name" Nullable="false" Type="AOMobile.BpNameData"/>
+                <Property Name="Place" Nullable="false" Type="AOMobile.Place"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="ElectronicSignature">
                 <Key>
-                    <PropertyRef Name="ImageIdSharepoint" />
+                    <PropertyRef Name="ImageIdSharepoint"/>
                 </Key>
-                <Property MaxLength="18" Name="ImageIdSharepoint" Nullable="false" Type="Edm.String" />
+                <Property MaxLength="18" Name="ImageIdSharepoint" Nullable="false" Type="Edm.String"/>
                 <Property Name="TypeOfSignature" Type="Edm.String">
                     <Documentation>
                         <Summary/>
                         <LongDescription>promotor, solicitante, ruego y encargo</LongDescription>
                     </Documentation>
                 </Property>
-                <Property Name="ImageBase64" Type="Edm.Binary" />
-                <Property Name="NameRAndE" Type="Edm.String" />
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Type="Edm.String" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String" />
-                <Property MaxLength="10" Name="InsuranceIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="29" Name="InsuranceIdMD" Nullable="false" Type="Edm.String" />
+                <Property Name="ImageBase64" Type="Edm.Binary"/>
+                <Property Name="NameRAndE" Type="Edm.String"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Type="Edm.String"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String"/>
+                <Property MaxLength="10" Name="InsuranceIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="29" Name="InsuranceIdMD" Nullable="false" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="Guarantor">
                 <Key>
-                    <PropertyRef Name="CustomerIdCRM" />
+                    <PropertyRef Name="CustomerIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property Name="BpName" Nullable="false" Type="AOMobile.BpNameData" />
-                <Property Name="BpMainData" Nullable="false" Type="AOMobile.BpMainData" />
-                <Property Name="BpComplementaryData" Nullable="false" Type="AOMobile.BpComplementaryData" />
-                <Property Name="BpBasicData" Nullable="false" Type="AOMobile.BpBasicData" />
-                <Property Name="BpAdditionalData" Nullable="false" Type="AOMobile.BpAdditionalData" />
-                <Property Name="BpFlag" Nullable="false" Type="AOMobile.BPFlag" />
-                <Property Name="IsAvailableForReq" Type="Edm.Boolean" />
-                <NavigationProperty FromRole="From_Guarantor" Name="LinkGuarantorSet" Relationship="AOMobile.GuarantorLinkGuarantor" ToRole="To_LinkGuarantor" />
-                <NavigationProperty FromRole="From_Guarantor" Name="AddressSet" Relationship="AOMobile.GuarantorAddress" ToRole="To_Address" />
-                <NavigationProperty FromRole="From_Guarantor" Name="PhoneSet" Relationship="AOMobile.GuarantorPhone" ToRole="To_Phone" />
-                <NavigationProperty FromRole="From_Guarantor" Name="PersonalReferenceSet" Relationship="AOMobile.GuarantorPersonalReference" ToRole="To_PersonalReference" />
-                <NavigationProperty FromRole="From_Guarantor" Name="EmployerSet" Relationship="AOMobile.GuarantorEmployer" ToRole="To_Employer" />
-                <NavigationProperty FromRole="From_Guarantor" Name="ImageSet" Relationship="AOMobile.GuarantorImage" ToRole="To_Image" />
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property Name="BpName" Nullable="false" Type="AOMobile.BpNameData"/>
+                <Property Name="BpMainData" Nullable="false" Type="AOMobile.BpMainData"/>
+                <Property Name="BpComplementaryData" Nullable="false" Type="AOMobile.BpComplementaryData"/>
+                <Property Name="BpBasicData" Nullable="false" Type="AOMobile.BpBasicData"/>
+                <Property Name="BpAdditionalData" Nullable="false" Type="AOMobile.BpAdditionalData"/>
+                <Property Name="BpFlag" Nullable="false" Type="AOMobile.BPFlag"/>
+                <Property Name="IsAvailableForReq" Type="Edm.Boolean"/>
+                <NavigationProperty FromRole="From_Guarantor" Name="LinkGuarantorSet" Relationship="AOMobile.GuarantorLinkGuarantor" ToRole="To_LinkGuarantor"/>
+                <NavigationProperty FromRole="From_Guarantor" Name="AddressSet" Relationship="AOMobile.GuarantorAddress" ToRole="To_Address"/>
+                <NavigationProperty FromRole="From_Guarantor" Name="PhoneSet" Relationship="AOMobile.GuarantorPhone" ToRole="To_Phone"/>
+                <NavigationProperty FromRole="From_Guarantor" Name="PersonalReferenceSet" Relationship="AOMobile.GuarantorPersonalReference" ToRole="To_PersonalReference"/>
+                <NavigationProperty FromRole="From_Guarantor" Name="EmployerSet" Relationship="AOMobile.GuarantorEmployer" ToRole="To_Employer"/>
+                <NavigationProperty FromRole="From_Guarantor" Name="ImageSet" Relationship="AOMobile.GuarantorImage" ToRole="To_Image"/>
             </EntityType>
             <EntityType Name="LinkGuarantor">
                 <Key>
-                    <PropertyRef Name="CustomerIdCRM" />
-                    <PropertyRef Name="LoanRequestIdCRM" />
+                    <PropertyRef Name="CustomerIdCRM"/>
+                    <PropertyRef Name="LoanRequestIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property Name="GeneralLoanData" Nullable="false" Type="AOMobile.GeneralLoanCustomerData" />
-                <Property Name="TotalIncomeAmountGuarantee" Type="Edm.Double" />
-                <Property Name="TotalOutcomeAmountGuarantee" Type="Edm.Double" />
-                <Property Name="GuarantorPaymentCapacity" Type="Edm.Double" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <NavigationProperty FromRole="To_LinkGuarantor" Name="LoanRequest" Relationship="AOMobile.LoanRequestLinkGuarantor" ToRole="From_LoanRequest" />
-                <NavigationProperty FromRole="To_LinkGuarantor" Name="Guarantor" Relationship="AOMobile.GuarantorLinkGuarantor" ToRole="From_Guarantor" />
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property Name="GeneralLoanData" Nullable="false" Type="AOMobile.GeneralLoanCustomerData"/>
+                <Property Name="TotalIncomeAmountGuarantee" Type="Edm.Double"/>
+                <Property Name="TotalOutcomeAmountGuarantee" Type="Edm.Double"/>
+                <Property Name="GuarantorPaymentCapacity" Type="Edm.Double"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <NavigationProperty FromRole="To_LinkGuarantor" Name="LoanRequest" Relationship="AOMobile.LoanRequestLinkGuarantor" ToRole="From_LoanRequest"/>
+                <NavigationProperty FromRole="To_LinkGuarantor" Name="Guarantor" Relationship="AOMobile.GuarantorLinkGuarantor" ToRole="From_Guarantor"/>
             </EntityType>
             <EntityType Name="Image">
                 <Key>
-                    <PropertyRef Name="ImageIdSharepoint" />
+                    <PropertyRef Name="ImageIdSharepoint"/>
                 </Key>
-                <Property MaxLength="18" Name="ImageIdSharepoint" Nullable="false" Type="Edm.String" />
-                <Property Name="DocumentId" Type="Edm.String" />
-                <Property Name="ImageBase64" Type="Edm.Binary" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String" />
-                <Property MaxLength="29" Name="InsuranceBeneficiaryIdMD" Type="Edm.String" />
-                <Property Name="IsReceived" Type="Edm.Boolean" />
-                <Property Name="DocumentStatusId" Type="Edm.String" />
-                <Property Name="DocumentStatusText" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property Name="DueDate" Type="Edm.DateTime" />
-                <Property MaxLength="29" Name="InsuranceIdMD" Type="Edm.String" />
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String" />
+                <Property MaxLength="18" Name="ImageIdSharepoint" Nullable="false" Type="Edm.String"/>
+                <Property Name="DocumentId" Type="Edm.String"/>
+                <Property Name="ImageBase64" Type="Edm.Binary"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String"/>
+                <Property MaxLength="29" Name="InsuranceBeneficiaryIdMD" Type="Edm.String"/>
+                <Property Name="IsReceived" Type="Edm.Boolean"/>
+                <Property Name="DocumentStatusId" Type="Edm.String"/>
+                <Property Name="DocumentStatusText" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property Name="DueDate" Type="Edm.DateTime"/>
+                <Property MaxLength="29" Name="InsuranceIdMD" Type="Edm.String"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="ApprovalResponse">
                 <Key>
-                    <PropertyRef Name="ApprovalResponseID" />
+                    <PropertyRef Name="ApprovalResponseID"/>
                 </Key>
-                <Property MaxLength="18" Name="ApprovalResponseID" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String" />
-                <Property Name="ErrorMessage" Type="Edm.String" />
+                <Property MaxLength="18" Name="ApprovalResponseID" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Type="Edm.String"/>
+                <Property Name="ErrorMessage" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="SimulatorResponse">
                 <Key>
-                    <PropertyRef Name="PropPeriod" />
+                    <PropertyRef Name="PropPeriod"/>
                 </Key>
-                <Property MaxLength="3" Name="PropPeriod" Nullable="false" Type="Edm.String" />
-                <Property Name="PropAmount" Type="Edm.Double" />
-                <Property Name="PropFee" Type="Edm.Double" />
-                <Property Name="PropFrequency" Type="Edm.String" />
+                <Property MaxLength="3" Name="PropPeriod" Nullable="false" Type="Edm.String"/>
+                <Property Name="PropAmount" Type="Edm.Double"/>
+                <Property Name="PropFee" Type="Edm.Double"/>
+                <Property Name="PropFrequency" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="ChannelMediumDispersion">
                 <Key>
-                    <PropertyRef Name="CollaboratorID" />
-                    <PropertyRef Name="ChannelID" />
-                    <PropertyRef Name="MediumID" />
+                    <PropertyRef Name="CollaboratorID"/>
+                    <PropertyRef Name="ChannelID"/>
+                    <PropertyRef Name="MediumID"/>
                 </Key>
-                <Property MaxLength="12" Name="CollaboratorID" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="50" Name="ChannelID" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="50" Name="MediumID" Nullable="false" Type="Edm.String" />
-                <Property Name="ChannelDescription" Type="Edm.String" />
-                <Property Name="MediumDescription" Type="Edm.String" />
-                <Property Name="Min" Type="Edm.Double" />
-                <Property Name="Max" Type="Edm.Double" />
+                <Property MaxLength="12" Name="CollaboratorID" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="50" Name="ChannelID" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="50" Name="MediumID" Nullable="false" Type="Edm.String"/>
+                <Property Name="ChannelDescription" Type="Edm.String"/>
+                <Property Name="MediumDescription" Type="Edm.String"/>
+                <Property Name="Min" Type="Edm.Double"/>
+                <Property Name="Max" Type="Edm.Double"/>
             </EntityType>
             <EntityType Name="PostalCode">
                 <Key>
-                    <PropertyRef Name="Code" />
-                    <PropertyRef Name="SuburbName" />
+                    <PropertyRef Name="Code"/>
+                    <PropertyRef Name="SuburbName"/>
                 </Key>
-                <Property MaxLength="10" Name="Code" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="40" Name="SuburbName" Nullable="false" Type="Edm.String" />
-                <Property Name="CountryId" Type="Edm.String" />
-                <Property Name="CountryName" Type="Edm.String" />
-                <Property Name="StateId" Type="Edm.String" />
-                <Property Name="StateName" Type="Edm.String" />
-                <Property Name="TownId" Type="Edm.String" />
-                <Property Name="TownName" Type="Edm.String" />
-                <Property Name="City" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
+                <Property MaxLength="10" Name="Code" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="40" Name="SuburbName" Nullable="false" Type="Edm.String"/>
+                <Property Name="CountryId" Type="Edm.String"/>
+                <Property Name="CountryName" Type="Edm.String"/>
+                <Property Name="StateId" Type="Edm.String"/>
+                <Property Name="StateName" Type="Edm.String"/>
+                <Property Name="TownId" Type="Edm.String"/>
+                <Property Name="TownName" Type="Edm.String"/>
+                <Property Name="City" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="Insurance">
                 <Key>
-                    <PropertyRef Name="InsuranceIdCRM" />
-                    <PropertyRef Name="InsuranceIdMD" />
+                    <PropertyRef Name="InsuranceIdCRM"/>
+                    <PropertyRef Name="InsuranceIdMD"/>
                 </Key>
-                <Property MaxLength="10" Name="InsuranceIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="29" Name="InsuranceIdMD" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String" />
-                <Property Name="InsuranceOptional" Type="Edm.Boolean" />
-                <Property Name="StartDateTerm" Type="Edm.DateTime" />
-                <Property Name="InsuranceTerm" Type="Edm.String" />
-                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="4" Name="InsurancePaymentID" Type="Edm.String" />
-                <Property MaxLength="4" Name="InsuranceModalityID" Type="Edm.String" />
-                <NavigationProperty FromRole="From_Insurance" Name="InsuranceBeneficiarySet" Relationship="AOMobile.InsuranceInsuranceBeneficiary" ToRole="To_InsuranceBeneficiary" />
-                <NavigationProperty FromRole="From_Insurance" Name="ElectronicSignatureSet" Relationship="AOMobile.InsuranceElectronicSignature" ToRole="To_ElectronicSignature" />
+                <Property MaxLength="10" Name="InsuranceIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="29" Name="InsuranceIdMD" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="29" Name="CustomerIdMD" Type="Edm.String"/>
+                <Property Name="InsuranceOptional" Type="Edm.Boolean"/>
+                <Property Name="StartDateTerm" Type="Edm.DateTime"/>
+                <Property Name="InsuranceTerm" Type="Edm.String"/>
+                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="4" Name="InsurancePaymentID" Type="Edm.String"/>
+                <Property MaxLength="4" Name="InsuranceModalityID" Type="Edm.String"/>
+                <NavigationProperty FromRole="From_Insurance" Name="InsuranceBeneficiarySet" Relationship="AOMobile.InsuranceInsuranceBeneficiary" ToRole="To_InsuranceBeneficiary"/>
+                <NavigationProperty FromRole="From_Insurance" Name="ElectronicSignatureSet" Relationship="AOMobile.InsuranceElectronicSignature" ToRole="To_ElectronicSignature"/>
             </EntityType>
             <EntityType Name="PreLoanRequest">
                 <Key>
-                    <PropertyRef Name="PreLoanRequestID" />
+                    <PropertyRef Name="PreLoanRequestID"/>
                 </Key>
-                <Property Name="PreLoanRequestID" Nullable="false" Type="Edm.Guid" />
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property Name="ServiceOfficeId" Type="Edm.Int32" />
-                <Property Name="StatusId" Type="Edm.String" />
-                <Property Name="CreationDate" Type="Edm.DateTime" />
-                <Property Name="ChangeDate" Type="Edm.DateTime" />
-                <Property Name="LoanEndDate" Type="Edm.DateTime" />
-                <Property Name="LoanAssignedName" Type="Edm.String" />
-                <Property Name="IsRenovation" Type="Edm.Boolean" />
-                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String" />
-                <Property Name="ProcessType" Type="Edm.String" />
-                <Property Name="LoanRejectIdCatalog" Type="Edm.String" />
-                <NavigationProperty FromRole="From_PreLoanRequest" Name="LinkPreloanRequestSet" Relationship="AOMobile.PreLoanRequestLinkPreloanRequest" ToRole="To_LinkPreloanRequest" />
+                <Property Name="PreLoanRequestID" Nullable="false" Type="Edm.Guid"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property Name="ServiceOfficeId" Type="Edm.Int32"/>
+                <Property Name="StatusId" Type="Edm.String"/>
+                <Property Name="CreationDate" Type="Edm.DateTime"/>
+                <Property Name="ChangeDate" Type="Edm.DateTime"/>
+                <Property Name="LoanEndDate" Type="Edm.DateTime"/>
+                <Property Name="LoanAssignedName" Type="Edm.String"/>
+                <Property Name="IsRenovation" Type="Edm.Boolean"/>
+                <Property MaxLength="29" Name="LoanRequestIdMD" Type="Edm.String"/>
+                <Property Name="ProcessType" Type="Edm.String"/>
+                <Property Name="LoanRejectIdCatalog" Type="Edm.String"/>
+                <NavigationProperty FromRole="From_PreLoanRequest" Name="LinkPreloanRequestSet" Relationship="AOMobile.PreLoanRequestLinkPreloanRequest" ToRole="To_LinkPreloanRequest"/>
             </EntityType>
             <EntityType Name="LinkPreloanRequest">
                 <Key>
-                    <PropertyRef Name="PreLoanRequestID" />
-                    <PropertyRef Name="CustomerIdCRM" />
+                    <PropertyRef Name="PreLoanRequestID"/>
+                    <PropertyRef Name="CustomerIdCRM"/>
                 </Key>
-                <Property Name="PreLoanRequestID" Nullable="false" Type="Edm.Guid" />
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <NavigationProperty FromRole="To_LinkPreloanRequest" Name="PreLoanRequest" Relationship="AOMobile.PreLoanRequestLinkPreloanRequest" ToRole="From_PreLoanRequest" />
-                <NavigationProperty FromRole="From_LinkPreloanRequest" Name="CustomerSet" Relationship="AOMobile.LinkPreloanRequestCustomer" ToRole="To_Customer" />
+                <Property Name="PreLoanRequestID" Nullable="false" Type="Edm.Guid"/>
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <NavigationProperty FromRole="To_LinkPreloanRequest" Name="PreLoanRequest" Relationship="AOMobile.PreLoanRequestLinkPreloanRequest" ToRole="From_PreLoanRequest"/>
+                <NavigationProperty FromRole="From_LinkPreloanRequest" Name="CustomerSet" Relationship="AOMobile.LinkPreloanRequestCustomer" ToRole="To_Customer"/>
             </EntityType>
             <EntityType Name="Product">
                 <Key>
-                    <PropertyRef Name="ProductID" />
+                    <PropertyRef Name="ProductID"/>
                 </Key>
-                <Property MaxLength="20" Name="ProductID" Nullable="false" Type="Edm.String" />
-                <Property Name="InsuranceMinCycle" Type="Edm.String" />
+                <Property MaxLength="20" Name="ProductID" Nullable="false" Type="Edm.String"/>
+                <Property Name="InsuranceMinCycle" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="GuarantorCandidateResponse">
                 <Key>
-                    <PropertyRef Name="BPIdCRM" />
+                    <PropertyRef Name="BPIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="BPIdCRM" Nullable="false" Type="Edm.String" />
-                <Property Name="FirstName" Type="Edm.String" />
-                <Property Name="SecondName" Type="Edm.String" />
-                <Property Name="LastName" Type="Edm.String" />
-                <Property Name="MiddleName" Type="Edm.String" />
-                <Property Name="BirthdDate" Type="Edm.DateTime" />
-                <Property Name="IsGuarantor" Type="Edm.Boolean" />
-                <Property MaxLength="29" Name="BPIdDM" Type="Edm.String" />
+                <Property MaxLength="10" Name="BPIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property Name="FirstName" Type="Edm.String"/>
+                <Property Name="SecondName" Type="Edm.String"/>
+                <Property Name="LastName" Type="Edm.String"/>
+                <Property Name="MiddleName" Type="Edm.String"/>
+                <Property Name="BirthdDate" Type="Edm.DateTime"/>
+                <Property Name="IsGuarantor" Type="Edm.Boolean"/>
+                <Property MaxLength="29" Name="BPIdDM" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="CrossSellingCandidate">
                 <Key>
-                    <PropertyRef Name="CandidateIdCRM" />
+                    <PropertyRef Name="CandidateIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="CandidateIdCRM" Nullable="false" Type="Edm.String" />
-                <Property Name="CandidateName" Nullable="false" Type="AOMobile.BpNameData" />
-                <Property MaxLength="40" Name="ParentGroupName" Type="Edm.String" />
-                <Property MaxLength="10" Name="ParentLoanRequestIdCRM" Type="Edm.String" />
-                <Property Name="IsMarkedToDownload" Type="Edm.Boolean" />
-                <Property Name="WeeklyMeetingDay" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <NavigationProperty FromRole="From_CrossSellingCandidate" Name="CrossSellOfferSet" Relationship="AOMobile.CrossSellingCandidateCrossSellOffer" ToRole="To_CrossSellOffer" />
+                <Property MaxLength="10" Name="CandidateIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property Name="CandidateName" Nullable="false" Type="AOMobile.BpNameData"/>
+                <Property MaxLength="40" Name="ParentGroupName" Type="Edm.String"/>
+                <Property MaxLength="10" Name="ParentLoanRequestIdCRM" Type="Edm.String"/>
+                <Property Name="IsMarkedToDownload" Type="Edm.Boolean"/>
+                <Property Name="WeeklyMeetingDay" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <NavigationProperty FromRole="From_CrossSellingCandidate" Name="CrossSellOfferSet" Relationship="AOMobile.CrossSellingCandidateCrossSellOffer" ToRole="To_CrossSellOffer"/>
             </EntityType>
             <EntityType Name="CrossSellOffer">
                 <Key>
-                    <PropertyRef Name="CandidateIdCRM" />
-                    <PropertyRef Name="CrossSellProductId" />
+                    <PropertyRef Name="CandidateIdCRM"/>
+                    <PropertyRef Name="CrossSellProductId"/>
                 </Key>
-                <Property MaxLength="10" Name="CandidateIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="40" Name="CrossSellProductId" Nullable="false" Type="Edm.String" />
-                <Property Name="OfferDate" Type="Edm.DateTime" />
-                <Property Name="MinAmountOffered" Type="Edm.Double" />
-                <Property Name="MaxAmountOffered" Type="Edm.Double" />
-                <Property Name="IsAccepted" Type="Edm.Boolean" />
-                <Property Name="IsRejected" Type="Edm.Boolean" />
-                <Property Name="RejectionReasonId" Type="Edm.String" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
-                <Property MaxLength="10" Name="ParentLoanRequestIdCRM" Type="Edm.String" />
+                <Property MaxLength="10" Name="CandidateIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="40" Name="CrossSellProductId" Nullable="false" Type="Edm.String"/>
+                <Property Name="OfferDate" Type="Edm.DateTime"/>
+                <Property Name="MinAmountOffered" Type="Edm.Double"/>
+                <Property Name="MaxAmountOffered" Type="Edm.Double"/>
+                <Property Name="IsAccepted" Type="Edm.Boolean"/>
+                <Property Name="IsRejected" Type="Edm.Boolean"/>
+                <Property Name="RejectionReasonId" Type="Edm.String"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
+                <Property MaxLength="10" Name="ParentLoanRequestIdCRM" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="GroupCrossSellGuarantorCandidate">
                 <Key>
-                    <PropertyRef Name="CustomerIdCRM" />
-                    <PropertyRef Name="LoanRequestIdCRM" />
+                    <PropertyRef Name="CustomerIdCRM"/>
+                    <PropertyRef Name="LoanRequestIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String" />
-                <Property Name="GuarantorCandidateName" Nullable="false" Type="AOMobile.BpNameData" />
-                <Property Name="RegistrationDate" Type="Edm.DateTime" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property Name="GuarantorCandidateName" Nullable="false" Type="AOMobile.BpNameData"/>
+                <Property Name="RegistrationDate" Type="Edm.DateTime"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
             </EntityType>
             <EntityType Name="GroupCrossSellAssignedGuarantor">
                 <Key>
-                    <PropertyRef Name="CustomerIdCRM" />
-                    <PropertyRef Name="LoanRequestIdCRM" />
+                    <PropertyRef Name="CustomerIdCRM"/>
+                    <PropertyRef Name="LoanRequestIdCRM"/>
                 </Key>
-                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String" />
-                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String" />
-                <Property Name="GuarantorName" Nullable="false" Type="AOMobile.BpNameData" />
-                <Property Name="FilterResults" Nullable="false" Type="AOMobile.GeneralLoanCustomerData" />
-                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String" />
+                <Property MaxLength="10" Name="CustomerIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property MaxLength="10" Name="LoanRequestIdCRM" Nullable="false" Type="Edm.String"/>
+                <Property Name="GuarantorName" Nullable="false" Type="AOMobile.BpNameData"/>
+                <Property Name="FilterResults" Nullable="false" Type="AOMobile.GeneralLoanCustomerData"/>
+                <Property MaxLength="12" Name="CollaboratorID" Type="Edm.String"/>
             </EntityType>
+            <!--Entidades IGW-->
+            <EntityType Name="PendingsPromoter">
+                <Key>
+                    <PropertyRef Name="notificationID"/>
+                </Key>
+                <Property MaxLength="512" Name="notificationID" Nullable="false" Type="Edm.String"/>
+                <Property Name="promoterID" Type="Edm.String"/>
+                <Property Name="dateTime" Type="Edm.DateTime"/>
+                <Property Name="documentID" Type="Edm.String"/>
+                <Property Name="documentType" Type="Edm.String"/>
+                <Property Name="reason" Type="Edm.String"/>
+                <Property Name="comment" Type="Edm.String"/>
+                <Property Name="attended" Type="Edm.String"/>
+                <Property Name="updateDateTime" Type="Edm.String"/>
+                <Property Name="categoryID" Type="Edm.String"/>
+                <Property Name="categoryName" Type="Edm.String"/>
+                <Property Name="objectTypeID" Type="Edm.String"/>
+                <Property Name="objectTypeName" Type="Edm.String"/>
+                <Property Name="objectDMID" Type="Edm.String"/>
+                <Property Name="objectCRMID" Type="Edm.String"/>
+                <Property Name="productID" Type="Edm.String"/>
+                <Property Name="objectName" Type="Edm.String"/>
+                <Property Name="customerCRMID" Type="Edm.String"/>
+            </EntityType>
+            <EntityType Name="AnnouncementsPromoter">
+                <Key>
+                    <PropertyRef Name="notificationID"/>
+                </Key>
+                <Property MaxLength="512" Name="notificationID" Nullable="false" Type="Edm.String"/>
+                <Property Name="promoterID" Type="Edm.String"/>
+                <Property Name="dateTime" Type="Edm.DateTime"/>
+                <Property Name="message" Type="Edm.String"/>
+                <Property Name="attended" Type="Edm.String"/>
+                <Property Name="updateDateTime" Type="Edm.String"/>
+                <Property Name="categoryID" Type="Edm.String"/>
+                <Property Name="categoryName" Type="Edm.String"/>
+                <Property Name="objectTypeID" Type="Edm.String"/>
+                <Property Name="objectTypeName" Type="Edm.String"/>
+                <Property Name="objectDMID" Type="Edm.String"/>
+                <Property Name="objectCRMID" Type="Edm.String"/>
+                <Property Name="productID" Type="Edm.String"/>
+                <Property Name="objectName" Type="Edm.String"/>
+                <Property Name="customerCRMID" Type="Edm.String"/>
+            </EntityType>
+            <EntityType Name="SystemNotifications">
+                <Key>
+                    <PropertyRef Name="notificationID"/>
+                </Key>
+                <Property MaxLength="512" Name="notificationID" Nullable="false" Type="Edm.String"/>
+                <Property Name="promoterID" Type="Edm.String"/>
+                <Property Name="dateTime" Type="Edm.DateTime"/>
+                <Property Name="status" Type="Edm.Int32"/>
+                <Property Name="messageID" Type="Edm.Int32"/>
+                <Property Name="message" Type="Edm.String"/>
+                <Property Name="objectTypeID" Type="Edm.String"/>
+                <Property Name="objectDMID" Type="Edm.String"/>
+                <Property Name="objectCRMID" Type="Edm.String"/>
+                <Property Name="attended" Type="Edm.String"/>
+                <Property Name="insuranceDMID" Type="Edm.String"/>
+            </EntityType>
+            
             <ComplexType Name="BpMainData">
-                <Property MaxLength="54" Name="ProductId" Type="Edm.String" />
-                <Property Name="RegistrationDate" Type="Edm.DateTime" />
-                <Property Name="RoleId" Type="Edm.String" />
-                <Property Name="StatusId" Type="Edm.String" />
-                <Property Name="StatusReasonId" Type="Edm.String" />
-                <Property Name="SourceName" Type="Edm.String" />
-                <Property MaxLength="10" Name="LeadIdCRM" Type="Edm.String" />
-                <Property Name="ServiceOfficeID" Type="Edm.String" />
-                <Property Name="ServiceOfficeName" Type="Edm.String" />
-                <Property Name="ContactLaterDate" Type="Edm.DateTime" />
-                <Property Name="ContactLaterTime" Type="Edm.Time" />
-                <Property Name="Cycle" Type="Edm.Int16" />
-                <Property Name="RemainingDays" Type="Edm.Int16" />
-                <Property Name="ServiceLevelId" Type="Edm.Int16" />
-                <Property Name="SourceId" Type="Edm.String" />
-                <Property Name="ControlListsResult" Type="Edm.String" />
-                <Property Name="RiskLevel" Type="Edm.String" />
-                <Property Name="IsContactLaterEditable" Type="Edm.Boolean" />
-                <Property DefaultValue="0" Name="AccumulatedCycle" Type="Edm.Int32" />
+                <Property MaxLength="54" Name="ProductId" Type="Edm.String"/>
+                <Property Name="RegistrationDate" Type="Edm.DateTime"/>
+                <Property Name="RoleId" Type="Edm.String"/>
+                <Property Name="StatusId" Type="Edm.String"/>
+                <Property Name="StatusReasonId" Type="Edm.String"/>
+                <Property Name="SourceName" Type="Edm.String"/>
+                <Property MaxLength="10" Name="LeadIdCRM" Type="Edm.String"/>
+                <Property Name="ServiceOfficeID" Type="Edm.String"/>
+                <Property Name="ServiceOfficeName" Type="Edm.String"/>
+                <Property Name="ContactLaterDate" Type="Edm.DateTime"/>
+                <Property Name="ContactLaterTime" Type="Edm.Time"/>
+                <Property Name="Cycle" Type="Edm.Int16"/>
+                <Property Name="RemainingDays" Type="Edm.Int16"/>
+                <Property Name="ServiceLevelId" Type="Edm.Int16"/>
+                <Property Name="SourceId" Type="Edm.String"/>
+                <Property Name="ControlListsResult" Type="Edm.String"/>
+                <Property Name="RiskLevel" Type="Edm.String"/>
+                <Property Name="IsContactLaterEditable" Type="Edm.Boolean"/>
+                <Property DefaultValue="0" Name="AccumulatedCycle" Type="Edm.Int32"/>
             </ComplexType>
             <ComplexType Name="LoanRequestGeneral">
                 <Property Name="IsRenewal" Type="Edm.Boolean">
@@ -470,18 +471,18 @@
                         <LongDescription/>
                     </Documentation>
                 </Property>
-                <Property Name="StartDate" Type="Edm.DateTime" />
-                <Property Name="Cycle" Type="Edm.Int16" />
-                <Property Name="StatusId" Type="Edm.String" />
-                <Property Name="StatusText" Type="Edm.String" />
-                <Property Name="FirstPaymentDate" Type="Edm.DateTime" />
-                <Property Name="ExpenditureDate" Type="Edm.DateTime" />
-                <Property Name="Term" Type="Edm.String" />
-                <Property Name="Frequency" Type="Edm.String" />
-                <Property Name="IsReadyToApprove" Type="Edm.Boolean" />
-                <Property Name="IsReadyToApproveDescription" Type="Edm.String" />
-                <Property Name="InsuranceMinimumCycle" Type="Edm.String" />
-                <Property Name="InsuranceProductId" Type="Edm.String" />
+                <Property Name="StartDate" Type="Edm.DateTime"/>
+                <Property Name="Cycle" Type="Edm.Int16"/>
+                <Property Name="StatusId" Type="Edm.String"/>
+                <Property Name="StatusText" Type="Edm.String"/>
+                <Property Name="FirstPaymentDate" Type="Edm.DateTime"/>
+                <Property Name="ExpenditureDate" Type="Edm.DateTime"/>
+                <Property Name="Term" Type="Edm.String"/>
+                <Property Name="Frequency" Type="Edm.String"/>
+                <Property Name="IsReadyToApprove" Type="Edm.Boolean"/>
+                <Property Name="IsReadyToApproveDescription" Type="Edm.String"/>
+                <Property Name="InsuranceMinimumCycle" Type="Edm.String"/>
+                <Property Name="InsuranceProductId" Type="Edm.String"/>
             </ComplexType>
             <ComplexType Name="GroupRequest">
                 <Property Name="GroupID" Type="Edm.String">
@@ -502,640 +503,641 @@
                         <LongDescription>Id Contrato</LongDescription>
                     </Documentation>
                 </Property>
-                <Property MaxLength="10" Name="MemberIDSharingHouseCRM" Type="Edm.String" />
-                <Property Name="MeetingDate" Type="Edm.String" />
-                <Property Name="MeetingTime" Type="Edm.String" />
-                <Property Name="DelayPenalty" Type="Edm.Double" />
-                <Property Name="MinimumSavingsAmount" Type="Edm.Double" />
-                <Property Name="AbsencePenalty" Type="Edm.Double" />
-                <Property MaxLength="29" Name="MemberIDSharingHouseMD" Type="Edm.String" />
-                <Property Name="GroupMeetingPlace" Nullable="false" Type="AOMobile.Place" />
-                <Property Name="GroupMeetingPhone" Nullable="false" Type="AOMobile.PlacePhone" />
+                <Property MaxLength="10" Name="MemberIDSharingHouseCRM" Type="Edm.String"/>
+                <Property Name="MeetingDate" Type="Edm.String"/>
+                <Property Name="MeetingTime" Type="Edm.String"/>
+                <Property Name="DelayPenalty" Type="Edm.Double"/>
+                <Property Name="MinimumSavingsAmount" Type="Edm.Double"/>
+                <Property Name="AbsencePenalty" Type="Edm.Double"/>
+                <Property MaxLength="29" Name="MemberIDSharingHouseMD" Type="Edm.String"/>
+                <Property Name="GroupMeetingPlace" Nullable="false" Type="AOMobile.Place"/>
+                <Property Name="GroupMeetingPhone" Nullable="false" Type="AOMobile.PlacePhone"/>
             </ComplexType>
             <ComplexType Name="BpBasicData">
-                <Property Name="GenderId" Type="Edm.String" />
-                <Property Name="BirthdDate" Type="Edm.DateTime" />
-                <Property Name="ElectorKey" Type="Edm.String" />
-                <Property Name="CountryOfBirthId" Type="Edm.String" />
-                <Property Name="BirthPlace" Type="Edm.String" />
-                <Property Name="NationalityId" Type="Edm.String" />
-                <Property Name="MaritalStatusId" Type="Edm.String" />
-                <Property MaxLength="2" Name="Children" Type="Edm.String" />
-                <Property Name="SchoolLevelId" Type="Edm.String" />
-                <Property Name="HouseTypeId" Type="Edm.String" />
-                <Property Name="TypeOfStoreId" Type="Edm.String" />
-                <Property Name="GiroId" Type="Edm.String" />
-                <Property Name="IndustryId" Type="Edm.String" />
-                <Property Name="EconomicActivityId" Type="Edm.String" />
-                <Property Name="VoterRegistration" Type="Edm.String" />
-                <Property Name="IsPEP" Type="Edm.Boolean" />
-                <Property Name="NamePEP" Type="Edm.String" />
-                <Property Name="IsRelatedToGentera" Type="Edm.Boolean" />
-                <Property Name="RelatedName" Type="Edm.String" />
-                <Property Name="BasicDataStartDTime" Type="Edm.String" />
-                <Property Name="RelationshipId" Type="Edm.String" />
+                <Property Name="GenderId" Type="Edm.String"/>
+                <Property Name="BirthdDate" Type="Edm.DateTime"/>
+                <Property Name="ElectorKey" Type="Edm.String"/>
+                <Property Name="CountryOfBirthId" Type="Edm.String"/>
+                <Property Name="BirthPlace" Type="Edm.String"/>
+                <Property Name="NationalityId" Type="Edm.String"/>
+                <Property Name="MaritalStatusId" Type="Edm.String"/>
+                <Property MaxLength="2" Name="Children" Type="Edm.String"/>
+                <Property Name="SchoolLevelId" Type="Edm.String"/>
+                <Property Name="HouseTypeId" Type="Edm.String"/>
+                <Property Name="TypeOfStoreId" Type="Edm.String"/>
+                <Property Name="GiroId" Type="Edm.String"/>
+                <Property Name="IndustryId" Type="Edm.String"/>
+                <Property Name="EconomicActivityId" Type="Edm.String"/>
+                <Property Name="VoterRegistration" Type="Edm.String"/>
+                <Property Name="IsPEP" Type="Edm.Boolean"/>
+                <Property Name="NamePEP" Type="Edm.String"/>
+                <Property Name="IsRelatedToGentera" Type="Edm.Boolean"/>
+                <Property Name="RelatedName" Type="Edm.String"/>
+                <Property Name="BasicDataStartDTime" Type="Edm.String"/>
+                <Property Name="RelationshipId" Type="Edm.String"/>
             </ComplexType>
             <ComplexType Name="BpComplementaryData">
-                <Property Name="Curp" Type="Edm.String" />
-                <Property MaxLength="2" Name="Dependents" Type="Edm.String" />
-                <Property Name="JobId" Type="Edm.String" />
-                <Property Name="Email" Type="Edm.String" />
-                <Property Name="TimeInTheActivityId" Type="Edm.String" />
-                <Property Name="HowActivityId" Type="Edm.String" />
-                <Property Name="HowMuchBusinessId" Type="Edm.String" />
-                <Property Name="OtherSourceId" Type="Edm.String" />
-                <Property Name="TimeInTheBusiness" Type="Edm.String" />
-                <Property Name="ShopFromWhoId" Type="Edm.String" />
-                <Property Name="EconomicActivityId" Type="Edm.String" />
-                <Property Name="IsIndivWBusiness" Type="Edm.Boolean" />
-                <Property Name="FielNumber" Type="Edm.String" />
-                <Property Name="Rfc" Type="Edm.String" />
-                <Property Name="Homoclave" Type="Edm.String" />
-                <Property Name="MonthlySalary" Type="Edm.Double" />
+                <Property Name="Curp" Type="Edm.String"/>
+                <Property MaxLength="2" Name="Dependents" Type="Edm.String"/>
+                <Property Name="JobId" Type="Edm.String"/>
+                <Property Name="Email" Type="Edm.String"/>
+                <Property Name="TimeInTheActivityId" Type="Edm.String"/>
+                <Property Name="HowActivityId" Type="Edm.String"/>
+                <Property Name="HowMuchBusinessId" Type="Edm.String"/>
+                <Property Name="OtherSourceId" Type="Edm.String"/>
+                <Property Name="TimeInTheBusiness" Type="Edm.String"/>
+                <Property Name="ShopFromWhoId" Type="Edm.String"/>
+                <Property Name="EconomicActivityId" Type="Edm.String"/>
+                <Property Name="IsIndivWBusiness" Type="Edm.Boolean"/>
+                <Property Name="FielNumber" Type="Edm.String"/>
+                <Property Name="Rfc" Type="Edm.String"/>
+                <Property Name="Homoclave" Type="Edm.String"/>
+                <Property Name="MonthlySalary" Type="Edm.Double"/>
             </ComplexType>
             <ComplexType Name="BpAdditionalData">
-                <Property Name="Spouse" Nullable="false" Type="AOMobile.SpouseCType" />
+                <Property Name="Spouse" Nullable="false" Type="AOMobile.SpouseCType"/>
             </ComplexType>
             <ComplexType Name="BpNameData">
-                <Property MaxLength="40" Name="FirstName" Type="Edm.String" />
-                <Property MaxLength="40" Name="MiddleName" Type="Edm.String" />
-                <Property MaxLength="40" Name="LastName" Type="Edm.String" />
-                <Property MaxLength="40" Name="SecondName" Type="Edm.String" />
+                <Property MaxLength="40" Name="FirstName" Type="Edm.String"/>
+                <Property MaxLength="40" Name="MiddleName" Type="Edm.String"/>
+                <Property MaxLength="40" Name="LastName" Type="Edm.String"/>
+                <Property MaxLength="40" Name="SecondName" Type="Edm.String"/>
             </ComplexType>
             <ComplexType Name="Place">
-                <Property MaxLength="10" Name="PostalCode" Type="Edm.String" />
-                <Property Name="CountryID" Type="Edm.String" />
-                <Property Name="StateId" Type="Edm.String" />
-                <Property MaxLength="40" Name="TownId" Type="Edm.String" />
-                <Property MaxLength="40" Name="City" Type="Edm.String" />
-                <Property Name="Suburb" Type="Edm.String" />
-                <Property Name="Street" Type="Edm.String" />
-                <Property Name="OutsideNumber" Type="Edm.String" />
-                <Property Name="BetweenStreets1" Type="Edm.String" />
-                <Property Name="BetweenStreets2" Type="Edm.String" />
-                <Property Name="LocationReference" Type="Edm.String" />
-                <Property Name="InteriorNumber" Type="Edm.String" />
-                <Property Name="Comments" Type="Edm.String" />
+                <Property MaxLength="10" Name="PostalCode" Type="Edm.String"/>
+                <Property Name="CountryID" Type="Edm.String"/>
+                <Property Name="StateId" Type="Edm.String"/>
+                <Property MaxLength="40" Name="TownId" Type="Edm.String"/>
+                <Property MaxLength="40" Name="City" Type="Edm.String"/>
+                <Property Name="Suburb" Type="Edm.String"/>
+                <Property Name="Street" Type="Edm.String"/>
+                <Property Name="OutsideNumber" Type="Edm.String"/>
+                <Property Name="BetweenStreets1" Type="Edm.String"/>
+                <Property Name="BetweenStreets2" Type="Edm.String"/>
+                <Property Name="LocationReference" Type="Edm.String"/>
+                <Property Name="InteriorNumber" Type="Edm.String"/>
+                <Property Name="Comments" Type="Edm.String"/>
             </ComplexType>
             <ComplexType Name="SpouseCType">
-                <Property Name="Job" Type="Edm.String" />
-                <Property MaxLength="20" Name="WorkPhone" Type="Edm.String" />
-                <Property MaxLength="10" Name="BPIdSpouse" Type="Edm.String" />
-                <Property Name="BpNameData" Nullable="false" Type="AOMobile.BpNameData" />
+                <Property Name="Job" Type="Edm.String"/>
+                <Property MaxLength="20" Name="WorkPhone" Type="Edm.String"/>
+                <Property MaxLength="10" Name="BPIdSpouse" Type="Edm.String"/>
+                <Property Name="BpNameData" Nullable="false" Type="AOMobile.BpNameData"/>
             </ComplexType>
             <ComplexType Name="PlacePhone">
-                <Property MaxLength="10" Name="PhoneTypeId" Type="Edm.String" />
-                <Property MaxLength="20" Name="PhoneNumber" Type="Edm.String" />
+                <Property MaxLength="10" Name="PhoneTypeId" Type="Edm.String"/>
+                <Property MaxLength="20" Name="PhoneNumber" Type="Edm.String"/>
             </ComplexType>
             <ComplexType Name="GroupLoanCustomerData">
-                <Property Name="RoleInTheGroupId" Type="Edm.String" />
-                <Property Name="CreditAmount" Type="Edm.Double" />
-                <Property Name="AuthorizedAmount" Type="Edm.Double" />
-                <Property Name="RejectionCauseId" Type="Edm.String" />
+                <Property Name="RoleInTheGroupId" Type="Edm.String"/>
+                <Property Name="CreditAmount" Type="Edm.Double"/>
+                <Property Name="AuthorizedAmount" Type="Edm.Double"/>
+                <Property Name="RejectionCauseId" Type="Edm.String"/>
             </ComplexType>
             <ComplexType Name="IndividualLoanCustomerData">
-                <Property Name="YearsOnHouse" Type="Edm.Int16" />
-                <Property Name="MonthsOnHouse" Type="Edm.Int16" />
-                <Property Name="YearsOnLocal" Type="Edm.Int16" />
-                <Property Name="MonthsOnLocal" Type="Edm.Int16" />
-                <Property Name="TotalIncomeAmount" Type="Edm.Double" />
-                <Property Name="TotalOutcomeAmount" Type="Edm.Double" />
-                <Property Name="FeeEnabledToPay" Type="Edm.Double" />
-                <Property Name="LoanDestiny" Type="Edm.String" />
-                <Property Name="IsCreditGuaranteeWarrant" Type="Edm.Boolean" />
-                <Property Name="RequiredAmount" Type="Edm.Double" />
-                <Property Name="ProposedAmount" Type="Edm.Double" />
-                <Property Name="ProposedFrequency" Type="Edm.String" />
-                <Property Name="ProposedFee" Type="Edm.Double" />
-                <Property Name="ProposedPeriod" Type="Edm.Double" />
-                <Property Name="MaxLiquidity" Type="Edm.Double" />
-                <Property Name="PaymentFrequency" Type="Edm.String" />
-                <Property Name="MaxRecurrentAmount" Type="Edm.Double" />
+                <Property Name="YearsOnHouse" Type="Edm.Int16"/>
+                <Property Name="MonthsOnHouse" Type="Edm.Int16"/>
+                <Property Name="YearsOnLocal" Type="Edm.Int16"/>
+                <Property Name="MonthsOnLocal" Type="Edm.Int16"/>
+                <Property Name="TotalIncomeAmount" Type="Edm.Double"/>
+                <Property Name="TotalOutcomeAmount" Type="Edm.Double"/>
+                <Property Name="FeeEnabledToPay" Type="Edm.Double"/>
+                <Property Name="LoanDestiny" Type="Edm.String"/>
+                <Property Name="IsCreditGuaranteeWarrant" Type="Edm.Boolean"/>
+                <Property Name="RequiredAmount" Type="Edm.Double"/>
+                <Property Name="ProposedAmount" Type="Edm.Double"/>
+                <Property Name="ProposedFrequency" Type="Edm.String"/>
+                <Property Name="ProposedFee" Type="Edm.Double"/>
+                <Property Name="ProposedPeriod" Type="Edm.Double"/>
+                <Property Name="MaxLiquidity" Type="Edm.Double"/>
+                <Property Name="PaymentFrequency" Type="Edm.String"/>
+                <Property Name="MaxRecurrentAmount" Type="Edm.Double"/>
             </ComplexType>
             <ComplexType Name="GeneralLoanCustomerData">
-                <Property Name="InsuranceAmount" Type="Edm.Double" />
-                <Property Name="ControlListsResult" Type="Edm.Int16" />
-                <Property Name="RiskLevel" Type="Edm.Int16" />
-                <Property Name="SavingsAmount" Type="Edm.Double" />
-                <Property MaxLength="50" Name="DispersionMediumId" Type="Edm.String" />
-                <Property MaxLength="50" Name="DispersionChannelId" Type="Edm.String" />
-                <Property Name="SemaphoreResultFilters" Type="Edm.Int16" />
+                <Property Name="InsuranceAmount" Type="Edm.Double"/>
+                <Property Name="ControlListsResult" Type="Edm.Int16"/>
+                <Property Name="RiskLevel" Type="Edm.Int16"/>
+                <Property Name="SavingsAmount" Type="Edm.Double"/>
+                <Property MaxLength="50" Name="DispersionMediumId" Type="Edm.String"/>
+                <Property MaxLength="50" Name="DispersionChannelId" Type="Edm.String"/>
+                <Property Name="SemaphoreResultFilters" Type="Edm.Int16"/>
             </ComplexType>
             <ComplexType Name="BPFlag">
-                <Property Name="BPFlagDistinction" Type="Edm.Double" />
+                <Property Name="BPFlagDistinction" Type="Edm.Double"/>
             </ComplexType>
             <ComplexType Name="ResultAssignGuarantorRole">
-                <Property Name="Result" Type="Edm.String" />
+                <Property Name="Result" Type="Edm.String"/>
             </ComplexType>
             <ComplexType Name="ServiceTimeResponse">
-                <Property Name="Flag" Type="Edm.String" />
-                <Property Name="Log" Type="Edm.String" />
+                <Property Name="Flag" Type="Edm.String"/>
+                <Property Name="Log" Type="Edm.String"/>
             </ComplexType>
             <ComplexType Name="InitializeCacheResponse">
-                <Property Name="IsInitialized" Type="Edm.Boolean" />
+                <Property Name="IsInitialized" Type="Edm.Boolean"/>
             </ComplexType>
             <ComplexType Name="ResultUpdateGuarantorValidityPeriod">
-                <Property Name="Result" Type="Edm.Boolean" />
+                <Property Name="Result" Type="Edm.Boolean"/>
             </ComplexType>
             <ComplexType Name="LoanRequestGroupCrossSellData">
-                <Property Name="ParentGroupId" Type="Edm.String" />
-                <Property Name="ParentGroupName" Type="Edm.String" />
+                <Property Name="ParentGroupId" Type="Edm.String"/>
+                <Property Name="ParentGroupName" Type="Edm.String"/>
             </ComplexType>
             <ComplexType Name="LoanRequestGeneralCrossSellData">
-                <Property MaxLength="10" Name="ParentLoanRequestIdCRM" Type="Edm.String" />
-                <Property MaxLength="29" Name="ParentLoanRequestIdMD" Type="Edm.String" />
-                <Property MaxLength="54" Name="ParentProductId" Type="Edm.String" />
-                <Property MaxLength="40" Name="CrossSellProductId" Type="Edm.String" />
-                <Property Name="MinAmountOffered" Type="Edm.Double" />
-                <Property Name="MaxAmountOffered" Type="Edm.Double" />
+                <Property MaxLength="10" Name="ParentLoanRequestIdCRM" Type="Edm.String"/>
+                <Property MaxLength="29" Name="ParentLoanRequestIdMD" Type="Edm.String"/>
+                <Property MaxLength="54" Name="ParentProductId" Type="Edm.String"/>
+                <Property MaxLength="40" Name="CrossSellProductId" Type="Edm.String"/>
+                <Property Name="MinAmountOffered" Type="Edm.Double"/>
+                <Property Name="MaxAmountOffered" Type="Edm.Double"/>
             </ComplexType>
             <ComplexType Name="GroupCrossSellLoanCustomerData">
-                <Property Name="BusinessIncome" Type="Edm.Double" />
-                <Property Name="SpouseContribution" Type="Edm.Double" />
-                <Property Name="FamilyContribution" Type="Edm.Double" />
-                <Property Name="MoneyTransfer" Type="Edm.Double" />
-                <Property Name="OtherIncome" Type="Edm.Double" />
-                <Property Name="TotalIncome" Type="Edm.Double" />
-                <Property Name="BusinessExpenses" Type="Edm.Double" />
-                <Property Name="HouseholdExpenses" Type="Edm.Double" />
-                <Property Name="ServiceAndRentExpenses" Type="Edm.Double" />
-                <Property Name="CompartamosFee" Type="Edm.Double" />
-                <Property Name="OtherDebts" Type="Edm.Double" />
-                <Property Name="TotalExpenses" Type="Edm.Double" />
-                <Property Name="TotalMonthlyLiquidity" Type="Edm.Double" />
-                <Property Name="MaxAllowedLiquidity" Type="Edm.Double" />
-                <Property Name="RequiredAmount" Type="Edm.Double" />
-                <Property Name="FeeEnabledToPay" Type="Edm.Double" />
-                <Property Name="LoanDestiny" Type="Edm.String" />
+                <Property Name="BusinessIncome" Type="Edm.Double"/>
+                <Property Name="SpouseContribution" Type="Edm.Double"/>
+                <Property Name="FamilyContribution" Type="Edm.Double"/>
+                <Property Name="MoneyTransfer" Type="Edm.Double"/>
+                <Property Name="OtherIncome" Type="Edm.Double"/>
+                <Property Name="TotalIncome" Type="Edm.Double"/>
+                <Property Name="BusinessExpenses" Type="Edm.Double"/>
+                <Property Name="HouseholdExpenses" Type="Edm.Double"/>
+                <Property Name="ServiceAndRentExpenses" Type="Edm.Double"/>
+                <Property Name="CompartamosFee" Type="Edm.Double"/>
+                <Property Name="OtherDebts" Type="Edm.Double"/>
+                <Property Name="TotalExpenses" Type="Edm.Double"/>
+                <Property Name="TotalMonthlyLiquidity" Type="Edm.Double"/>
+                <Property Name="MaxAllowedLiquidity" Type="Edm.Double"/>
+                <Property Name="RequiredAmount" Type="Edm.Double"/>
+                <Property Name="FeeEnabledToPay" Type="Edm.Double"/>
+                <Property Name="LoanDestiny" Type="Edm.String"/>
             </ComplexType>
             <Association Name="CustomerLink">
-                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer" />
-                <End Multiplicity="*" Role="To_Link" Type="AOMobile.Link" />
+                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer"/>
+                <End Multiplicity="*" Role="To_Link" Type="AOMobile.Link"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Customer">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Link">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="LoanRequestLink">
-                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest" />
-                <End Multiplicity="*" Role="To_Link" Type="AOMobile.Link" />
+                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest"/>
+                <End Multiplicity="*" Role="To_Link" Type="AOMobile.Link"/>
                 <ReferentialConstraint>
                     <Principal Role="From_LoanRequest">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Link">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="CustomerAddress">
-                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer" />
-                <End Multiplicity="*" Role="To_Address" Type="AOMobile.Address" />
+                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer"/>
+                <End Multiplicity="*" Role="To_Address" Type="AOMobile.Address"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Customer">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Address">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="CustomerPhone">
-                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer" />
-                <End Multiplicity="*" Role="To_Phone" Type="AOMobile.Phone" />
+                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer"/>
+                <End Multiplicity="*" Role="To_Phone" Type="AOMobile.Phone"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Customer">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Phone">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="CustomerPersonalReference">
-                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer" />
-                <End Multiplicity="*" Role="To_PersonalReference" Type="AOMobile.PersonalReference" />
+                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer"/>
+                <End Multiplicity="*" Role="To_PersonalReference" Type="AOMobile.PersonalReference"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Customer">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_PersonalReference">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="CustomerImage">
-                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer" />
-                <End Multiplicity="*" Role="To_Image" Type="AOMobile.Image" />
+                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer"/>
+                <End Multiplicity="*" Role="To_Image" Type="AOMobile.Image"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Customer">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Image">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="CustomerEmployer">
-                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer" />
-                <End Multiplicity="*" Role="To_Employer" Type="AOMobile.Employer" />
+                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer"/>
+                <End Multiplicity="*" Role="To_Employer" Type="AOMobile.Employer"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Customer">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Employer">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="CustomerInsurance">
-                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer" />
-                <End Multiplicity="1" Role="To_Insurance" Type="AOMobile.Insurance" />
+                <End Multiplicity="1" Role="From_Customer" Type="AOMobile.Customer"/>
+                <End Multiplicity="1" Role="To_Insurance" Type="AOMobile.Insurance"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Customer">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Insurance">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="InsuranceInsuranceBeneficiary">
-                <End Multiplicity="1" Role="From_Insurance" Type="AOMobile.Insurance" />
-                <End Multiplicity="*" Role="To_InsuranceBeneficiary" Type="AOMobile.InsuranceBeneficiary" />
+                <End Multiplicity="1" Role="From_Insurance" Type="AOMobile.Insurance"/>
+                <End Multiplicity="*" Role="To_InsuranceBeneficiary" Type="AOMobile.InsuranceBeneficiary"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Insurance">
-                        <PropertyRef Name="InsuranceIdCRM" />
-                        <PropertyRef Name="InsuranceIdMD" />
+                        <PropertyRef Name="InsuranceIdCRM"/>
+                        <PropertyRef Name="InsuranceIdMD"/>
                     </Principal>
                     <Dependent Role="To_InsuranceBeneficiary">
-                        <PropertyRef Name="InsuranceIdCRM" />
-                        <PropertyRef Name="InsuranceIdMD" />
+                        <PropertyRef Name="InsuranceIdCRM"/>
+                        <PropertyRef Name="InsuranceIdMD"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="LoanRequestLinkGuarantor">
-                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest" />
-                <End Multiplicity="*" Role="To_LinkGuarantor" Type="AOMobile.LinkGuarantor" />
+                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest"/>
+                <End Multiplicity="*" Role="To_LinkGuarantor" Type="AOMobile.LinkGuarantor"/>
                 <ReferentialConstraint>
                     <Principal Role="From_LoanRequest">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Principal>
                     <Dependent Role="To_LinkGuarantor">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="GuarantorLinkGuarantor">
-                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor" />
-                <End Multiplicity="*" Role="To_LinkGuarantor" Type="AOMobile.LinkGuarantor" />
+                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor"/>
+                <End Multiplicity="*" Role="To_LinkGuarantor" Type="AOMobile.LinkGuarantor"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Guarantor">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_LinkGuarantor">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="LoanRequestInsurance">
-                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest" />
-                <End Multiplicity="*" Role="To_Insurance" Type="AOMobile.Insurance" />
+                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest"/>
+                <End Multiplicity="*" Role="To_Insurance" Type="AOMobile.Insurance"/>
                 <ReferentialConstraint>
                     <Principal Role="From_LoanRequest">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Insurance">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="LoanRequestElectronicSignature">
-                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest" />
-                <End Multiplicity="*" Role="To_ElectronicSignature" Type="AOMobile.ElectronicSignature" />
+                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest"/>
+                <End Multiplicity="*" Role="To_ElectronicSignature" Type="AOMobile.ElectronicSignature"/>
                 <ReferentialConstraint>
                     <Principal Role="From_LoanRequest">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Principal>
                     <Dependent Role="To_ElectronicSignature">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="InsuranceBeneficiaryImage">
-                <End Multiplicity="1" Role="From_InsuranceBeneficiary" Type="AOMobile.InsuranceBeneficiary" />
-                <End Multiplicity="*" Role="To_Image" Type="AOMobile.Image" />
+                <End Multiplicity="1" Role="From_InsuranceBeneficiary" Type="AOMobile.InsuranceBeneficiary"/>
+                <End Multiplicity="*" Role="To_Image" Type="AOMobile.Image"/>
                 <ReferentialConstraint>
                     <Principal Role="From_InsuranceBeneficiary">
-                        <PropertyRef Name="InsuranceBeneficiaryIdMD" />
+                        <PropertyRef Name="InsuranceBeneficiaryIdMD"/>
                     </Principal>
                     <Dependent Role="To_Image">
-                        <PropertyRef Name="InsuranceBeneficiaryIdMD" />
+                        <PropertyRef Name="InsuranceBeneficiaryIdMD"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="InsuranceElectronicSignature">
-                <End Multiplicity="1" Role="From_Insurance" Type="AOMobile.Insurance" />
-                <End Multiplicity="1" Role="To_ElectronicSignature" Type="AOMobile.ElectronicSignature" />
+                <End Multiplicity="1" Role="From_Insurance" Type="AOMobile.Insurance"/>
+                <End Multiplicity="1" Role="To_ElectronicSignature" Type="AOMobile.ElectronicSignature"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Insurance">
-                        <PropertyRef Name="InsuranceIdCRM" />
-                        <PropertyRef Name="InsuranceIdMD" />
+                        <PropertyRef Name="InsuranceIdCRM"/>
+                        <PropertyRef Name="InsuranceIdMD"/>
                     </Principal>
                     <Dependent Role="To_ElectronicSignature">
-                        <PropertyRef Name="InsuranceIdCRM" />
-                        <PropertyRef Name="InsuranceIdMD" />
+                        <PropertyRef Name="InsuranceIdCRM"/>
+                        <PropertyRef Name="InsuranceIdMD"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="GuarantorAddress">
-                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor" />
-                <End Multiplicity="*" Role="To_Address" Type="AOMobile.Address" />
+                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor"/>
+                <End Multiplicity="*" Role="To_Address" Type="AOMobile.Address"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Guarantor">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Address">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="GuarantorPhone">
-                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor" />
-                <End Multiplicity="*" Role="To_Phone" Type="AOMobile.Phone" />
+                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor"/>
+                <End Multiplicity="*" Role="To_Phone" Type="AOMobile.Phone"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Guarantor">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Phone">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="GuarantorPersonalReference">
-                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor" />
-                <End Multiplicity="*" Role="To_PersonalReference" Type="AOMobile.PersonalReference" />
+                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor"/>
+                <End Multiplicity="*" Role="To_PersonalReference" Type="AOMobile.PersonalReference"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Guarantor">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_PersonalReference">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="GuarantorEmployer">
-                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor" />
-                <End Multiplicity="*" Role="To_Employer" Type="AOMobile.Employer" />
+                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor"/>
+                <End Multiplicity="*" Role="To_Employer" Type="AOMobile.Employer"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Guarantor">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Employer">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="GuarantorImage">
-                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor" />
-                <End Multiplicity="*" Role="To_Image" Type="AOMobile.Image" />
+                <End Multiplicity="1" Role="From_Guarantor" Type="AOMobile.Guarantor"/>
+                <End Multiplicity="*" Role="To_Image" Type="AOMobile.Image"/>
                 <ReferentialConstraint>
                     <Principal Role="From_Guarantor">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Image">
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="LoanRequestImage">
-                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest" />
-                <End Multiplicity="*" Role="To_Image" Type="AOMobile.Image" />
+                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest"/>
+                <End Multiplicity="*" Role="To_Image" Type="AOMobile.Image"/>
                 <ReferentialConstraint>
                     <Principal Role="From_LoanRequest">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Image">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="PreLoanRequestLinkPreloanRequest">
-                <End Multiplicity="1" Role="From_PreLoanRequest" Type="AOMobile.PreLoanRequest" />
-                <End Multiplicity="*" Role="To_LinkPreloanRequest" Type="AOMobile.LinkPreloanRequest" />
+                <End Multiplicity="1" Role="From_PreLoanRequest" Type="AOMobile.PreLoanRequest"/>
+                <End Multiplicity="*" Role="To_LinkPreloanRequest" Type="AOMobile.LinkPreloanRequest"/>
                 <ReferentialConstraint>
                     <Principal Role="From_PreLoanRequest">
-                        <PropertyRef Name="PreLoanRequestID" />
+                        <PropertyRef Name="PreLoanRequestID"/>
                     </Principal>
                     <Dependent Role="To_LinkPreloanRequest">
-                        <PropertyRef Name="PreLoanRequestID" />
+                        <PropertyRef Name="PreLoanRequestID"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="LinkPreloanRequestCustomer">
-                <End Multiplicity="1" Role="From_LinkPreloanRequest" Type="AOMobile.LinkPreloanRequest" />
-                <End Multiplicity="*" Role="To_Customer" Type="AOMobile.Customer" />
+                <End Multiplicity="1" Role="From_LinkPreloanRequest" Type="AOMobile.LinkPreloanRequest"/>
+                <End Multiplicity="*" Role="To_Customer" Type="AOMobile.Customer"/>
                 <ReferentialConstraint>
                     <Principal Role="From_LinkPreloanRequest">
-                        <PropertyRef Name="PreLoanRequestID" />
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="PreLoanRequestID"/>
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Principal>
                     <Dependent Role="To_Customer">
-                        <PropertyRef Name="PreLoanRequestID" />
-                        <PropertyRef Name="CustomerIdCRM" />
+                        <PropertyRef Name="PreLoanRequestID"/>
+                        <PropertyRef Name="CustomerIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="CrossSellingCandidateCrossSellOffer">
-                <End Multiplicity="1" Role="From_CrossSellingCandidate" Type="AOMobile.CrossSellingCandidate" />
-                <End Multiplicity="*" Role="To_CrossSellOffer" Type="AOMobile.CrossSellOffer" />
+                <End Multiplicity="1" Role="From_CrossSellingCandidate" Type="AOMobile.CrossSellingCandidate"/>
+                <End Multiplicity="*" Role="To_CrossSellOffer" Type="AOMobile.CrossSellOffer"/>
                 <ReferentialConstraint>
                     <Principal Role="From_CrossSellingCandidate">
-                        <PropertyRef Name="CandidateIdCRM" />
+                        <PropertyRef Name="CandidateIdCRM"/>
                     </Principal>
                     <Dependent Role="To_CrossSellOffer">
-                        <PropertyRef Name="CandidateIdCRM" />
+                        <PropertyRef Name="CandidateIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <Association Name="LoanRequestGroupCrossSellAssignedGuarantor">
-                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest" />
-                <End Multiplicity="0..1" Role="To_GroupCrossSellAssignedGuarantor" Type="AOMobile.GroupCrossSellAssignedGuarantor" />
+                <End Multiplicity="1" Role="From_LoanRequest" Type="AOMobile.LoanRequest"/>
+                <End Multiplicity="0..1" Role="To_GroupCrossSellAssignedGuarantor" Type="AOMobile.GroupCrossSellAssignedGuarantor"/>
                 <ReferentialConstraint>
                     <Principal Role="From_LoanRequest">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Principal>
                     <Dependent Role="To_GroupCrossSellAssignedGuarantor">
-                        <PropertyRef Name="LoanRequestIdCRM" />
+                        <PropertyRef Name="LoanRequestIdCRM"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
             <EntityContainer Name="default" m:IsDefaultEntityContainer="true">
-                <!--IGW-->
-                <EntitySet Name="PendingsPromoterSet" EntityType="JDBCmapping2.PendingsPromoter" />
-                <EntitySet Name="AnnouncementsPromoterSet" EntityType="JDBCmapping2.AnnouncementsPromoter" />
-                <EntitySet Name="SystemNotifications" EntityType="JDBCmapping2.SystemNotifications" />
-                <!--AO-->
-                <EntitySet EntityType="AOMobile.Link" Name="LinkSet" />
-                <EntitySet EntityType="AOMobile.LoanRequest" Name="LoanRequestSet" />
-                <EntitySet EntityType="AOMobile.Customer" Name="CustomerSet" />
-                <EntitySet EntityType="AOMobile.InsuranceBeneficiary" Name="InsuranceBeneficiarySet" />
-                <EntitySet EntityType="AOMobile.PersonalReference" Name="PersonalReferenceSet" />
-                <EntitySet EntityType="AOMobile.Phone" Name="PhoneSet" />
-                <EntitySet EntityType="AOMobile.Address" Name="AddressSet" />
-                <EntitySet EntityType="AOMobile.Employer" Name="EmployerSet" />
-                <EntitySet EntityType="AOMobile.ElectronicSignature" Name="ElectronicSignatureSet" />
-                <EntitySet EntityType="AOMobile.Guarantor" Name="GuarantorSet" />
-                <EntitySet EntityType="AOMobile.LinkGuarantor" Name="LinkGuarantorSet" />
-                <EntitySet EntityType="AOMobile.Image" Name="ImageSet" />
-                <EntitySet EntityType="AOMobile.ApprovalResponse" Name="ApprovalResponseSet" />
-                <EntitySet EntityType="AOMobile.SimulatorResponse" Name="SimulatorResponseSet" />
-                <EntitySet EntityType="AOMobile.ChannelMediumDispersion" Name="ChannelMediumDispersionSet" />
-                <EntitySet EntityType="AOMobile.PostalCode" Name="PostalCodeSet" />
-                <EntitySet EntityType="AOMobile.Insurance" Name="InsuranceSet" />
-                <EntitySet EntityType="AOMobile.PreLoanRequest" Name="PreLoanRequestSet" />
-                <EntitySet EntityType="AOMobile.LinkPreloanRequest" Name="LinkPreloanRequestSet" />
-                <EntitySet EntityType="AOMobile.Product" Name="ProductSet" />
-                <EntitySet EntityType="AOMobile.GuarantorCandidateResponse" Name="GuarantorCandidateResponseSet" />
-                <EntitySet EntityType="AOMobile.CrossSellingCandidate" Name="CrossSellingCandidateSet" />
-                <EntitySet EntityType="AOMobile.CrossSellOffer" Name="CrossSellOfferSet" />
-                <EntitySet EntityType="AOMobile.GroupCrossSellGuarantorCandidate" Name="GroupCrossSellGuarantorCandidateSet" />
-                <EntitySet EntityType="AOMobile.GroupCrossSellAssignedGuarantor" Name="GroupCrossSellAssignedGuarantorSet" />
+            	<!--EntitySet GW-->
+                <EntitySet EntityType="AOMobile.Link" Name="LinkSet"/>
+                <EntitySet EntityType="AOMobile.LoanRequest" Name="LoanRequestSet"/>
+                <EntitySet EntityType="AOMobile.Customer" Name="CustomerSet"/>
+                <EntitySet EntityType="AOMobile.InsuranceBeneficiary" Name="InsuranceBeneficiarySet"/>
+                <EntitySet EntityType="AOMobile.PersonalReference" Name="PersonalReferenceSet"/>
+                <EntitySet EntityType="AOMobile.Phone" Name="PhoneSet"/>
+                <EntitySet EntityType="AOMobile.Address" Name="AddressSet"/>
+                <EntitySet EntityType="AOMobile.Employer" Name="EmployerSet"/>
+                <EntitySet EntityType="AOMobile.ElectronicSignature" Name="ElectronicSignatureSet"/>
+                <EntitySet EntityType="AOMobile.Guarantor" Name="GuarantorSet"/>
+                <EntitySet EntityType="AOMobile.LinkGuarantor" Name="LinkGuarantorSet"/>
+                <EntitySet EntityType="AOMobile.Image" Name="ImageSet"/>
+                <EntitySet EntityType="AOMobile.ApprovalResponse" Name="ApprovalResponseSet"/>
+                <EntitySet EntityType="AOMobile.SimulatorResponse" Name="SimulatorResponseSet"/>
+                <EntitySet EntityType="AOMobile.ChannelMediumDispersion" Name="ChannelMediumDispersionSet"/>
+                <EntitySet EntityType="AOMobile.PostalCode" Name="PostalCodeSet"/>
+                <EntitySet EntityType="AOMobile.Insurance" Name="InsuranceSet"/>
+                <EntitySet EntityType="AOMobile.PreLoanRequest" Name="PreLoanRequestSet"/>
+                <EntitySet EntityType="AOMobile.LinkPreloanRequest" Name="LinkPreloanRequestSet"/>
+                <EntitySet EntityType="AOMobile.Product" Name="ProductSet"/>
+                <EntitySet EntityType="AOMobile.GuarantorCandidateResponse" Name="GuarantorCandidateResponseSet"/>
+                <EntitySet EntityType="AOMobile.CrossSellingCandidate" Name="CrossSellingCandidateSet"/>
+                <EntitySet EntityType="AOMobile.CrossSellOffer" Name="CrossSellOfferSet"/>
+                <EntitySet EntityType="AOMobile.GroupCrossSellGuarantorCandidate" Name="GroupCrossSellGuarantorCandidateSet"/>
+                <EntitySet EntityType="AOMobile.GroupCrossSellAssignedGuarantor" Name="GroupCrossSellAssignedGuarantorSet"/>
+                <!--EntitySet IGW-->
+                <EntitySet EntityType="AOMobile.PendingsPromoter" Name="PendingsPromoterSet"/>
+                <EntitySet EntityType="AOMobile.AnnouncementsPromoter" Name="AnnouncementsPromoterSet"/>
+                <EntitySet EntityType="AOMobile.SystemNotifications" Name="SystemNotifications"/>
+                
                 <AssociationSet Association="AOMobile.CustomerLink" Name="CustomerLinkSet">
-                    <End EntitySet="CustomerSet" Role="From_Customer" />
-                    <End EntitySet="LinkSet" Role="To_Link" />
+                    <End EntitySet="CustomerSet" Role="From_Customer"/>
+                    <End EntitySet="LinkSet" Role="To_Link"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.LoanRequestLink" Name="LoanRequestLinkSet">
-                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest" />
-                    <End EntitySet="LinkSet" Role="To_Link" />
+                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest"/>
+                    <End EntitySet="LinkSet" Role="To_Link"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.CustomerAddress" Name="CustomerAddressSet">
-                    <End EntitySet="CustomerSet" Role="From_Customer" />
-                    <End EntitySet="AddressSet" Role="To_Address" />
+                    <End EntitySet="CustomerSet" Role="From_Customer"/>
+                    <End EntitySet="AddressSet" Role="To_Address"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.CustomerPhone" Name="CustomerPhoneSet">
-                    <End EntitySet="CustomerSet" Role="From_Customer" />
-                    <End EntitySet="PhoneSet" Role="To_Phone" />
+                    <End EntitySet="CustomerSet" Role="From_Customer"/>
+                    <End EntitySet="PhoneSet" Role="To_Phone"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.CustomerPersonalReference" Name="CustomerPersonalReferenceSet">
-                    <End EntitySet="CustomerSet" Role="From_Customer" />
-                    <End EntitySet="PersonalReferenceSet" Role="To_PersonalReference" />
+                    <End EntitySet="CustomerSet" Role="From_Customer"/>
+                    <End EntitySet="PersonalReferenceSet" Role="To_PersonalReference"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.CustomerImage" Name="CustomerImageSet">
-                    <End EntitySet="CustomerSet" Role="From_Customer" />
-                    <End EntitySet="ImageSet" Role="To_Image" />
+                    <End EntitySet="CustomerSet" Role="From_Customer"/>
+                    <End EntitySet="ImageSet" Role="To_Image"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.CustomerEmployer" Name="CustomerEmployerSet">
-                    <End EntitySet="CustomerSet" Role="From_Customer" />
-                    <End EntitySet="EmployerSet" Role="To_Employer" />
+                    <End EntitySet="CustomerSet" Role="From_Customer"/>
+                    <End EntitySet="EmployerSet" Role="To_Employer"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.CustomerInsurance" Name="CustomerInsuranceSet">
-                    <End EntitySet="CustomerSet" Role="From_Customer" />
-                    <End EntitySet="InsuranceSet" Role="To_Insurance" />
+                    <End EntitySet="CustomerSet" Role="From_Customer"/>
+                    <End EntitySet="InsuranceSet" Role="To_Insurance"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.InsuranceInsuranceBeneficiary" Name="InsuranceInsuranceBeneficiarySet">
-                    <End EntitySet="InsuranceSet" Role="From_Insurance" />
-                    <End EntitySet="InsuranceBeneficiarySet" Role="To_InsuranceBeneficiary" />
+                    <End EntitySet="InsuranceSet" Role="From_Insurance"/>
+                    <End EntitySet="InsuranceBeneficiarySet" Role="To_InsuranceBeneficiary"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.LoanRequestLinkGuarantor" Name="LoanRequestLinkGuarantorSet">
-                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest" />
-                    <End EntitySet="LinkGuarantorSet" Role="To_LinkGuarantor" />
+                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest"/>
+                    <End EntitySet="LinkGuarantorSet" Role="To_LinkGuarantor"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.GuarantorLinkGuarantor" Name="GuarantorLinkGuarantorSet">
-                    <End EntitySet="GuarantorSet" Role="From_Guarantor" />
-                    <End EntitySet="LinkGuarantorSet" Role="To_LinkGuarantor" />
+                    <End EntitySet="GuarantorSet" Role="From_Guarantor"/>
+                    <End EntitySet="LinkGuarantorSet" Role="To_LinkGuarantor"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.LoanRequestInsurance" Name="LoanRequestInsuranceSet">
-                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest" />
-                    <End EntitySet="InsuranceSet" Role="To_Insurance" />
+                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest"/>
+                    <End EntitySet="InsuranceSet" Role="To_Insurance"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.LoanRequestElectronicSignature" Name="LoanRequestElectronicSignatureSet">
-                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest" />
-                    <End EntitySet="ElectronicSignatureSet" Role="To_ElectronicSignature" />
+                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest"/>
+                    <End EntitySet="ElectronicSignatureSet" Role="To_ElectronicSignature"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.InsuranceBeneficiaryImage" Name="InsuranceBeneficiaryImageSet">
-                    <End EntitySet="InsuranceBeneficiarySet" Role="From_InsuranceBeneficiary" />
-                    <End EntitySet="ImageSet" Role="To_Image" />
+                    <End EntitySet="InsuranceBeneficiarySet" Role="From_InsuranceBeneficiary"/>
+                    <End EntitySet="ImageSet" Role="To_Image"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.InsuranceElectronicSignature" Name="InsuranceElectronicSignatureSet">
-                    <End EntitySet="InsuranceSet" Role="From_Insurance" />
-                    <End EntitySet="ElectronicSignatureSet" Role="To_ElectronicSignature" />
+                    <End EntitySet="InsuranceSet" Role="From_Insurance"/>
+                    <End EntitySet="ElectronicSignatureSet" Role="To_ElectronicSignature"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.GuarantorAddress" Name="GuarantorAddressSet">
-                    <End EntitySet="GuarantorSet" Role="From_Guarantor" />
-                    <End EntitySet="AddressSet" Role="To_Address" />
+                    <End EntitySet="GuarantorSet" Role="From_Guarantor"/>
+                    <End EntitySet="AddressSet" Role="To_Address"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.GuarantorPhone" Name="GuarantorPhoneSet">
-                    <End EntitySet="GuarantorSet" Role="From_Guarantor" />
-                    <End EntitySet="PhoneSet" Role="To_Phone" />
+                    <End EntitySet="GuarantorSet" Role="From_Guarantor"/>
+                    <End EntitySet="PhoneSet" Role="To_Phone"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.GuarantorPersonalReference" Name="GuarantorPersonalReferenceSet">
-                    <End EntitySet="GuarantorSet" Role="From_Guarantor" />
-                    <End EntitySet="PersonalReferenceSet" Role="To_PersonalReference" />
+                    <End EntitySet="GuarantorSet" Role="From_Guarantor"/>
+                    <End EntitySet="PersonalReferenceSet" Role="To_PersonalReference"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.GuarantorEmployer" Name="GuarantorEmployerSet">
-                    <End EntitySet="GuarantorSet" Role="From_Guarantor" />
-                    <End EntitySet="EmployerSet" Role="To_Employer" />
+                    <End EntitySet="GuarantorSet" Role="From_Guarantor"/>
+                    <End EntitySet="EmployerSet" Role="To_Employer"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.GuarantorImage" Name="GuarantorImageSet">
-                    <End EntitySet="GuarantorSet" Role="From_Guarantor" />
-                    <End EntitySet="ImageSet" Role="To_Image" />
+                    <End EntitySet="GuarantorSet" Role="From_Guarantor"/>
+                    <End EntitySet="ImageSet" Role="To_Image"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.LoanRequestImage" Name="LoanRequestImageSet">
-                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest" />
-                    <End EntitySet="ImageSet" Role="To_Image" />
+                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest"/>
+                    <End EntitySet="ImageSet" Role="To_Image"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.PreLoanRequestLinkPreloanRequest" Name="PreLoanRequestLinkPreloanRequestSet">
-                    <End EntitySet="PreLoanRequestSet" Role="From_PreLoanRequest" />
-                    <End EntitySet="LinkPreloanRequestSet" Role="To_LinkPreloanRequest" />
+                    <End EntitySet="PreLoanRequestSet" Role="From_PreLoanRequest"/>
+                    <End EntitySet="LinkPreloanRequestSet" Role="To_LinkPreloanRequest"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.LinkPreloanRequestCustomer" Name="LinkPreloanRequestCustomerSet">
-                    <End EntitySet="LinkPreloanRequestSet" Role="From_LinkPreloanRequest" />
-                    <End EntitySet="CustomerSet" Role="To_Customer" />
+                    <End EntitySet="LinkPreloanRequestSet" Role="From_LinkPreloanRequest"/>
+                    <End EntitySet="CustomerSet" Role="To_Customer"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.CrossSellingCandidateCrossSellOffer" Name="CrossSellingCandidateCrossSellOfferSet">
-                    <End EntitySet="CrossSellingCandidateSet" Role="From_CrossSellingCandidate" />
-                    <End EntitySet="CrossSellOfferSet" Role="To_CrossSellOffer" />
+                    <End EntitySet="CrossSellingCandidateSet" Role="From_CrossSellingCandidate"/>
+                    <End EntitySet="CrossSellOfferSet" Role="To_CrossSellOffer"/>
                 </AssociationSet>
                 <AssociationSet Association="AOMobile.LoanRequestGroupCrossSellAssignedGuarantor" Name="LoanRequestGroupCrossSellAssignedGuarantorSet">
-                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest" />
-                    <End EntitySet="GroupCrossSellAssignedGuarantorSet" Role="To_GroupCrossSellAssignedGuarantor" />
+                    <End EntitySet="LoanRequestSet" Role="From_LoanRequest"/>
+                    <End EntitySet="GroupCrossSellAssignedGuarantorSet" Role="To_GroupCrossSellAssignedGuarantor"/>
                 </AssociationSet>
                 <FunctionImport EntitySet="ApprovalResponseSet" Name="OpportunityApproval" ReturnType="AOMobile.ApprovalResponse" m:HttpMethod="GET">
-                    <Parameter MaxLength="10" Mode="In" Name="loanRequestIdCRM" Precision="0" Scale="0" Type="Edm.String" />
-                    <Parameter MaxLength="0" Mode="In" Name="processType" Precision="0" Scale="0" Type="Edm.String" />
+                    <Parameter MaxLength="10" Mode="In" Name="loanRequestIdCRM" Precision="0" Scale="0" Type="Edm.String"/>
+                    <Parameter MaxLength="0" Mode="In" Name="processType" Precision="0" Scale="0" Type="Edm.String"/>
                 </FunctionImport>
                 <FunctionImport EntitySet="SimulatorResponseSet" Name="CreditSimulator" ReturnType="AOMobile.SimulatorResponse" m:HttpMethod="GET">
-                    <Parameter MaxLength="0" Mode="In" Name="reqAmount" Precision="0" Scale="0" Type="Edm.Double" />
-                    <Parameter MaxLength="3" Mode="In" Name="reqTerm" Precision="0" Scale="0" Type="Edm.String" />
-                    <Parameter MaxLength="0" Mode="In" Name="maxSolvencyAmount" Precision="0" Scale="0" Type="Edm.Double" />
+                    <Parameter MaxLength="0" Mode="In" Name="reqAmount" Precision="0" Scale="0" Type="Edm.Double"/>
+                    <Parameter MaxLength="3" Mode="In" Name="reqTerm" Precision="0" Scale="0" Type="Edm.String"/>
+                    <Parameter MaxLength="0" Mode="In" Name="maxSolvencyAmount" Precision="0" Scale="0" Type="Edm.Double"/>
                 </FunctionImport>
                 <FunctionImport Name="AssignGuarantorRole" ReturnType="AOMobile.ResultAssignGuarantorRole" m:HttpMethod="GET">
-                    <Parameter MaxLength="12" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String" />
-                    <Parameter MaxLength="10" Mode="In" Name="CustomerIDCRM" Precision="0" Scale="0" Type="Edm.String" />
+                    <Parameter MaxLength="12" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String"/>
+                    <Parameter MaxLength="10" Mode="In" Name="CustomerIDCRM" Precision="0" Scale="0" Type="Edm.String"/>
                 </FunctionImport>
                 <FunctionImport Name="ServiceTime" ReturnType="AOMobile.ServiceTimeResponse" m:HttpMethod="GET">
-                    <Parameter MaxLength="12" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String" />
+                    <Parameter MaxLength="12" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String"/>
                 </FunctionImport>
                 <FunctionImport Name="InitializeCache" ReturnType="AOMobile.InitializeCacheResponse" m:HttpMethod="GET">
-                    <Parameter MaxLength="12" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String" />
+                    <Parameter MaxLength="12" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String"/>
                 </FunctionImport>
                 <FunctionImport Name="UpdateGuarantorValidityPeriod" ReturnType="AOMobile.ResultUpdateGuarantorValidityPeriod" m:HttpMethod="GET">
-                    <Parameter MaxLength="12" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String" />
-                    <Parameter MaxLength="10" Mode="In" Name="CustomerIDCRM" Precision="0" Scale="0" Type="Edm.String" />
+                    <Parameter MaxLength="12" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String"/>
+                    <Parameter MaxLength="10" Mode="In" Name="CustomerIDCRM" Precision="0" Scale="0" Type="Edm.String"/>
                 </FunctionImport>
                 <FunctionImport EntitySet="GuarantorCandidateResponseSet" Name="GuarantorCandidate" ReturnType="AOMobile.GuarantorCandidateResponse" m:HttpMethod="GET">
-                    <Parameter MaxLength="0" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String" />
-                    <Parameter MaxLength="0" Mode="In" Name="FirstName" Precision="0" Scale="0" Type="Edm.String" />
-                    <Parameter MaxLength="0" Mode="In" Name="MiddleName" Precision="0" Scale="0" Type="Edm.String" />
-                    <Parameter MaxLength="0" Mode="In" Name="LastName" Precision="0" Scale="0" Type="Edm.String" />
-                    <Parameter MaxLength="0" Mode="In" Name="SecondName" Precision="0" Scale="0" Type="Edm.String" />
-                    <Parameter MaxLength="0" Mode="In" Name="BirthdDate" Precision="0" Scale="0" Type="Edm.DateTime" />
-                    <Parameter MaxLength="0" Mode="In" Name="BPIdCRM" Precision="0" Scale="0" Type="Edm.String" />
+                    <Parameter MaxLength="0" Mode="In" Name="CollaboratorID" Precision="0" Scale="0" Type="Edm.String"/>
+                    <Parameter MaxLength="0" Mode="In" Name="FirstName" Precision="0" Scale="0" Type="Edm.String"/>
+                    <Parameter MaxLength="0" Mode="In" Name="MiddleName" Precision="0" Scale="0" Type="Edm.String"/>
+                    <Parameter MaxLength="0" Mode="In" Name="LastName" Precision="0" Scale="0" Type="Edm.String"/>
+                    <Parameter MaxLength="0" Mode="In" Name="SecondName" Precision="0" Scale="0" Type="Edm.String"/>
+                    <Parameter MaxLength="0" Mode="In" Name="BirthdDate" Precision="0" Scale="0" Type="Edm.DateTime"/>
+                    <Parameter MaxLength="0" Mode="In" Name="BPIdCRM" Precision="0" Scale="0" Type="Edm.String"/>
                 </FunctionImport>
             </EntityContainer>
         </Schema>

@@ -1,6 +1,6 @@
 [{
 	"CustomerIdCRM": "CustomerIdCRM 1",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 1",
 	"CustomerIdMD": "CustomerIdMD 1",
 	"BpName": {
 		"FirstName": "FirstName 1",
@@ -10,7 +10,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 1",
-		"RegistrationDate": "/Date(1022353383000)/",
+		"RegistrationDate": "/Date(1080169201000)/",
 		"RoleId": "RoleId 1",
 		"StatusId": "StatusId 1",
 		"StatusReasonId": "StatusReasonId 1",
@@ -18,16 +18,16 @@
 		"LeadIdCRM": "LeadIdCRM 1",
 		"ServiceOfficeID": "ServiceOfficeID 1",
 		"ServiceOfficeName": "ServiceOfficeName 1",
-		"ContactLaterDate": "/Date(1471374183000)/",
-		"ContactLaterTime": "PT2H2M50S",
-		"Cycle": 208,
-		"RemainingDays": 8117,
-		"ServiceLevelId": 8866,
+		"ContactLaterDate": "/Date(1290726001000)/",
+		"ContactLaterTime": "PT19H7M6S",
+		"Cycle": 6761,
+		"RemainingDays": 276,
+		"ServiceLevelId": 2952,
 		"SourceId": "SourceId 1",
 		"ControlListsResult": "ControlListsResult 1",
 		"RiskLevel": "RiskLevel 1",
 		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 5192
+		"AccumulatedCycle": 6369
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 1",
@@ -45,11 +45,11 @@
 		"FielNumber": "FielNumber 1",
 		"Rfc": "Rfc 1",
 		"Homoclave": "Homoclave 1",
-		"MonthlySalary": 9.760017174291256
+		"MonthlySalary": 6.166586502871024
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 1",
-		"BirthdDate": "/Date(1160679783000)/",
+		"BirthdDate": "/Date(1365202801000)/",
 		"ElectorKey": "ElectorKey 1",
 		"CountryOfBirthId": "CountryOfBirthId 1",
 		"BirthPlace": "BirthPlace 1",
@@ -63,7 +63,7 @@
 		"IndustryId": "IndustryId 1",
 		"EconomicActivityId": "EconomicActivityId 1",
 		"VoterRegistration": "VoterRegistration 1",
-		"IsPEP": true,
+		"IsPEP": false,
 		"NamePEP": "NamePEP 1",
 		"IsRelatedToGentera": true,
 		"RelatedName": "RelatedName 1",
@@ -84,9 +84,9 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 0.26775229510443754
+		"BPFlagDistinction": 5.16638397371723
 	},
-	"IsAvailableForReq": false,
+	"IsAvailableForReq": true,
 	"__metadata": {
 		"uri": "GuarantorSet('CustomerIdCRM%201')",
 		"type": "AOMobile.Guarantor"
@@ -123,7 +123,7 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 2",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 2",
 	"CustomerIdMD": "CustomerIdMD 2",
 	"BpName": {
 		"FirstName": "FirstName 2",
@@ -133,7 +133,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 2",
-		"RegistrationDate": "/Date(1198180983000)/",
+		"RegistrationDate": "/Date(1203116401000)/",
 		"RoleId": "RoleId 2",
 		"StatusId": "StatusId 2",
 		"StatusReasonId": "StatusReasonId 2",
@@ -141,16 +141,16 @@
 		"LeadIdCRM": "LeadIdCRM 2",
 		"ServiceOfficeID": "ServiceOfficeID 2",
 		"ServiceOfficeName": "ServiceOfficeName 2",
-		"ContactLaterDate": "/Date(1276369383000)/",
-		"ContactLaterTime": "PT15H5M5S",
-		"Cycle": 4754,
-		"RemainingDays": 8322,
-		"ServiceLevelId": 8817,
+		"ContactLaterDate": "/Date(1506895201000)/",
+		"ContactLaterTime": "PT6H11M3S",
+		"Cycle": 3600,
+		"RemainingDays": 7784,
+		"ServiceLevelId": 9874,
 		"SourceId": "SourceId 2",
 		"ControlListsResult": "ControlListsResult 2",
 		"RiskLevel": "RiskLevel 2",
-		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 3462
+		"IsContactLaterEditable": false,
+		"AccumulatedCycle": 3661
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 2",
@@ -164,15 +164,15 @@
 		"TimeInTheBusiness": "TimeInTheBusiness 2",
 		"ShopFromWhoId": "ShopFromWhoId 2",
 		"EconomicActivityId": "EconomicActivityId 2",
-		"IsIndivWBusiness": true,
+		"IsIndivWBusiness": false,
 		"FielNumber": "FielNumber 2",
 		"Rfc": "Rfc 2",
 		"Homoclave": "Homoclave 2",
-		"MonthlySalary": 6.006397565475988
+		"MonthlySalary": 6.423069454752639
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 2",
-		"BirthdDate": "/Date(997038183000)/",
+		"BirthdDate": "/Date(1020376801000)/",
 		"ElectorKey": "ElectorKey 2",
 		"CountryOfBirthId": "CountryOfBirthId 2",
 		"BirthPlace": "BirthPlace 2",
@@ -186,7 +186,7 @@
 		"IndustryId": "IndustryId 2",
 		"EconomicActivityId": "EconomicActivityId 2",
 		"VoterRegistration": "VoterRegistration 2",
-		"IsPEP": true,
+		"IsPEP": false,
 		"NamePEP": "NamePEP 2",
 		"IsRelatedToGentera": false,
 		"RelatedName": "RelatedName 2",
@@ -207,7 +207,7 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 9.36199339327528
+		"BPFlagDistinction": 0.3972662207864541
 	},
 	"IsAvailableForReq": false,
 	"__metadata": {
@@ -246,7 +246,7 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 3",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 3",
 	"CustomerIdMD": "CustomerIdMD 3",
 	"BpName": {
 		"FirstName": "FirstName 3",
@@ -256,7 +256,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 3",
-		"RegistrationDate": "/Date(1344884583000)/",
+		"RegistrationDate": "/Date(1221861601000)/",
 		"RoleId": "RoleId 3",
 		"StatusId": "StatusId 3",
 		"StatusReasonId": "StatusReasonId 3",
@@ -264,16 +264,16 @@
 		"LeadIdCRM": "LeadIdCRM 3",
 		"ServiceOfficeID": "ServiceOfficeID 3",
 		"ServiceOfficeName": "ServiceOfficeName 3",
-		"ContactLaterDate": "/Date(1519761783000)/",
-		"ContactLaterTime": "PT20H26M21S",
-		"Cycle": 5614,
-		"RemainingDays": 6142,
-		"ServiceLevelId": 1502,
+		"ContactLaterDate": "/Date(1279231201000)/",
+		"ContactLaterTime": "PT17H49M55S",
+		"Cycle": 6919,
+		"RemainingDays": 7884,
+		"ServiceLevelId": 4651,
 		"SourceId": "SourceId 3",
 		"ControlListsResult": "ControlListsResult 3",
 		"RiskLevel": "RiskLevel 3",
-		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 6521
+		"IsContactLaterEditable": true,
+		"AccumulatedCycle": 7523
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 3",
@@ -287,15 +287,15 @@
 		"TimeInTheBusiness": "TimeInTheBusiness 3",
 		"ShopFromWhoId": "ShopFromWhoId 3",
 		"EconomicActivityId": "EconomicActivityId 3",
-		"IsIndivWBusiness": false,
+		"IsIndivWBusiness": true,
 		"FielNumber": "FielNumber 3",
 		"Rfc": "Rfc 3",
 		"Homoclave": "Homoclave 3",
-		"MonthlySalary": 5.639056881325737
+		"MonthlySalary": 7.891706177980953
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 3",
-		"BirthdDate": "/Date(1314298983000)/",
+		"BirthdDate": "/Date(1508882401000)/",
 		"ElectorKey": "ElectorKey 3",
 		"CountryOfBirthId": "CountryOfBirthId 3",
 		"BirthPlace": "BirthPlace 3",
@@ -309,9 +309,9 @@
 		"IndustryId": "IndustryId 3",
 		"EconomicActivityId": "EconomicActivityId 3",
 		"VoterRegistration": "VoterRegistration 3",
-		"IsPEP": true,
+		"IsPEP": false,
 		"NamePEP": "NamePEP 3",
-		"IsRelatedToGentera": false,
+		"IsRelatedToGentera": true,
 		"RelatedName": "RelatedName 3",
 		"BasicDataStartDTime": "BasicDataStartDTime 3",
 		"RelationshipId": "RelationshipId 3"
@@ -330,7 +330,7 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 5.704837238989102
+		"BPFlagDistinction": 4.268588773817701
 	},
 	"IsAvailableForReq": false,
 	"__metadata": {
@@ -369,7 +369,7 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 4",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 4",
 	"CustomerIdMD": "CustomerIdMD 4",
 	"BpName": {
 		"FirstName": "FirstName 4",
@@ -379,7 +379,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 4",
-		"RegistrationDate": "/Date(1377975783000)/",
+		"RegistrationDate": "/Date(972338401000)/",
 		"RoleId": "RoleId 4",
 		"StatusId": "StatusId 4",
 		"StatusReasonId": "StatusReasonId 4",
@@ -387,16 +387,16 @@
 		"LeadIdCRM": "LeadIdCRM 4",
 		"ServiceOfficeID": "ServiceOfficeID 4",
 		"ServiceOfficeName": "ServiceOfficeName 4",
-		"ContactLaterDate": "/Date(1166040183000)/",
-		"ContactLaterTime": "PT8H7M12S",
-		"Cycle": 3856,
-		"RemainingDays": 1089,
-		"ServiceLevelId": 9608,
+		"ContactLaterDate": "/Date(1381701601000)/",
+		"ContactLaterTime": "PT17H38M49S",
+		"Cycle": 7616,
+		"RemainingDays": 5879,
+		"ServiceLevelId": 4866,
 		"SourceId": "SourceId 4",
 		"ControlListsResult": "ControlListsResult 4",
 		"RiskLevel": "RiskLevel 4",
-		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 7050
+		"IsContactLaterEditable": true,
+		"AccumulatedCycle": 1576
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 4",
@@ -414,11 +414,11 @@
 		"FielNumber": "FielNumber 4",
 		"Rfc": "Rfc 4",
 		"Homoclave": "Homoclave 4",
-		"MonthlySalary": 4.140411347680455
+		"MonthlySalary": 3.9269726964474927
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 4",
-		"BirthdDate": "/Date(1064257383000)/",
+		"BirthdDate": "/Date(1424732401000)/",
 		"ElectorKey": "ElectorKey 4",
 		"CountryOfBirthId": "CountryOfBirthId 4",
 		"BirthPlace": "BirthPlace 4",
@@ -432,9 +432,9 @@
 		"IndustryId": "IndustryId 4",
 		"EconomicActivityId": "EconomicActivityId 4",
 		"VoterRegistration": "VoterRegistration 4",
-		"IsPEP": false,
+		"IsPEP": true,
 		"NamePEP": "NamePEP 4",
-		"IsRelatedToGentera": true,
+		"IsRelatedToGentera": false,
 		"RelatedName": "RelatedName 4",
 		"BasicDataStartDTime": "BasicDataStartDTime 4",
 		"RelationshipId": "RelationshipId 4"
@@ -453,7 +453,7 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 6.382492205695183
+		"BPFlagDistinction": 6.346111275499577
 	},
 	"IsAvailableForReq": true,
 	"__metadata": {
@@ -492,7 +492,7 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 5",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 5",
 	"CustomerIdMD": "CustomerIdMD 5",
 	"BpName": {
 		"FirstName": "FirstName 5",
@@ -502,7 +502,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 5",
-		"RegistrationDate": "/Date(1095188583000)/",
+		"RegistrationDate": "/Date(1392678001000)/",
 		"RoleId": "RoleId 5",
 		"StatusId": "StatusId 5",
 		"StatusReasonId": "StatusReasonId 5",
@@ -510,16 +510,16 @@
 		"LeadIdCRM": "LeadIdCRM 5",
 		"ServiceOfficeID": "ServiceOfficeID 5",
 		"ServiceOfficeName": "ServiceOfficeName 5",
-		"ContactLaterDate": "/Date(961095783000)/",
-		"ContactLaterTime": "PT14H27M9S",
-		"Cycle": 1389,
-		"RemainingDays": 6563,
-		"ServiceLevelId": 7646,
+		"ContactLaterDate": "/Date(987717601000)/",
+		"ContactLaterTime": "PT4H9M51S",
+		"Cycle": 2748,
+		"RemainingDays": 6060,
+		"ServiceLevelId": 8869,
 		"SourceId": "SourceId 5",
 		"ControlListsResult": "ControlListsResult 5",
 		"RiskLevel": "RiskLevel 5",
-		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 6817
+		"IsContactLaterEditable": false,
+		"AccumulatedCycle": 7165
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 5",
@@ -533,15 +533,15 @@
 		"TimeInTheBusiness": "TimeInTheBusiness 5",
 		"ShopFromWhoId": "ShopFromWhoId 5",
 		"EconomicActivityId": "EconomicActivityId 5",
-		"IsIndivWBusiness": true,
+		"IsIndivWBusiness": false,
 		"FielNumber": "FielNumber 5",
 		"Rfc": "Rfc 5",
 		"Homoclave": "Homoclave 5",
-		"MonthlySalary": 3.8508329577149825
+		"MonthlySalary": 7.859404170107784
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 5",
-		"BirthdDate": "/Date(1215716583000)/",
+		"BirthdDate": "/Date(1477605601000)/",
 		"ElectorKey": "ElectorKey 5",
 		"CountryOfBirthId": "CountryOfBirthId 5",
 		"BirthPlace": "BirthPlace 5",
@@ -557,7 +557,7 @@
 		"VoterRegistration": "VoterRegistration 5",
 		"IsPEP": false,
 		"NamePEP": "NamePEP 5",
-		"IsRelatedToGentera": false,
+		"IsRelatedToGentera": true,
 		"RelatedName": "RelatedName 5",
 		"BasicDataStartDTime": "BasicDataStartDTime 5",
 		"RelationshipId": "RelationshipId 5"
@@ -576,7 +576,7 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 2.8906919218040494
+		"BPFlagDistinction": 7.758289958164979
 	},
 	"IsAvailableForReq": false,
 	"__metadata": {
@@ -615,7 +615,7 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 6",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 6",
 	"CustomerIdMD": "CustomerIdMD 6",
 	"BpName": {
 		"FirstName": "FirstName 6",
@@ -625,7 +625,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 6",
-		"RegistrationDate": "/Date(1554148983000)/",
+		"RegistrationDate": "/Date(1514761201000)/",
 		"RoleId": "RoleId 6",
 		"StatusId": "StatusId 6",
 		"StatusReasonId": "StatusReasonId 6",
@@ -633,16 +633,16 @@
 		"LeadIdCRM": "LeadIdCRM 6",
 		"ServiceOfficeID": "ServiceOfficeID 6",
 		"ServiceOfficeName": "ServiceOfficeName 6",
-		"ContactLaterDate": "/Date(1343329383000)/",
-		"ContactLaterTime": "PT8H47M28S",
-		"Cycle": 7,
-		"RemainingDays": 4662,
-		"ServiceLevelId": 8884,
+		"ContactLaterDate": "/Date(1410300001000)/",
+		"ContactLaterTime": "PT2H44M48S",
+		"Cycle": 2265,
+		"RemainingDays": 6293,
+		"ServiceLevelId": 1497,
 		"SourceId": "SourceId 6",
 		"ControlListsResult": "ControlListsResult 6",
 		"RiskLevel": "RiskLevel 6",
 		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 4792
+		"AccumulatedCycle": 2055
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 6",
@@ -660,11 +660,11 @@
 		"FielNumber": "FielNumber 6",
 		"Rfc": "Rfc 6",
 		"Homoclave": "Homoclave 6",
-		"MonthlySalary": 7.411611310274482
+		"MonthlySalary": 7.279156143064506
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 6",
-		"BirthdDate": "/Date(1250881383000)/",
+		"BirthdDate": "/Date(1576105201000)/",
 		"ElectorKey": "ElectorKey 6",
 		"CountryOfBirthId": "CountryOfBirthId 6",
 		"BirthPlace": "BirthPlace 6",
@@ -678,9 +678,9 @@
 		"IndustryId": "IndustryId 6",
 		"EconomicActivityId": "EconomicActivityId 6",
 		"VoterRegistration": "VoterRegistration 6",
-		"IsPEP": true,
+		"IsPEP": false,
 		"NamePEP": "NamePEP 6",
-		"IsRelatedToGentera": true,
+		"IsRelatedToGentera": false,
 		"RelatedName": "RelatedName 6",
 		"BasicDataStartDTime": "BasicDataStartDTime 6",
 		"RelationshipId": "RelationshipId 6"
@@ -699,7 +699,7 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 4.8072028627166
+		"BPFlagDistinction": 0.5800245586708441
 	},
 	"IsAvailableForReq": true,
 	"__metadata": {
@@ -738,7 +738,7 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 7",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 7",
 	"CustomerIdMD": "CustomerIdMD 7",
 	"BpName": {
 		"FirstName": "FirstName 7",
@@ -748,7 +748,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 7",
-		"RegistrationDate": "/Date(1361736183000)/",
+		"RegistrationDate": "/Date(1229900401000)/",
 		"RoleId": "RoleId 7",
 		"StatusId": "StatusId 7",
 		"StatusReasonId": "StatusReasonId 7",
@@ -756,16 +756,16 @@
 		"LeadIdCRM": "LeadIdCRM 7",
 		"ServiceOfficeID": "ServiceOfficeID 7",
 		"ServiceOfficeName": "ServiceOfficeName 7",
-		"ContactLaterDate": "/Date(1527966183000)/",
-		"ContactLaterTime": "PT3H0M51S",
-		"Cycle": 2039,
-		"RemainingDays": 7448,
-		"ServiceLevelId": 7646,
+		"ContactLaterDate": "/Date(1232146801000)/",
+		"ContactLaterTime": "PT1H34M4S",
+		"Cycle": 8192,
+		"RemainingDays": 4809,
+		"ServiceLevelId": 4911,
 		"SourceId": "SourceId 7",
 		"ControlListsResult": "ControlListsResult 7",
 		"RiskLevel": "RiskLevel 7",
-		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 7783
+		"IsContactLaterEditable": false,
+		"AccumulatedCycle": 6862
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 7",
@@ -783,11 +783,11 @@
 		"FielNumber": "FielNumber 7",
 		"Rfc": "Rfc 7",
 		"Homoclave": "Homoclave 7",
-		"MonthlySalary": 7.223324316731567
+		"MonthlySalary": 1.500276137480181
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 7",
-		"BirthdDate": "/Date(1198180983000)/",
+		"BirthdDate": "/Date(1241301601000)/",
 		"ElectorKey": "ElectorKey 7",
 		"CountryOfBirthId": "CountryOfBirthId 7",
 		"BirthPlace": "BirthPlace 7",
@@ -803,7 +803,7 @@
 		"VoterRegistration": "VoterRegistration 7",
 		"IsPEP": true,
 		"NamePEP": "NamePEP 7",
-		"IsRelatedToGentera": true,
+		"IsRelatedToGentera": false,
 		"RelatedName": "RelatedName 7",
 		"BasicDataStartDTime": "BasicDataStartDTime 7",
 		"RelationshipId": "RelationshipId 7"
@@ -822,7 +822,7 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 4.401756384121079
+		"BPFlagDistinction": 9.017703072802618
 	},
 	"IsAvailableForReq": true,
 	"__metadata": {
@@ -861,7 +861,7 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 8",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 8",
 	"CustomerIdMD": "CustomerIdMD 8",
 	"BpName": {
 		"FirstName": "FirstName 8",
@@ -871,7 +871,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 8",
-		"RegistrationDate": "/Date(1232481783000)/",
+		"RegistrationDate": "/Date(1501538401000)/",
 		"RoleId": "RoleId 8",
 		"StatusId": "StatusId 8",
 		"StatusReasonId": "StatusReasonId 8",
@@ -879,16 +879,16 @@
 		"LeadIdCRM": "LeadIdCRM 8",
 		"ServiceOfficeID": "ServiceOfficeID 8",
 		"ServiceOfficeName": "ServiceOfficeName 8",
-		"ContactLaterDate": "/Date(1136923383000)/",
-		"ContactLaterTime": "PT18H22M19S",
-		"Cycle": 767,
-		"RemainingDays": 9868,
-		"ServiceLevelId": 8381,
+		"ContactLaterDate": "/Date(1317506401000)/",
+		"ContactLaterTime": "PT14H4M23S",
+		"Cycle": 7118,
+		"RemainingDays": 9056,
+		"ServiceLevelId": 530,
 		"SourceId": "SourceId 8",
 		"ControlListsResult": "ControlListsResult 8",
 		"RiskLevel": "RiskLevel 8",
 		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 1482
+		"AccumulatedCycle": 6049
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 8",
@@ -902,15 +902,15 @@
 		"TimeInTheBusiness": "TimeInTheBusiness 8",
 		"ShopFromWhoId": "ShopFromWhoId 8",
 		"EconomicActivityId": "EconomicActivityId 8",
-		"IsIndivWBusiness": false,
+		"IsIndivWBusiness": true,
 		"FielNumber": "FielNumber 8",
 		"Rfc": "Rfc 8",
 		"Homoclave": "Homoclave 8",
-		"MonthlySalary": 6.425637214228123
+		"MonthlySalary": 7.813594367436516
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 8",
-		"BirthdDate": "/Date(1537815783000)/",
+		"BirthdDate": "/Date(1469138401000)/",
 		"ElectorKey": "ElectorKey 8",
 		"CountryOfBirthId": "CountryOfBirthId 8",
 		"BirthPlace": "BirthPlace 8",
@@ -926,7 +926,7 @@
 		"VoterRegistration": "VoterRegistration 8",
 		"IsPEP": false,
 		"NamePEP": "NamePEP 8",
-		"IsRelatedToGentera": true,
+		"IsRelatedToGentera": false,
 		"RelatedName": "RelatedName 8",
 		"BasicDataStartDTime": "BasicDataStartDTime 8",
 		"RelationshipId": "RelationshipId 8"
@@ -945,7 +945,7 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 7.778949413680751
+		"BPFlagDistinction": 4.09421414682924
 	},
 	"IsAvailableForReq": true,
 	"__metadata": {
@@ -984,7 +984,7 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 9",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 9",
 	"CustomerIdMD": "CustomerIdMD 9",
 	"BpName": {
 		"FirstName": "FirstName 9",
@@ -994,7 +994,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 9",
-		"RegistrationDate": "/Date(1161284583000)/",
+		"RegistrationDate": "/Date(1306360801000)/",
 		"RoleId": "RoleId 9",
 		"StatusId": "StatusId 9",
 		"StatusReasonId": "StatusReasonId 9",
@@ -1002,16 +1002,16 @@
 		"LeadIdCRM": "LeadIdCRM 9",
 		"ServiceOfficeID": "ServiceOfficeID 9",
 		"ServiceOfficeName": "ServiceOfficeName 9",
-		"ContactLaterDate": "/Date(1050951783000)/",
-		"ContactLaterTime": "PT4H21M29S",
-		"Cycle": 9636,
-		"RemainingDays": 5629,
-		"ServiceLevelId": 687,
+		"ContactLaterDate": "/Date(1254866401000)/",
+		"ContactLaterTime": "PT21H5M34S",
+		"Cycle": 918,
+		"RemainingDays": 4934,
+		"ServiceLevelId": 5330,
 		"SourceId": "SourceId 9",
 		"ControlListsResult": "ControlListsResult 9",
 		"RiskLevel": "RiskLevel 9",
 		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 6833
+		"AccumulatedCycle": 3567
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 9",
@@ -1025,15 +1025,15 @@
 		"TimeInTheBusiness": "TimeInTheBusiness 9",
 		"ShopFromWhoId": "ShopFromWhoId 9",
 		"EconomicActivityId": "EconomicActivityId 9",
-		"IsIndivWBusiness": true,
+		"IsIndivWBusiness": false,
 		"FielNumber": "FielNumber 9",
 		"Rfc": "Rfc 9",
 		"Homoclave": "Homoclave 9",
-		"MonthlySalary": 4.728737510958039
+		"MonthlySalary": 4.6727168681123565
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 9",
-		"BirthdDate": "/Date(1165608183000)/",
+		"BirthdDate": "/Date(983314801000)/",
 		"ElectorKey": "ElectorKey 9",
 		"CountryOfBirthId": "CountryOfBirthId 9",
 		"BirthPlace": "BirthPlace 9",
@@ -1047,9 +1047,9 @@
 		"IndustryId": "IndustryId 9",
 		"EconomicActivityId": "EconomicActivityId 9",
 		"VoterRegistration": "VoterRegistration 9",
-		"IsPEP": false,
+		"IsPEP": true,
 		"NamePEP": "NamePEP 9",
-		"IsRelatedToGentera": true,
+		"IsRelatedToGentera": false,
 		"RelatedName": "RelatedName 9",
 		"BasicDataStartDTime": "BasicDataStartDTime 9",
 		"RelationshipId": "RelationshipId 9"
@@ -1068,7 +1068,7 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 2.555441638270892
+		"BPFlagDistinction": 4.440806394645631
 	},
 	"IsAvailableForReq": false,
 	"__metadata": {
@@ -1107,7 +1107,7 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 10",
-	"CollaboratorID": "DVALENCIA",
+	"CollaboratorID": "CollaboratorID 10",
 	"CustomerIdMD": "CustomerIdMD 10",
 	"BpName": {
 		"FirstName": "FirstName 10",
@@ -1117,7 +1117,7 @@
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 10",
-		"RegistrationDate": "/Date(1535742183000)/",
+		"RegistrationDate": "/Date(1162508401000)/",
 		"RoleId": "RoleId 10",
 		"StatusId": "StatusId 10",
 		"StatusReasonId": "StatusReasonId 10",
@@ -1125,16 +1125,16 @@
 		"LeadIdCRM": "LeadIdCRM 10",
 		"ServiceOfficeID": "ServiceOfficeID 10",
 		"ServiceOfficeName": "ServiceOfficeName 10",
-		"ContactLaterDate": "/Date(962132583000)/",
-		"ContactLaterTime": "PT15H6M22S",
-		"Cycle": 3958,
-		"RemainingDays": 786,
-		"ServiceLevelId": 9938,
+		"ContactLaterDate": "/Date(1250287201000)/",
+		"ContactLaterTime": "PT19H40M0S",
+		"Cycle": 6500,
+		"RemainingDays": 408,
+		"ServiceLevelId": 7927,
 		"SourceId": "SourceId 10",
 		"ControlListsResult": "ControlListsResult 10",
 		"RiskLevel": "RiskLevel 10",
 		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 1072
+		"AccumulatedCycle": 4632
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 10",
@@ -1148,15 +1148,15 @@
 		"TimeInTheBusiness": "TimeInTheBusiness 10",
 		"ShopFromWhoId": "ShopFromWhoId 10",
 		"EconomicActivityId": "EconomicActivityId 10",
-		"IsIndivWBusiness": false,
+		"IsIndivWBusiness": true,
 		"FielNumber": "FielNumber 10",
 		"Rfc": "Rfc 10",
 		"Homoclave": "Homoclave 10",
-		"MonthlySalary": 6.520477514746572
+		"MonthlySalary": 7.932647577448484
 	},
 	"BpBasicData": {
 		"GenderId": "GenderId 10",
-		"BirthdDate": "/Date(1417809783000)/",
+		"BirthdDate": "/Date(1036796401000)/",
 		"ElectorKey": "ElectorKey 10",
 		"CountryOfBirthId": "CountryOfBirthId 10",
 		"BirthPlace": "BirthPlace 10",
@@ -1170,7 +1170,7 @@
 		"IndustryId": "IndustryId 10",
 		"EconomicActivityId": "EconomicActivityId 10",
 		"VoterRegistration": "VoterRegistration 10",
-		"IsPEP": false,
+		"IsPEP": true,
 		"NamePEP": "NamePEP 10",
 		"IsRelatedToGentera": false,
 		"RelatedName": "RelatedName 10",
@@ -1191,9 +1191,9 @@
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 1.5528427042953674
+		"BPFlagDistinction": 2.844845504991924
 	},
-	"IsAvailableForReq": false,
+	"IsAvailableForReq": true,
 	"__metadata": {
 		"uri": "GuarantorSet('CustomerIdCRM%2010')",
 		"type": "AOMobile.Guarantor"

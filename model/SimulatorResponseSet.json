@@ -1,7 +1,7 @@
 [{
 	"PropPeriod": "PropPeriod 1",
-	"PropAmount": 4.656211702253525,
-	"PropFee": 0.031278580432081426,
+	"PropAmount": 1.4599384459551201,
+	"PropFee": 2.29541214946382,
 	"PropFrequency": "PropFrequency 1",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%201')",
@@ -9,8 +9,8 @@
 	}
 }, {
 	"PropPeriod": "PropPeriod 2",
-	"PropAmount": 6.8239269633832915,
-	"PropFee": 6.700137884017603,
+	"PropAmount": 2.242466565734853,
+	"PropFee": 4.59749040096373,
 	"PropFrequency": "PropFrequency 2",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%202')",
@@ -18,8 +18,8 @@
 	}
 }, {
 	"PropPeriod": "PropPeriod 3",
-	"PropAmount": 6.9781323699444275,
-	"PropFee": 5.9812674556982115,
+	"PropAmount": 7.923249521831945,
+	"PropFee": 3.851943099465296,
 	"PropFrequency": "PropFrequency 3",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%203')",
@@ -27,8 +27,8 @@
 	}
 }, {
 	"PropPeriod": "PropPeriod 4",
-	"PropAmount": 4.99365045209029,
-	"PropFee": 8.548060717657329,
+	"PropAmount": 8.422321386214227,
+	"PropFee": 3.6941515673421077,
 	"PropFrequency": "PropFrequency 4",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%204')",
@@ -36,8 +36,8 @@
 	}
 }, {
 	"PropPeriod": "PropPeriod 5",
-	"PropAmount": 5.442327637298991,
-	"PropFee": 9.243651310651757,
+	"PropAmount": 8.545759498838644,
+	"PropFee": 1.3581217464754358,
 	"PropFrequency": "PropFrequency 5",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%205')",
@@ -45,8 +45,8 @@
 	}
 }, {
 	"PropPeriod": "PropPeriod 6",
-	"PropAmount": 9.57857045659826,
-	"PropFee": 1.6745553949813696,
+	"PropAmount": 4.950629764501208,
+	"PropFee": 9.263526734364554,
 	"PropFrequency": "PropFrequency 6",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%206')",
@@ -54,8 +54,8 @@
 	}
 }, {
 	"PropPeriod": "PropPeriod 7",
-	"PropAmount": 9.127978485316186,
-	"PropFee": 6.244735557185839,
+	"PropAmount": 4.950517470383222,
+	"PropFee": 4.5436645808910425,
 	"PropFrequency": "PropFrequency 7",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%207')",
@@ -63,8 +63,8 @@
 	}
 }, {
 	"PropPeriod": "PropPeriod 8",
-	"PropAmount": 6.748301148993452,
-	"PropFee": 0.2386307227674056,
+	"PropAmount": 2.0820232991412513,
+	"PropFee": 3.16534970894059,
 	"PropFrequency": "PropFrequency 8",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%208')",
@@ -72,8 +72,8 @@
 	}
 }, {
 	"PropPeriod": "PropPeriod 9",
-	"PropAmount": 4.439898598436709,
-	"PropFee": 0.9758120404240223,
+	"PropAmount": 2.072036378640434,
+	"PropFee": 8.52571841565826,
 	"PropFrequency": "PropFrequency 9",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%209')",
@@ -81,8 +81,8 @@
 	}
 }, {
 	"PropPeriod": "PropPeriod 10",
-	"PropAmount": 8.13902578477207,
-	"PropFee": 7.594598338577003,
+	"PropAmount": 0.23692297495148784,
+	"PropFee": 9.715396373773896,
 	"PropFrequency": "PropFrequency 10",
 	"__metadata": {
 		"uri": "SimulatorResponseSet('PropPeriod%2010')",

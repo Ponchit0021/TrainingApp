@@ -4,18 +4,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 1",
 	"CustomerIdMD": "CustomerIdMD 1",
 	"GeneralLoanData": {
-		"InsuranceAmount": 4.388473775333759,
-		"ControlListsResult": 9814,
-		"RiskLevel": 6932,
-		"SavingsAmount": 5.479521164264149,
+		"InsuranceAmount": 8.254143213452526,
+		"ControlListsResult": 9441,
+		"RiskLevel": 8129,
+		"SavingsAmount": 7.747106513632513,
 		"DispersionMediumId": "DispersionMediumId 1",
 		"DispersionChannelId": "DispersionChannelId 1",
-		"SemaphoreResultFilters": 7696
+		"SemaphoreResultFilters": 5439
 	},
-	"TotalIncomeAmountGuarantee": 3.787184102248833,
-	"TotalOutcomeAmountGuarantee": 6.375889741915628,
-	"GuarantorPaymentCapacity": 7.994667854120758,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 0.8155659408441274,
+	"TotalOutcomeAmountGuarantee": 0.029625315717756173,
+	"GuarantorPaymentCapacity": 7.564488858980147,
+	"CollaboratorID": "CollaboratorID 1",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%201',LoanRequestIdCRM='LoanRequestIdCRM%201')",
 		"type": "AOMobile.LinkGuarantor"
@@ -36,18 +36,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 2",
 	"CustomerIdMD": "CustomerIdMD 2",
 	"GeneralLoanData": {
-		"InsuranceAmount": 1.4182340522527337,
-		"ControlListsResult": 908,
-		"RiskLevel": 3608,
-		"SavingsAmount": 6.243322379341727,
+		"InsuranceAmount": 9.212463287988369,
+		"ControlListsResult": 4949,
+		"RiskLevel": 9185,
+		"SavingsAmount": 3.66909908787304,
 		"DispersionMediumId": "DispersionMediumId 2",
 		"DispersionChannelId": "DispersionChannelId 2",
-		"SemaphoreResultFilters": 8021
+		"SemaphoreResultFilters": 5748
 	},
-	"TotalIncomeAmountGuarantee": 7.689002207207761,
-	"TotalOutcomeAmountGuarantee": 0.1143406671823688,
-	"GuarantorPaymentCapacity": 9.946534934211101,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 4.276654317156781,
+	"TotalOutcomeAmountGuarantee": 0.6697054535702263,
+	"GuarantorPaymentCapacity": 3.841659728914184,
+	"CollaboratorID": "CollaboratorID 2",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%202',LoanRequestIdCRM='LoanRequestIdCRM%202')",
 		"type": "AOMobile.LinkGuarantor"
@@ -68,18 +68,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 3",
 	"CustomerIdMD": "CustomerIdMD 3",
 	"GeneralLoanData": {
-		"InsuranceAmount": 0.44470065397476555,
-		"ControlListsResult": 2230,
-		"RiskLevel": 2366,
-		"SavingsAmount": 2.9342378954302806,
+		"InsuranceAmount": 6.775217512041114,
+		"ControlListsResult": 5185,
+		"RiskLevel": 1162,
+		"SavingsAmount": 1.9517316396432483,
 		"DispersionMediumId": "DispersionMediumId 3",
 		"DispersionChannelId": "DispersionChannelId 3",
-		"SemaphoreResultFilters": 9888
+		"SemaphoreResultFilters": 73
 	},
-	"TotalIncomeAmountGuarantee": 2.456780054871326,
-	"TotalOutcomeAmountGuarantee": 4.853928435288202,
-	"GuarantorPaymentCapacity": 5.7581385761434785,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 3.4879320624751253,
+	"TotalOutcomeAmountGuarantee": 5.147185505896696,
+	"GuarantorPaymentCapacity": 2.865053254365255,
+	"CollaboratorID": "CollaboratorID 3",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%203')",
 		"type": "AOMobile.LinkGuarantor"
@@ -100,18 +100,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 4",
 	"CustomerIdMD": "CustomerIdMD 4",
 	"GeneralLoanData": {
-		"InsuranceAmount": 1.7992575877217631,
-		"ControlListsResult": 4654,
-		"RiskLevel": 4019,
-		"SavingsAmount": 6.228161081462322,
+		"InsuranceAmount": 3.6145312818279463,
+		"ControlListsResult": 5743,
+		"RiskLevel": 5329,
+		"SavingsAmount": 6.300756146557922,
 		"DispersionMediumId": "DispersionMediumId 4",
 		"DispersionChannelId": "DispersionChannelId 4",
-		"SemaphoreResultFilters": 5149
+		"SemaphoreResultFilters": 5344
 	},
-	"TotalIncomeAmountGuarantee": 3.2562226861781363,
-	"TotalOutcomeAmountGuarantee": 8.00090790462512,
-	"GuarantorPaymentCapacity": 6.40004360281873,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 5.901277284138731,
+	"TotalOutcomeAmountGuarantee": 0.2964365161332094,
+	"GuarantorPaymentCapacity": 3.0321262406787053,
+	"CollaboratorID": "CollaboratorID 4",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%204',LoanRequestIdCRM='LoanRequestIdCRM%204')",
 		"type": "AOMobile.LinkGuarantor"
@@ -132,18 +132,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 5",
 	"CustomerIdMD": "CustomerIdMD 5",
 	"GeneralLoanData": {
-		"InsuranceAmount": 6.8708552231025894,
-		"ControlListsResult": 1102,
-		"RiskLevel": 6880,
-		"SavingsAmount": 2.072721577924821,
+		"InsuranceAmount": 0.8174131279940178,
+		"ControlListsResult": 8503,
+		"RiskLevel": 1888,
+		"SavingsAmount": 5.545182416654844,
 		"DispersionMediumId": "DispersionMediumId 5",
 		"DispersionChannelId": "DispersionChannelId 5",
-		"SemaphoreResultFilters": 6089
+		"SemaphoreResultFilters": 8956
 	},
-	"TotalIncomeAmountGuarantee": 5.41245382257639,
-	"TotalOutcomeAmountGuarantee": 1.9778744617097477,
-	"GuarantorPaymentCapacity": 3.023453856454379,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 1.0748359347714453,
+	"TotalOutcomeAmountGuarantee": 6.713030882193145,
+	"GuarantorPaymentCapacity": 4.012889508497867,
+	"CollaboratorID": "CollaboratorID 5",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%205',LoanRequestIdCRM='LoanRequestIdCRM%205')",
 		"type": "AOMobile.LinkGuarantor"
@@ -164,18 +164,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 6",
 	"CustomerIdMD": "CustomerIdMD 6",
 	"GeneralLoanData": {
-		"InsuranceAmount": 9.197243542256821,
-		"ControlListsResult": 2837,
-		"RiskLevel": 5229,
-		"SavingsAmount": 8.548110114434689,
+		"InsuranceAmount": 7.060371453212113,
+		"ControlListsResult": 1040,
+		"RiskLevel": 3308,
+		"SavingsAmount": 6.342454653415437,
 		"DispersionMediumId": "DispersionMediumId 6",
 		"DispersionChannelId": "DispersionChannelId 6",
-		"SemaphoreResultFilters": 8875
+		"SemaphoreResultFilters": 8429
 	},
-	"TotalIncomeAmountGuarantee": 7.437639596879071,
-	"TotalOutcomeAmountGuarantee": 4.7930906958982415,
-	"GuarantorPaymentCapacity": 9.987736640829418,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 0.3765109913212217,
+	"TotalOutcomeAmountGuarantee": 0.09558463676127005,
+	"GuarantorPaymentCapacity": 4.240064054063368,
+	"CollaboratorID": "CollaboratorID 6",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%206',LoanRequestIdCRM='LoanRequestIdCRM%206')",
 		"type": "AOMobile.LinkGuarantor"
@@ -196,18 +196,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 7",
 	"CustomerIdMD": "CustomerIdMD 7",
 	"GeneralLoanData": {
-		"InsuranceAmount": 8.305167770375421,
-		"ControlListsResult": 7642,
-		"RiskLevel": 3291,
-		"SavingsAmount": 9.69943459883668,
+		"InsuranceAmount": 7.594558926187441,
+		"ControlListsResult": 9292,
+		"RiskLevel": 353,
+		"SavingsAmount": 5.874658221155071,
 		"DispersionMediumId": "DispersionMediumId 7",
 		"DispersionChannelId": "DispersionChannelId 7",
-		"SemaphoreResultFilters": 9021
+		"SemaphoreResultFilters": 3934
 	},
-	"TotalIncomeAmountGuarantee": 8.496505212964443,
-	"TotalOutcomeAmountGuarantee": 7.935606063494863,
-	"GuarantorPaymentCapacity": 4.984416131705571,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 4.789945406235219,
+	"TotalOutcomeAmountGuarantee": 7.71536506214443,
+	"GuarantorPaymentCapacity": 2.264583179228059,
+	"CollaboratorID": "CollaboratorID 7",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%207',LoanRequestIdCRM='LoanRequestIdCRM%207')",
 		"type": "AOMobile.LinkGuarantor"
@@ -228,18 +228,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 8",
 	"CustomerIdMD": "CustomerIdMD 8",
 	"GeneralLoanData": {
-		"InsuranceAmount": 0.7982094529526962,
-		"ControlListsResult": 2448,
-		"RiskLevel": 774,
-		"SavingsAmount": 4.82915596428769,
+		"InsuranceAmount": 0.8358042350114081,
+		"ControlListsResult": 8629,
+		"RiskLevel": 5528,
+		"SavingsAmount": 1.2174671355293865,
 		"DispersionMediumId": "DispersionMediumId 8",
 		"DispersionChannelId": "DispersionChannelId 8",
-		"SemaphoreResultFilters": 2067
+		"SemaphoreResultFilters": 1016
 	},
-	"TotalIncomeAmountGuarantee": 3.3361353003732885,
-	"TotalOutcomeAmountGuarantee": 4.697672549859265,
-	"GuarantorPaymentCapacity": 2.867982572169201,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 5.987672347896636,
+	"TotalOutcomeAmountGuarantee": 2.6201066253096017,
+	"GuarantorPaymentCapacity": 2.797449674093655,
+	"CollaboratorID": "CollaboratorID 8",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%208',LoanRequestIdCRM='LoanRequestIdCRM%208')",
 		"type": "AOMobile.LinkGuarantor"
@@ -260,18 +260,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 9",
 	"CustomerIdMD": "CustomerIdMD 9",
 	"GeneralLoanData": {
-		"InsuranceAmount": 8.04782389937321,
-		"ControlListsResult": 794,
-		"RiskLevel": 7699,
-		"SavingsAmount": 7.123152963303538,
+		"InsuranceAmount": 9.523770870321485,
+		"ControlListsResult": 1349,
+		"RiskLevel": 7268,
+		"SavingsAmount": 5.84006668089015,
 		"DispersionMediumId": "DispersionMediumId 9",
 		"DispersionChannelId": "DispersionChannelId 9",
-		"SemaphoreResultFilters": 2325
+		"SemaphoreResultFilters": 5227
 	},
-	"TotalIncomeAmountGuarantee": 5.5783699842134045,
-	"TotalOutcomeAmountGuarantee": 5.274629218927325,
-	"GuarantorPaymentCapacity": 0.7615183634987477,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 7.487338871113238,
+	"TotalOutcomeAmountGuarantee": 7.077581344971429,
+	"GuarantorPaymentCapacity": 7.7860841789775375,
+	"CollaboratorID": "CollaboratorID 9",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%209',LoanRequestIdCRM='LoanRequestIdCRM%209')",
 		"type": "AOMobile.LinkGuarantor"
@@ -292,18 +292,18 @@
 	"LoanRequestIdMD": "LoanRequestIdMD 10",
 	"CustomerIdMD": "CustomerIdMD 10",
 	"GeneralLoanData": {
-		"InsuranceAmount": 0.39122525689641474,
-		"ControlListsResult": 2914,
-		"RiskLevel": 6414,
-		"SavingsAmount": 7.9695730456306695,
+		"InsuranceAmount": 6.802542080239675,
+		"ControlListsResult": 3237,
+		"RiskLevel": 7289,
+		"SavingsAmount": 1.060049153344973,
 		"DispersionMediumId": "DispersionMediumId 10",
 		"DispersionChannelId": "DispersionChannelId 10",
-		"SemaphoreResultFilters": 7932
+		"SemaphoreResultFilters": 4620
 	},
-	"TotalIncomeAmountGuarantee": 5.737690141426293,
-	"TotalOutcomeAmountGuarantee": 3.181423500777232,
-	"GuarantorPaymentCapacity": 7.088105907083248,
-	"CollaboratorID": "DVALENCIA",
+	"TotalIncomeAmountGuarantee": 4.783633782666257,
+	"TotalOutcomeAmountGuarantee": 7.210845122265659,
+	"GuarantorPaymentCapacity": 1.9405497254273851,
+	"CollaboratorID": "CollaboratorID 10",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%2010',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
 		"type": "AOMobile.LinkGuarantor"

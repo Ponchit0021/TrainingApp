@@ -1,7 +1,7 @@
 [{
 	"ImageIdSharepoint": "ImageIdSharepoint 1",
 	"TypeOfSignature": "TypeOfSignature 1",
-	"ImageBase64": "01011111010100110100010101010010",
+	"ImageBase64": "01010000011000110011110100110001",
 	"NameRAndE": "NameRAndE 1",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
 	"CustomerIdCRM": "CustomerIdCRM 1",
@@ -17,7 +17,7 @@
 }, {
 	"ImageIdSharepoint": "ImageIdSharepoint 2",
 	"TypeOfSignature": "TypeOfSignature 2",
-	"ImageBase64": "11001000001101111110101100011000",
+	"ImageBase64": "10001101111001100111100101101011",
 	"NameRAndE": "NameRAndE 2",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
 	"CustomerIdCRM": "CustomerIdCRM 2",
@@ -33,7 +33,7 @@
 }, {
 	"ImageIdSharepoint": "ImageIdSharepoint 3",
 	"TypeOfSignature": "TypeOfSignature 3",
-	"ImageBase64": "00100010100100011010010001110111",
+	"ImageBase64": "10101000000010000100011111010111",
 	"NameRAndE": "NameRAndE 3",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
 	"CustomerIdCRM": "CustomerIdCRM 3",
@@ -49,7 +49,7 @@
 }, {
 	"ImageIdSharepoint": "ImageIdSharepoint 4",
 	"TypeOfSignature": "TypeOfSignature 4",
-	"ImageBase64": "01001011101111100110011100010010",
+	"ImageBase64": "11101101011101001000001010101110",
 	"NameRAndE": "NameRAndE 4",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
 	"CustomerIdCRM": "CustomerIdCRM 4",
@@ -65,7 +65,7 @@
 }, {
 	"ImageIdSharepoint": "ImageIdSharepoint 5",
 	"TypeOfSignature": "TypeOfSignature 5",
-	"ImageBase64": "01000101011011110110100000110100",
+	"ImageBase64": "00111110011000100011011101010100",
 	"NameRAndE": "NameRAndE 5",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
 	"CustomerIdCRM": "CustomerIdCRM 5",
@@ -81,7 +81,7 @@
 }, {
 	"ImageIdSharepoint": "ImageIdSharepoint 6",
 	"TypeOfSignature": "TypeOfSignature 6",
-	"ImageBase64": "00101011110110000001101001100110",
+	"ImageBase64": "11100110001111001101101011010000",
 	"NameRAndE": "NameRAndE 6",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
 	"CustomerIdCRM": "CustomerIdCRM 6",
@@ -97,7 +97,7 @@
 }, {
 	"ImageIdSharepoint": "ImageIdSharepoint 7",
 	"TypeOfSignature": "TypeOfSignature 7",
-	"ImageBase64": "11000011101001110111111100111111",
+	"ImageBase64": "11010100101111111011000010010100",
 	"NameRAndE": "NameRAndE 7",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 7",
 	"CustomerIdCRM": "CustomerIdCRM 7",
@@ -113,7 +113,7 @@
 }, {
 	"ImageIdSharepoint": "ImageIdSharepoint 8",
 	"TypeOfSignature": "TypeOfSignature 8",
-	"ImageBase64": "11001110001100010111100101101101",
+	"ImageBase64": "01000000001011100100100010010111",
 	"NameRAndE": "NameRAndE 8",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
 	"CustomerIdCRM": "CustomerIdCRM 8",
@@ -129,7 +129,7 @@
 }, {
 	"ImageIdSharepoint": "ImageIdSharepoint 9",
 	"TypeOfSignature": "TypeOfSignature 9",
-	"ImageBase64": "00111101010011001100110101001111",
+	"ImageBase64": "01001010101101111111100101000001",
 	"NameRAndE": "NameRAndE 9",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
 	"CustomerIdCRM": "CustomerIdCRM 9",
@@ -145,7 +145,7 @@
 }, {
 	"ImageIdSharepoint": "ImageIdSharepoint 10",
 	"TypeOfSignature": "TypeOfSignature 10",
-	"ImageBase64": "00000100000010100011101111010101",
+	"ImageBase64": "01111000000100101110001111100100",
 	"NameRAndE": "NameRAndE 10",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
 	"CustomerIdCRM": "CustomerIdCRM 10",

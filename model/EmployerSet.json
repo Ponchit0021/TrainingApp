@@ -1,6 +1,6 @@
 [{
 	"EmployerID": "EmployerID 1",
-	"IsCompany": true,
+	"IsCompany": false,
 	"BusinessName": "BusinessName 1",
 	"CustomerIdCRM": "CustomerIdCRM 1",
 	"CustomerIdMD": "CustomerIdMD 1",
@@ -32,7 +32,7 @@
 	}
 }, {
 	"EmployerID": "EmployerID 2",
-	"IsCompany": false,
+	"IsCompany": true,
 	"BusinessName": "BusinessName 2",
 	"CustomerIdCRM": "CustomerIdCRM 2",
 	"CustomerIdMD": "CustomerIdMD 2",
@@ -96,7 +96,7 @@
 	}
 }, {
 	"EmployerID": "EmployerID 4",
-	"IsCompany": false,
+	"IsCompany": true,
 	"BusinessName": "BusinessName 4",
 	"CustomerIdCRM": "CustomerIdCRM 4",
 	"CustomerIdMD": "CustomerIdMD 4",
@@ -192,7 +192,7 @@
 	}
 }, {
 	"EmployerID": "EmployerID 7",
-	"IsCompany": false,
+	"IsCompany": true,
 	"BusinessName": "BusinessName 7",
 	"CustomerIdCRM": "CustomerIdCRM 7",
 	"CustomerIdMD": "CustomerIdMD 7",
@@ -224,7 +224,7 @@
 	}
 }, {
 	"EmployerID": "EmployerID 8",
-	"IsCompany": true,
+	"IsCompany": false,
 	"BusinessName": "BusinessName 8",
 	"CustomerIdCRM": "CustomerIdCRM 8",
 	"CustomerIdMD": "CustomerIdMD 8",
@@ -256,7 +256,7 @@
 	}
 }, {
 	"EmployerID": "EmployerID 9",
-	"IsCompany": true,
+	"IsCompany": false,
 	"BusinessName": "BusinessName 9",
 	"CustomerIdCRM": "CustomerIdCRM 9",
 	"CustomerIdMD": "CustomerIdMD 9",
@@ -288,7 +288,7 @@
 	}
 }, {
 	"EmployerID": "EmployerID 10",
-	"IsCompany": true,
+	"IsCompany": false,
 	"BusinessName": "BusinessName 10",
 	"CustomerIdCRM": "CustomerIdCRM 10",
 	"CustomerIdMD": "CustomerIdMD 10",
