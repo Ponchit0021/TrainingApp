@@ -2,7 +2,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
 	"LoanRequestIdMD": "LoanRequestIdMD 1",
 	"CollaboratorID": "Genesis",
-	"ProductID": "ProductID 1",
+	"ProductID": "C_IND_CI",
 	"ProcessType": "ProcessType 1",
 	"GroupRequestData": {
 		"GroupID": "GroupID 1",
@@ -38,7 +38,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": true,
 		"StartDate": "/Date(1409867974000)/",
-		"Cycle": 2591,
+		"Cycle": 0,
 		"StatusId": "StatusId 1",
 		"StatusText": "StatusText 1",
 		"FirstPaymentDate": "/Date(1308607174000)/",
@@ -709,7 +709,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
 	"LoanRequestIdMD": "LoanRequestIdMD 8",
 	"CollaboratorID": "Genesis",
-	"ProductID": "ProductID 8",
+	"ProductID": "C_IND_CI",
 	"ProcessType": "ProcessType 8",
 	"GroupRequestData": {
 		"GroupID": "GroupID 8",
@@ -745,7 +745,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": true,
 		"StartDate": "/Date(1484866774000)/",
-		"Cycle": 7409,
+		"Cycle": 0,
 		"StatusId": "StatusId 8",
 		"StatusText": "StatusText 8",
 		"FirstPaymentDate": "/Date(1474322374000)/",
@@ -810,11 +810,11 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
 	"LoanRequestIdMD": "LoanRequestIdMD 9",
 	"CollaboratorID": "Genesis",
-	"ProductID": "ProductID 9",
+	"ProductID": "C_GRUPAL_CCR",
 	"ProcessType": "ProcessType 9",
 	"GroupRequestData": {
 		"GroupID": "GroupID 9",
-		"GroupName": "GroupName 9",
+		"GroupName": "Seguros Crédito Grupal",
 		"ContractID": "ContractID 9",
 		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 9",
 		"MeetingDate": "MeetingDate 9",
@@ -846,7 +846,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": true,
 		"StartDate": "/Date(1396821574000)/",
-		"Cycle": 1947,
+		"Cycle": 0,
 		"StatusId": "StatusId 9",
 		"StatusText": "StatusText 9",
 		"FirstPaymentDate": "/Date(1060379974000)/",
@@ -911,11 +911,11 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
 	"LoanRequestIdMD": "LoanRequestIdMD 10",
 	"CollaboratorID": "Genesis",
-	"ProductID": "ProductID 10",
+	"ProductID": "C_GRUPAL_CM",
 	"ProcessType": "ProcessType 10",
 	"GroupRequestData": {
 		"GroupID": "GroupID 10",
-		"GroupName": "GroupName 10",
+		"GroupName": "Seguros Cédito Mujer",
 		"ContractID": "ContractID 10",
 		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 10",
 		"MeetingDate": "MeetingDate 10",
@@ -947,7 +947,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": false,
 		"StartDate": "/Date(1229986774000)/",
-		"Cycle": 7318,
+		"Cycle": 0,
 		"StatusId": "StatusId 10",
 		"StatusText": "StatusText 10",
 		"FirstPaymentDate": "/Date(1208555974000)/",

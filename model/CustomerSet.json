@@ -934,10 +934,10 @@
 	"CustomerIdMD": "CustomerIdMD 8",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 8",
-		"MiddleName": "MiddleName 8",
-		"LastName": "LastName 8",
-		"SecondName": "SecondName 8"
+		"FirstName": "Gomez",
+		"MiddleName": "Juan",
+		"LastName": "Seguros",
+		"SecondName": "Sosa"
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 8",
