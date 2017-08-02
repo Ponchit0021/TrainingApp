@@ -30,7 +30,7 @@ sap.ui.jsview("originacion.DashBoard", {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) !== true) {
             currentUser = "TEST";
         } else {
-            currentUser = sap.ui.getCore().AppContext.applicationContext.registrationContext.user;
+            currentUser = "TEST";
         }
         var arrayButtons = [];
         var buttonLog = oActionBase.createButton("btnLog", "Registros", null, "sap-icon://activity-items", oController.viewLogList, oController);

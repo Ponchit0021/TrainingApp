@@ -84,7 +84,7 @@ sap.ui.controller("originacion.DashBoard", {
                 sap.ui.getCore().AppContext.oConnection.onlineNetwork();
                 console.log("NETWORK STATUS: ONLINE");
             } else {
-                sap.ui.getCore().AppContext.oConnection.offlineNetwork();
+                //sap.ui.getCore().AppContext.oConnection.offlineNetwork();
                 console.log("NETWORK STATUS: OFFLINE");
             }
         }

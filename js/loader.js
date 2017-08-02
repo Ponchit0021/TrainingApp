@@ -80,8 +80,17 @@ PreLoader.prototype.startLogon = function() {
     jQuery.sap.require("js.kapsel.Logon");
     jQuery.sap.require("js.base.NavigatorBase");
     jQuery.sap.require("js.kapsel.Rest");
+    jQuery.sap.require("js.login.LogonForm");
+    var logonSMP=new sap.ui.mw.forms.initial.logon();
+    console.log(logonSMP);
+    currentClass.hideLoader();
+    logonSMP.createForm(this).placeAt("content");
 
-    logonSMP = new sap.ui.kapsel.Logon();
+    
+
+    
+
+    /* logonSMP = new sap.ui.kapsel.Logon();
 
     oNavigatorBase = new sap.ui.mw.NavigatorBase();
     currentClass.initDeviceReady();
@@ -94,7 +103,6 @@ PreLoader.prototype.startLogon = function() {
             .catch(currentClass.errorLogon);
     } else {
         currentClass.hideLoader();
-        ///*** Create MockServer Instances ***///
         sap.ui.getCore().AppContext.Promotor = sap.ui.getCore().AppContext.Config.getProperty("promoterId");
         localEnv = sap.ui.getCore().AppContext.Config.getProperty("env");
         if (localEnv === "1") {
@@ -108,7 +116,7 @@ PreLoader.prototype.startLogon = function() {
 
         currentClass.createShell("AO", "com.gentera");
 
-    }
+    } */
 
 };
 PreLoader.prototype.start = function() {
