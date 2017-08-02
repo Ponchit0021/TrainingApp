@@ -1,7 +1,7 @@
 [{
 	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
 	"LoanRequestIdMD": "LoanRequestIdMD 1",
-	"CollaboratorID": "CollaboratorID 1",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 1",
 	"ProcessType": "ProcessType 1",
 	"GroupRequestData": {
@@ -102,7 +102,7 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
 	"LoanRequestIdMD": "LoanRequestIdMD 2",
-	"CollaboratorID": "CollaboratorID 2",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 2",
 	"ProcessType": "ProcessType 2",
 	"GroupRequestData": {
@@ -203,7 +203,7 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
 	"LoanRequestIdMD": "LoanRequestIdMD 3",
-	"CollaboratorID": "CollaboratorID 3",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 3",
 	"ProcessType": "ProcessType 3",
 	"GroupRequestData": {
@@ -304,7 +304,7 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
 	"LoanRequestIdMD": "LoanRequestIdMD 4",
-	"CollaboratorID": "CollaboratorID 4",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 4",
 	"ProcessType": "ProcessType 4",
 	"GroupRequestData": {
@@ -405,7 +405,7 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
 	"LoanRequestIdMD": "LoanRequestIdMD 5",
-	"CollaboratorID": "CollaboratorID 5",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 5",
 	"ProcessType": "ProcessType 5",
 	"GroupRequestData": {
@@ -506,7 +506,7 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
 	"LoanRequestIdMD": "LoanRequestIdMD 6",
-	"CollaboratorID": "CollaboratorID 6",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 6",
 	"ProcessType": "ProcessType 6",
 	"GroupRequestData": {
@@ -607,7 +607,7 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 7",
 	"LoanRequestIdMD": "LoanRequestIdMD 7",
-	"CollaboratorID": "CollaboratorID 7",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 7",
 	"ProcessType": "ProcessType 7",
 	"GroupRequestData": {
@@ -708,7 +708,7 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
 	"LoanRequestIdMD": "LoanRequestIdMD 8",
-	"CollaboratorID": "CollaboratorID 8",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 8",
 	"ProcessType": "ProcessType 8",
 	"GroupRequestData": {
@@ -809,7 +809,7 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
 	"LoanRequestIdMD": "LoanRequestIdMD 9",
-	"CollaboratorID": "CollaboratorID 9",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 9",
 	"ProcessType": "ProcessType 9",
 	"GroupRequestData": {
@@ -910,7 +910,7 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
 	"LoanRequestIdMD": "LoanRequestIdMD 10",
-	"CollaboratorID": "CollaboratorID 10",
+	"CollaboratorID": "Genesis",
 	"ProductID": "ProductID 10",
 	"ProcessType": "ProcessType 10",
 	"GroupRequestData": {

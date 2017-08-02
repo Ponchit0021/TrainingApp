@@ -3,7 +3,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
 	"CustomerIdMD": "CustomerIdMD 1",
 	"LoanRequestIdMD": "LoanRequestIdMD 1",
-	"CollaboratorID": "CollaboratorID 1",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 1",
 		"CreditAmount": 9.895231969005241,
@@ -72,12 +72,12 @@
 			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%201',LoanRequestIdCRM='LoanRequestIdCRM%201')/LoanRequest"
 		}
 	}
-}, {
+},{
 	"CustomerIdCRM": "CustomerIdCRM 2",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
 	"CustomerIdMD": "CustomerIdMD 2",
 	"LoanRequestIdMD": "LoanRequestIdMD 2",
-	"CollaboratorID": "CollaboratorID 2",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 2",
 		"CreditAmount": 3.6926758823292105,
@@ -146,12 +146,12 @@
 			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%202',LoanRequestIdCRM='LoanRequestIdCRM%202')/LoanRequest"
 		}
 	}
-}, {
+},{
 	"CustomerIdCRM": "CustomerIdCRM 3",
 	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
 	"CustomerIdMD": "CustomerIdMD 3",
 	"LoanRequestIdMD": "LoanRequestIdMD 3",
-	"CollaboratorID": "CollaboratorID 3",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 3",
 		"CreditAmount": 9.48421512297384,
@@ -225,7 +225,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
 	"CustomerIdMD": "CustomerIdMD 4",
 	"LoanRequestIdMD": "LoanRequestIdMD 4",
-	"CollaboratorID": "CollaboratorID 4",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 4",
 		"CreditAmount": 6.67552405879926,
@@ -299,7 +299,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
 	"CustomerIdMD": "CustomerIdMD 5",
 	"LoanRequestIdMD": "LoanRequestIdMD 5",
-	"CollaboratorID": "CollaboratorID 5",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 5",
 		"CreditAmount": 8.334358041296122,
@@ -373,7 +373,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
 	"CustomerIdMD": "CustomerIdMD 6",
 	"LoanRequestIdMD": "LoanRequestIdMD 6",
-	"CollaboratorID": "CollaboratorID 6",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 6",
 		"CreditAmount": 3.829004733375032,
@@ -447,7 +447,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 7",
 	"CustomerIdMD": "CustomerIdMD 7",
 	"LoanRequestIdMD": "LoanRequestIdMD 7",
-	"CollaboratorID": "CollaboratorID 7",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 7",
 		"CreditAmount": 8.120117675262353,
@@ -521,7 +521,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
 	"CustomerIdMD": "CustomerIdMD 8",
 	"LoanRequestIdMD": "LoanRequestIdMD 8",
-	"CollaboratorID": "CollaboratorID 8",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 8",
 		"CreditAmount": 0.692375215080967,
@@ -595,7 +595,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
 	"CustomerIdMD": "CustomerIdMD 9",
 	"LoanRequestIdMD": "LoanRequestIdMD 9",
-	"CollaboratorID": "CollaboratorID 9",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 9",
 		"CreditAmount": 8.79529407184761,
@@ -669,7 +669,7 @@
 	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
 	"CustomerIdMD": "CustomerIdMD 10",
 	"LoanRequestIdMD": "LoanRequestIdMD 10",
-	"CollaboratorID": "CollaboratorID 10",
+	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 10",
 		"CreditAmount": 9.768475175438498,
