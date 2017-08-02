@@ -27,13 +27,15 @@
         oLayoutBase = new sap.ui.mw.LayoutBase();
 
         oForm = oLayoutBase.createForm("formLogon", true, 1, "").destroyContent();
-        oForm.addContent(oDisplayBase.createLabelHTML("","class","Definir cód.acceso p.Originación <div>El código de acceso debería contener: <div>Mínimo 8 caracteres</div></div>"));
+        oForm.addContent(oDisplayBase.createLabelHTML("","class","Introduzca la siguiente información como se indica en las instrucciones de su gestor TI"));
         oForm.addContent(oDisplayBase.createLabel("", ""));
-        oForm.addContent(oInputBase.createInputText("txtUserName", "Text", "Establecer código de acceso", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
+        oForm.addContent(oInputBase.createInputText("txtUserName", "Text", "Nombre de usuario", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
         oForm.addContent(oDisplayBase.createLabel("", ""));
-        oForm.addContent(oInputBase.createInputText("txtPassword", "Text", "Confirmar código de acceso", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
+        oForm.addContent(oInputBase.createInputText("txtPassword", "Text", "Contraseña", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
         oForm.addContent(oDisplayBase.createLabel("", ""));
         oForm.addContent(oActionBase.createButton("", "OK", "Emphasized", "", this.reviewUser, this));
+        oForm.addContent(oDisplayBase.createLabel("", ""));
+        oForm.addContent(oActionBase.createButton("", "Cancelar", "Default", "", this.reviewUser, this));
         oForm.addContent(oDisplayBase.createLabel("", ""));
         oForm.addContent(oDisplayBase.createLabelHTML("","class","Copyright"));
 
