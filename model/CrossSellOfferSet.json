@@ -7,7 +7,7 @@
 	"IsAccepted": true,
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 1",
-	"CollaboratorID": "CollaboratorID 1",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 1",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%201',CrossSellProductId='CrossSellProductId%201')",
@@ -22,7 +22,7 @@
 	"IsAccepted": true,
 	"IsRejected": true,
 	"RejectionReasonId": "RejectionReasonId 2",
-	"CollaboratorID": "CollaboratorID 2",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 2",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%202',CrossSellProductId='CrossSellProductId%202')",
@@ -37,7 +37,7 @@
 	"IsAccepted": true,
 	"IsRejected": true,
 	"RejectionReasonId": "RejectionReasonId 3",
-	"CollaboratorID": "CollaboratorID 3",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 3",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%203',CrossSellProductId='CrossSellProductId%203')",
@@ -52,7 +52,7 @@
 	"IsAccepted": true,
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 4",
-	"CollaboratorID": "CollaboratorID 4",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 4",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%204',CrossSellProductId='CrossSellProductId%204')",
@@ -67,7 +67,7 @@
 	"IsAccepted": false,
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 5",
-	"CollaboratorID": "CollaboratorID 5",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 5",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%205',CrossSellProductId='CrossSellProductId%205')",
@@ -82,7 +82,7 @@
 	"IsAccepted": true,
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 6",
-	"CollaboratorID": "CollaboratorID 6",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 6",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%206',CrossSellProductId='CrossSellProductId%206')",
@@ -97,7 +97,7 @@
 	"IsAccepted": false,
 	"IsRejected": true,
 	"RejectionReasonId": "RejectionReasonId 7",
-	"CollaboratorID": "CollaboratorID 7",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 7",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%207',CrossSellProductId='CrossSellProductId%207')",
@@ -112,7 +112,7 @@
 	"IsAccepted": false,
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 8",
-	"CollaboratorID": "CollaboratorID 8",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 8",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%208',CrossSellProductId='CrossSellProductId%208')",
@@ -127,7 +127,7 @@
 	"IsAccepted": false,
 	"IsRejected": true,
 	"RejectionReasonId": "RejectionReasonId 9",
-	"CollaboratorID": "CollaboratorID 9",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 9",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%209',CrossSellProductId='CrossSellProductId%209')",
@@ -142,7 +142,7 @@
 	"IsAccepted": false,
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 10",
-	"CollaboratorID": "CollaboratorID 10",
+	"CollaboratorID": "Genesis",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 10",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%2010',CrossSellProductId='CrossSellProductId%2010')",

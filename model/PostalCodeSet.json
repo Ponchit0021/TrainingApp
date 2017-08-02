@@ -8,7 +8,7 @@
 	"TownId": "TownId 1",
 	"TownName": "TownName 1",
 	"City": "City 1",
-	"CollaboratorID": "CollaboratorID 1",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%201',SuburbName='SuburbName%201')",
 		"type": "AOMobile.PostalCode"
@@ -23,7 +23,7 @@
 	"TownId": "TownId 2",
 	"TownName": "TownName 2",
 	"City": "City 2",
-	"CollaboratorID": "CollaboratorID 2",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%202',SuburbName='SuburbName%202')",
 		"type": "AOMobile.PostalCode"
@@ -38,7 +38,7 @@
 	"TownId": "TownId 3",
 	"TownName": "TownName 3",
 	"City": "City 3",
-	"CollaboratorID": "CollaboratorID 3",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%203',SuburbName='SuburbName%203')",
 		"type": "AOMobile.PostalCode"
@@ -53,7 +53,7 @@
 	"TownId": "TownId 4",
 	"TownName": "TownName 4",
 	"City": "City 4",
-	"CollaboratorID": "CollaboratorID 4",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%204',SuburbName='SuburbName%204')",
 		"type": "AOMobile.PostalCode"
@@ -68,7 +68,7 @@
 	"TownId": "TownId 5",
 	"TownName": "TownName 5",
 	"City": "City 5",
-	"CollaboratorID": "CollaboratorID 5",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%205',SuburbName='SuburbName%205')",
 		"type": "AOMobile.PostalCode"
@@ -83,7 +83,7 @@
 	"TownId": "TownId 6",
 	"TownName": "TownName 6",
 	"City": "City 6",
-	"CollaboratorID": "CollaboratorID 6",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%206',SuburbName='SuburbName%206')",
 		"type": "AOMobile.PostalCode"
@@ -98,7 +98,7 @@
 	"TownId": "TownId 7",
 	"TownName": "TownName 7",
 	"City": "City 7",
-	"CollaboratorID": "CollaboratorID 7",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%207',SuburbName='SuburbName%207')",
 		"type": "AOMobile.PostalCode"
@@ -113,7 +113,7 @@
 	"TownId": "TownId 8",
 	"TownName": "TownName 8",
 	"City": "City 8",
-	"CollaboratorID": "CollaboratorID 8",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%208',SuburbName='SuburbName%208')",
 		"type": "AOMobile.PostalCode"
@@ -128,7 +128,7 @@
 	"TownId": "TownId 9",
 	"TownName": "TownName 9",
 	"City": "City 9",
-	"CollaboratorID": "CollaboratorID 9",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%209',SuburbName='SuburbName%209')",
 		"type": "AOMobile.PostalCode"
@@ -143,7 +143,7 @@
 	"TownId": "TownId 10",
 	"TownName": "TownName 10",
 	"City": "City 10",
-	"CollaboratorID": "CollaboratorID 10",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%2010',SuburbName='SuburbName%2010')",
 		"type": "AOMobile.PostalCode"

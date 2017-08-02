@@ -15,7 +15,7 @@
 	"TotalIncomeAmountGuarantee": 0.8155659408441274,
 	"TotalOutcomeAmountGuarantee": 0.029625315717756173,
 	"GuarantorPaymentCapacity": 7.564488858980147,
-	"CollaboratorID": "CollaboratorID 1",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%201',LoanRequestIdCRM='LoanRequestIdCRM%201')",
 		"type": "AOMobile.LinkGuarantor"
@@ -47,7 +47,7 @@
 	"TotalIncomeAmountGuarantee": 4.276654317156781,
 	"TotalOutcomeAmountGuarantee": 0.6697054535702263,
 	"GuarantorPaymentCapacity": 3.841659728914184,
-	"CollaboratorID": "CollaboratorID 2",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%202',LoanRequestIdCRM='LoanRequestIdCRM%202')",
 		"type": "AOMobile.LinkGuarantor"
@@ -79,7 +79,7 @@
 	"TotalIncomeAmountGuarantee": 3.4879320624751253,
 	"TotalOutcomeAmountGuarantee": 5.147185505896696,
 	"GuarantorPaymentCapacity": 2.865053254365255,
-	"CollaboratorID": "CollaboratorID 3",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%203')",
 		"type": "AOMobile.LinkGuarantor"
@@ -111,7 +111,7 @@
 	"TotalIncomeAmountGuarantee": 5.901277284138731,
 	"TotalOutcomeAmountGuarantee": 0.2964365161332094,
 	"GuarantorPaymentCapacity": 3.0321262406787053,
-	"CollaboratorID": "CollaboratorID 4",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%204',LoanRequestIdCRM='LoanRequestIdCRM%204')",
 		"type": "AOMobile.LinkGuarantor"
@@ -143,7 +143,7 @@
 	"TotalIncomeAmountGuarantee": 1.0748359347714453,
 	"TotalOutcomeAmountGuarantee": 6.713030882193145,
 	"GuarantorPaymentCapacity": 4.012889508497867,
-	"CollaboratorID": "CollaboratorID 5",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%205',LoanRequestIdCRM='LoanRequestIdCRM%205')",
 		"type": "AOMobile.LinkGuarantor"
@@ -175,7 +175,7 @@
 	"TotalIncomeAmountGuarantee": 0.3765109913212217,
 	"TotalOutcomeAmountGuarantee": 0.09558463676127005,
 	"GuarantorPaymentCapacity": 4.240064054063368,
-	"CollaboratorID": "CollaboratorID 6",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%206',LoanRequestIdCRM='LoanRequestIdCRM%206')",
 		"type": "AOMobile.LinkGuarantor"
@@ -207,7 +207,7 @@
 	"TotalIncomeAmountGuarantee": 4.789945406235219,
 	"TotalOutcomeAmountGuarantee": 7.71536506214443,
 	"GuarantorPaymentCapacity": 2.264583179228059,
-	"CollaboratorID": "CollaboratorID 7",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%207',LoanRequestIdCRM='LoanRequestIdCRM%207')",
 		"type": "AOMobile.LinkGuarantor"
@@ -239,7 +239,7 @@
 	"TotalIncomeAmountGuarantee": 5.987672347896636,
 	"TotalOutcomeAmountGuarantee": 2.6201066253096017,
 	"GuarantorPaymentCapacity": 2.797449674093655,
-	"CollaboratorID": "CollaboratorID 8",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%208',LoanRequestIdCRM='LoanRequestIdCRM%208')",
 		"type": "AOMobile.LinkGuarantor"
@@ -271,7 +271,7 @@
 	"TotalIncomeAmountGuarantee": 7.487338871113238,
 	"TotalOutcomeAmountGuarantee": 7.077581344971429,
 	"GuarantorPaymentCapacity": 7.7860841789775375,
-	"CollaboratorID": "CollaboratorID 9",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%209',LoanRequestIdCRM='LoanRequestIdCRM%209')",
 		"type": "AOMobile.LinkGuarantor"
@@ -303,7 +303,7 @@
 	"TotalIncomeAmountGuarantee": 4.783633782666257,
 	"TotalOutcomeAmountGuarantee": 7.210845122265659,
 	"GuarantorPaymentCapacity": 1.9405497254273851,
-	"CollaboratorID": "CollaboratorID 10",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%2010',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
 		"type": "AOMobile.LinkGuarantor"

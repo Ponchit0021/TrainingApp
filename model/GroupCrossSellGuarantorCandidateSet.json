@@ -8,7 +8,7 @@
 		"SecondName": "SecondName 1"
 	},
 	"RegistrationDate": "/Date(1418943662000)/",
-	"CollaboratorID": "CollaboratorID 1",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%201',LoanRequestIdCRM='LoanRequestIdCRM%201')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
@@ -23,7 +23,7 @@
 		"SecondName": "SecondName 2"
 	},
 	"RegistrationDate": "/Date(1364511662000)/",
-	"CollaboratorID": "CollaboratorID 2",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%202',LoanRequestIdCRM='LoanRequestIdCRM%202')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
@@ -38,7 +38,7 @@
 		"SecondName": "SecondName 3"
 	},
 	"RegistrationDate": "/Date(1507413662000)/",
-	"CollaboratorID": "CollaboratorID 3",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%203')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
@@ -53,7 +53,7 @@
 		"SecondName": "SecondName 4"
 	},
 	"RegistrationDate": "/Date(1436911262000)/",
-	"CollaboratorID": "CollaboratorID 4",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%204',LoanRequestIdCRM='LoanRequestIdCRM%204')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
@@ -68,7 +68,7 @@
 		"SecondName": "SecondName 5"
 	},
 	"RegistrationDate": "/Date(1427497262000)/",
-	"CollaboratorID": "CollaboratorID 5",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%205',LoanRequestIdCRM='LoanRequestIdCRM%205')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
@@ -83,7 +83,7 @@
 		"SecondName": "SecondName 6"
 	},
 	"RegistrationDate": "/Date(1335564062000)/",
-	"CollaboratorID": "CollaboratorID 6",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%206',LoanRequestIdCRM='LoanRequestIdCRM%206')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
@@ -98,7 +98,7 @@
 		"SecondName": "SecondName 7"
 	},
 	"RegistrationDate": "/Date(1211493662000)/",
-	"CollaboratorID": "CollaboratorID 7",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%207',LoanRequestIdCRM='LoanRequestIdCRM%207')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
@@ -113,7 +113,7 @@
 		"SecondName": "SecondName 8"
 	},
 	"RegistrationDate": "/Date(1208728862000)/",
-	"CollaboratorID": "CollaboratorID 8",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%208',LoanRequestIdCRM='LoanRequestIdCRM%208')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
@@ -128,7 +128,7 @@
 		"SecondName": "SecondName 9"
 	},
 	"RegistrationDate": "/Date(1321570862000)/",
-	"CollaboratorID": "CollaboratorID 9",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%209',LoanRequestIdCRM='LoanRequestIdCRM%209')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
@@ -143,7 +143,7 @@
 		"SecondName": "SecondName 10"
 	},
 	"RegistrationDate": "/Date(1486940462000)/",
-	"CollaboratorID": "CollaboratorID 10",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%2010',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"

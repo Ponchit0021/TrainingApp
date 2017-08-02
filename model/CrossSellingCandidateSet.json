@@ -10,7 +10,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 1",
 	"IsMarkedToDownload": true,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 1",
-	"CollaboratorID": "CollaboratorID 1",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%201')",
 		"type": "AOMobile.CrossSellingCandidate"
@@ -32,7 +32,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 2",
 	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 2",
-	"CollaboratorID": "CollaboratorID 2",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%202')",
 		"type": "AOMobile.CrossSellingCandidate"
@@ -54,7 +54,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 3",
 	"IsMarkedToDownload": true,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 3",
-	"CollaboratorID": "CollaboratorID 3",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%203')",
 		"type": "AOMobile.CrossSellingCandidate"
@@ -76,7 +76,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 4",
 	"IsMarkedToDownload": true,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 4",
-	"CollaboratorID": "CollaboratorID 4",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%204')",
 		"type": "AOMobile.CrossSellingCandidate"
@@ -98,7 +98,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 5",
 	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 5",
-	"CollaboratorID": "CollaboratorID 5",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%205')",
 		"type": "AOMobile.CrossSellingCandidate"
@@ -120,7 +120,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 6",
 	"IsMarkedToDownload": true,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 6",
-	"CollaboratorID": "CollaboratorID 6",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%206')",
 		"type": "AOMobile.CrossSellingCandidate"
@@ -142,7 +142,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 7",
 	"IsMarkedToDownload": true,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 7",
-	"CollaboratorID": "CollaboratorID 7",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%207')",
 		"type": "AOMobile.CrossSellingCandidate"
@@ -164,7 +164,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 8",
 	"IsMarkedToDownload": true,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 8",
-	"CollaboratorID": "CollaboratorID 8",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%208')",
 		"type": "AOMobile.CrossSellingCandidate"
@@ -186,7 +186,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 9",
 	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 9",
-	"CollaboratorID": "CollaboratorID 9",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%209')",
 		"type": "AOMobile.CrossSellingCandidate"
@@ -208,7 +208,7 @@
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 10",
 	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 10",
-	"CollaboratorID": "CollaboratorID 10",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "CrossSellingCandidateSet('CandidateIdCRM%2010')",
 		"type": "AOMobile.CrossSellingCandidate"

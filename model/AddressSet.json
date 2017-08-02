@@ -20,7 +20,7 @@
 		"InteriorNumber": "InteriorNumber 1",
 		"Comments": "Comments 1"
 	},
-	"CollaboratorID": "CollaboratorID 1",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%201',CustomerIdCRM='CustomerIdCRM%201')",
 		"type": "AOMobile.Address"
@@ -47,7 +47,7 @@
 		"InteriorNumber": "InteriorNumber 2",
 		"Comments": "Comments 2"
 	},
-	"CollaboratorID": "CollaboratorID 2",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%202',CustomerIdCRM='CustomerIdCRM%202')",
 		"type": "AOMobile.Address"
@@ -74,7 +74,7 @@
 		"InteriorNumber": "InteriorNumber 3",
 		"Comments": "Comments 3"
 	},
-	"CollaboratorID": "CollaboratorID 3",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%203',CustomerIdCRM='CustomerIdCRM%203')",
 		"type": "AOMobile.Address"
@@ -101,7 +101,7 @@
 		"InteriorNumber": "InteriorNumber 4",
 		"Comments": "Comments 4"
 	},
-	"CollaboratorID": "CollaboratorID 4",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%204',CustomerIdCRM='CustomerIdCRM%204')",
 		"type": "AOMobile.Address"
@@ -128,7 +128,7 @@
 		"InteriorNumber": "InteriorNumber 5",
 		"Comments": "Comments 5"
 	},
-	"CollaboratorID": "CollaboratorID 5",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%205',CustomerIdCRM='CustomerIdCRM%205')",
 		"type": "AOMobile.Address"
@@ -155,7 +155,7 @@
 		"InteriorNumber": "InteriorNumber 6",
 		"Comments": "Comments 6"
 	},
-	"CollaboratorID": "CollaboratorID 6",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%206',CustomerIdCRM='CustomerIdCRM%206')",
 		"type": "AOMobile.Address"
@@ -182,7 +182,7 @@
 		"InteriorNumber": "InteriorNumber 7",
 		"Comments": "Comments 7"
 	},
-	"CollaboratorID": "CollaboratorID 7",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%207',CustomerIdCRM='CustomerIdCRM%207')",
 		"type": "AOMobile.Address"
@@ -209,7 +209,7 @@
 		"InteriorNumber": "InteriorNumber 8",
 		"Comments": "Comments 8"
 	},
-	"CollaboratorID": "CollaboratorID 8",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%208',CustomerIdCRM='CustomerIdCRM%208')",
 		"type": "AOMobile.Address"
@@ -236,7 +236,7 @@
 		"InteriorNumber": "InteriorNumber 9",
 		"Comments": "Comments 9"
 	},
-	"CollaboratorID": "CollaboratorID 9",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%209',CustomerIdCRM='CustomerIdCRM%209')",
 		"type": "AOMobile.Address"
@@ -263,7 +263,7 @@
 		"InteriorNumber": "InteriorNumber 10",
 		"Comments": "Comments 10"
 	},
-	"CollaboratorID": "CollaboratorID 10",
+	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%2010',CustomerIdCRM='CustomerIdCRM%2010')",
 		"type": "AOMobile.Address"

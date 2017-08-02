@@ -1,5 +1,5 @@
 [{
-	"CollaboratorID": "CollaboratorID 1",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 1",
 	"MediumID": "MediumID 1",
 	"ChannelDescription": "ChannelDescription 1",
@@ -7,11 +7,11 @@
 	"Min": 4.753017610106756,
 	"Max": 7.798285927423681,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%201',ChannelID='ChannelID%201',MediumID='MediumID%201')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%201',MediumID='MediumID%201')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }, {
-	"CollaboratorID": "CollaboratorID 2",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 2",
 	"MediumID": "MediumID 2",
 	"ChannelDescription": "ChannelDescription 2",
@@ -19,11 +19,11 @@
 	"Min": 7.909342627308529,
 	"Max": 8.843823499158855,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%202',ChannelID='ChannelID%202',MediumID='MediumID%202')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%202',MediumID='MediumID%202')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }, {
-	"CollaboratorID": "CollaboratorID 3",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 3",
 	"MediumID": "MediumID 3",
 	"ChannelDescription": "ChannelDescription 3",
@@ -31,11 +31,11 @@
 	"Min": 6.291167408187059,
 	"Max": 8.23410412994697,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%203',ChannelID='ChannelID%203',MediumID='MediumID%203')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%203',MediumID='MediumID%203')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }, {
-	"CollaboratorID": "CollaboratorID 4",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 4",
 	"MediumID": "MediumID 4",
 	"ChannelDescription": "ChannelDescription 4",
@@ -43,11 +43,11 @@
 	"Min": 7.36380640285633,
 	"Max": 9.920622005259084,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%204',ChannelID='ChannelID%204',MediumID='MediumID%204')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%204',MediumID='MediumID%204')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }, {
-	"CollaboratorID": "CollaboratorID 5",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 5",
 	"MediumID": "MediumID 5",
 	"ChannelDescription": "ChannelDescription 5",
@@ -55,11 +55,11 @@
 	"Min": 7.120806623720419,
 	"Max": 4.5651456603047595,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%205',ChannelID='ChannelID%205',MediumID='MediumID%205')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%205',MediumID='MediumID%205')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }, {
-	"CollaboratorID": "CollaboratorID 6",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 6",
 	"MediumID": "MediumID 6",
 	"ChannelDescription": "ChannelDescription 6",
@@ -67,11 +67,11 @@
 	"Min": 8.690413086720955,
 	"Max": 2.2021876958941156,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%206',ChannelID='ChannelID%206',MediumID='MediumID%206')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%206',MediumID='MediumID%206')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }, {
-	"CollaboratorID": "CollaboratorID 7",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 7",
 	"MediumID": "MediumID 7",
 	"ChannelDescription": "ChannelDescription 7",
@@ -79,11 +79,11 @@
 	"Min": 7.549293225574207,
 	"Max": 5.133364254452228,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%207',ChannelID='ChannelID%207',MediumID='MediumID%207')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%207',MediumID='MediumID%207')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }, {
-	"CollaboratorID": "CollaboratorID 8",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 8",
 	"MediumID": "MediumID 8",
 	"ChannelDescription": "ChannelDescription 8",
@@ -91,11 +91,11 @@
 	"Min": 4.383078009258963,
 	"Max": 0.02806432067039122,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%208',ChannelID='ChannelID%208',MediumID='MediumID%208')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%208',MediumID='MediumID%208')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }, {
-	"CollaboratorID": "CollaboratorID 9",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 9",
 	"MediumID": "MediumID 9",
 	"ChannelDescription": "ChannelDescription 9",
@@ -103,11 +103,11 @@
 	"Min": 8.603012206792776,
 	"Max": 1.1669376328656278,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%209',ChannelID='ChannelID%209',MediumID='MediumID%209')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%209',MediumID='MediumID%209')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }, {
-	"CollaboratorID": "CollaboratorID 10",
+	"CollaboratorID": "Genesis",
 	"ChannelID": "ChannelID 10",
 	"MediumID": "MediumID 10",
 	"ChannelDescription": "ChannelDescription 10",
@@ -115,7 +115,7 @@
 	"Min": 4.756245553440408,
 	"Max": 4.280644721751338,
 	"__metadata": {
-		"uri": "ChannelMediumDispersionSet(CollaboratorID='CollaboratorID%2010',ChannelID='ChannelID%2010',MediumID='MediumID%2010')",
+		"uri": "ChannelMediumDispersionSet(CollaboratorID='Genesis',ChannelID='ChannelID%2010',MediumID='MediumID%2010')",
 		"type": "AOMobile.ChannelMediumDispersion"
 	}
 }]
