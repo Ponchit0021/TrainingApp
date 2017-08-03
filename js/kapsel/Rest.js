@@ -17,8 +17,11 @@
             this.sAuth = _sAuth;
             this.sAppCID = _sAppCID;
 
-
-            if (!this.oNavigator.testUserAgent()) {
+                /*
+                * IMPORTANTE RECORDAR
+                * - Se quitó el signo diferente a, para que los escenarios que se hacen web, apliquen por igual al mobil
+                */
+            if (this.oNavigator.testUserAgent()) {
                 /// Solo para Web
 
                 if (_bUseMockServer) {
@@ -63,9 +66,9 @@
 
         oHeaders['Authorization'] = this.sAuth;
         if (this.oNavigator.testUserAgent()) {
-            this.user = sap.ui.getCore().AppContext.applicationContext.registrationContext.user;
-            this.pass = sap.ui.getCore().AppContext.applicationContext.registrationContext.password;
-            oHeaders['X-SMP-APPCID'] = sap.ui.getCore().AppContext.applicationContext.applicationConnectionId;
+            this.user = "Genesis";//sap.ui.getCore().AppContext.applicationContext.registrationContext.user;
+            this.pass = "Inicio17";//sap.ui.getCore().AppContext.applicationContext.registrationContext.password;
+            oHeaders['X-SMP-APPCID'] ="SDFHsDFHsFDSDFHSDFSD";// sap.ui.getCore().AppContext.applicationContext.applicationConnectionId;
 
         }
 

@@ -47,7 +47,7 @@ sap.ui.controller("originacion.DashBoard", {
             oScrollTileContainer.addContent(oTileContainer);
 
             
-        this.getVersionNumber().then(function(version){
+       /*  this.getVersionNumber().then(function(version){
                 var oVersion = sap.ui.getCore().byId("tileAcercaDe");
                 oVersion.setNumber(version);
             
@@ -55,7 +55,10 @@ sap.ui.controller("originacion.DashBoard", {
                 console.log(error);
                 var oVersion = sap.ui.getCore().byId("tileAcercaDe");
                 oVersion.setNumber(0);
-            });
+            }); */
+
+            var oVersion = sap.ui.getCore().byId("tileAcercaDe");
+                oVersion.setNumber(0);
 
             resolve("ok");
 
@@ -94,7 +97,9 @@ sap.ui.controller("originacion.DashBoard", {
 
 
         var promiseAnnouncementsCounter, promisePendingsCounter, oMyPendingsDB, oAnnouncementsDB;
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+         promiseAnnouncementsCounter = sap.ui.getCore().AppContext.oRest.read("/AnnouncementsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Config.getProperty("promoterId") + "'", true);
+            promisePendingsCounter = sap.ui.getCore().AppContext.oRest.read("/PendingsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Config.getProperty("promoterId") + "'", true);
+        /* if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 
             promiseAnnouncementsCounter = sap.ui.getCore().AppContext.oRest.read("/AnnouncementsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.applicationContext.registrationContext.user + "' and attended eq '0'", true);
             promisePendingsCounter = sap.ui.getCore().AppContext.oRest.read("/PendingsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.applicationContext.registrationContext.user + "' and attended eq '0'", true);
@@ -102,7 +107,7 @@ sap.ui.controller("originacion.DashBoard", {
         } else {
             promiseAnnouncementsCounter = sap.ui.getCore().AppContext.oRest.read("/AnnouncementsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Config.getProperty("promoterId") + "'", true);
             promisePendingsCounter = sap.ui.getCore().AppContext.oRest.read("/PendingsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Config.getProperty("promoterId") + "'", true);
-        }
+        } */
         oMyPendingsDB = sap.ui.getCore().byId("tilePendientes");
         oAnnouncementsDB = sap.ui.getCore().byId("tileAvisos");
         Promise.all([promiseAnnouncementsCounter, promisePendingsCounter]).then(function(values) {
