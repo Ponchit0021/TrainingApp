@@ -9,6 +9,8 @@
     sap.ui.base.Object.extend('sap.ui.mw.forms.initial.AccessPasscode', {});
     sap.ui.mw.forms.initial.AccessPasscode.prototype.reviewUser=function(user){
 
+        localStorage.setItem("isAuth",true);
+
         sap.ui.getCore().byId("passCodeAccessForm").destroyContent();
         new sap.m.Shell("Shell", {
             title: "AO",

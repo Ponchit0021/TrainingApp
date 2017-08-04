@@ -84,13 +84,15 @@ PreLoader.prototype.startLogon = function() {
     var logonSMP=new sap.ui.mw.forms.initial.logon();
     console.log(logonSMP);
     currentClass.hideLoader();
-    logonSMP.createForm(this).placeAt("content");
+    logonSMP.createForm(this).then(function(resp){
+        console.log(resp);
+    })
 
     
     //Se utliza unicamente para pruebas de AOTraining - ELIMINAR al tener listo REST
-    sap.ui.getCore().AppContext.Promotor = sap.ui.getCore().AppContext.Config.getProperty("promoterId");
+    /* sap.ui.getCore().AppContext.Promotor = sap.ui.getCore().AppContext.Config.getProperty("promoterId");
     sap.ui.getCore().AppContext.myRest = new sap.ui.mw.Rest("/mock/", true, "Basic " + btoa(sBtoa), "sAppCID", true, false, false, false);
-    sap.ui.getCore().AppContext.oRest = sap.ui.getCore().AppContext.myRest;
+    sap.ui.getCore().AppContext.oRest = sap.ui.getCore().AppContext.myRest; */
 
     /* logonSMP = new sap.ui.kapsel.Logon();
 
