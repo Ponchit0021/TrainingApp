@@ -23,4 +23,14 @@
         sap.ui.getCore().AppContext.oRest = sap.ui.getCore().AppContext.myRest;
 
     };
+    sap.ui.login.Basic.prototype.destroyContent=function(form){
+        sap.ui.getCore().byId(form).destroyContent();
+        
+    }
+    sap.ui.login.Basic.prototype.createShell=function(){
+        new sap.m.Shell("Shell", {
+            title: "AO",
+            app: new sap.ui.core.ComponentContainer({ name: "com.gentera" })
+        }).placeAt("content");
+    }
 })();
