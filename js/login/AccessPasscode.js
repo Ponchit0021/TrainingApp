@@ -10,11 +10,19 @@
 
 
     sap.ui.base.Object.extend('sap.ui.mw.forms.initial.AccessPasscode', {});
+
     sap.ui.mw.forms.initial.AccessPasscode.prototype.reviewPassCode=function(user){
-        var loginBasic= new sap.ui.login.Basic();
-        localStorage.setItem("isAuth",true);
-        loginBasic.destroyContent("passCodeAccessForm");
-        loginBasic.createShell();
+
+        if(sap.ui.getCore().byId("txtAccessPasscode").getValue()===localStorage.getItem("passCode")){
+            var loginBasic= new sap.ui.login.Basic();
+            localStorage.setItem("isAuth",true);
+            loginBasic.destroyContent("passCodeAccessForm");
+            loginBasic.createShell();
+        }
+        else{
+            alert("passcode incorrecto");
+        }
+        
 
     }
 
@@ -30,7 +38,7 @@
         oForm = oLayoutBase.createForm("passCodeAccessForm", true, 1, "").destroyContent();
         oForm.addContent(oDisplayBase.createLabelHTML("","class","Introduzca la siguiente información como se indica en las instrucciones de su gestor TI"));
         oForm.addContent(oDisplayBase.createLabel("", ""));
-        oForm.addContent(oInputBase.createInputText("txtAccessPasscode", "Text", "", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
+        oForm.addContent(oInputBase.createInputText("txtAccessPasscode", "Password", "", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
         oForm.addContent(oDisplayBase.createLabel("", ""));
         oForm.addContent(oActionBase.createButton("", "OK", "Emphasized", "", this.reviewPassCode, this));
         oForm.addContent(oDisplayBase.createLabel("", ""));

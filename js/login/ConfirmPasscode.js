@@ -12,11 +12,20 @@
     sap.ui.base.Object.extend('sap.ui.mw.forms.initial.ConfirmPasscode', {});
     sap.ui.mw.forms.initial.ConfirmPasscode.prototype.confirmPassCode=function(user){
 
+        if(sap.ui.getCore().byId("txtPasscode").getValue()===sap.ui.getCore().byId("txtPasscodeConfirm").getValue())
+        {
+            var loginBasic= new sap.ui.login.Basic();
+            localStorage.setItem("isAuth",true);
+            localStorage.setItem("passCode",sap.ui.getCore().byId("txtPasscode").getValue());
+            loginBasic.destroyContent("passCodeForm");
+            loginBasic.createShell();
+        }
+        else{
+            alert("Passcode inválido");
+        }
 
-        var loginBasic= new sap.ui.login.Basic();
-        localStorage.setItem("isAuth",true);
-        loginBasic.destroyContent("passCodeForm");
-        loginBasic.createShell();
+
+      
 
     }
 
@@ -32,9 +41,9 @@
         oForm = oLayoutBase.createForm("passCodeForm", true, 1, "").destroyContent();
         oForm.addContent(oDisplayBase.createLabelHTML("","class","Definir cód.acceso p.Originación <div>El código de acceso debería contener: <div>Mínimo 8 caracteres</div></div>"));
         oForm.addContent(oDisplayBase.createLabel("", ""));
-        oForm.addContent(oInputBase.createInputText("txtPasscode", "Text", "Definir Código de Acceso", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
+        oForm.addContent(oInputBase.createInputText("txtPasscode", "Password", "Definir Código de Acceso", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
         oForm.addContent(oDisplayBase.createLabel("", ""));
-        oForm.addContent(oInputBase.createInputText("txtPasscodeConfirm", "Text", "Confirmar Código de Acceso", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
+        oForm.addContent(oInputBase.createInputText("txtPasscodeConfirm", "Password", "Confirmar Código de Acceso", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
         oForm.addContent(oDisplayBase.createLabel("", ""));
         oForm.addContent(oActionBase.createButton("", "OK", "Emphasized", "", this.confirmPassCode, this));
         oForm.addContent(oDisplayBase.createLabel("", ""));
