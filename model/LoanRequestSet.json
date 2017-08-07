@@ -36,7 +36,7 @@
 		}
 	},
 	"GeneralLoanRequestData": {
-		"IsRenewal": true,
+		"IsRenewal": false,
 		"StartDate": "/Date(1409867974000)/",
 		"Cycle": 0,
 		"StatusId": "StatusId 1",
@@ -52,7 +52,7 @@
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 1",
 	"SubsequenceType": "SubsequenceType 1",
-	"IsApproved": true,
+	"IsApproved": false,
 	"LRGeneralCrossSell": {
 		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 1",
 		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 1",
@@ -339,7 +339,7 @@
 		}
 	},
 	"GeneralLoanRequestData": {
-		"IsRenewal": true,
+		"IsRenewal": false,
 		"StartDate": "/Date(1470520774000)/",
 		"Cycle": 0,
 		"StatusId": "StatusId 4",
@@ -355,7 +355,7 @@
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 4",
 	"SubsequenceType": "SubsequenceType 4",
-	"IsApproved": true,
+	"IsApproved": false,
 	"LRGeneralCrossSell": {
 		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 4",
 		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 4",
