@@ -12,12 +12,17 @@
 
     sap.ui.base.Object.extend('sap.ui.mw.forms.initial.logon', {});
     sap.ui.mw.forms.initial.logon.prototype.reviewUser=function(user){
-        console.log(user);
+        if(sap.ui.getCore().byId("txtPassword").getValue()==="Inicio17"){
+            sap.ui.getCore().byId("formLogon").destroyContent();
+            var passCodeForm=new sap.ui.mw.forms.initial.ConfirmPasscode();
+            passCodeForm.createForm(this).placeAt("content");
+        }
+        else{
+            alert("Es incorrecto");
+        }
+            
 
-        sap.ui.getCore().byId("formLogon").destroyContent();
-
-        var passCodeForm=new sap.ui.mw.forms.initial.ConfirmPasscode();
-        passCodeForm.createForm(this).placeAt("content");
+        
 
     }
 
@@ -39,12 +44,14 @@
             resolve(true);
             }else{
                 oForm = oLayoutBase.createForm("formLogon", true, 1, "").destroyContent();
+
                 oForm.addContent(oDisplayBase.createLabelHTML("","class","Introduzca la siguiente información como se indica en las instrucciones de su gestor TI"));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
-                oForm.addContent(oInputBase.createInputText("txtUserName", "Text", "Nombre de usuario", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
+                oForm.addContent(oInputBase.createInputText("txtUserName", "Text", "Nombre de usuario", "Genesis", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
-                oForm.addContent(oInputBase.createInputText("txtPassword", "Text", "Contraseña", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
+                oForm.addContent(oInputBase.createInputText("txtPassword", "Password", "", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
+                sap.ui.getCore().byId("txtUserName").setValue("Genesis")
                 oForm.addContent(oActionBase.createButton("", "OK", "Emphasized", "", _self.reviewUser, _self));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
                 oForm.addContent(oActionBase.createButton("", "Cancelar", "Default", "", _self.reviewUser, _self));
