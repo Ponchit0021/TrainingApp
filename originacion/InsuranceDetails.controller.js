@@ -1121,8 +1121,8 @@ sap.ui.controller('originacion.InsuranceDetails', {
         return _oDate;
     },
     closeGenericFragment: function(oFragment, fnClose) {
-        sap.ui.getCore().AppContext.EventBase.setObjectToCloseWithBackEvent(oFragment)
-        sap.ui.getCore().AppContext.EventBase.setFunctionBackButtonWithOpenDialog(fnClose);
+       sap.ui.getCore().AppContext.EventBase.setObjectToCloseWithBackEvent(oFragment)
+       sap.ui.getCore().AppContext.EventBase.setFunctionBackButtonWithOpenDialog(fnClose);
     },
     setNameToUpperCase: function(oName) {
         oName.FirstName = oName.FirstName.toUpperCase();
