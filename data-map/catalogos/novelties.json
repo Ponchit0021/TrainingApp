@@ -1,13 +1,8 @@
 {
     "Novelties": [
         {"Novelty": "Todo el tiempo nos encontramos trabajando y mejorando para tí, para asegurarnos que puedas tener un mejor desempeño en tu día a día" },
+        {"Novelty": "Esta versión está creada para entrenarte y apoyarte en el manejo de la aplicación en una situación real." },
         {"Novelty": "En esta versión:" },
-        {"Novelty": "El número de integrantes mínimo para crédito comerciante será de 8 miembros" },
-        {"Novelty": "Las actualizaciones de las oprtunidades están corregidas" },
-        {"Novelty": "Se corrigió el campo fecha de desembolso en los créditos" },
-        {"Novelty": "Mejoramos los filtros de las solicitudes" },
-        {"Novelty": "Mejoramos la experiencia al dar click en el botón 'Guardar' para que sepas que la aplicación está trabajando" },
-        {"Novelty": "Se corrigió la vista del campo 'Cliente que presta su casa' dentro de las solicitudes" },
-        {"Novelty": "Recuerda que para que un solicitante pueda ser modificado, tiene que ser un solictante subsecuente o con un crédito hijo"}
+        {"Novelty": "Podrás ejecutar todas tus tareas dentro de la aplicación como si estuvieras en el ambiente real ante el cliente" }
     ]
 }

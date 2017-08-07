@@ -238,7 +238,7 @@
 		}
 	},
 	"GeneralLoanRequestData": {
-		"IsRenewal": true,
+		"IsRenewal": false,
 		"StartDate": "/Date(1055368774000)/",
 		"Cycle": 0,
 		"StatusId": "StatusId 3",
@@ -254,7 +254,7 @@
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 3",
 	"SubsequenceType": "SubsequenceType 3",
-	"IsApproved": true,
+	"IsApproved": false,
 	"LRGeneralCrossSell": {
 		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 3",
 		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 3",
