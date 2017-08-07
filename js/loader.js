@@ -87,6 +87,7 @@ PreLoader.prototype.startLogon = function() {
     logonSMP.createForm(this).then(function(resp){
         console.log(resp);
     })
+    currentClass.initDeviceReady();
 
     
     //Se utliza unicamente para pruebas de AOTraining - ELIMINAR al tener listo REST
