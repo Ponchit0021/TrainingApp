@@ -38,7 +38,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": true,
 		"StartDate": "/Date(1409867974000)/",
-		"Cycle": 2591,
+		"Cycle": 0,
 		"StatusId": "StatusId 1",
 		"StatusText": "StatusText 1",
 		"FirstPaymentDate": "/Date(1308607174000)/",
@@ -102,12 +102,12 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
 	"LoanRequestIdMD": "LoanRequestIdMD 2",
-	"CollaboratorID": "CollaboratorID 2",
-	"ProductID": "ProductID 2",
+	"CollaboratorID": "Genesis",
+	"ProductID": "C_GRUPAL_CM",
 	"ProcessType": "ProcessType 2",
 	"GroupRequestData": {
 		"GroupID": "GroupID 2",
-		"GroupName": "GroupName 2",
+		"GroupName": "GroupoMujer1",
 		"ContractID": "ContractID 2",
 		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 2",
 		"MeetingDate": "MeetingDate 2",
@@ -139,7 +139,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": false,
 		"StartDate": "/Date(1506895174000)/",
-		"Cycle": 682,
+		"Cycle":0,
 		"StatusId": "StatusId 2",
 		"StatusText": "StatusText 2",
 		"FirstPaymentDate": "/Date(1201042774000)/",
@@ -203,12 +203,12 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
 	"LoanRequestIdMD": "LoanRequestIdMD 3",
-	"CollaboratorID": "CollaboratorID 3",
-	"ProductID": "ProductID 3",
+	"CollaboratorID": "Genesis",
+	"ProductID": "C_GRUPAL_CCR",
 	"ProcessType": "ProcessType 3",
 	"GroupRequestData": {
 		"GroupID": "GroupID 3",
-		"GroupName": "GroupName 3",
+		"GroupName": "GroupoComerciante1",
 		"ContractID": "ContractID 3",
 		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 3",
 		"MeetingDate": "MeetingDate 3",
@@ -240,7 +240,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": true,
 		"StartDate": "/Date(1055368774000)/",
-		"Cycle": 2985,
+		"Cycle": 0,
 		"StatusId": "StatusId 3",
 		"StatusText": "StatusText 3",
 		"FirstPaymentDate": "/Date(1452121174000)/",
@@ -304,8 +304,8 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
 	"LoanRequestIdMD": "LoanRequestIdMD 4",
-	"CollaboratorID": "CollaboratorID 4",
-	"ProductID": "ProductID 4",
+	"CollaboratorID": "Genesis",
+	"ProductID": "C_IND_CI",
 	"ProcessType": "ProcessType 4",
 	"GroupRequestData": {
 		"GroupID": "GroupID 4",
@@ -341,7 +341,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": true,
 		"StartDate": "/Date(1470520774000)/",
-		"Cycle": 9097,
+		"Cycle": 0,
 		"StatusId": "StatusId 4",
 		"StatusText": "StatusText 4",
 		"FirstPaymentDate": "/Date(1521241174000)/",
@@ -405,12 +405,12 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
 	"LoanRequestIdMD": "LoanRequestIdMD 5",
-	"CollaboratorID": "CollaboratorID 5",
-	"ProductID": "ProductID 5",
+	"CollaboratorID": "Genesis",
+	"ProductID": "C_GRUPAL_CCR",
 	"ProcessType": "ProcessType 5",
 	"GroupRequestData": {
 		"GroupID": "GroupID 5",
-		"GroupName": "GroupName 5",
+		"GroupName": "GroupComerciante2",
 		"ContractID": "ContractID 5",
 		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 5",
 		"MeetingDate": "MeetingDate 5",
@@ -442,7 +442,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": false,
 		"StartDate": "/Date(1330469974000)/",
-		"Cycle": 1851,
+		"Cycle": 0,
 		"StatusId": "StatusId 5",
 		"StatusText": "StatusText 5",
 		"FirstPaymentDate": "/Date(963093574000)/",
@@ -506,12 +506,12 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
 	"LoanRequestIdMD": "LoanRequestIdMD 6",
-	"CollaboratorID": "CollaboratorID 6",
-	"ProductID": "ProductID 6",
+	"CollaboratorID": "Genesis",
+	"ProductID": "C_GRUPAL_CM",
 	"ProcessType": "ProcessType 6",
 	"GroupRequestData": {
 		"GroupID": "GroupID 6",
-		"GroupName": "GroupName 6",
+		"GroupName": "GroupMujer2",
 		"ContractID": "ContractID 6",
 		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 6",
 		"MeetingDate": "MeetingDate 6",
@@ -543,7 +543,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": true,
 		"StartDate": "/Date(1054504774000)/",
-		"Cycle": 1369,
+		"Cycle": 0,
 		"StatusId": "StatusId 6",
 		"StatusText": "StatusText 6",
 		"FirstPaymentDate": "/Date(1197932374000)/",
@@ -969,1016 +969,6 @@
 		"CrossSellProductId": "CrossSellProductId 10",
 		"MinAmountOffered": 4.030902891822148,
 		"MaxAmountOffered": 5.759498207057101
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 10",
-		"ParentGroupName": "ParentGroupName 10"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%2010')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%2010')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%2010')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%2010')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%2010')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%2010')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%2010')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
-	"LoanRequestIdMD": "LoanRequestIdMD 1",
-	"CollaboratorID": "CollaboratorID 1",
-	"ProductID": "ProductID 1",
-	"ProcessType": "ProcessType 1",
-	"GroupRequestData": {
-		"GroupID": "GroupID 1",
-		"GroupName": "GroupName 1",
-		"ContractID": "ContractID 1",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 1",
-		"MeetingDate": "MeetingDate 1",
-		"MeetingTime": "MeetingTime 1",
-		"DelayPenalty": 7.325692446027912,
-		"MinimumSavingsAmount": 8.56113685313424,
-		"AbsencePenalty": 2.0609868706465084,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 1",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 1",
-			"CountryID": "CountryID 1",
-			"StateId": "StateId 1",
-			"TownId": "TownId 1",
-			"City": "City 1",
-			"Suburb": "Suburb 1",
-			"Street": "Street 1",
-			"OutsideNumber": "OutsideNumber 1",
-			"BetweenStreets1": "BetweenStreets1 1",
-			"BetweenStreets2": "BetweenStreets2 1",
-			"LocationReference": "LocationReference 1",
-			"InteriorNumber": "InteriorNumber 1",
-			"Comments": "Comments 1"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 1",
-			"PhoneNumber": "PhoneNumber 1"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": true,
-		"StartDate": "/Date(1260557243000)/",
-		"Cycle": 9531,
-		"StatusId": "StatusId 1",
-		"StatusText": "StatusText 1",
-		"FirstPaymentDate": "/Date(1430761643000)/",
-		"ExpenditureDate": "/Date(1259088443000)/",
-		"Term": "Term 1",
-		"Frequency": "Frequency 1",
-		"IsReadyToApprove": true,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 1",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 1",
-		"InsuranceProductId": "InsuranceProductId 1"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 1",
-	"SubsequenceType": "SubsequenceType 1",
-	"IsApproved": true,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 1",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 1",
-		"ParentProductId": "ParentProductId 1",
-		"CrossSellProductId": "CrossSellProductId 1",
-		"MinAmountOffered": 7.032849036352198,
-		"MaxAmountOffered": 1.6635767870921692
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 1",
-		"ParentGroupName": "ParentGroupName 1"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%201')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%201')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%201')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%201')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%201')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%201')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%201')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
-	"LoanRequestIdMD": "LoanRequestIdMD 2",
-	"CollaboratorID": "CollaboratorID 2",
-	"ProductID": "ProductID 2",
-	"ProcessType": "ProcessType 2",
-	"GroupRequestData": {
-		"GroupID": "GroupID 2",
-		"GroupName": "GroupName 2",
-		"ContractID": "ContractID 2",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 2",
-		"MeetingDate": "MeetingDate 2",
-		"MeetingTime": "MeetingTime 2",
-		"DelayPenalty": 6.7977489227778936,
-		"MinimumSavingsAmount": 5.059669042552713,
-		"AbsencePenalty": 4.454163816766421,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 2",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 2",
-			"CountryID": "CountryID 2",
-			"StateId": "StateId 2",
-			"TownId": "TownId 2",
-			"City": "City 2",
-			"Suburb": "Suburb 2",
-			"Street": "Street 2",
-			"OutsideNumber": "OutsideNumber 2",
-			"BetweenStreets1": "BetweenStreets1 2",
-			"BetweenStreets2": "BetweenStreets2 2",
-			"LocationReference": "LocationReference 2",
-			"InteriorNumber": "InteriorNumber 2",
-			"Comments": "Comments 2"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 2",
-			"PhoneNumber": "PhoneNumber 2"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": true,
-		"StartDate": "/Date(1139683643000)/",
-		"Cycle": 2655,
-		"StatusId": "StatusId 2",
-		"StatusText": "StatusText 2",
-		"FirstPaymentDate": "/Date(964374443000)/",
-		"ExpenditureDate": "/Date(1367689643000)/",
-		"Term": "Term 2",
-		"Frequency": "Frequency 2",
-		"IsReadyToApprove": false,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 2",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 2",
-		"InsuranceProductId": "InsuranceProductId 2"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 2",
-	"SubsequenceType": "SubsequenceType 2",
-	"IsApproved": true,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 2",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 2",
-		"ParentProductId": "ParentProductId 2",
-		"CrossSellProductId": "CrossSellProductId 2",
-		"MinAmountOffered": 3.0416895626883345,
-		"MaxAmountOffered": 0.2209535748376812
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 2",
-		"ParentGroupName": "ParentGroupName 2"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%202')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%202')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%202')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%202')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%202')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%202')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%202')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
-	"LoanRequestIdMD": "LoanRequestIdMD 3",
-	"CollaboratorID": "CollaboratorID 3",
-	"ProductID": "ProductID 3",
-	"ProcessType": "ProcessType 3",
-	"GroupRequestData": {
-		"GroupID": "GroupID 3",
-		"GroupName": "GroupName 3",
-		"ContractID": "ContractID 3",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 3",
-		"MeetingDate": "MeetingDate 3",
-		"MeetingTime": "MeetingTime 3",
-		"DelayPenalty": 6.827276928331656,
-		"MinimumSavingsAmount": 8.001490390779448,
-		"AbsencePenalty": 7.354411316870369,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 3",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 3",
-			"CountryID": "CountryID 3",
-			"StateId": "StateId 3",
-			"TownId": "TownId 3",
-			"City": "City 3",
-			"Suburb": "Suburb 3",
-			"Street": "Street 3",
-			"OutsideNumber": "OutsideNumber 3",
-			"BetweenStreets1": "BetweenStreets1 3",
-			"BetweenStreets2": "BetweenStreets2 3",
-			"LocationReference": "LocationReference 3",
-			"InteriorNumber": "InteriorNumber 3",
-			"Comments": "Comments 3"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 3",
-			"PhoneNumber": "PhoneNumber 3"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": true,
-		"StartDate": "/Date(1352486843000)/",
-		"Cycle": 8822,
-		"StatusId": "StatusId 3",
-		"StatusText": "StatusText 3",
-		"FirstPaymentDate": "/Date(1385232443000)/",
-		"ExpenditureDate": "/Date(1527961643000)/",
-		"Term": "Term 3",
-		"Frequency": "Frequency 3",
-		"IsReadyToApprove": false,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 3",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 3",
-		"InsuranceProductId": "InsuranceProductId 3"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 3",
-	"SubsequenceType": "SubsequenceType 3",
-	"IsApproved": false,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 3",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 3",
-		"ParentProductId": "ParentProductId 3",
-		"CrossSellProductId": "CrossSellProductId 3",
-		"MinAmountOffered": 8.588783384053924,
-		"MaxAmountOffered": 6.144537244327248
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 3",
-		"ParentGroupName": "ParentGroupName 3"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%203')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%203')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%203')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%203')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%203')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%203')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%203')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
-	"LoanRequestIdMD": "LoanRequestIdMD 4",
-	"CollaboratorID": "CollaboratorID 4",
-	"ProductID": "ProductID 4",
-	"ProcessType": "ProcessType 4",
-	"GroupRequestData": {
-		"GroupID": "GroupID 4",
-		"GroupName": "GroupName 4",
-		"ContractID": "ContractID 4",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 4",
-		"MeetingDate": "MeetingDate 4",
-		"MeetingTime": "MeetingTime 4",
-		"DelayPenalty": 9.128115013493565,
-		"MinimumSavingsAmount": 1.9115151861247037,
-		"AbsencePenalty": 2.7820849297330663,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 4",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 4",
-			"CountryID": "CountryID 4",
-			"StateId": "StateId 4",
-			"TownId": "TownId 4",
-			"City": "City 4",
-			"Suburb": "Suburb 4",
-			"Street": "Street 4",
-			"OutsideNumber": "OutsideNumber 4",
-			"BetweenStreets1": "BetweenStreets1 4",
-			"BetweenStreets2": "BetweenStreets2 4",
-			"LocationReference": "LocationReference 4",
-			"InteriorNumber": "InteriorNumber 4",
-			"Comments": "Comments 4"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 4",
-			"PhoneNumber": "PhoneNumber 4"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": true,
-		"StartDate": "/Date(971545643000)/",
-		"Cycle": 7122,
-		"StatusId": "StatusId 4",
-		"StatusText": "StatusText 4",
-		"FirstPaymentDate": "/Date(1130957243000)/",
-		"ExpenditureDate": "/Date(1071514043000)/",
-		"Term": "Term 4",
-		"Frequency": "Frequency 4",
-		"IsReadyToApprove": true,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 4",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 4",
-		"InsuranceProductId": "InsuranceProductId 4"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 4",
-	"SubsequenceType": "SubsequenceType 4",
-	"IsApproved": false,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 4",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 4",
-		"ParentProductId": "ParentProductId 4",
-		"CrossSellProductId": "CrossSellProductId 4",
-		"MinAmountOffered": 7.780915793513636,
-		"MaxAmountOffered": 8.507916885316288
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 4",
-		"ParentGroupName": "ParentGroupName 4"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%204')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%204')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%204')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%204')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%204')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%204')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%204')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
-	"LoanRequestIdMD": "LoanRequestIdMD 5",
-	"CollaboratorID": "CollaboratorID 5",
-	"ProductID": "ProductID 5",
-	"ProcessType": "ProcessType 5",
-	"GroupRequestData": {
-		"GroupID": "GroupID 5",
-		"GroupName": "GroupName 5",
-		"ContractID": "ContractID 5",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 5",
-		"MeetingDate": "MeetingDate 5",
-		"MeetingTime": "MeetingTime 5",
-		"DelayPenalty": 0.01971416233638168,
-		"MinimumSavingsAmount": 7.644507168908041,
-		"AbsencePenalty": 1.3614244857459434,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 5",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 5",
-			"CountryID": "CountryID 5",
-			"StateId": "StateId 5",
-			"TownId": "TownId 5",
-			"City": "City 5",
-			"Suburb": "Suburb 5",
-			"Street": "Street 5",
-			"OutsideNumber": "OutsideNumber 5",
-			"BetweenStreets1": "BetweenStreets1 5",
-			"BetweenStreets2": "BetweenStreets2 5",
-			"LocationReference": "LocationReference 5",
-			"InteriorNumber": "InteriorNumber 5",
-			"Comments": "Comments 5"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 5",
-			"PhoneNumber": "PhoneNumber 5"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": false,
-		"StartDate": "/Date(1124128043000)/",
-		"Cycle": 5882,
-		"StatusId": "StatusId 5",
-		"StatusText": "StatusText 5",
-		"FirstPaymentDate": "/Date(967312043000)/",
-		"ExpenditureDate": "/Date(1224438443000)/",
-		"Term": "Term 5",
-		"Frequency": "Frequency 5",
-		"IsReadyToApprove": true,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 5",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 5",
-		"InsuranceProductId": "InsuranceProductId 5"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 5",
-	"SubsequenceType": "SubsequenceType 5",
-	"IsApproved": false,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 5",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 5",
-		"ParentProductId": "ParentProductId 5",
-		"CrossSellProductId": "CrossSellProductId 5",
-		"MinAmountOffered": 6.456597863494544,
-		"MaxAmountOffered": 3.459290838897666
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 5",
-		"ParentGroupName": "ParentGroupName 5"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%205')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%205')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%205')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%205')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%205')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%205')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%205')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
-	"LoanRequestIdMD": "LoanRequestIdMD 6",
-	"CollaboratorID": "CollaboratorID 6",
-	"ProductID": "ProductID 6",
-	"ProcessType": "ProcessType 6",
-	"GroupRequestData": {
-		"GroupID": "GroupID 6",
-		"GroupName": "GroupName 6",
-		"ContractID": "ContractID 6",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 6",
-		"MeetingDate": "MeetingDate 6",
-		"MeetingTime": "MeetingTime 6",
-		"DelayPenalty": 5.762145674950272,
-		"MinimumSavingsAmount": 5.534869923589381,
-		"AbsencePenalty": 4.562698855303551,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 6",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 6",
-			"CountryID": "CountryID 6",
-			"StateId": "StateId 6",
-			"TownId": "TownId 6",
-			"City": "City 6",
-			"Suburb": "Suburb 6",
-			"Street": "Street 6",
-			"OutsideNumber": "OutsideNumber 6",
-			"BetweenStreets1": "BetweenStreets1 6",
-			"BetweenStreets2": "BetweenStreets2 6",
-			"LocationReference": "LocationReference 6",
-			"InteriorNumber": "InteriorNumber 6",
-			"Comments": "Comments 6"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 6",
-			"PhoneNumber": "PhoneNumber 6"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": true,
-		"StartDate": "/Date(1237402043000)/",
-		"Cycle": 6259,
-		"StatusId": "StatusId 6",
-		"StatusText": "StatusText 6",
-		"FirstPaymentDate": "/Date(1575571643000)/",
-		"ExpenditureDate": "/Date(1161452843000)/",
-		"Term": "Term 6",
-		"Frequency": "Frequency 6",
-		"IsReadyToApprove": true,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 6",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 6",
-		"InsuranceProductId": "InsuranceProductId 6"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 6",
-	"SubsequenceType": "SubsequenceType 6",
-	"IsApproved": true,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 6",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 6",
-		"ParentProductId": "ParentProductId 6",
-		"CrossSellProductId": "CrossSellProductId 6",
-		"MinAmountOffered": 7.410875397927561,
-		"MaxAmountOffered": 2.8779501226551463
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 6",
-		"ParentGroupName": "ParentGroupName 6"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%206')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%206')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%206')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%206')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%206')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%206')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%206')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 7",
-	"LoanRequestIdMD": "LoanRequestIdMD 7",
-	"CollaboratorID": "CollaboratorID 7",
-	"ProductID": "ProductID 7",
-	"ProcessType": "ProcessType 7",
-	"GroupRequestData": {
-		"GroupID": "GroupID 7",
-		"GroupName": "GroupName 7",
-		"ContractID": "ContractID 7",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 7",
-		"MeetingDate": "MeetingDate 7",
-		"MeetingTime": "MeetingTime 7",
-		"DelayPenalty": 9.129857556906089,
-		"MinimumSavingsAmount": 5.574789145369996,
-		"AbsencePenalty": 9.986712180338719,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 7",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 7",
-			"CountryID": "CountryID 7",
-			"StateId": "StateId 7",
-			"TownId": "TownId 7",
-			"City": "City 7",
-			"Suburb": "Suburb 7",
-			"Street": "Street 7",
-			"OutsideNumber": "OutsideNumber 7",
-			"BetweenStreets1": "BetweenStreets1 7",
-			"BetweenStreets2": "BetweenStreets2 7",
-			"LocationReference": "LocationReference 7",
-			"InteriorNumber": "InteriorNumber 7",
-			"Comments": "Comments 7"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 7",
-			"PhoneNumber": "PhoneNumber 7"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": false,
-		"StartDate": "/Date(1533059243000)/",
-		"Cycle": 3979,
-		"StatusId": "StatusId 7",
-		"StatusText": "StatusText 7",
-		"FirstPaymentDate": "/Date(1256233643000)/",
-		"ExpenditureDate": "/Date(1163098043000)/",
-		"Term": "Term 7",
-		"Frequency": "Frequency 7",
-		"IsReadyToApprove": true,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 7",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 7",
-		"InsuranceProductId": "InsuranceProductId 7"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 7",
-	"SubsequenceType": "SubsequenceType 7",
-	"IsApproved": true,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 7",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 7",
-		"ParentProductId": "ParentProductId 7",
-		"CrossSellProductId": "CrossSellProductId 7",
-		"MinAmountOffered": 8.699657888015672,
-		"MaxAmountOffered": 1.4769357688373863
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 7",
-		"ParentGroupName": "ParentGroupName 7"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%207')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%207')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%207')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%207')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%207')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%207')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%207')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
-	"LoanRequestIdMD": "LoanRequestIdMD 8",
-	"CollaboratorID": "CollaboratorID 8",
-	"ProductID": "ProductID 8",
-	"ProcessType": "ProcessType 8",
-	"GroupRequestData": {
-		"GroupID": "GroupID 8",
-		"GroupName": "GroupName 8",
-		"ContractID": "ContractID 8",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 8",
-		"MeetingDate": "MeetingDate 8",
-		"MeetingTime": "MeetingTime 8",
-		"DelayPenalty": 3.436849357410976,
-		"MinimumSavingsAmount": 9.07207694060287,
-		"AbsencePenalty": 3.0233166650860754,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 8",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 8",
-			"CountryID": "CountryID 8",
-			"StateId": "StateId 8",
-			"TownId": "TownId 8",
-			"City": "City 8",
-			"Suburb": "Suburb 8",
-			"Street": "Street 8",
-			"OutsideNumber": "OutsideNumber 8",
-			"BetweenStreets1": "BetweenStreets1 8",
-			"BetweenStreets2": "BetweenStreets2 8",
-			"LocationReference": "LocationReference 8",
-			"InteriorNumber": "InteriorNumber 8",
-			"Comments": "Comments 8"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 8",
-			"PhoneNumber": "PhoneNumber 8"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": false,
-		"StartDate": "/Date(1082224043000)/",
-		"Cycle": 7786,
-		"StatusId": "StatusId 8",
-		"StatusText": "StatusText 8",
-		"FirstPaymentDate": "/Date(1456166843000)/",
-		"ExpenditureDate": "/Date(1056131243000)/",
-		"Term": "Term 8",
-		"Frequency": "Frequency 8",
-		"IsReadyToApprove": false,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 8",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 8",
-		"InsuranceProductId": "InsuranceProductId 8"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 8",
-	"SubsequenceType": "SubsequenceType 8",
-	"IsApproved": true,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 8",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 8",
-		"ParentProductId": "ParentProductId 8",
-		"CrossSellProductId": "CrossSellProductId 8",
-		"MinAmountOffered": 0.3440781707833773,
-		"MaxAmountOffered": 8.205096305357575
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 8",
-		"ParentGroupName": "ParentGroupName 8"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%208')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%208')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%208')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%208')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%208')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%208')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%208')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
-	"LoanRequestIdMD": "LoanRequestIdMD 9",
-	"CollaboratorID": "CollaboratorID 9",
-	"ProductID": "ProductID 9",
-	"ProcessType": "ProcessType 9",
-	"GroupRequestData": {
-		"GroupID": "GroupID 9",
-		"GroupName": "GroupName 9",
-		"ContractID": "ContractID 9",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 9",
-		"MeetingDate": "MeetingDate 9",
-		"MeetingTime": "MeetingTime 9",
-		"DelayPenalty": 6.398908640286434,
-		"MinimumSavingsAmount": 7.381850375904704,
-		"AbsencePenalty": 4.0293171220014194,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 9",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 9",
-			"CountryID": "CountryID 9",
-			"StateId": "StateId 9",
-			"TownId": "TownId 9",
-			"City": "City 9",
-			"Suburb": "Suburb 9",
-			"Street": "Street 9",
-			"OutsideNumber": "OutsideNumber 9",
-			"BetweenStreets1": "BetweenStreets1 9",
-			"BetweenStreets2": "BetweenStreets2 9",
-			"LocationReference": "LocationReference 9",
-			"InteriorNumber": "InteriorNumber 9",
-			"Comments": "Comments 9"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 9",
-			"PhoneNumber": "PhoneNumber 9"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": false,
-		"StartDate": "/Date(1281462443000)/",
-		"Cycle": 718,
-		"StatusId": "StatusId 9",
-		"StatusText": "StatusText 9",
-		"FirstPaymentDate": "/Date(1365443243000)/",
-		"ExpenditureDate": "/Date(1029088043000)/",
-		"Term": "Term 9",
-		"Frequency": "Frequency 9",
-		"IsReadyToApprove": true,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 9",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 9",
-		"InsuranceProductId": "InsuranceProductId 9"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 9",
-	"SubsequenceType": "SubsequenceType 9",
-	"IsApproved": false,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 9",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 9",
-		"ParentProductId": "ParentProductId 9",
-		"CrossSellProductId": "CrossSellProductId 9",
-		"MinAmountOffered": 6.32780315887813,
-		"MaxAmountOffered": 2.9310555522670234
-	},
-	"LRGroupCrossSell": {
-		"ParentGroupId": "ParentGroupId 9",
-		"ParentGroupName": "ParentGroupName 9"
-	},
-	"__metadata": {
-		"uri": "LoanRequestSet('LoanRequestIdCRM%209')",
-		"type": "AOMobile.LoanRequest"
-	},
-	"LinkSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%209')/LinkSet"
-		}
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%209')/LinkGuarantorSet"
-		}
-	},
-	"InsuranceSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%209')/InsuranceSet"
-		}
-	},
-	"ElectronicSignatureSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%209')/ElectronicSignatureSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%209')/ImageSet"
-		}
-	},
-	"GroupCrossSellAssignedGuarantorSet": {
-		"__deferred": {
-			"uri": "LoanRequestSet('LoanRequestIdCRM%209')/GroupCrossSellAssignedGuarantorSet"
-		}
-	}
-}, {
-	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
-	"LoanRequestIdMD": "LoanRequestIdMD 10",
-	"CollaboratorID": "CollaboratorID 10",
-	"ProductID": "ProductID 10",
-	"ProcessType": "ProcessType 10",
-	"GroupRequestData": {
-		"GroupID": "GroupID 10",
-		"GroupName": "GroupName 10",
-		"ContractID": "ContractID 10",
-		"MemberIDSharingHouseCRM": "MemberIDSharingHouseCRM 10",
-		"MeetingDate": "MeetingDate 10",
-		"MeetingTime": "MeetingTime 10",
-		"DelayPenalty": 3.9680793976268736,
-		"MinimumSavingsAmount": 2.3747870782718183,
-		"AbsencePenalty": 7.9057324308711845,
-		"MemberIDSharingHouseMD": "MemberIDSharingHouseMD 10",
-		"GroupMeetingPlace": {
-			"PostalCode": "PostalCode 10",
-			"CountryID": "CountryID 10",
-			"StateId": "StateId 10",
-			"TownId": "TownId 10",
-			"City": "City 10",
-			"Suburb": "Suburb 10",
-			"Street": "Street 10",
-			"OutsideNumber": "OutsideNumber 10",
-			"BetweenStreets1": "BetweenStreets1 10",
-			"BetweenStreets2": "BetweenStreets2 10",
-			"LocationReference": "LocationReference 10",
-			"InteriorNumber": "InteriorNumber 10",
-			"Comments": "Comments 10"
-		},
-		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 10",
-			"PhoneNumber": "PhoneNumber 10"
-		}
-	},
-	"GeneralLoanRequestData": {
-		"IsRenewal": true,
-		"StartDate": "/Date(1272476843000)/",
-		"Cycle": 4723,
-		"StatusId": "StatusId 10",
-		"StatusText": "StatusText 10",
-		"FirstPaymentDate": "/Date(970422443000)/",
-		"ExpenditureDate": "/Date(1109789243000)/",
-		"Term": "Term 10",
-		"Frequency": "Frequency 10",
-		"IsReadyToApprove": false,
-		"IsReadyToApproveDescription": "IsReadyToApproveDescription 10",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 10",
-		"InsuranceProductId": "InsuranceProductId 10"
-	},
-	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 10",
-	"SubsequenceType": "SubsequenceType 10",
-	"IsApproved": false,
-	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 10",
-		"ParentLoanRequestIdMD": "ParentLoanRequestIdMD 10",
-		"ParentProductId": "ParentProductId 10",
-		"CrossSellProductId": "CrossSellProductId 10",
-		"MinAmountOffered": 0.3222656638720922,
-		"MaxAmountOffered": 4.242748157154468
 	},
 	"LRGroupCrossSell": {
 		"ParentGroupId": "ParentGroupId 10",

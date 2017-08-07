@@ -3,13 +3,13 @@
 	"CustomerIdMD": "CustomerIdMD 1",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 1",
-		"MiddleName": "MiddleName 1",
-		"LastName": "LastName 1",
-		"SecondName": "SecondName 1"
+		"FirstName": "Ramiro",
+		"MiddleName": "Ramón",
+		"LastName": "Individual",
+		"SecondName": "Robles"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 1",
+		"ProductId": "C_IND_CI",
 		"RegistrationDate": "/Date(1454713177000)/",
 		"RoleId": "RoleId 1",
 		"StatusId": "StatusId 1",
@@ -136,13 +136,13 @@
 	"CustomerIdMD": "CustomerIdMD 2",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 2",
-		"MiddleName": "MiddleName 2",
-		"LastName": "LastName 2",
-		"SecondName": "SecondName 2"
+		"FirstName": "Geovana",
+		"MiddleName": "Grisel",
+		"LastName": "Mujer1",
+		"SecondName": "Farfan"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 2",
+		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1516921177000)/",
 		"RoleId": "RoleId 2",
 		"StatusId": "StatusId 2",
@@ -269,13 +269,13 @@
 	"CustomerIdMD": "CustomerIdMD 3",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 3",
-		"MiddleName": "MiddleName 3",
-		"LastName": "LastName 3",
-		"SecondName": "SecondName 3"
+		"FirstName": "Margarita",
+		"MiddleName": "Mendez",
+		"LastName": "Mujer1",
+		"SecondName": "Gutierrez"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 3",
+		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1046473177000)/",
 		"RoleId": "RoleId 3",
 		"StatusId": "StatusId 3",
@@ -402,13 +402,13 @@
 	"CustomerIdMD": "CustomerIdMD 4",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 4",
-		"MiddleName": "MiddleName 4",
-		"LastName": "LastName 4",
-		"SecondName": "SecondName 4"
+		"FirstName": "Sabrina",
+		"MiddleName": "Sarai",
+		"LastName": "Individual",
+		"SecondName": "Sánchez"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 4",
+		"ProductId": "C_IND_CI",
 		"RegistrationDate": "/Date(1559339977000)/",
 		"RoleId": "RoleId 4",
 		"StatusId": "StatusId 4",

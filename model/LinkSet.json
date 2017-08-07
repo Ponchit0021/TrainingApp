@@ -148,9 +148,9 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 3",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
 	"CustomerIdMD": "CustomerIdMD 3",
-	"LoanRequestIdMD": "LoanRequestIdMD 3",
+	"LoanRequestIdMD": "LoanRequestIdMD 2",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 3",
@@ -207,17 +207,17 @@
 		"LoanDestiny": "LoanDestiny 3"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%203')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%202')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%203')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%202')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%203')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%203',LoanRequestIdCRM='LoanRequestIdCRM%202')/LoanRequest"
 		}
 	}
 }, {
