@@ -326,10 +326,14 @@
         var oController, oIndexes, oFilters, oDataModel;
         oController = this;
         oDataModel = new sap.ui.model.json.JSONModel();
+        //Training
+        var element = _oArg.CustomerIdCRM;
+        var index = element.split(" ");
+        var id = 'Insurance_2_InsuranceIdMD ' + index[1]
         oIndexes = ['data.CustomerIdCRM'];
         oFilters = {
             $and: [{
-                '_id': { $eq: 'Insurance\uffff' }
+                '_id': { $eq: id }
             }, {
                 'data.CustomerIdCRM': { $eq: _oArg.CustomerIdCRM }
             }]
