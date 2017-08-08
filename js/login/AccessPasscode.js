@@ -15,8 +15,6 @@
 
         if(sap.ui.getCore().byId("txtAccessPasscode").getValue()===localStorage.getItem("passCode")){
             var loginBasic= new sap.ui.login.Basic();
-            loginBasic.hideForm('.form-logon');
-            
             localStorage.setItem("isAuth",true);
             loginBasic.destroyContent("passCodeAccessForm");
             

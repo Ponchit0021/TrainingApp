@@ -18,7 +18,6 @@
             
             localStorage.setItem("isAuth",true);
             localStorage.setItem("passCode",sap.ui.getCore().byId("txtPasscode").getValue());
-            loginBasic.hideForm('.form-logon');
             loginBasic.destroyContent("passCodeForm");
             loginBasic.createShell();
         }

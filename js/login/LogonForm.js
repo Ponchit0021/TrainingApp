@@ -50,7 +50,6 @@
            if(localStorage.getItem("isAuth")==="true"){
             var passCodeForm=new sap.ui.mw.forms.initial.AccessPasscode();
             passCodeForm.createForm(this).placeAt("content");
-            loginBasic.hideForm('.form-logon');
             resolve(true);
             }else{
                 oForm = oLayoutBase.createForm("formLogon", true, 1, "").destroyContent();
