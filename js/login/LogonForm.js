@@ -50,10 +50,12 @@
            if(localStorage.getItem("isAuth")==="true"){
             var passCodeForm=new sap.ui.mw.forms.initial.AccessPasscode();
             passCodeForm.createForm(this).placeAt("content");
+            loginBasic.hideForm('.form-logon');
             resolve(true);
             }else{
                 oForm = oLayoutBase.createForm("formLogon", true, 1, "").destroyContent();
                 oForm.addStyleClass("form-logon");
+               // loginBasic.hideForm('.form-logon');
 
                 oForm.addContent(oDisplayBase.createLabelHTML("lblCodAccesoOriginacion1","lblMessage","Introduzca la siguiente información como se indica en las instrucciones de su gestor TI"));
                 oForm.addContent(oDisplayBase.createLabel("", ""));

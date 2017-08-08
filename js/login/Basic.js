@@ -23,6 +23,10 @@
         sap.ui.getCore().AppContext.oRest = sap.ui.getCore().AppContext.myRest;
 
     };
+    sap.ui.login.Basic.prototype.hideForm=function(_class){
+        setTimeout(function(){$(_class).hide();},100)
+
+    }
     sap.ui.login.Basic.prototype.destroyContent=function(form){
         sap.ui.getCore().byId(form).destroyContent();
         

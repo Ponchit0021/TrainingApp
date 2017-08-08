@@ -15,8 +15,10 @@
         if(sap.ui.getCore().byId("txtPasscode").getValue()===sap.ui.getCore().byId("txtPasscodeConfirm").getValue())
         {
             var loginBasic= new sap.ui.login.Basic();
+            
             localStorage.setItem("isAuth",true);
             localStorage.setItem("passCode",sap.ui.getCore().byId("txtPasscode").getValue());
+            loginBasic.hideForm('.form-logon');
             loginBasic.destroyContent("passCodeForm");
             loginBasic.createShell();
         }
