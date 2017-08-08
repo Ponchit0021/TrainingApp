@@ -26,6 +26,24 @@
 
     }
 
+    sap.ui.mw.forms.initial.AccessPasscode.prototype.forgotPassword=function(){
+        localStorage.setItem("isAuth",false);
+        localStorage.setItem("passCode",false);
+
+        var logonSMP, loginBasic;
+        jQuery.sap.require("js.login.LogonForm","js.login.Basic");
+
+        logonSMP=new sap.ui.mw.forms.initial.logon();
+        loginBasic= new sap.ui.login.Basic();
+        
+        loginBasic.destroyContent("passCodeAccessForm");
+        //currentClass.hideLoader();
+        logonSMP.createForm(this).then(function(resp){
+            console.log(resp);
+        })
+        
+    }
+
     sap.ui.mw.forms.initial.AccessPasscode.prototype.createForm = function(oController) {
 
         var oInputBase, oDisplayBase,oActionBase,oLayoutBase,oEventBase,oForm;
@@ -36,13 +54,14 @@
         oLayoutBase = new sap.ui.mw.LayoutBase();
 
         oForm = oLayoutBase.createForm("passCodeAccessForm", true, 1, "").destroyContent();
-        oForm.addContent(oDisplayBase.createLabelHTML("","class","Introduzca la siguiente información como se indica en las instrucciones de su gestor TI"));
+        oForm.addStyleClass("form-logon");
+        oForm.addContent(oDisplayBase.createLabelHTML("lblCodAccesoOriginacion2","class","Introduzca la siguiente información como se indica en las instrucciones de su gestor TI"));
         oForm.addContent(oDisplayBase.createLabel("", ""));
-        oForm.addContent(oInputBase.createInputText("txtAccessPasscode", "Password", "", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
+        oForm.addContent(oInputBase.createInputText("txtAccessPasscode", "Password", "", "", true, true, "", true).setMaxLength(26));
         oForm.addContent(oDisplayBase.createLabel("", ""));
         oForm.addContent(oActionBase.createButton("", "OK", "Emphasized", "", this.reviewPassCode, this));
         oForm.addContent(oDisplayBase.createLabel("", ""));
-        oForm.addContent(oActionBase.createButton("", "Código de Acceso olvidado", "Default", "", this.reviewUser, this));
+        oForm.addContent(oActionBase.createButton("", "Código de Acceso olvidado", "Default", "", this.forgotPassword, this));
         oForm.addContent(oDisplayBase.createLabel("", ""));
         oForm.addContent(oDisplayBase.createLabelHTML("","class","Copyright"));
 
