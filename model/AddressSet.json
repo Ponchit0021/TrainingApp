@@ -1,5 +1,5 @@
 [{
-	"AddressTypeId": "AddressTypeId 1",
+	"AddressTypeId": "1",
 	"CustomerIdCRM": "CustomerIdCRM 1",
 	"IsMainAddress": false,
 	"Latitude": 4.058521030634534,
@@ -26,7 +26,7 @@
 		"type": "AOMobile.Address"
 	}
 }, {
-	"AddressTypeId": "AddressTypeId 2",
+	"AddressTypeId": "2",
 	"CustomerIdCRM": "CustomerIdCRM 2",
 	"IsMainAddress": false,
 	"Latitude": 3.088298941635259,
@@ -53,7 +53,7 @@
 		"type": "AOMobile.Address"
 	}
 }, {
-	"AddressTypeId": "AddressTypeId 3",
+	"AddressTypeId": "1",
 	"CustomerIdCRM": "CustomerIdCRM 3",
 	"IsMainAddress": true,
 	"Latitude": 2.5758677967634735,
@@ -80,7 +80,7 @@
 		"type": "AOMobile.Address"
 	}
 }, {
-	"AddressTypeId": "AddressTypeId 4",
+	"AddressTypeId": "3",
 	"CustomerIdCRM": "CustomerIdCRM 4",
 	"IsMainAddress": false,
 	"Latitude": 1.010060482255557,
@@ -107,7 +107,7 @@
 		"type": "AOMobile.Address"
 	}
 }, {
-	"AddressTypeId": "AddressTypeId 5",
+	"AddressTypeId": "3",
 	"CustomerIdCRM": "CustomerIdCRM 5",
 	"IsMainAddress": true,
 	"Latitude": 8.382364642130513,
@@ -134,7 +134,7 @@
 		"type": "AOMobile.Address"
 	}
 }, {
-	"AddressTypeId": "AddressTypeId 6",
+	"AddressTypeId": "3",
 	"CustomerIdCRM": "CustomerIdCRM 6",
 	"IsMainAddress": true,
 	"Latitude": 2.9563106331513866,
@@ -161,7 +161,7 @@
 		"type": "AOMobile.Address"
 	}
 }, {
-	"AddressTypeId": "AddressTypeId 7",
+	"AddressTypeId": "2",
 	"CustomerIdCRM": "CustomerIdCRM 7",
 	"IsMainAddress": true,
 	"Latitude": 6.309357254358217,
@@ -215,7 +215,7 @@
 		"type": "AOMobile.Address"
 	}
 }, {
-	"AddressTypeId": "AddressTypeId 9",
+	"AddressTypeId": "3",
 	"CustomerIdCRM": "CustomerIdCRM 9",
 	"IsMainAddress": true,
 	"Latitude": 8.97072345543801,
@@ -242,7 +242,7 @@
 		"type": "AOMobile.Address"
 	}
 }, {
-	"AddressTypeId": "AddressTypeId 10",
+	"AddressTypeId": "2",
 	"CustomerIdCRM": "CustomerIdCRM 10",
 	"IsMainAddress": true,
 	"Latitude": 9.305614964082734,

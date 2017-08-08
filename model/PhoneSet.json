@@ -1,7 +1,7 @@
 [{
-	"PhoneTypeId": "PhoneTypeId 1",
+	"PhoneTypeId": "1",
 	"CustomerIdCRM": "CustomerIdCRM 1",
-	"PhoneNumber": "PhoneNumber 1",
+	"PhoneNumber": "5586523233",
 	"CustomerIdMD": "CustomerIdMD 1",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -9,9 +9,9 @@
 		"type": "AOMobile.Phone"
 	}
 }, {
-	"PhoneTypeId": "PhoneTypeId 2",
+	"PhoneTypeId": "2",
 	"CustomerIdCRM": "CustomerIdCRM 2",
-	"PhoneNumber": "PhoneNumber 2",
+	"PhoneNumber": "5552342432",
 	"CustomerIdMD": "CustomerIdMD 2",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -19,9 +19,9 @@
 		"type": "AOMobile.Phone"
 	}
 }, {
-	"PhoneTypeId": "PhoneTypeId 3",
+	"PhoneTypeId": "3",
 	"CustomerIdCRM": "CustomerIdCRM 3",
-	"PhoneNumber": "PhoneNumber 3",
+	"PhoneNumber": "552134324",
 	"CustomerIdMD": "CustomerIdMD 3",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -29,9 +29,9 @@
 		"type": "AOMobile.Phone"
 	}
 }, {
-	"PhoneTypeId": "PhoneTypeId 4",
+	"PhoneTypeId": "5",
 	"CustomerIdCRM": "CustomerIdCRM 4",
-	"PhoneNumber": "PhoneNumber 4",
+	"PhoneNumber": "5523423442",
 	"CustomerIdMD": "CustomerIdMD 4",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -39,9 +39,9 @@
 		"type": "AOMobile.Phone"
 	}
 }, {
-	"PhoneTypeId": "PhoneTypeId 5",
+	"PhoneTypeId": "3",
 	"CustomerIdCRM": "CustomerIdCRM 5",
-	"PhoneNumber": "PhoneNumber 5",
+	"PhoneNumber": "5578786789",
 	"CustomerIdMD": "CustomerIdMD 5",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -49,9 +49,9 @@
 		"type": "AOMobile.Phone"
 	}
 }, {
-	"PhoneTypeId": "PhoneTypeId 6",
+	"PhoneTypeId": "2",
 	"CustomerIdCRM": "CustomerIdCRM 6",
-	"PhoneNumber": "PhoneNumber 6",
+	"PhoneNumber": "55456456456",
 	"CustomerIdMD": "CustomerIdMD 6",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -59,9 +59,9 @@
 		"type": "AOMobile.Phone"
 	}
 }, {
-	"PhoneTypeId": "PhoneTypeId 7",
+	"PhoneTypeId": "2",
 	"CustomerIdCRM": "CustomerIdCRM 7",
-	"PhoneNumber": "PhoneNumber 7",
+	"PhoneNumber": "55345345345",
 	"CustomerIdMD": "CustomerIdMD 7",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -69,9 +69,9 @@
 		"type": "AOMobile.Phone"
 	}
 }, {
-	"PhoneTypeId": "PhoneTypeId 8",
+	"PhoneTypeId": "3",
 	"CustomerIdCRM": "CustomerIdCRM 8",
-	"PhoneNumber": "PhoneNumber 8",
+	"PhoneNumber": "5522341236",
 	"CustomerIdMD": "CustomerIdMD 8",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -79,9 +79,9 @@
 		"type": "AOMobile.Phone"
 	}
 }, {
-	"PhoneTypeId": "PhoneTypeId 9",
+	"PhoneTypeId": "1",
 	"CustomerIdCRM": "CustomerIdCRM 9",
-	"PhoneNumber": "PhoneNumber 9",
+	"PhoneNumber": "55888878567",
 	"CustomerIdMD": "CustomerIdMD 9",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -89,9 +89,9 @@
 		"type": "AOMobile.Phone"
 	}
 }, {
-	"PhoneTypeId": "PhoneTypeId 10",
+	"PhoneTypeId": "3",
 	"CustomerIdCRM": "CustomerIdCRM 10",
-	"PhoneNumber": "PhoneNumber 10",
+	"PhoneNumber": "552324234323",
 	"CustomerIdMD": "CustomerIdMD 10",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
