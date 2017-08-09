@@ -11,7 +11,7 @@
 	"BpMainData": {
 		"ProductId": "C_IND_CI",
 		"RegistrationDate": "/Date(1454713177000)/",
-		"RoleId": "RoleId 1",
+		"RoleId": "ZFS003",
 		"StatusId": "StatusId 1",
 		"StatusReasonId": "StatusReasonId 1",
 		"SourceName": "SourceName 1",
@@ -20,7 +20,7 @@
 		"ServiceOfficeName": "ServiceOfficeName 1",
 		"ContactLaterDate": "/Date(1379282377000)/",
 		"ContactLaterTime": "PT7H50M13S",
-		"Cycle": 634,
+		"Cycle": 0,
 		"RemainingDays": 141,
 		"ServiceLevelId": 1918,
 		"SourceId": "SourceId 1",
@@ -144,7 +144,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1516921177000)/",
-		"RoleId": "RoleId 2",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 2",
 		"SourceName": "SourceName 2",
@@ -277,7 +277,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1046473177000)/",
-		"RoleId": "RoleId 3",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 3",
 		"SourceName": "SourceName 3",
@@ -410,7 +410,7 @@
 	"BpMainData": {
 		"ProductId": "C_IND_CI",
 		"RegistrationDate": "/Date(1559339977000)/",
-		"RoleId": "RoleId 4",
+		"RoleId": "ZFS003",
 		"StatusId": "StatusId 4",
 		"StatusReasonId": "StatusReasonId 4",
 		"SourceName": "SourceName 4",
@@ -543,7 +543,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1187992777000)/",
-		"RoleId": "RoleId 5",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 5",
 		"SourceName": "SourceName 5",
@@ -676,7 +676,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1135810777000)/",
-		"RoleId": "RoleId 6",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 6",
 		"SourceName": "SourceName 6",
@@ -809,7 +809,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(957304777000)/",
-		"RoleId": "RoleId 7",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 7",
 		"SourceName": "SourceName 7",
@@ -942,7 +942,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1149199177000)/",
-		"RoleId": "RoleId 8",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 8",
 		"SourceName": "SourceName 8",
@@ -1075,7 +1075,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1092434377000)/",
-		"RoleId": "RoleId 9",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 9",
 		"SourceName": "SourceName 9",
@@ -1208,7 +1208,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1470434377000)/",
-		"RoleId": "RoleId 10",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 10",
 		"SourceName": "SourceName 10",
@@ -1341,7 +1341,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1209750643000)/",
-		"RoleId": "RoleId 11",
+		"RoleId": "ZFS003",
 		"StatusId": "StatusId 11",
 		"StatusReasonId": "StatusReasonId 11",
 		"SourceName": "SourceName 11",
@@ -1474,7 +1474,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(948567043000)/",
-		"RoleId": "RoleId 12",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 12",
 		"SourceName": "SourceName 12",
@@ -1607,7 +1607,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1015613443000)/",
-		"RoleId": "RoleId 13",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 13",
 		"SourceName": "SourceName 13",
@@ -1740,7 +1740,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(967830643000)/",
-		"RoleId": "RoleId 14",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 14",
 		"SourceName": "SourceName 14",
@@ -1873,7 +1873,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1357671043000)/",
-		"RoleId": "RoleId 15",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 15",
 		"SourceName": "SourceName 15",
@@ -2006,7 +2006,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1329504643000)/",
-		"RoleId": "RoleId 16",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 16",
 		"SourceName": "SourceName 16",
@@ -2139,7 +2139,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1090518643000)/",
-		"RoleId": "RoleId 17",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 17",
 		"SourceName": "SourceName 17",
@@ -2272,7 +2272,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(951763843000)/",
-		"RoleId": "RoleId 18",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 18",
 		"SourceName": "SourceName 18",
@@ -2405,7 +2405,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1113241843000)/",
-		"RoleId": "RoleId 19",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 19",
 		"SourceName": "SourceName 19",
@@ -2538,7 +2538,7 @@
 	"BpMainData": {
 		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1039200643000)/",
-		"RoleId": "RoleId 20",
+		"RoleId": "ZFS003",
 		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 20",
 		"SourceName": "SourceName 20",
@@ -3992,30 +3992,31 @@
 	"CustomerIdCRM": "CustomerIdCRM 31",
 	"CustomerIdMD": "CustomerIdMD 31",
 	"CollaboratorID": "Genesis",
+	"IsEntityInQueue": true,
 	"BpName": {
-		"FirstName": "FirstName 31",
-		"MiddleName": "MiddleName 31",
-		"LastName": "LastName 31",
-		"SecondName": "SecondName 31"
+		"FirstName": "Karina",
+		"MiddleName": "Karla",
+		"LastName": "Munoz",
+		"SecondName": "Gutierrez"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 31",
+		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1552935044000)/",
-		"RoleId": "RoleId 31",
-		"StatusId": "StatusId 31",
-		"StatusReasonId": "StatusReasonId 31",
-		"SourceName": "SourceName 31",
-		"LeadIdCRM": "LeadIdCRM 31",
+		"RoleId": "ZFS003",
+		"StatusId": "E0006",
+		"StatusReasonId": "000",
+		"SourceName": "",
+		"LeadIdCRM": "",
 		"ServiceOfficeID": "ServiceOfficeID 31",
 		"ServiceOfficeName": "ServiceOfficeName 31",
 		"ContactLaterDate": "/Date(1278611444000)/",
 		"ContactLaterTime": "PT2H41M16S",
-		"Cycle": 7736,
-		"RemainingDays": 1772,
-		"ServiceLevelId": 5295,
+		"Cycle": 0,
+		"RemainingDays": 0,
+		"ServiceLevelId": 0,
 		"SourceId": "SourceId 31",
-		"ControlListsResult": "ControlListsResult 31",
-		"RiskLevel": "RiskLevel 31",
+		"ControlListsResult": 0,
+		"RiskLevel": 0,
 		"IsContactLaterEditable": false,
 		"AccumulatedCycle": 8624
 	},
@@ -4049,16 +4050,16 @@
 		"SchoolLevelId": "SchoolLevelId 31",
 		"HouseTypeId": "HouseTypeId 31",
 		"TypeOfStoreId": "TypeOfStoreId 31",
-		"GiroId": "GiroId 31",
-		"IndustryId": "IndustryId 31",
-		"EconomicActivityId": "EconomicActivityId 31",
-		"VoterRegistration": "VoterRegistration 31",
+		"GiroId": "8",
+		"IndustryId": "132",
+		"EconomicActivityId": "1211028",
+		"VoterRegistration": "7582525252454",
 		"IsPEP": false,
-		"NamePEP": "NamePEP 31",
-		"IsRelatedToGentera": true,
-		"RelatedName": "RelatedName 31",
-		"BasicDataStartDTime": "BasicDataStartDTime 31",
-		"RelationshipId": "RelationshipId 31"
+		"NamePEP": "",
+		"IsRelatedToGentera": false,
+		"RelatedName": "",
+		"BasicDataStartDTime": "2016-10-19T12:50:44",
+		"RelationshipId": ""
 	},
 	"BpAdditionalData": {
 		"Spouse": {
@@ -4132,10 +4133,10 @@
 		"SecondName": "SecondName 32"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 32",
+		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1374947444000)/",
-		"RoleId": "RoleId 32",
-		"StatusId": "StatusId 32",
+		"RoleId": "ZFS003",
+		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 32",
 		"SourceName": "SourceName 32",
 		"LeadIdCRM": "LeadIdCRM 32",
@@ -4265,10 +4266,10 @@
 		"SecondName": "SecondName 33"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 33",
+		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1379872244000)/",
-		"RoleId": "RoleId 33",
-		"StatusId": "StatusId 33",
+		"RoleId": "ZFS003",
+		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 33",
 		"SourceName": "SourceName 33",
 		"LeadIdCRM": "LeadIdCRM 33",
@@ -4398,10 +4399,10 @@
 		"SecondName": "SecondName 34"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 34",
+		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(1247334644000)/",
-		"RoleId": "RoleId 34",
-		"StatusId": "StatusId 34",
+		"RoleId": "ZFS003",
+		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 34",
 		"SourceName": "SourceName 34",
 		"LeadIdCRM": "LeadIdCRM 34",
@@ -4531,10 +4532,10 @@
 		"SecondName": "SecondName 35"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 35",
+		"ProductId": "C_GRUPAL_CM",
 		"RegistrationDate": "/Date(995651444000)/",
-		"RoleId": "RoleId 35",
-		"StatusId": "StatusId 35",
+		"RoleId": "ZFS003",
+		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 35",
 		"SourceName": "SourceName 35",
 		"LeadIdCRM": "LeadIdCRM 35",
@@ -4664,10 +4665,10 @@
 		"SecondName": "SecondName 36"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 36",
+		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(990813044000)/",
-		"RoleId": "RoleId 36",
-		"StatusId": "StatusId 36",
+		"RoleId": "ZFS003",
+		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 36",
 		"SourceName": "SourceName 36",
 		"LeadIdCRM": "LeadIdCRM 36",
@@ -4797,10 +4798,10 @@
 		"SecondName": "SecondName 37"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 37",
+		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1348422644000)/",
-		"RoleId": "RoleId 37",
-		"StatusId": "StatusId 37",
+		"RoleId": "ZFS003",
+		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 37",
 		"SourceName": "SourceName 37",
 		"LeadIdCRM": "LeadIdCRM 37",
@@ -4930,10 +4931,10 @@
 		"SecondName": "SecondName 38"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 38",
+		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1464976244000)/",
-		"RoleId": "RoleId 38",
-		"StatusId": "StatusId 38",
+		"RoleId": "ZFS003",
+		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 38",
 		"SourceName": "SourceName 38",
 		"LeadIdCRM": "LeadIdCRM 38",
@@ -5063,10 +5064,10 @@
 		"SecondName": "SecondName 39"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 39",
+		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(988566644000)/",
-		"RoleId": "RoleId 39",
-		"StatusId": "StatusId 39",
+		"RoleId": "ZFS003",
+		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 39",
 		"SourceName": "SourceName 39",
 		"LeadIdCRM": "LeadIdCRM 39",
@@ -5196,9 +5197,9 @@
 		"SecondName": "SecondName 40"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 40",
+		"ProductId": "C_GRUPAL_CCR",
 		"RegistrationDate": "/Date(1205347844000)/",
-		"RoleId": "RoleId 40",
+		"RoleId": "ZFS003",
 		"StatusId": "StatusId 40",
 		"StatusReasonId": "StatusReasonId 40",
 		"SourceName": "SourceName 40",
@@ -5332,7 +5333,7 @@
 		"ProductId": "ProductId 41",
 		"RegistrationDate": "/Date(987529845000)/",
 		"RoleId": "RoleId 41",
-		"StatusId": "StatusId 41",
+		"StatusId": "E0006",
 		"StatusReasonId": "StatusReasonId 41",
 		"SourceName": "SourceName 41",
 		"LeadIdCRM": "LeadIdCRM 41",
