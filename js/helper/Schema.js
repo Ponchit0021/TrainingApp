@@ -18,6 +18,17 @@
 
     };
 
+    sap.ui.helper.Schema.prototype.getNotiDBName = function() {
+
+        return "notiDB"
+
+    };
+
+    sap.ui.helper.Schema.prototype.getRenoDBName = function() {
+
+        return "renoDB"
+
+    };
 
     sap.ui.helper.Schema.prototype.getDataDBSchema = function() {
         return [{
@@ -102,7 +113,7 @@
             plural: "GroupCrossSellGuarantorCandidateSet"
         }, {
             singular: "GroupCrossSellAssignedGuarantor",
-            plural: "GroupCrossSellAssignedGuarantorSet"            
+            plural: "GroupCrossSellAssignedGuarantorSet"
         }];
 
     };
@@ -146,6 +157,20 @@
             plural: "SystemErrorNotificationSet"
         }];
 
+    };
+
+    sap.ui.helper.Schema.prototype.getNotiDBSchema = function() {
+        return [{
+            singular: "SystemNotification",
+            plural: "SystemNotificationSet"
+        }];
+    };
+
+    sap.ui.helper.Schema.prototype.getRenoDBSchema = function() {
+        return [{
+            singular: "Renovation",
+            plural: "RenovationSet"
+        }];
     }
 
 })();

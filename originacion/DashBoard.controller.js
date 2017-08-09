@@ -19,7 +19,9 @@ sap.ui.controller("originacion.DashBoard", {
     _onRouteMatched: function(oEvent) {
         jQuery.sap.require("js.db.Pouch", "js.base.FileBase");
         var fileBase = new sap.ui.mw.FileBase();
-
+        //TRAINING - se genera instancia de base de notificaciones y renovaciones en PouchDB
+        new sap.ui.db.Pouch(sap.ui.getCore().AppContext.Config.getProperty("notiDB"));
+        new sap.ui.db.Pouch(sap.ui.getCore().AppContext.Config.getProperty("renoDB"));
         if (!sap.ui.getCore().byId("tileSolicitantes")) {
             new sap.ui.db.Pouch(sap.ui.getCore().AppContext.Config.getProperty("dataDB"));
             fileBase.loadFile("data-map/catalogos/tiles.json")
@@ -46,37 +48,37 @@ sap.ui.controller("originacion.DashBoard", {
             oTileContainer = oTileBase.createTileContainer("/options", structureDashBoardTile, oTileModel, oRouter);
             oScrollTileContainer.addContent(oTileContainer);
 
-            
-       /*  this.getVersionNumber().then(function(version){
-                var oVersion = sap.ui.getCore().byId("tileAcercaDe");
-                oVersion.setNumber(version);
-            
-            }).catch(function(error) {
-                console.log(error);
-                var oVersion = sap.ui.getCore().byId("tileAcercaDe");
-                oVersion.setNumber(0);
-            }); */
+
+            /*  this.getVersionNumber().then(function(version){
+                     var oVersion = sap.ui.getCore().byId("tileAcercaDe");
+                     oVersion.setNumber(version);
+                 
+                 }).catch(function(error) {
+                     console.log(error);
+                     var oVersion = sap.ui.getCore().byId("tileAcercaDe");
+                     oVersion.setNumber(0);
+                 }); */
 
             var oVersion = sap.ui.getCore().byId("tileAcercaDe");
-                oVersion.setNumber(0);
+            oVersion.setNumber(0);
 
             resolve("ok");
 
         }.bind(this));
 
     },
-    getVersionNumber: function (){
+    getVersionNumber: function() {
         return new Promise(function(resolve) {
             var promiseVersionNum = "WEB";
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                   cordova.getAppVersion.getVersionNumber().then(function (version) {
-                      resolve(version);
-                    });                    
-            }else{
+                cordova.getAppVersion.getVersionNumber().then(function(version) {
+                    resolve(version);
+                });
+            } else {
                 resolve(promiseVersionNum);
             }
         }.bind(this));
-       
+
     },
 
     loadList: function(oEvent) {
@@ -97,8 +99,8 @@ sap.ui.controller("originacion.DashBoard", {
 
 
         var promiseAnnouncementsCounter, promisePendingsCounter, oMyPendingsDB, oAnnouncementsDB;
-         promiseAnnouncementsCounter = sap.ui.getCore().AppContext.oRest.read("/AnnouncementsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Config.getProperty("promoterId") + "'", true);
-            promisePendingsCounter = sap.ui.getCore().AppContext.oRest.read("/PendingsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Config.getProperty("promoterId") + "'", true);
+        promiseAnnouncementsCounter = sap.ui.getCore().AppContext.oRest.read("/AnnouncementsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Config.getProperty("promoterId") + "'", true);
+        promisePendingsCounter = sap.ui.getCore().AppContext.oRest.read("/PendingsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Config.getProperty("promoterId") + "'", true);
         /* if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 
             promiseAnnouncementsCounter = sap.ui.getCore().AppContext.oRest.read("/AnnouncementsPromoterSet", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.applicationContext.registrationContext.user + "' and attended eq '0'", true);
