@@ -215,7 +215,7 @@
      */
     sap.ui.sync.Synchronizer.prototype.validateTimeService = function() {
         return new Promise(function(resolve, reject) {
-            var sUser; 
+            /*var sUser; 
 
                 if (!this.oNavigator.testUserAgent()) {
                     /// web
@@ -224,7 +224,6 @@
                 } else {
                     //device
                     sUser = sap.ui.getCore().AppContext.applicationContext.registrationContext.user;
-
                 }
 
                 sap.ui.getCore().AppContext.myRest.read("/ServiceTime", "CollaboratorID='" + sUser + "'", true)
@@ -265,9 +264,11 @@
                 resolve(false);
 
         }.bind(this));
+        */
 
-
-
+        //Se resuelve promesa para aplicación de TRAINING - No se requiere el servicio de HORARIO DE SERVICIO
+        resolve(true);
+        });
     };
 
 
@@ -313,7 +314,8 @@
                     aSyncPromises.push(this.oLoanRequestSync.sendQueue.bind(this.oLoanRequestSync));
                     aSyncPromises.push(this.oInsuranceSync.sendQueue.bind(this.oInsuranceSync));
                     aSyncPromises.push(this.oCrossSellOfferSync.sendQueue.bind(this.oCrossSellOfferSync));
-                    aSyncPromises.push(this.refreshStores.bind(this));
+                    //Se elimina refresh de los stores para aplicación de TRAINING
+                    //aSyncPromises.push(this.refreshStores.bind(this));
 
                     // (3) Terminar el proceso
                     this.cascadeShell(aSyncPromises, 0, Math.round(100 / (aSyncPromises.length + 1)))

@@ -237,6 +237,10 @@
                             ObjectBase.deletePropertyFromObject(result.InsuranceSet[i], "isEntityInQueue");
                             ObjectBase.deletePropertyFromObject(result.InsuranceSet[i], "ElectronicSignatureSet");
 
+                            //TRAINING - Validación de fecha StartDateTerm a formato oData 
+                            var DateStartTerm = new Date(result.InsuranceSet[i].StartDateTerm);
+                            result.InsuranceSet[i].StartDateTerm = oDisplayBase.formatJSONDate(DateStartTerm);
+
                             if (_bIncludeResults) {
                                 result.InsuranceSet[i].InsuranceBeneficiarySet = result.InsuranceSet[i].InsuranceBeneficiarySet.results;
                                 var numBeneficiaries = result.InsuranceSet[i].InsuranceBeneficiarySet.length;
@@ -257,6 +261,7 @@
                                     }
 
                                     result.InsuranceSet[i].InsuranceBeneficiarySet[n].InsuranceIdMD = result.InsuranceSet[i].InsuranceIdMD;
+
                                 }
                             }
 
