@@ -3,83 +3,83 @@
 	"CollaboratorID": "Genesis",
 	"CustomerIdMD": "CustomerIdMD 1",
 	"BpName": {
-		"FirstName": "FirstName 1",
-		"MiddleName": "MiddleName 1",
-		"LastName": "LastName 1",
-		"SecondName": "SecondName 1"
+		"FirstName": "María ",
+		"MiddleName": "Mireya",
+		"LastName": "Acevedo ",
+		"SecondName": "Manríquez"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 1",
+		"ProductId": "C_IND_CI",
 		"RegistrationDate": "/Date(1080169201000)/",
-		"RoleId": "RoleId 1",
-		"StatusId": "StatusId 1",
-		"StatusReasonId": "StatusReasonId 1",
-		"SourceName": "SourceName 1",
-		"LeadIdCRM": "LeadIdCRM 1",
-		"ServiceOfficeID": "ServiceOfficeID 1",
-		"ServiceOfficeName": "ServiceOfficeName 1",
+		"RoleId": "ZFS005",
+		"StatusId": "",
+		"StatusReasonId": "",
+		"SourceName": "",
+		"LeadIdCRM": "",
+		"ServiceOfficeID": "242",
+		"ServiceOfficeName": "TOLUCA",
 		"ContactLaterDate": "/Date(1290726001000)/",
 		"ContactLaterTime": "PT19H7M6S",
-		"Cycle": 6761,
-		"RemainingDays": 276,
-		"ServiceLevelId": 2952,
-		"SourceId": "SourceId 1",
-		"ControlListsResult": "ControlListsResult 1",
-		"RiskLevel": "RiskLevel 1",
+		"Cycle": 0,
+		"RemainingDays": 0,
+		"ServiceLevelId": 0,
+		"SourceId": "",
+		"ControlListsResult": "ACEPTADO",
+		"RiskLevel": "",
 		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 6369
+		"AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "Curp 1",
-		"Dependents": "Dependents 1",
-		"JobId": "JobId 1",
-		"Email": "Email 1",
-		"TimeInTheActivityId": "TimeInTheActivityId 1",
-		"HowActivityId": "HowActivityId 1",
-		"HowMuchBusinessId": "HowMuchBusinessId 1",
-		"OtherSourceId": "OtherSourceId 1",
-		"TimeInTheBusiness": "TimeInTheBusiness 1",
-		"ShopFromWhoId": "ShopFromWhoId 1",
-		"EconomicActivityId": "EconomicActivityId 1",
+		"Curp": "MASM020203MDFRNTA6",
+		"Dependents": "0",
+		"JobId": "COMR",
+		"Email": "ejemplo@gmail.com",
+		"TimeInTheActivityId": "004",
+		"HowActivityId": "4",
+		"HowMuchBusinessId": "001",
+		"OtherSourceId": "008",
+		"TimeInTheBusiness": "004",
+		"ShopFromWhoId": "004",
+		"EconomicActivityId": "",
 		"IsIndivWBusiness": false,
-		"FielNumber": "FielNumber 1",
-		"Rfc": "Rfc 1",
-		"Homoclave": "Homoclave 1",
+		"FielNumber": "",
+		"Rfc": "DOTP850516",
+		"Homoclave": "",
 		"MonthlySalary": 6.166586502871024
 	},
 	"BpBasicData": {
-		"GenderId": "GenderId 1",
+		"GenderId": "2",
 		"BirthdDate": "/Date(1365202801000)/",
-		"ElectorKey": "ElectorKey 1",
-		"CountryOfBirthId": "CountryOfBirthId 1",
-		"BirthPlace": "BirthPlace 1",
-		"NationalityId": "NationalityId 1",
-		"MaritalStatusId": "MaritalStatusId 1",
-		"Children": "Children 1",
-		"SchoolLevelId": "SchoolLevelId 1",
-		"HouseTypeId": "HouseTypeId 1",
-		"TypeOfStoreId": "TypeOfStoreId 1",
-		"GiroId": "GiroId 1",
-		"IndustryId": "IndustryId 1",
-		"EconomicActivityId": "EconomicActivityId 1",
-		"VoterRegistration": "VoterRegistration 1",
+		"ElectorKey": "CRRNCY87091319H800",
+		"CountryOfBirthId": "MX",
+		"BirthPlace": "BCN",
+		"NationalityId": "MX",
+		"MaritalStatusId": "1",
+		"Children": "0",
+		"SchoolLevelId": "1",
+		"HouseTypeId": "3",
+		"TypeOfStoreId": "001",
+		"GiroId": "8",
+		"IndustryId": "132",
+		"EconomicActivityId": "1421015",
+		"VoterRegistration": "0619082200335",
 		"IsPEP": false,
-		"NamePEP": "NamePEP 1",
-		"IsRelatedToGentera": true,
-		"RelatedName": "RelatedName 1",
-		"BasicDataStartDTime": "BasicDataStartDTime 1",
-		"RelationshipId": "RelationshipId 1"
+		"NamePEP": "",
+		"IsRelatedToGentera": false,
+		"RelatedName": "",
+		"BasicDataStartDTime": "",
+		"RelationshipId": ""
 	},
 	"BpAdditionalData": {
 		"Spouse": {
-			"Job": "Job 1",
-			"WorkPhone": "WorkPhone 1",
-			"BPIdSpouse": "BPIdSpouse 1",
+			"Job": "",
+			"WorkPhone": "",
+			"BPIdSpouse": "",
 			"BpNameData": {
-				"FirstName": "FirstName 1",
-				"MiddleName": "MiddleName 1",
-				"LastName": "LastName 1",
-				"SecondName": "SecondName 1"
+				"FirstName": "",
+				"MiddleName": "",
+				"LastName": "",
+				"SecondName": "1"
 			}
 		}
 	},
@@ -126,83 +126,83 @@
 	"CollaboratorID": "Genesis",
 	"CustomerIdMD": "CustomerIdMD 2",
 	"BpName": {
-		"FirstName": "FirstName 2",
-		"MiddleName": "MiddleName 2",
-		"LastName": "LastName 2",
-		"SecondName": "SecondName 2"
+		"FirstName": "Juliana",
+		"MiddleName": "",
+		"LastName": "González",
+		"SecondName": "Valenzuela"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 2",
-		"RegistrationDate": "/Date(1203116401000)/",
-		"RoleId": "RoleId 2",
-		"StatusId": "StatusId 2",
-		"StatusReasonId": "StatusReasonId 2",
-		"SourceName": "SourceName 2",
-		"LeadIdCRM": "LeadIdCRM 2",
-		"ServiceOfficeID": "ServiceOfficeID 2",
-		"ServiceOfficeName": "ServiceOfficeName 2",
-		"ContactLaterDate": "/Date(1506895201000)/",
-		"ContactLaterTime": "PT6H11M3S",
-		"Cycle": 3600,
-		"RemainingDays": 7784,
-		"ServiceLevelId": 9874,
-		"SourceId": "SourceId 2",
-		"ControlListsResult": "ControlListsResult 2",
-		"RiskLevel": "RiskLevel 2",
-		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 3661
+		  "ProductId": "",
+          "RegistrationDate": "/Date(1494306000000)/",
+          "RoleId": "",
+          "StatusId": "",
+          "StatusReasonId": "",
+          "SourceName": "",
+          "LeadIdCRM": "",
+          "ServiceOfficeID": "242",
+          "ServiceOfficeName": "TOLUCA",
+          "ContactLaterDate": null,
+          "ContactLaterTime": "PT00H00M00S",
+          "Cycle": 0,
+          "RemainingDays": 0,
+          "ServiceLevelId": 0,
+          "SourceId": "",
+          "ControlListsResult": "ACEPTADO",
+          "RiskLevel": "",
+          "IsContactLaterEditable": false,
+          "AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "Curp 2",
-		"Dependents": "Dependents 2",
-		"JobId": "JobId 2",
-		"Email": "Email 2",
-		"TimeInTheActivityId": "TimeInTheActivityId 2",
-		"HowActivityId": "HowActivityId 2",
-		"HowMuchBusinessId": "HowMuchBusinessId 2",
-		"OtherSourceId": "OtherSourceId 2",
-		"TimeInTheBusiness": "TimeInTheBusiness 2",
-		"ShopFromWhoId": "ShopFromWhoId 2",
-		"EconomicActivityId": "EconomicActivityId 2",
+		"Curp": "MASM020203MDFRNTA6",
+		"Dependents": "0",
+		"JobId": "COMR",
+		"Email": "",
+		"TimeInTheActivityId": "004",
+		"HowActivityId": "4",
+		"HowMuchBusinessId": "001",
+		"OtherSourceId": "008",
+		"TimeInTheBusiness": "004",
+		"ShopFromWhoId": "004",
+		"EconomicActivityId": "",
 		"IsIndivWBusiness": false,
-		"FielNumber": "FielNumber 2",
-		"Rfc": "Rfc 2",
-		"Homoclave": "Homoclave 2",
+		"FielNumber": "",
+		"Rfc": "DOTP850516",
+		"Homoclave": "",
 		"MonthlySalary": 6.423069454752639
 	},
 	"BpBasicData": {
-		"GenderId": "GenderId 2",
-		"BirthdDate": "/Date(1020376801000)/",
-		"ElectorKey": "ElectorKey 2",
-		"CountryOfBirthId": "CountryOfBirthId 2",
-		"BirthPlace": "BirthPlace 2",
-		"NationalityId": "NationalityId 2",
-		"MaritalStatusId": "MaritalStatusId 2",
-		"Children": "Children 2",
-		"SchoolLevelId": "SchoolLevelId 2",
-		"HouseTypeId": "HouseTypeId 2",
-		"TypeOfStoreId": "TypeOfStoreId 2",
-		"GiroId": "GiroId 2",
-		"IndustryId": "IndustryId 2",
-		"EconomicActivityId": "EconomicActivityId 2",
-		"VoterRegistration": "VoterRegistration 2",
+		"GenderId": "2",
+		"BirthdDate": "/Date(485071200000)/",
+		"ElectorKey": "CRRNCY87091319H800",
+		"CountryOfBirthId": "MX",
+		"BirthPlace": "BCN",
+		"NationalityId": "MX",
+		"MaritalStatusId": "1",
+		"Children": "0",
+		"SchoolLevelId": "1",
+		"HouseTypeId": "3",
+		"TypeOfStoreId": "001",
+		"GiroId": "8",
+		"IndustryId": "132",
+		"EconomicActivityId": "1421015",
+		"VoterRegistration": "0619082200335",
 		"IsPEP": false,
-		"NamePEP": "NamePEP 2",
+		"NamePEP": "",
 		"IsRelatedToGentera": false,
-		"RelatedName": "RelatedName 2",
-		"BasicDataStartDTime": "BasicDataStartDTime 2",
-		"RelationshipId": "RelationshipId 2"
+		"RelatedName": "",
+		"BasicDataStartDTime": "",
+		"RelationshipId": ""
 	},
 	"BpAdditionalData": {
-		"Spouse": {
-			"Job": "Job 2",
-			"WorkPhone": "WorkPhone 2",
-			"BPIdSpouse": "BPIdSpouse 2",
+		"Spouse":  {
+			"Job": "",
+			"WorkPhone": "",
+			"BPIdSpouse": "",
 			"BpNameData": {
-				"FirstName": "FirstName 2",
-				"MiddleName": "MiddleName 2",
-				"LastName": "LastName 2",
-				"SecondName": "SecondName 2"
+				"FirstName": "",
+				"MiddleName": "",
+				"LastName": "",
+				"SecondName": ""
 			}
 		}
 	},
@@ -249,83 +249,83 @@
 	"CollaboratorID": "Genesis",
 	"CustomerIdMD": "CustomerIdMD 3",
 	"BpName": {
-		"FirstName": "FirstName 3",
-		"MiddleName": "MiddleName 3",
-		"LastName": "LastName 3",
-		"SecondName": "SecondName 3"
+		"FirstName": "Nora",
+		"MiddleName": "María",
+		"LastName": "Matamoros",
+		"SecondName": "Franco"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 3",
-		"RegistrationDate": "/Date(1221861601000)/",
-		"RoleId": "RoleId 3",
-		"StatusId": "StatusId 3",
-		"StatusReasonId": "StatusReasonId 3",
-		"SourceName": "SourceName 3",
-		"LeadIdCRM": "LeadIdCRM 3",
-		"ServiceOfficeID": "ServiceOfficeID 3",
-		"ServiceOfficeName": "ServiceOfficeName 3",
-		"ContactLaterDate": "/Date(1279231201000)/",
-		"ContactLaterTime": "PT17H49M55S",
-		"Cycle": 6919,
-		"RemainingDays": 7884,
-		"ServiceLevelId": 4651,
-		"SourceId": "SourceId 3",
-		"ControlListsResult": "ControlListsResult 3",
-		"RiskLevel": "RiskLevel 3",
-		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 7523
+		"ProductId": "",
+		"RegistrationDate": "/Date(1494306000000)/",
+		"RoleId": "",
+		"StatusId": "",
+		"StatusReasonId": "",
+		"SourceName": "",
+		"LeadIdCRM": "",
+		"ServiceOfficeID": "242",
+		"ServiceOfficeName": "TOLUCA",
+		"ContactLaterDate": null,
+		"ContactLaterTime": "PT00H00M00S",
+		"Cycle": 0,
+		"RemainingDays": 0,
+		"ServiceLevelId": 0,
+		"SourceId": "",
+		"ControlListsResult": "ACEPTADO",
+		"RiskLevel": "",
+		"IsContactLaterEditable": false,
+		"AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "Curp 3",
-		"Dependents": "Dependents 3",
-		"JobId": "JobId 3",
-		"Email": "Email 3",
-		"TimeInTheActivityId": "TimeInTheActivityId 3",
-		"HowActivityId": "HowActivityId 3",
-		"HowMuchBusinessId": "HowMuchBusinessId 3",
-		"OtherSourceId": "OtherSourceId 3",
-		"TimeInTheBusiness": "TimeInTheBusiness 3",
-		"ShopFromWhoId": "ShopFromWhoId 3",
-		"EconomicActivityId": "EconomicActivityId 3",
-		"IsIndivWBusiness": true,
-		"FielNumber": "FielNumber 3",
-		"Rfc": "Rfc 3",
-		"Homoclave": "Homoclave 3",
+		"Curp": "MASM020203MDFRNTA6",
+		"Dependents": "0",
+		"JobId": "ASAL",
+		"Email": "",
+		"TimeInTheActivityId": "004",
+		"HowActivityId": "7",
+		"HowMuchBusinessId": "001",
+		"OtherSourceId": "008",
+		"TimeInTheBusiness": "004",
+		"ShopFromWhoId": "",
+		"EconomicActivityId": "",
+		"IsIndivWBusiness": false,
+		"FielNumber": "",
+		"Rfc": "TEAT870507",
+		"Homoclave": "",
 		"MonthlySalary": 7.891706177980953
 	},
 	"BpBasicData": {
-		"GenderId": "GenderId 3",
-		"BirthdDate": "/Date(1508882401000)/",
-		"ElectorKey": "ElectorKey 3",
-		"CountryOfBirthId": "CountryOfBirthId 3",
-		"BirthPlace": "BirthPlace 3",
-		"NationalityId": "NationalityId 3",
-		"MaritalStatusId": "MaritalStatusId 3",
-		"Children": "Children 3",
-		"SchoolLevelId": "SchoolLevelId 3",
-		"HouseTypeId": "HouseTypeId 3",
-		"TypeOfStoreId": "TypeOfStoreId 3",
-		"GiroId": "GiroId 3",
-		"IndustryId": "IndustryId 3",
-		"EconomicActivityId": "EconomicActivityId 3",
-		"VoterRegistration": "VoterRegistration 3",
+		"GenderId": "2",
+		"BirthdDate": "/Date(547365600000)/",
+		"ElectorKey": "CRRNCY87091319H800",
+		"CountryOfBirthId": "MX",
+		"BirthPlace": "COA",
+		"NationalityId": "MX",
+		"MaritalStatusId": "1",
+		"Children": "0",
+		"SchoolLevelId": "6",
+		"HouseTypeId": "1",
+		"TypeOfStoreId": "003",
+		"GiroId": "8",
+		"IndustryId": "132",
+		"EconomicActivityId": "1211028",
+		"VoterRegistration": "0619082200335",
 		"IsPEP": false,
-		"NamePEP": "NamePEP 3",
-		"IsRelatedToGentera": true,
-		"RelatedName": "RelatedName 3",
-		"BasicDataStartDTime": "BasicDataStartDTime 3",
-		"RelationshipId": "RelationshipId 3"
+		"NamePEP": "",
+		"IsRelatedToGentera": false,
+		"RelatedName": "",
+		"BasicDataStartDTime": "",
+        "RelationshipId": ""
 	},
 	"BpAdditionalData": {
 		"Spouse": {
-			"Job": "Job 3",
-			"WorkPhone": "WorkPhone 3",
-			"BPIdSpouse": "BPIdSpouse 3",
+			"Job": "",
+			"WorkPhone": "",
+			"BPIdSpouse": "",
 			"BpNameData": {
-				"FirstName": "FirstName 3",
-				"MiddleName": "MiddleName 3",
-				"LastName": "LastName 3",
-				"SecondName": "SecondName 3"
+				"FirstName": "",
+				"MiddleName": "",
+				"LastName": "",
+				"SecondName": ""
 			}
 		}
 	},
@@ -372,83 +372,83 @@
 	"CollaboratorID": "Genesis",
 	"CustomerIdMD": "CustomerIdMD 4",
 	"BpName": {
-		"FirstName": "FirstName 4",
-		"MiddleName": "MiddleName 4",
-		"LastName": "LastName 4",
-		"SecondName": "SecondName 4"
+		"FirstName": "Enrique",
+		"MiddleName": "Conrado",
+		"LastName": "Rébsamen",
+		"SecondName": "Egloff"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 4",
-		"RegistrationDate": "/Date(972338401000)/",
-		"RoleId": "RoleId 4",
-		"StatusId": "StatusId 4",
-		"StatusReasonId": "StatusReasonId 4",
-		"SourceName": "SourceName 4",
-		"LeadIdCRM": "LeadIdCRM 4",
-		"ServiceOfficeID": "ServiceOfficeID 4",
-		"ServiceOfficeName": "ServiceOfficeName 4",
-		"ContactLaterDate": "/Date(1381701601000)/",
-		"ContactLaterTime": "PT17H38M49S",
-		"Cycle": 7616,
-		"RemainingDays": 5879,
-		"ServiceLevelId": 4866,
-		"SourceId": "SourceId 4",
-		"ControlListsResult": "ControlListsResult 4",
-		"RiskLevel": "RiskLevel 4",
-		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 1576
+		"ProductId": "",
+		"RegistrationDate": "/Date(1494306000000)/",
+		"RoleId": "",
+		"StatusId": "",
+		"StatusReasonId": "",
+		"SourceName": "",
+		"LeadIdCRM": "",
+		"ServiceOfficeID": "242",
+		"ServiceOfficeName": "TOLUCA",
+		"ContactLaterDate": null,
+		"ContactLaterTime": "PT00H00M00S",
+		"Cycle": 0,
+		"RemainingDays": 0,
+		"ServiceLevelId": 0,
+		"SourceId": "",
+		"ControlListsResult": "ACEPTADO",
+		"RiskLevel": "",
+		"IsContactLaterEditable": false,
+		"AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "Curp 4",
-		"Dependents": "Dependents 4",
-		"JobId": "JobId 4",
-		"Email": "Email 4",
-		"TimeInTheActivityId": "TimeInTheActivityId 4",
-		"HowActivityId": "HowActivityId 4",
-		"HowMuchBusinessId": "HowMuchBusinessId 4",
-		"OtherSourceId": "OtherSourceId 4",
-		"TimeInTheBusiness": "TimeInTheBusiness 4",
-		"ShopFromWhoId": "ShopFromWhoId 4",
-		"EconomicActivityId": "EconomicActivityId 4",
+		"Curp": "MASM020203MDFRNTA6",
+		"Dependents": "0",
+		"JobId": "ASAL",
+		"Email": "",
+		"TimeInTheActivityId": "004",
+		"HowActivityId": "7",
+		"HowMuchBusinessId": "001",
+		"OtherSourceId": "008",
+		"TimeInTheBusiness": "004",
+		"ShopFromWhoId": "",
+		"EconomicActivityId": "",
 		"IsIndivWBusiness": false,
-		"FielNumber": "FielNumber 4",
-		"Rfc": "Rfc 4",
-		"Homoclave": "Homoclave 4",
-		"MonthlySalary": 3.9269726964474927
+		"FielNumber": "",
+		"Rfc": "TEAT870507",
+		"Homoclave": "",
+		"MonthlySalary": "0.0000000000000000E+00"
 	},
 	"BpBasicData": {
-		"GenderId": "GenderId 4",
-		"BirthdDate": "/Date(1424732401000)/",
-		"ElectorKey": "ElectorKey 4",
-		"CountryOfBirthId": "CountryOfBirthId 4",
-		"BirthPlace": "BirthPlace 4",
-		"NationalityId": "NationalityId 4",
-		"MaritalStatusId": "MaritalStatusId 4",
-		"Children": "Children 4",
-		"SchoolLevelId": "SchoolLevelId 4",
-		"HouseTypeId": "HouseTypeId 4",
-		"TypeOfStoreId": "TypeOfStoreId 4",
-		"GiroId": "GiroId 4",
-		"IndustryId": "IndustryId 4",
-		"EconomicActivityId": "EconomicActivityId 4",
-		"VoterRegistration": "VoterRegistration 4",
-		"IsPEP": true,
-		"NamePEP": "NamePEP 4",
+		"GenderId": "2",
+		"BirthdDate": "/Date(547365600000)/",
+		"ElectorKey": "CRRNCY87091319H800",
+		"CountryOfBirthId": "MX",
+		"BirthPlace": "COA",
+		"NationalityId": "MX",
+		"MaritalStatusId": "1",
+		"Children": "0",
+		"SchoolLevelId": "6",
+		"HouseTypeId": "1",
+		"TypeOfStoreId": "003",
+		"GiroId": "8",
+		"IndustryId": "132",
+		"EconomicActivityId": "1211028",
+		"VoterRegistration": "0619082200335",
+		"IsPEP": false,
+		"NamePEP": "",
 		"IsRelatedToGentera": false,
-		"RelatedName": "RelatedName 4",
-		"BasicDataStartDTime": "BasicDataStartDTime 4",
-		"RelationshipId": "RelationshipId 4"
+		"RelatedName": "",
+		"BasicDataStartDTime": "",
+		"RelationshipId": ""
 	},
 	"BpAdditionalData": {
 		"Spouse": {
-			"Job": "Job 4",
-			"WorkPhone": "WorkPhone 4",
-			"BPIdSpouse": "BPIdSpouse 4",
+			"Job": "",
+			"WorkPhone": "",
+			"BPIdSpouse": "",
 			"BpNameData": {
-				"FirstName": "FirstName 4",
-				"MiddleName": "MiddleName 4",
-				"LastName": "LastName 4",
-				"SecondName": "SecondName 4"
+				"FirstName": "",
+				"MiddleName": "",
+				"LastName": "",
+				"SecondName": ""
 			}
 		}
 	},
@@ -491,741 +491,126 @@
 		}
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 5",
+	"CustomerIdCRM": "CustomerIdCRM 4",
 	"CollaboratorID": "Genesis",
 	"CustomerIdMD": "CustomerIdMD 5",
 	"BpName": {
-		"FirstName": "FirstName 5",
-		"MiddleName": "MiddleName 5",
-		"LastName": "LastName 5",
-		"SecondName": "SecondName 5"
+		"FirstName": "Carlos",
+		"MiddleName": "",
+		"LastName": "Lazo",
+		"SecondName": "Barreiro"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 5",
-		"RegistrationDate": "/Date(1392678001000)/",
-		"RoleId": "RoleId 5",
-		"StatusId": "StatusId 5",
-		"StatusReasonId": "StatusReasonId 5",
-		"SourceName": "SourceName 5",
-		"LeadIdCRM": "LeadIdCRM 5",
-		"ServiceOfficeID": "ServiceOfficeID 5",
-		"ServiceOfficeName": "ServiceOfficeName 5",
-		"ContactLaterDate": "/Date(987717601000)/",
-		"ContactLaterTime": "PT4H9M51S",
-		"Cycle": 2748,
-		"RemainingDays": 6060,
-		"ServiceLevelId": 8869,
-		"SourceId": "SourceId 5",
-		"ControlListsResult": "ControlListsResult 5",
-		"RiskLevel": "RiskLevel 5",
+		"ProductId": "",
+		"RegistrationDate": "/Date(1494306000000)/",
+		"RoleId": "",
+		"StatusId": "",
+		"StatusReasonId": "",
+		"SourceName": "",
+		"LeadIdCRM": "",
+		"ServiceOfficeID": "242",
+		"ServiceOfficeName": "TOLUCA",
+		"ContactLaterDate": null,
+		"ContactLaterTime": "PT00H00M00S",
+		"Cycle": 0,
+		"RemainingDays": 0,
+		"ServiceLevelId": 0,
+		"SourceId": "",
+		"ControlListsResult": "ACEPTADO",
+		"RiskLevel": "",
 		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 7165
+		"AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "Curp 5",
-		"Dependents": "Dependents 5",
-		"JobId": "JobId 5",
-		"Email": "Email 5",
-		"TimeInTheActivityId": "TimeInTheActivityId 5",
-		"HowActivityId": "HowActivityId 5",
-		"HowMuchBusinessId": "HowMuchBusinessId 5",
-		"OtherSourceId": "OtherSourceId 5",
-		"TimeInTheBusiness": "TimeInTheBusiness 5",
-		"ShopFromWhoId": "ShopFromWhoId 5",
-		"EconomicActivityId": "EconomicActivityId 5",
+		"Curp": "MASM020203MDFRNTA6",
+		"Dependents": "0",
+		"JobId": "ASAL",
+		"Email": "",
+		"TimeInTheActivityId": "004",
+		"HowActivityId": "7",
+		"HowMuchBusinessId": "001",
+		"OtherSourceId": "008",
+		"TimeInTheBusiness": "004",
+		"ShopFromWhoId": "",
+		"EconomicActivityId": "",
 		"IsIndivWBusiness": false,
-		"FielNumber": "FielNumber 5",
-		"Rfc": "Rfc 5",
-		"Homoclave": "Homoclave 5",
-		"MonthlySalary": 7.859404170107784
+		"FielNumber": "",
+		"Rfc": "TEAT870507",
+		"Homoclave": "",
+		"MonthlySalary": "0.0000000000000000E+00"
 	},
 	"BpBasicData": {
-		"GenderId": "GenderId 5",
-		"BirthdDate": "/Date(1477605601000)/",
-		"ElectorKey": "ElectorKey 5",
-		"CountryOfBirthId": "CountryOfBirthId 5",
-		"BirthPlace": "BirthPlace 5",
-		"NationalityId": "NationalityId 5",
-		"MaritalStatusId": "MaritalStatusId 5",
-		"Children": "Children 5",
-		"SchoolLevelId": "SchoolLevelId 5",
-		"HouseTypeId": "HouseTypeId 5",
-		"TypeOfStoreId": "TypeOfStoreId 5",
-		"GiroId": "GiroId 5",
-		"IndustryId": "IndustryId 5",
-		"EconomicActivityId": "EconomicActivityId 5",
-		"VoterRegistration": "VoterRegistration 5",
+		"GenderId": "2",
+		"BirthdDate": "/Date(547365600000)/",
+		"ElectorKey": "CRRNCY87091319H800",
+		"CountryOfBirthId": "MX",
+		"BirthPlace": "COA",
+		"NationalityId": "MX",
+		"MaritalStatusId": "1",
+		"Children": "0",
+		"SchoolLevelId": "6",
+		"HouseTypeId": "1",
+		"TypeOfStoreId": "003",
+		"GiroId": "8",
+		"IndustryId": "132",
+		"EconomicActivityId": "1211028",
+		"VoterRegistration": "0619082200335",
 		"IsPEP": false,
-		"NamePEP": "NamePEP 5",
-		"IsRelatedToGentera": true,
-		"RelatedName": "RelatedName 5",
-		"BasicDataStartDTime": "BasicDataStartDTime 5",
-		"RelationshipId": "RelationshipId 5"
-	},
-	"BpAdditionalData": {
-		"Spouse": {
-			"Job": "Job 5",
-			"WorkPhone": "WorkPhone 5",
-			"BPIdSpouse": "BPIdSpouse 5",
-			"BpNameData": {
-				"FirstName": "FirstName 5",
-				"MiddleName": "MiddleName 5",
-				"LastName": "LastName 5",
-				"SecondName": "SecondName 5"
-			}
-		}
-	},
-	"BpFlag": {
-		"BPFlagDistinction": 7.758289958164979
-	},
-	"IsAvailableForReq": false,
-	"__metadata": {
-		"uri": "GuarantorSet('CustomerIdCRM%205')",
-		"type": "AOMobile.Guarantor"
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%205')/LinkGuarantorSet"
-		}
-	},
-	"AddressSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%205')/AddressSet"
-		}
-	},
-	"PhoneSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%205')/PhoneSet"
-		}
-	},
-	"PersonalReferenceSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%205')/PersonalReferenceSet"
-		}
-	},
-	"EmployerSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%205')/EmployerSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%205')/ImageSet"
-		}
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 6",
-	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 6",
-	"BpName": {
-		"FirstName": "FirstName 6",
-		"MiddleName": "MiddleName 6",
-		"LastName": "LastName 6",
-		"SecondName": "SecondName 6"
-	},
-	"BpMainData": {
-		"ProductId": "ProductId 6",
-		"RegistrationDate": "/Date(1514761201000)/",
-		"RoleId": "RoleId 6",
-		"StatusId": "StatusId 6",
-		"StatusReasonId": "StatusReasonId 6",
-		"SourceName": "SourceName 6",
-		"LeadIdCRM": "LeadIdCRM 6",
-		"ServiceOfficeID": "ServiceOfficeID 6",
-		"ServiceOfficeName": "ServiceOfficeName 6",
-		"ContactLaterDate": "/Date(1410300001000)/",
-		"ContactLaterTime": "PT2H44M48S",
-		"Cycle": 2265,
-		"RemainingDays": 6293,
-		"ServiceLevelId": 1497,
-		"SourceId": "SourceId 6",
-		"ControlListsResult": "ControlListsResult 6",
-		"RiskLevel": "RiskLevel 6",
-		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 2055
-	},
-	"BpComplementaryData": {
-		"Curp": "Curp 6",
-		"Dependents": "Dependents 6",
-		"JobId": "JobId 6",
-		"Email": "Email 6",
-		"TimeInTheActivityId": "TimeInTheActivityId 6",
-		"HowActivityId": "HowActivityId 6",
-		"HowMuchBusinessId": "HowMuchBusinessId 6",
-		"OtherSourceId": "OtherSourceId 6",
-		"TimeInTheBusiness": "TimeInTheBusiness 6",
-		"ShopFromWhoId": "ShopFromWhoId 6",
-		"EconomicActivityId": "EconomicActivityId 6",
-		"IsIndivWBusiness": true,
-		"FielNumber": "FielNumber 6",
-		"Rfc": "Rfc 6",
-		"Homoclave": "Homoclave 6",
-		"MonthlySalary": 7.279156143064506
-	},
-	"BpBasicData": {
-		"GenderId": "GenderId 6",
-		"BirthdDate": "/Date(1576105201000)/",
-		"ElectorKey": "ElectorKey 6",
-		"CountryOfBirthId": "CountryOfBirthId 6",
-		"BirthPlace": "BirthPlace 6",
-		"NationalityId": "NationalityId 6",
-		"MaritalStatusId": "MaritalStatusId 6",
-		"Children": "Children 6",
-		"SchoolLevelId": "SchoolLevelId 6",
-		"HouseTypeId": "HouseTypeId 6",
-		"TypeOfStoreId": "TypeOfStoreId 6",
-		"GiroId": "GiroId 6",
-		"IndustryId": "IndustryId 6",
-		"EconomicActivityId": "EconomicActivityId 6",
-		"VoterRegistration": "VoterRegistration 6",
-		"IsPEP": false,
-		"NamePEP": "NamePEP 6",
+		"NamePEP": "",
 		"IsRelatedToGentera": false,
-		"RelatedName": "RelatedName 6",
-		"BasicDataStartDTime": "BasicDataStartDTime 6",
-		"RelationshipId": "RelationshipId 6"
+		"RelatedName": "",
+		"BasicDataStartDTime": "",
+		"RelationshipId": ""
 	},
 	"BpAdditionalData": {
 		"Spouse": {
-			"Job": "Job 6",
-			"WorkPhone": "WorkPhone 6",
-			"BPIdSpouse": "BPIdSpouse 6",
+			"Job": "Job 4",
+			"WorkPhone": "5523423424",
+			"BPIdSpouse": "BPIdSpouse 4",
 			"BpNameData": {
-				"FirstName": "FirstName 6",
-				"MiddleName": "MiddleName 6",
-				"LastName": "LastName 6",
-				"SecondName": "SecondName 6"
+				"FirstName": "Yolanda ",
+				"MiddleName": "",
+				"LastName": "Margáin",
+				"SecondName": "Gleason"
 			}
 		}
 	},
 	"BpFlag": {
-		"BPFlagDistinction": 0.5800245586708441
+		"BPFlagDistinction": 6.346111275499577
 	},
 	"IsAvailableForReq": true,
 	"__metadata": {
-		"uri": "GuarantorSet('CustomerIdCRM%206')",
+		"uri": "GuarantorSet('CustomerIdCRM%204')",
 		"type": "AOMobile.Guarantor"
 	},
 	"LinkGuarantorSet": {
 		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%206')/LinkGuarantorSet"
+			"uri": "GuarantorSet('CustomerIdCRM%204')/LinkGuarantorSet"
 		}
 	},
 	"AddressSet": {
 		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%206')/AddressSet"
+			"uri": "GuarantorSet('CustomerIdCRM%204')/AddressSet"
 		}
 	},
 	"PhoneSet": {
 		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%206')/PhoneSet"
+			"uri": "GuarantorSet('CustomerIdCRM%204')/PhoneSet"
 		}
 	},
 	"PersonalReferenceSet": {
 		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%206')/PersonalReferenceSet"
+			"uri": "GuarantorSet('CustomerIdCRM%204')/PersonalReferenceSet"
 		}
 	},
 	"EmployerSet": {
 		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%206')/EmployerSet"
+			"uri": "GuarantorSet('CustomerIdCRM%204')/EmployerSet"
 		}
 	},
 	"ImageSet": {
 		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%206')/ImageSet"
-		}
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 7",
-	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 7",
-	"BpName": {
-		"FirstName": "FirstName 7",
-		"MiddleName": "MiddleName 7",
-		"LastName": "LastName 7",
-		"SecondName": "SecondName 7"
-	},
-	"BpMainData": {
-		"ProductId": "ProductId 7",
-		"RegistrationDate": "/Date(1229900401000)/",
-		"RoleId": "RoleId 7",
-		"StatusId": "StatusId 7",
-		"StatusReasonId": "StatusReasonId 7",
-		"SourceName": "SourceName 7",
-		"LeadIdCRM": "LeadIdCRM 7",
-		"ServiceOfficeID": "ServiceOfficeID 7",
-		"ServiceOfficeName": "ServiceOfficeName 7",
-		"ContactLaterDate": "/Date(1232146801000)/",
-		"ContactLaterTime": "PT1H34M4S",
-		"Cycle": 8192,
-		"RemainingDays": 4809,
-		"ServiceLevelId": 4911,
-		"SourceId": "SourceId 7",
-		"ControlListsResult": "ControlListsResult 7",
-		"RiskLevel": "RiskLevel 7",
-		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 6862
-	},
-	"BpComplementaryData": {
-		"Curp": "Curp 7",
-		"Dependents": "Dependents 7",
-		"JobId": "JobId 7",
-		"Email": "Email 7",
-		"TimeInTheActivityId": "TimeInTheActivityId 7",
-		"HowActivityId": "HowActivityId 7",
-		"HowMuchBusinessId": "HowMuchBusinessId 7",
-		"OtherSourceId": "OtherSourceId 7",
-		"TimeInTheBusiness": "TimeInTheBusiness 7",
-		"ShopFromWhoId": "ShopFromWhoId 7",
-		"EconomicActivityId": "EconomicActivityId 7",
-		"IsIndivWBusiness": true,
-		"FielNumber": "FielNumber 7",
-		"Rfc": "Rfc 7",
-		"Homoclave": "Homoclave 7",
-		"MonthlySalary": 1.500276137480181
-	},
-	"BpBasicData": {
-		"GenderId": "GenderId 7",
-		"BirthdDate": "/Date(1241301601000)/",
-		"ElectorKey": "ElectorKey 7",
-		"CountryOfBirthId": "CountryOfBirthId 7",
-		"BirthPlace": "BirthPlace 7",
-		"NationalityId": "NationalityId 7",
-		"MaritalStatusId": "MaritalStatusId 7",
-		"Children": "Children 7",
-		"SchoolLevelId": "SchoolLevelId 7",
-		"HouseTypeId": "HouseTypeId 7",
-		"TypeOfStoreId": "TypeOfStoreId 7",
-		"GiroId": "GiroId 7",
-		"IndustryId": "IndustryId 7",
-		"EconomicActivityId": "EconomicActivityId 7",
-		"VoterRegistration": "VoterRegistration 7",
-		"IsPEP": true,
-		"NamePEP": "NamePEP 7",
-		"IsRelatedToGentera": false,
-		"RelatedName": "RelatedName 7",
-		"BasicDataStartDTime": "BasicDataStartDTime 7",
-		"RelationshipId": "RelationshipId 7"
-	},
-	"BpAdditionalData": {
-		"Spouse": {
-			"Job": "Job 7",
-			"WorkPhone": "WorkPhone 7",
-			"BPIdSpouse": "BPIdSpouse 7",
-			"BpNameData": {
-				"FirstName": "FirstName 7",
-				"MiddleName": "MiddleName 7",
-				"LastName": "LastName 7",
-				"SecondName": "SecondName 7"
-			}
-		}
-	},
-	"BpFlag": {
-		"BPFlagDistinction": 9.017703072802618
-	},
-	"IsAvailableForReq": true,
-	"__metadata": {
-		"uri": "GuarantorSet('CustomerIdCRM%207')",
-		"type": "AOMobile.Guarantor"
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%207')/LinkGuarantorSet"
-		}
-	},
-	"AddressSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%207')/AddressSet"
-		}
-	},
-	"PhoneSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%207')/PhoneSet"
-		}
-	},
-	"PersonalReferenceSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%207')/PersonalReferenceSet"
-		}
-	},
-	"EmployerSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%207')/EmployerSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%207')/ImageSet"
-		}
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 8",
-	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 8",
-	"BpName": {
-		"FirstName": "FirstName 8",
-		"MiddleName": "MiddleName 8",
-		"LastName": "LastName 8",
-		"SecondName": "SecondName 8"
-	},
-	"BpMainData": {
-		"ProductId": "ProductId 8",
-		"RegistrationDate": "/Date(1501538401000)/",
-		"RoleId": "RoleId 8",
-		"StatusId": "StatusId 8",
-		"StatusReasonId": "StatusReasonId 8",
-		"SourceName": "SourceName 8",
-		"LeadIdCRM": "LeadIdCRM 8",
-		"ServiceOfficeID": "ServiceOfficeID 8",
-		"ServiceOfficeName": "ServiceOfficeName 8",
-		"ContactLaterDate": "/Date(1317506401000)/",
-		"ContactLaterTime": "PT14H4M23S",
-		"Cycle": 7118,
-		"RemainingDays": 9056,
-		"ServiceLevelId": 530,
-		"SourceId": "SourceId 8",
-		"ControlListsResult": "ControlListsResult 8",
-		"RiskLevel": "RiskLevel 8",
-		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 6049
-	},
-	"BpComplementaryData": {
-		"Curp": "Curp 8",
-		"Dependents": "Dependents 8",
-		"JobId": "JobId 8",
-		"Email": "Email 8",
-		"TimeInTheActivityId": "TimeInTheActivityId 8",
-		"HowActivityId": "HowActivityId 8",
-		"HowMuchBusinessId": "HowMuchBusinessId 8",
-		"OtherSourceId": "OtherSourceId 8",
-		"TimeInTheBusiness": "TimeInTheBusiness 8",
-		"ShopFromWhoId": "ShopFromWhoId 8",
-		"EconomicActivityId": "EconomicActivityId 8",
-		"IsIndivWBusiness": true,
-		"FielNumber": "FielNumber 8",
-		"Rfc": "Rfc 8",
-		"Homoclave": "Homoclave 8",
-		"MonthlySalary": 7.813594367436516
-	},
-	"BpBasicData": {
-		"GenderId": "GenderId 8",
-		"BirthdDate": "/Date(1469138401000)/",
-		"ElectorKey": "ElectorKey 8",
-		"CountryOfBirthId": "CountryOfBirthId 8",
-		"BirthPlace": "BirthPlace 8",
-		"NationalityId": "NationalityId 8",
-		"MaritalStatusId": "MaritalStatusId 8",
-		"Children": "Children 8",
-		"SchoolLevelId": "SchoolLevelId 8",
-		"HouseTypeId": "HouseTypeId 8",
-		"TypeOfStoreId": "TypeOfStoreId 8",
-		"GiroId": "GiroId 8",
-		"IndustryId": "IndustryId 8",
-		"EconomicActivityId": "EconomicActivityId 8",
-		"VoterRegistration": "VoterRegistration 8",
-		"IsPEP": false,
-		"NamePEP": "NamePEP 8",
-		"IsRelatedToGentera": false,
-		"RelatedName": "RelatedName 8",
-		"BasicDataStartDTime": "BasicDataStartDTime 8",
-		"RelationshipId": "RelationshipId 8"
-	},
-	"BpAdditionalData": {
-		"Spouse": {
-			"Job": "Job 8",
-			"WorkPhone": "WorkPhone 8",
-			"BPIdSpouse": "BPIdSpouse 8",
-			"BpNameData": {
-				"FirstName": "FirstName 8",
-				"MiddleName": "MiddleName 8",
-				"LastName": "LastName 8",
-				"SecondName": "SecondName 8"
-			}
-		}
-	},
-	"BpFlag": {
-		"BPFlagDistinction": 4.09421414682924
-	},
-	"IsAvailableForReq": true,
-	"__metadata": {
-		"uri": "GuarantorSet('CustomerIdCRM%208')",
-		"type": "AOMobile.Guarantor"
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%208')/LinkGuarantorSet"
-		}
-	},
-	"AddressSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%208')/AddressSet"
-		}
-	},
-	"PhoneSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%208')/PhoneSet"
-		}
-	},
-	"PersonalReferenceSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%208')/PersonalReferenceSet"
-		}
-	},
-	"EmployerSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%208')/EmployerSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%208')/ImageSet"
-		}
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 9",
-	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 9",
-	"BpName": {
-		"FirstName": "FirstName 9",
-		"MiddleName": "MiddleName 9",
-		"LastName": "LastName 9",
-		"SecondName": "SecondName 9"
-	},
-	"BpMainData": {
-		"ProductId": "ProductId 9",
-		"RegistrationDate": "/Date(1306360801000)/",
-		"RoleId": "RoleId 9",
-		"StatusId": "StatusId 9",
-		"StatusReasonId": "StatusReasonId 9",
-		"SourceName": "SourceName 9",
-		"LeadIdCRM": "LeadIdCRM 9",
-		"ServiceOfficeID": "ServiceOfficeID 9",
-		"ServiceOfficeName": "ServiceOfficeName 9",
-		"ContactLaterDate": "/Date(1254866401000)/",
-		"ContactLaterTime": "PT21H5M34S",
-		"Cycle": 918,
-		"RemainingDays": 4934,
-		"ServiceLevelId": 5330,
-		"SourceId": "SourceId 9",
-		"ControlListsResult": "ControlListsResult 9",
-		"RiskLevel": "RiskLevel 9",
-		"IsContactLaterEditable": true,
-		"AccumulatedCycle": 3567
-	},
-	"BpComplementaryData": {
-		"Curp": "Curp 9",
-		"Dependents": "Dependents 9",
-		"JobId": "JobId 9",
-		"Email": "Email 9",
-		"TimeInTheActivityId": "TimeInTheActivityId 9",
-		"HowActivityId": "HowActivityId 9",
-		"HowMuchBusinessId": "HowMuchBusinessId 9",
-		"OtherSourceId": "OtherSourceId 9",
-		"TimeInTheBusiness": "TimeInTheBusiness 9",
-		"ShopFromWhoId": "ShopFromWhoId 9",
-		"EconomicActivityId": "EconomicActivityId 9",
-		"IsIndivWBusiness": false,
-		"FielNumber": "FielNumber 9",
-		"Rfc": "Rfc 9",
-		"Homoclave": "Homoclave 9",
-		"MonthlySalary": 4.6727168681123565
-	},
-	"BpBasicData": {
-		"GenderId": "GenderId 9",
-		"BirthdDate": "/Date(983314801000)/",
-		"ElectorKey": "ElectorKey 9",
-		"CountryOfBirthId": "CountryOfBirthId 9",
-		"BirthPlace": "BirthPlace 9",
-		"NationalityId": "NationalityId 9",
-		"MaritalStatusId": "MaritalStatusId 9",
-		"Children": "Children 9",
-		"SchoolLevelId": "SchoolLevelId 9",
-		"HouseTypeId": "HouseTypeId 9",
-		"TypeOfStoreId": "TypeOfStoreId 9",
-		"GiroId": "GiroId 9",
-		"IndustryId": "IndustryId 9",
-		"EconomicActivityId": "EconomicActivityId 9",
-		"VoterRegistration": "VoterRegistration 9",
-		"IsPEP": true,
-		"NamePEP": "NamePEP 9",
-		"IsRelatedToGentera": false,
-		"RelatedName": "RelatedName 9",
-		"BasicDataStartDTime": "BasicDataStartDTime 9",
-		"RelationshipId": "RelationshipId 9"
-	},
-	"BpAdditionalData": {
-		"Spouse": {
-			"Job": "Job 9",
-			"WorkPhone": "WorkPhone 9",
-			"BPIdSpouse": "BPIdSpouse 9",
-			"BpNameData": {
-				"FirstName": "FirstName 9",
-				"MiddleName": "MiddleName 9",
-				"LastName": "LastName 9",
-				"SecondName": "SecondName 9"
-			}
-		}
-	},
-	"BpFlag": {
-		"BPFlagDistinction": 4.440806394645631
-	},
-	"IsAvailableForReq": false,
-	"__metadata": {
-		"uri": "GuarantorSet('CustomerIdCRM%209')",
-		"type": "AOMobile.Guarantor"
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%209')/LinkGuarantorSet"
-		}
-	},
-	"AddressSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%209')/AddressSet"
-		}
-	},
-	"PhoneSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%209')/PhoneSet"
-		}
-	},
-	"PersonalReferenceSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%209')/PersonalReferenceSet"
-		}
-	},
-	"EmployerSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%209')/EmployerSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%209')/ImageSet"
-		}
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 10",
-	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 10",
-	"BpName": {
-		"FirstName": "FirstName 10",
-		"MiddleName": "MiddleName 10",
-		"LastName": "LastName 10",
-		"SecondName": "SecondName 10"
-	},
-	"BpMainData": {
-		"ProductId": "ProductId 10",
-		"RegistrationDate": "/Date(1162508401000)/",
-		"RoleId": "RoleId 10",
-		"StatusId": "StatusId 10",
-		"StatusReasonId": "StatusReasonId 10",
-		"SourceName": "SourceName 10",
-		"LeadIdCRM": "LeadIdCRM 10",
-		"ServiceOfficeID": "ServiceOfficeID 10",
-		"ServiceOfficeName": "ServiceOfficeName 10",
-		"ContactLaterDate": "/Date(1250287201000)/",
-		"ContactLaterTime": "PT19H40M0S",
-		"Cycle": 6500,
-		"RemainingDays": 408,
-		"ServiceLevelId": 7927,
-		"SourceId": "SourceId 10",
-		"ControlListsResult": "ControlListsResult 10",
-		"RiskLevel": "RiskLevel 10",
-		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 4632
-	},
-	"BpComplementaryData": {
-		"Curp": "Curp 10",
-		"Dependents": "Dependents 10",
-		"JobId": "JobId 10",
-		"Email": "Email 10",
-		"TimeInTheActivityId": "TimeInTheActivityId 10",
-		"HowActivityId": "HowActivityId 10",
-		"HowMuchBusinessId": "HowMuchBusinessId 10",
-		"OtherSourceId": "OtherSourceId 10",
-		"TimeInTheBusiness": "TimeInTheBusiness 10",
-		"ShopFromWhoId": "ShopFromWhoId 10",
-		"EconomicActivityId": "EconomicActivityId 10",
-		"IsIndivWBusiness": true,
-		"FielNumber": "FielNumber 10",
-		"Rfc": "Rfc 10",
-		"Homoclave": "Homoclave 10",
-		"MonthlySalary": 7.932647577448484
-	},
-	"BpBasicData": {
-		"GenderId": "GenderId 10",
-		"BirthdDate": "/Date(1036796401000)/",
-		"ElectorKey": "ElectorKey 10",
-		"CountryOfBirthId": "CountryOfBirthId 10",
-		"BirthPlace": "BirthPlace 10",
-		"NationalityId": "NationalityId 10",
-		"MaritalStatusId": "MaritalStatusId 10",
-		"Children": "Children 10",
-		"SchoolLevelId": "SchoolLevelId 10",
-		"HouseTypeId": "HouseTypeId 10",
-		"TypeOfStoreId": "TypeOfStoreId 10",
-		"GiroId": "GiroId 10",
-		"IndustryId": "IndustryId 10",
-		"EconomicActivityId": "EconomicActivityId 10",
-		"VoterRegistration": "VoterRegistration 10",
-		"IsPEP": true,
-		"NamePEP": "NamePEP 10",
-		"IsRelatedToGentera": false,
-		"RelatedName": "RelatedName 10",
-		"BasicDataStartDTime": "BasicDataStartDTime 10",
-		"RelationshipId": "RelationshipId 10"
-	},
-	"BpAdditionalData": {
-		"Spouse": {
-			"Job": "Job 10",
-			"WorkPhone": "WorkPhone 10",
-			"BPIdSpouse": "BPIdSpouse 10",
-			"BpNameData": {
-				"FirstName": "FirstName 10",
-				"MiddleName": "MiddleName 10",
-				"LastName": "LastName 10",
-				"SecondName": "SecondName 10"
-			}
-		}
-	},
-	"BpFlag": {
-		"BPFlagDistinction": 2.844845504991924
-	},
-	"IsAvailableForReq": true,
-	"__metadata": {
-		"uri": "GuarantorSet('CustomerIdCRM%2010')",
-		"type": "AOMobile.Guarantor"
-	},
-	"LinkGuarantorSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%2010')/LinkGuarantorSet"
-		}
-	},
-	"AddressSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%2010')/AddressSet"
-		}
-	},
-	"PhoneSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%2010')/PhoneSet"
-		}
-	},
-	"PersonalReferenceSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%2010')/PersonalReferenceSet"
-		}
-	},
-	"EmployerSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%2010')/EmployerSet"
-		}
-	},
-	"ImageSet": {
-		"__deferred": {
-			"uri": "GuarantorSet('CustomerIdCRM%2010')/ImageSet"
+			"uri": "GuarantorSet('CustomerIdCRM%204')/ImageSet"
 		}
 	}
 }]
