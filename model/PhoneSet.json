@@ -98,4 +98,404 @@
 		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2010',CustomerIdCRM='CustomerIdCRM%2010')",
 		"type": "AOMobile.Phone"
 	}
+},{
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "CustomerIdCRM 11",
+	"PhoneNumber": "5586523233",
+	"CustomerIdMD": "CustomerIdMD 11",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2011',CustomerIdCRM='CustomerIdCRM%2011')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 12",
+	"PhoneNumber": "5552342432",
+	"CustomerIdMD": "CustomerIdMD 12",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2012',CustomerIdCRM='CustomerIdCRM%2012')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 13",
+	"PhoneNumber": "552134324",
+	"CustomerIdMD": "CustomerIdMD 13",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2013',CustomerIdCRM='CustomerIdCRM%2013')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "5",
+	"CustomerIdCRM": "CustomerIdCRM 14",
+	"PhoneNumber": "5523423442",
+	"CustomerIdMD": "CustomerIdMD 14",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2014',CustomerIdCRM='CustomerIdCRM%2014')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 15",
+	"PhoneNumber": "5578786789",
+	"CustomerIdMD": "CustomerIdMD 15",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2015',CustomerIdCRM='CustomerIdCRM%2015')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 16",
+	"PhoneNumber": "55456456456",
+	"CustomerIdMD": "CustomerIdMD 16",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2016',CustomerIdCRM='CustomerIdCRM%2016')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 17",
+	"PhoneNumber": "55345345345",
+	"CustomerIdMD": "CustomerIdMD 17",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2017',CustomerIdCRM='CustomerIdCRM%2017')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 18",
+	"PhoneNumber": "5522341236",
+	"CustomerIdMD": "CustomerIdMD 18",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2018',CustomerIdCRM='CustomerIdCRM%2018')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "CustomerIdCRM 19",
+	"PhoneNumber": "55888878567",
+	"CustomerIdMD": "CustomerIdMD 19",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2019',CustomerIdCRM='CustomerIdCRM%2019')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 20",
+	"PhoneNumber": "552324234323",
+	"CustomerIdMD": "CustomerIdMD 20",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2020',CustomerIdCRM='CustomerIdCRM%2020')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "CustomerIdCRM 21",
+	"PhoneNumber": "5586523233",
+	"CustomerIdMD": "CustomerIdMD 21",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2021',CustomerIdCRM='CustomerIdCRM%2021')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 22",
+	"PhoneNumber": "5552342432",
+	"CustomerIdMD": "CustomerIdMD 22",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2022',CustomerIdCRM='CustomerIdCRM%2022')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 23",
+	"PhoneNumber": "552134324",
+	"CustomerIdMD": "CustomerIdMD 23",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2023',CustomerIdCRM='CustomerIdCRM%2023')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "5",
+	"CustomerIdCRM": "CustomerIdCRM 24",
+	"PhoneNumber": "5523423442",
+	"CustomerIdMD": "CustomerIdMD 24",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2024',CustomerIdCRM='CustomerIdCRM%2024')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 25",
+	"PhoneNumber": "5578786789",
+	"CustomerIdMD": "CustomerIdMD 25",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2025',CustomerIdCRM='CustomerIdCRM%2025')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 26",
+	"PhoneNumber": "55456456456",
+	"CustomerIdMD": "CustomerIdMD 26",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2026',CustomerIdCRM='CustomerIdCRM%2026')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 27",
+	"PhoneNumber": "55345345345",
+	"CustomerIdMD": "CustomerIdMD 27",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%207',CustomerIdCRM='CustomerIdCRM%2027')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 28",
+	"PhoneNumber": "5522341236",
+	"CustomerIdMD": "CustomerIdMD 28",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2028',CustomerIdCRM='CustomerIdCRM%2028')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "CustomerIdCRM 29",
+	"PhoneNumber": "55888878567",
+	"CustomerIdMD": "CustomerIdMD 29",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2029',CustomerIdCRM='CustomerIdCRM%2029')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 30",
+	"PhoneNumber": "552324234323",
+	"CustomerIdMD": "CustomerIdMD 30",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2030',CustomerIdCRM='CustomerIdCRM%2030')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "31",
+	"CustomerIdCRM": "CustomerIdCRM 31",
+	"PhoneNumber": "5586523233",
+	"CustomerIdMD": "CustomerIdMD 31",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2031',CustomerIdCRM='CustomerIdCRM%2031')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 32",
+	"PhoneNumber": "5552342432",
+	"CustomerIdMD": "CustomerIdMD 32",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2032',CustomerIdCRM='CustomerIdCRM%2032')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 33",
+	"PhoneNumber": "552134324",
+	"CustomerIdMD": "CustomerIdMD 33",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2033',CustomerIdCRM='CustomerIdCRM%2033')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "5",
+	"CustomerIdCRM": "CustomerIdCRM 34",
+	"PhoneNumber": "5523423442",
+	"CustomerIdMD": "CustomerIdMD 34",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2034',CustomerIdCRM='CustomerIdCRM%2034')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 35",
+	"PhoneNumber": "5578786789",
+	"CustomerIdMD": "CustomerIdMD 35",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2035',CustomerIdCRM='CustomerIdCRM%2035')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 36",
+	"PhoneNumber": "55456456456",
+	"CustomerIdMD": "CustomerIdMD 36",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2036',CustomerIdCRM='CustomerIdCRM%2036')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 37",
+	"PhoneNumber": "55345345345",
+	"CustomerIdMD": "CustomerIdMD 37",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2037',CustomerIdCRM='CustomerIdCRM%2037')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 38",
+	"PhoneNumber": "5522341236",
+	"CustomerIdMD": "CustomerIdMD 38",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%208',CustomerIdCRM='CustomerIdCRM%2038')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "CustomerIdCRM 39",
+	"PhoneNumber": "55888878567",
+	"CustomerIdMD": "CustomerIdMD 39",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2039',CustomerIdCRM='CustomerIdCRM%2039')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 40",
+	"PhoneNumber": "552324234323",
+	"CustomerIdMD": "CustomerIdMD 40",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2010',CustomerIdCRM='CustomerIdCRM%2040')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 41",
+	"PhoneNumber": "552324234323",
+	"CustomerIdMD": "CustomerIdMD 41",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2041',CustomerIdCRM='CustomerIdCRM%2041')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "31",
+	"CustomerIdCRM": "CustomerIdCRM 42",
+	"PhoneNumber": "5586523233",
+	"CustomerIdMD": "CustomerIdMD 42",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2042',CustomerIdCRM='CustomerIdCRM%2042')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 43",
+	"PhoneNumber": "5552342432",
+	"CustomerIdMD": "CustomerIdMD 43",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2043',CustomerIdCRM='CustomerIdCRM%2043')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 44",
+	"PhoneNumber": "552134324",
+	"CustomerIdMD": "CustomerIdMD 44",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2044',CustomerIdCRM='CustomerIdCRM%2044')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "5",
+	"CustomerIdCRM": "CustomerIdCRM 45",
+	"PhoneNumber": "5523423442",
+	"CustomerIdMD": "CustomerIdMD 45",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2045',CustomerIdCRM='CustomerIdCRM%2045')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 46",
+	"PhoneNumber": "5578786789",
+	"CustomerIdMD": "CustomerIdMD 46",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2046',CustomerIdCRM='CustomerIdCRM%2046')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 47",
+	"PhoneNumber": "55456456456",
+	"CustomerIdMD": "CustomerIdMD 47",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2047',CustomerIdCRM='CustomerIdCRM%2047')",
+		"type": "AOMobile.Phone"
+	}
+}, {
+	"PhoneTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 48",
+	"PhoneNumber": "55345345345",
+	"CustomerIdMD": "CustomerIdMD 48",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2048',CustomerIdCRM='CustomerIdCRM%2048')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 49",
+	"PhoneNumber": "5522341236",
+	"CustomerIdMD": "CustomerIdMD 49",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2049',CustomerIdCRM='CustomerIdCRM%2049')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "CustomerIdCRM 50",
+	"PhoneNumber": "55888878567",
+	"CustomerIdMD": "CustomerIdMD 50",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2050',CustomerIdCRM='CustomerIdCRM%2050')",
+		"type": "AOMobile.Phone"
+	}
 }]

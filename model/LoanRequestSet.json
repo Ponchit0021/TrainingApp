@@ -442,7 +442,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": false,
 		"StartDate": "/Date(1330469974000)/",
-		"Cycle": 0,
+		"Cycle": 1,
 		"StatusId": "StatusId 5",
 		"StatusText": "StatusText 5",
 		"FirstPaymentDate": "/Date(963093574000)/",
@@ -543,7 +543,7 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": true,
 		"StartDate": "/Date(1054504774000)/",
-		"Cycle": 0,
+		"Cycle": 1,
 		"StatusId": "StatusId 6",
 		"StatusText": "StatusText 6",
 		"FirstPaymentDate": "/Date(1197932374000)/",
