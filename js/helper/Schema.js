@@ -161,8 +161,8 @@
 
     sap.ui.helper.Schema.prototype.getNotiDBSchema = function() {
         return [{
-            singular: "SystemNotification",
-            plural: "SystemNotificationSet"
+            singular: "InsuranceSystemNotification",
+            plural: "InsuranceSystemNotificationSet"
         }];
     };
 

@@ -14,7 +14,7 @@
 
 
     sap.ui.base.Object.extend('sap.ui.sync.Insurance', {
-        constructor: function(_dataDB, _syncDB) {
+        constructor: function(_dataDB, _syncDB, _notiDB) {
             var oSchemaDB;
             oSchemaDB = new sap.ui.helper.Schema();
 
@@ -22,6 +22,10 @@
             this.dataDB.setSchema(oSchemaDB.getDataDBSchema());
             this.syncDB = new sap.ui.db.Pouch(_syncDB);
             this.syncDB.setSchema(oSchemaDB.getSyncDBSchema());
+            //TRAINING
+            this.notiDB = new sap.ui.db.Pouch("notiDB");
+            this.notiDB.setSchema(oSchemaDB.getNotiDBSchema());
+
             this.oDictionary = new sap.ui.helper.Dictionary();
             this.loggerSMPComponent = "INSURANCE_SYNC";
             this.ERROR = "ERROR";
@@ -67,24 +71,24 @@
 
             this.retrieveInsuranceRequests().then(
 
-                function(result) {
-                    //israel - extrae los registros de tipo seguros ubicados en syncdb
-                   
-                    var aPromises;
+                    function(result) {
+                        //israel - extrae los registros de tipo seguros ubicados en syncdb
 
-                    aPromises = this.generateSendIndividualPromises(result, resolveMasterPromise);
+                        var aPromises;
 
-                    Promise.all(aPromises).then(this.handleNumericResults.bind(this, resolveMasterPromise, oNow))
-                        .catch(function(error) {
-                            this.handleError("SINS1", "Error al resolver Promise All ", error);
-                            resolveMasterPromise(this.oSyncResultHelper.initializeSynchronizingResults());
-                        }.bind(this));
+                        aPromises = this.generateSendIndividualPromises(result, resolveMasterPromise);
 
-                }.bind(this))
+                        Promise.all(aPromises).then(this.handleNumericResults.bind(this, resolveMasterPromise, oNow))
+                            .catch(function(error) {
+                                this.handleError("SINS1", "Error al resolver Promise All ", error);
+                                resolveMasterPromise(this.oSyncResultHelper.initializeSynchronizingResults());
+                            }.bind(this));
 
-            .catch(function(error) {
-                this.handleError("SINS1", "Error general de sincronización ", error).then(resolveMasterPromise(this.oSyncResultHelper.initializeSynchronizingResults()))
-            }.bind(this));
+                    }.bind(this))
+
+                .catch(function(error) {
+                    this.handleError("SINS1", "Error general de sincronización ", error).then(resolveMasterPromise(this.oSyncResultHelper.initializeSynchronizingResults()))
+                }.bind(this));
 
         }.bind(this));
     };
@@ -117,7 +121,7 @@
         results = this.validatePouchResults(_aResults, "RequestQueueInsuranceSet");
 
         results.forEach(function(result) {
-           
+
             if (result.requestStatus != this.oDictionary.oRequestStatus.Sent) {
                 aPromises.push(this.generateSinglePromise(result));
             }
@@ -168,7 +172,7 @@
     sap.ui.sync.Insurance.prototype.sendRequest = function(_oQueueItem, _resolveSendPromise, result) {
         this.handleTrace("SINS5", _oQueueItem.id + " Payload: " + JSON.stringify(result));
 
-        
+
         sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
             .then(this.processODataResponse.bind(this, _oQueueItem, _resolveSendPromise))
             .catch(this.processODataResponseError.bind(this, _oQueueItem, _resolveSendPromise));
@@ -181,7 +185,7 @@
      * @param  {[Object]} result              [Result from OData call]
      */
     sap.ui.sync.Insurance.prototype.processODataResponse = function(_oQueueItem, _resolveSendPromise, result) {
-       
+
         this.handleTrace("SINS6", _oQueueItem.id);
 
         if (result.hasOwnProperty("statusCode")) {
@@ -196,8 +200,8 @@
 
 
             this.oSyncResultHelper.reportResult(this.oSyncResultHelper.getResultObject("SYNC", this.OK, _oQueueItem.id, _oQueueItem.requestDescription, "OK", "INS"))
-            .then(this.clearBusinessError(_oQueueItem, _resolveSendPromise))
-
+            //.then(this.clearBusinessError(_oQueueItem, _resolveSendPromise))
+            .then(this.sendNotification(_oQueueItem, _resolveSendPromise))
 
         ).catch(function(sError) {
             this.handleError.bind("SINS6", "Error al actualizar SynC Queue a status 'Sent' del seguro  " + _oQueueItem.id, sError);
@@ -205,6 +209,31 @@
         }.bind(this));
     };
 
+    //TRAINING - Se emula base de datos de notificaciones
+    sap.ui.sync.Insurance.prototype.sendNotification = function(_oQueueItem, _resolveSendPromise) {
+        return new Promise(function(resolveSendNotification, rejectSendNotification) {
+            jQuery.sap.require("js.buffer.notification.NotificationBuffer");
+            var oNotificationBuffer = new sap.ui.buffer.Notification("notiDB");
+            var oRequest = {
+                id: _oQueueItem.id,
+                notificationID: "12345",
+                dateTime: "2017-07-19T21:05:27.280Z",
+                status: 1,
+                messageID: 122,
+                message: "Proceso asignación seguro finalizado",
+                objectTypeID: "4",
+                objectDMID: _oQueueItem.id,
+                objectCRMID: _oQueueItem.id,
+                attended: "0",
+                insuranceDMID: _oQueueItem.id
+            };
+
+            oNotificationBuffer.postRequest(oRequest)
+                .then(function() {
+                    _resolveSendPromise("ok");
+                });
+        });
+    };
     /**
      * [updateSyncQueue: Updates the sync Queue once the process has completed -
      * Actualiza el estatus de la petición Initial - Sent - Se debe visualizar en la lista de peticiiones al terminar la sincronización con estatus OK]   
@@ -401,7 +430,7 @@
     sap.ui.sync.Insurance.prototype.retrieveBusinessError = function(error) {
 
         var sErrorMessage, oErrorService;
-       
+
         sErrorMessage = "";
 
         try {
@@ -566,12 +595,14 @@
 
                 this.handleTrace("CINS01", "Obtener notificaciones de tipo Insurance Request");
 
-                //// 00000000000000 Regresar filtros  000000000000000000//
-                sap.ui.getCore().AppContext.oRest.read("/SystemNotifications", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Promotor + "' and attended eq '0' and objectTypeID eq '4'", true)
-                    //sap.ui.getCore().AppContext.oRest.read("/SystemNotifications", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Promotor + "'", true)
-                    //// 00000000000000 Regresar filtros 000000000000000000//
+                //sap.ui.getCore().AppContext.oRest.read("/SystemNotifications", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Promotor + "' and attended eq '0' and objectTypeID eq '4'", true)
 
-                .then(function(result) {
+                //TRAINING - Consulta de notifiaciones de sistema en PouchDB
+                jQuery.sap.require("js.buffer.notification.NotificationBuffer");
+                var oNotificationBuffer = new sap.ui.buffer.Notification("notiDB");
+
+                oNotificationBuffer.searchInNotiDB("InsuranceSystemNotification")
+                    .then(function(result) {
                         var oMainPromise;
                         oMainPromise = this.createIndividualPromises(resolve, result); //.bind(this);
                         oMainPromise.then(
@@ -807,10 +838,12 @@
 
         return new Promise(function(oNotification, confirmNotificationResolve, confirmNotificationReject) {
 
-           
 
 
-            this.dataDB.getById(this.oDictionary.oTypes.LinkInsurance, oNotification.mainNotification.objectDMID)
+
+            //this.dataDB.getById(this.oDictionary.oTypes.LinkInsurance, oNotification.mainNotification.objectDMID)
+            //TRAINING 
+            this.dataDB.getById(this.oDictionary.oTypes.LinkInsurance, oNotification.objectDMID)
                 //.then(function(result){ console.log("result " +  JSON.stringify(result) )})
                 .then(this.verifyNotificationContent.bind(this, oNotification, confirmNotificationResolve))
                 .catch(function(error) {
@@ -879,7 +912,7 @@
             if (this.iExcluded === 0) {
 
                 /// Borrar LinkInsurance
-                this.dataDB.delete("LinkInsurance", oResult.LinkInsuranceSet[0].id, oResult.LinkInsuranceSet[0].rev);
+                this.dataDB.delete("LinkInsurance", oResult.LinkInsuranceSet[0].id, oResult.LinkInsuranceSet[0].rev)
                 /// Confirmar la solicitud
                 this.updateAttended(oNotification.mainNotification);
                 /// Reportar resultado
@@ -959,7 +992,9 @@
 
             this.dataDB.delete("Insurance", Insurance.id, Insurance.rev)
                 .then(function(result) {
-                    this.deleteInsuranceFromSyncDB(Insurance.id)
+                    //TRAINING
+                    //this.deleteInsuranceFromSyncDB(Insurance.id)
+                    this.deleteInsuranceFromSyncDB(Insurance)
                         .then(function(result) {
                             this.handleTrace("CINS08", "COMPLETED: " + Insurance.id);
                             resolveInsurancePromise(this.OK);
@@ -1028,21 +1063,21 @@
      * @param  {[Object]} oNotification [Notification to process]
      * @return {[Promise]}               [Promise]
      */
-    sap.ui.sync.Insurance.prototype.deleteInsuranceFromSyncDB = function(sInsuranceID) {
+    sap.ui.sync.Insurance.prototype.deleteInsuranceFromSyncDB = function(Insurance) {
 
-        this.handleTrace("CINS13", "Eliminar SEGURO de SYNCDB : " + sInsuranceID);
+        this.handleTrace("CINS13", "Eliminar SEGURO de SYNCDB : " + Insurance.id);
 
         return new Promise(function(resolve, reject) {
 
-            this.syncDB.getById(this.oDictionary.oQueues.Insurance, sInsuranceID)
+            this.syncDB.getById(this.oDictionary.oQueues.Insurance, Insurance.id)
                 .then(function(oResult) {
 
                     if (oResult.RequestQueueInsuranceSet.length > 0) {
 
-                        this.handleTrace("CINS13", "Existe en SyncDB, borrando : " + sInsuranceID);
+                        this.handleTrace("CINS13", "Existe en SyncDB, borrando : " + Insurance.id);
                         this.syncDB.delete(this.oDictionary.oQueues.Insurance, oResult.RequestQueueInsuranceSet[0].id, oResult.RequestQueueInsuranceSet[0].rev)
                             .then(resolve("OK"))
-                            .catch(this.handleError.bind(this, "CINS13", "Error al eliminar registro de LonaRequest en SYNCDB: " + sInsuranceID))
+                            .catch(this.handleError.bind(this, "CINS13", "Error al eliminar registro de LonaRequest en SYNCDB: " + Insurance.id))
                             .then(resolve("OK"));
 
                     } else {
@@ -1059,7 +1094,7 @@
      * @param  {[Object]} oNotification [Notification to process]
      * @return {[Promise]}               [Promise]
      */
-    sap.ui.sync.Insurance.prototype.updateAttended = function(oNotification) {
+    /*sap.ui.sync.Insurance.prototype.updateAttended = function(oNotification) {
 
         this.handleTrace("CINS14", "Actualizar status de attended para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
 
@@ -1077,6 +1112,32 @@
                 ).catch(function(error) {
 
                     this.handleError("CINS14", "Error Actualizar status de attended para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
+                        .then(this.saveUpdateError(oNotification))
+                        .then(resolve(this.OK))
+
+                }.bind(this));
+
+        }.bind(this));
+    };
+*/
+
+    sap.ui.sync.Insurance.prototype.updateAttended = function(oNotification) {
+
+        this.handleTrace("CINS14", "TRAINING - Eliminar notificacion de sistema (PouchDB): " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
+
+        return new Promise(function(resolve, reject) {
+
+
+            //sap.ui.getCore().AppContext.oRest.update("/SystemNotifications('" + oNotification.notificationID + "')", oBody, true)
+            //this.notiDB.getById("InsuranceSystemNotification", oNotification.id)
+             this.notiDB.delete(this.oDictionary.oQueues.Notification, oNotification.id, oNotification.rev)
+                .then(function(res){
+                    console.log(res);
+                    this.handleTrace("CINS14", "TRAINING - Notificacion de Sistema elimnada de PouchDB: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
+                    .then(resolve(this.OK))
+                }).catch(function(error) {
+
+                    this.handleError("CINS14", "TRAINING - Error eliminar notificacion de sistema (PouchDB) para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
                         .then(this.saveUpdateError(oNotification))
                         .then(resolve(this.OK))
 

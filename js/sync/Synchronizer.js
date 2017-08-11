@@ -7,11 +7,13 @@
 
 
     sap.ui.base.Object.extend('sap.ui.sync.Synchronizer', {
-        constructor: function(_dataDB, _syncDB) {
+        constructor: function(_dataDB, _syncDB, _notiDB) {
             var oSchemaDB;
 
             this.dataDBName = _dataDB;
             this.syncDBName = _syncDB;
+            //TRAINING
+            this.notiDBName = _notiDB;
 
             jQuery.sap.require("js.helper.Dictionary");
             jQuery.sap.require("js.helper.Schema");
@@ -29,6 +31,9 @@
             this.dataDB.setSchema(oSchemaDB.getDataDBSchema());
             this.syncDB = new sap.ui.db.Pouch(_syncDB);
             this.syncDB.setSchema(oSchemaDB.getSyncDBSchema());
+            //TRAINING
+            this.notiDB = new sap.ui.db.Pouch(_notiDB);
+            this.notiDB.setSchema(oSchemaDB.getNotiDBSchema());
             this.syncResults = new sap.ui.helper.SyncResults();
             this.oNavigator = new sap.ui.mw.NavigatorBase();
 
@@ -67,7 +72,7 @@
     sap.ui.sync.Synchronizer.prototype.reviewGWCache = function() {
         return new Promise(function(resolve, reject) {
             sap.ui.getCore().AppContext.myRest.read("/InitializeCache", "CollaboratorID='" + sap.ui.getCore().AppContext.Promotor + "'", true)
-                 .then(resolve);           
+                .then(resolve);
         });
 
     }
@@ -266,8 +271,8 @@
         }.bind(this));
         */
 
-        //Se resuelve promesa para aplicación de TRAINING - No se requiere el servicio de HORARIO DE SERVICIO
-        resolve(true);
+            //Se resuelve promesa para aplicación de TRAINING - No se requiere el servicio de HORARIO DE SERVICIO
+            resolve(true);
         });
     };
 
@@ -297,7 +302,7 @@
                 this.oBPSyncGuarantor = new sap.ui.sync.BP(this.dataDBName, this.syncDBName, "Guarantor");
                 this.oBPSyncCustomer = new sap.ui.sync.BP(this.dataDBName, this.syncDBName, "Customer");
                 this.oLoanRequestSync = new sap.ui.sync.LoanRequest(this.dataDBName, this.syncDBName);
-                this.oInsuranceSync = new sap.ui.sync.Insurance(this.dataDBName, this.syncDBName);
+                this.oInsuranceSync = new sap.ui.sync.Insurance(this.dataDBName, this.syncDBName, this.notiDBName);
                 this.oCrossSellOfferSync = new sap.ui.sync.CrossSellOffer(this.dataDBName, this.syncDBName, "CrossSellOffer");
 
                 if (bResult) {
