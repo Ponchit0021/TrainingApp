@@ -68,9 +68,10 @@
         Link: "RequestQueueLink",
         Guarantor: "RequestQueueGuarantor",
         CrossSellingCandidate: "RequestQueueCrossSellingCandidate",
-        CrossSellOffer:"RequestQueueCrossSellOffer",
+        CrossSellOffer: "RequestQueueCrossSellOffer",
         GroupCrossSellGuarantorCandidate: "RequestQueueGroupCrossSellGuarantorCandidate",
-        GroupCrossSellAssignedGuarantor: "RequestQueueGroupCrossSellAssignedGuarantor"
+        GroupCrossSellAssignedGuarantor: "RequestQueueGroupCrossSellAssignedGuarantor",
+        InsuranceSystemNotification: "InsuranceSystemNotification"
     };
 
     sap.ui.helper.Dictionary.prototype.oErrors = {
@@ -79,7 +80,7 @@
         Insurance: "BusinessErrorInsurance",
         Guarantor: "BusinessErrorGuarantor",
         CrossSellingCandidate: "BusinessErrorCrossSellingCandidate",
-        CrossSellOffer:"BusinessErrorCrossSellOffer",
+        CrossSellOffer: "BusinessErrorCrossSellOffer",
         GroupCrossSellGuarantorCandidate: "BusinessErrorGroupCrossSellGuarantorCandidate",
         GroupCrossSellAssignedGuarantor: "BusinessErrorGroupCrossSellAssignedGuarantor",
         Notification: "SystemErrorNotification"
@@ -194,7 +195,7 @@
                 odata: {
                     name: "GroupCrossSellGuarantorCandidateSet",
                     get: {
-                        filter: "$filter=CollaboratorID eq '" + _params.promoterID +"' and  LoanRequestIdCRM eq '" + _params.loanRequestID + "'",
+                        filter: "$filter=CollaboratorID eq '" + _params.promoterID + "' and  LoanRequestIdCRM eq '" + _params.loanRequestID + "'",
                         expand: ""
                     }
                 }

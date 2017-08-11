@@ -601,7 +601,7 @@
                 jQuery.sap.require("js.buffer.notification.NotificationBuffer");
                 var oNotificationBuffer = new sap.ui.buffer.Notification("notiDB");
 
-                oNotificationBuffer.searchInNotiDB("InsuranceSystemNotification")
+                oNotificationBuffer.searchInNotiDB(this.oDictionary.oQueues.InsuranceSystemNotification)
                     .then(function(result) {
                         var oMainPromise;
                         oMainPromise = this.createIndividualPromises(resolve, result); //.bind(this);
@@ -1129,12 +1129,11 @@
 
 
             //sap.ui.getCore().AppContext.oRest.update("/SystemNotifications('" + oNotification.notificationID + "')", oBody, true)
-            //this.notiDB.getById("InsuranceSystemNotification", oNotification.id)
-             this.notiDB.delete(this.oDictionary.oQueues.Notification, oNotification.id, oNotification.rev)
-                .then(function(res){
+            this.notiDB.delete(this.oDictionary.oQueues.InsuranceSystemNotification, oNotification.id, oNotification.rev)
+                .then(function(res) {
                     console.log(res);
                     this.handleTrace("CINS14", "TRAINING - Notificacion de Sistema elimnada de PouchDB: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
-                    .then(resolve(this.OK))
+                        .then(resolve(this.OK))
                 }).catch(function(error) {
 
                     this.handleError("CINS14", "TRAINING - Error eliminar notificacion de sistema (PouchDB) para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
