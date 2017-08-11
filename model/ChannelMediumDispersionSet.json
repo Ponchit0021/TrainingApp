@@ -1,9 +1,9 @@
 [{
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 1",
-	"MediumID": "MediumID 1",
-	"ChannelDescription": "ChannelDescription 1",
-	"MediumDescription": "MediumDescription 1",
+	"ChannelID": "1",
+	"MediumID": "1",
+	"ChannelDescription": "BANCOMER",
+	"MediumDescription": "ODP",
 	"Min": 4.753017610106756,
 	"Max": 7.798285927423681,
 	"__metadata": {
@@ -12,10 +12,10 @@
 	}
 }, {
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 2",
-	"MediumID": "MediumID 2",
-	"ChannelDescription": "ChannelDescription 2",
-	"MediumDescription": "MediumDescription 2",
+	"ChannelID": "1",
+	"MediumID": "2",
+	"ChannelDescription": "BANCOMER",
+	"MediumDescription": "ODP2",
 	"Min": 7.909342627308529,
 	"Max": 8.843823499158855,
 	"__metadata": {
@@ -24,10 +24,10 @@
 	}
 }, {
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 3",
-	"MediumID": "MediumID 3",
-	"ChannelDescription": "ChannelDescription 3",
-	"MediumDescription": "MediumDescription 3",
+	"ChannelID": "1",
+	"MediumID": "3",
+	"ChannelDescription": "BANCOMER",
+	"MediumDescription": "ODP3",
 	"Min": 6.291167408187059,
 	"Max": 8.23410412994697,
 	"__metadata": {
@@ -36,10 +36,10 @@
 	}
 }, {
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 4",
-	"MediumID": "MediumID 4",
-	"ChannelDescription": "ChannelDescription 4",
-	"MediumDescription": "MediumDescription 4",
+	"ChannelID": "1",
+	"MediumID": "4",
+	"ChannelDescription": "BANCOMER",
+	"MediumDescription": "ODP4",
 	"Min": 7.36380640285633,
 	"Max": 9.920622005259084,
 	"__metadata": {
@@ -48,10 +48,10 @@
 	}
 }, {
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 5",
-	"MediumID": "MediumID 5",
-	"ChannelDescription": "ChannelDescription 5",
-	"MediumDescription": "MediumDescription 5",
+	"ChannelID": "2",
+	"MediumID": "5",
+	"ChannelDescription": "BANAMEX",
+	"MediumDescription": "ODP",
 	"Min": 7.120806623720419,
 	"Max": 4.5651456603047595,
 	"__metadata": {
@@ -60,10 +60,10 @@
 	}
 }, {
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 6",
-	"MediumID": "MediumID 6",
-	"ChannelDescription": "ChannelDescription 6",
-	"MediumDescription": "MediumDescription 6",
+	"ChannelID": "3",
+	"MediumID": "6",
+	"ChannelDescription": "HSBC",
+	"MediumDescription": "ODP",
 	"Min": 8.690413086720955,
 	"Max": 2.2021876958941156,
 	"__metadata": {
@@ -72,10 +72,10 @@
 	}
 }, {
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 7",
-	"MediumID": "MediumID 7",
-	"ChannelDescription": "ChannelDescription 7",
-	"MediumDescription": "MediumDescription 7",
+	"ChannelID": "4",
+	"MediumID": "7",
+	"ChannelDescription": "COMPARTAMOS",
+	"MediumDescription": "DOP",
 	"Min": 7.549293225574207,
 	"Max": 5.133364254452228,
 	"__metadata": {
@@ -84,10 +84,10 @@
 	}
 }, {
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 8",
-	"MediumID": "MediumID 8",
-	"ChannelDescription": "ChannelDescription 8",
-	"MediumDescription": "MediumDescription 8",
+	"ChannelID": "5",
+	"MediumID": "8",
+	"ChannelDescription": "SANTANDER",
+	"MediumDescription": "ODP",
 	"Min": 4.383078009258963,
 	"Max": 0.02806432067039122,
 	"__metadata": {
@@ -96,10 +96,10 @@
 	}
 }, {
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 9",
-	"MediumID": "MediumID 9",
-	"ChannelDescription": "ChannelDescription 9",
-	"MediumDescription": "MediumDescription 9",
+	"ChannelID": "6",
+	"MediumID": "9",
+	"ChannelDescription": "IXE",
+	"MediumDescription": "ODP",
 	"Min": 8.603012206792776,
 	"Max": 1.1669376328656278,
 	"__metadata": {
@@ -108,10 +108,10 @@
 	}
 }, {
 	"CollaboratorID": "Genesis",
-	"ChannelID": "ChannelID 10",
-	"MediumID": "MediumID 10",
-	"ChannelDescription": "ChannelDescription 10",
-	"MediumDescription": "MediumDescription 10",
+	"ChannelID": "7",
+	"MediumID": "10",
+	"ChannelDescription": "BANORTE",
+	"MediumDescription": "OTP",
 	"Min": 4.756245553440408,
 	"Max": 4.280644721751338,
 	"__metadata": {
