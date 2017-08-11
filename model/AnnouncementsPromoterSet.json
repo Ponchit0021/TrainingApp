@@ -29,13 +29,13 @@
     "categoryName": "Avisos",
     "objectTypeID": "2",
     "objectTypeName": "Solicitudes",
-    "objectDMID": "0010004031",
-    "objectCRMID": "0010004031",
+    "objectDMID": "LoanRequestIdMD 4",
+    "objectCRMID": "LoanRequestIdCRM 4",
     "productID": "C_IND_CI",
-    "objectName": "Edgar Ensuástegui",
+    "objectName": "Sabrina Sarai Sánchez",
     "customerCRMID": "",
     "__metadata": {
-        "uri": "AnnouncementsPromoterSet('notificationID%201')",
+        "uri": "AnnouncementsPromoterSet('1001')",
         "type": "IGWSERVICESV5.AnnouncementsPromoter"
     }
 }]
