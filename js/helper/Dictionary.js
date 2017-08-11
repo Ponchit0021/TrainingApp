@@ -64,6 +64,7 @@
         Customer: "RequestQueueCustomer",
         LoanRequest: "RequestQueueLoanRequest",
         Insurance: "RequestQueueInsurance",
+        Renovation: "Renovation",
         Link: "RequestQueueLink",
         Guarantor: "RequestQueueGuarantor",
         CrossSellingCandidate: "RequestQueueCrossSellingCandidate",

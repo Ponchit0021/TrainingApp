@@ -51,7 +51,8 @@ sap.ui.controller("originacion.Renovations", {
 
     _onRouteMatched: function(evt) {
         console.log("1 getApplicationsList");
-        var oController, parametrosServicio, oModelPreLoan, oModel, myTableRenovations;
+        var oController, parametrosServicio, oModelPreLoan, oModel, myTableRenovations, oPreLoanRequests;
+        var currentData, count = 0, aux = 0;
         oController = this;
         
         // PreLoanRequest
@@ -67,33 +68,62 @@ sap.ui.controller("originacion.Renovations", {
                 oPromise = sap.ui.getCore().AppContext.myRest.read("/PreLoanRequestSet", "$filter=CollaboratorID eq '" + sap.ui.getCore().AppContext.Promotor + "'&$expand=LinkPreloanRequestSet/CustomerSet&format=json", true);   
                 oPromise
                     .then(function(oResult) {
-                        if (oResult.results.length > 0) {
-                           
-                            console.log(oResult);
-                          
-                           sap.ui.getCore().AppContext.loader.close();
-                           oModel = new sap.ui.model.json.JSONModel();
-                           oModel.setData(oResult);
 
-                            myTableRenovations = sap.ui.getCore().byId("tblAppRenovations", "items");
+                        console.log(oResult);
+                          
+                        sap.ui.getCore().AppContext.loader.close();
+                        oModel = new sap.ui.model.json.JSONModel();
+                        oModel.setData(oResult);
+                        oPreLoanRequests = oModel.getProperty("/results")
+                        console.log(oPreLoanRequests);
 
-                            myTableRenovations.setModel(oModel);
-                            itemsTemplate = new sap.m.ColumnListItem({});
-                            myTableRenovations.bindAggregation("items", {
-                                path: "/results",
-                                factory: function(_id, _context) {
-                                    return oController.onLoadTableRenovations(_context,oController);
-                                }
-                            });
-                            resolve(oDataModel);
-                            sap.ui.getCore().AppContext.loader.close();
-                        } else {
-                          
-                            sap.ui.getCore().AppContext.loader.close();
-                           // sap.m.MessageToast.show("No se logró cargar toda la información, intente de nuevo por favor.");
-                            resolve(oResult);
-                          
-                        }
+                        currentData = oModel.getData();
+                        console.log(currentData.results.length);
+
+                        oPreLoanRequests.forEach(function(currPreLoanRequest, i) {
+                            console.log(currPreLoanRequest);
+
+                            jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+                            var oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+                            oRenovationBuffer.searchInRenoDB(currPreLoanRequest.PreLoanRequestID)
+                                .then(function(ooResult) {
+                                    if (ooResult) {
+                                        console.log('si existe ' + currPreLoanRequest.PreLoanRequestID + ' . quitando...');
+                                        currentData.results.splice(i - count, 1);
+                                        oModel.refresh();
+                                        count++;
+                                    }
+                                    else
+                                        console.log('no existe' + currPreLoanRequest.PreLoanRequestID);
+
+                                    aux++;
+
+                                    if(currentData.results.length == aux){
+                                        if (oResult.results.length > 0) {
+                                            myTableRenovations = sap.ui.getCore().byId("tblAppRenovations", "items");
+
+                                            myTableRenovations.setModel(oModel);
+                                            itemsTemplate = new sap.m.ColumnListItem({});
+                                            myTableRenovations.bindAggregation("items", {
+                                                path: "/results",
+                                                factory: function(_id, _context) {
+                                                    return oController.onLoadTableRenovations(_context,oController);
+                                                }
+                                            });
+                                            //resolve(oDataModel);
+                                            sap.ui.getCore().AppContext.loader.close();
+                                        } else {
+                                          
+                                            sap.ui.getCore().AppContext.loader.close();
+                                           // sap.m.MessageToast.show("No se logró cargar toda la información, intente de nuevo por favor.");
+                                            resolve(oResult);
+                                          
+                                        }
+                                    }
+                                });
+                        });
+
+                        
                     }).catch(function(e) {
                         resolve(e);
                          sap.ui.getCore().AppContext.loader.close();
@@ -221,6 +251,10 @@ sap.ui.controller("originacion.Renovations", {
 
     },
     onListItemPressAccept: function(evt) {
+        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+        jQuery.sap.require("js.helper.Dictionary");
+        var oDictionary, oRequest, oRenovationBuffer;
+
         var promiseSubsequence, context, createSubsequence, path;
         var tblRenovations, currentModel, aux, auxPath, currentData, oModelError;
         path = evt.getSource().getBindingContext().getPath();
@@ -249,6 +283,23 @@ sap.ui.controller("originacion.Renovations", {
         promiseSubsequence.then(function(response) {
             sap.ui.getCore().AppContext.loader.close();
             console.log(response);
+
+            oDictionary = new sap.ui.helper.Dictionary();
+            oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+            oRequest = {
+                id: context.PreLoanRequestID,
+                requestMethod: oDictionary.oMethods.POST,
+                //requestUrl: oDictionary.oDataTypes.Insurance,
+                requestBodyId: context.PreLoanRequestID,
+                requestStatus: oDictionary.oRequestStatus.Initial
+            };
+
+            oRenovationBuffer.postRequest(oRequest)
+                .then(function(oResult) {
+                    console.log("Registro renovation guardado");
+                    //Se valida si existe BussinessError en una s
+                });
+
             sap.m.MessageToast.show("Se ha creado la oportunidad.", {
                 duration: 4000
             });
@@ -464,7 +515,11 @@ sap.ui.controller("originacion.Renovations", {
         console.log("Selección realizda");
          },
     pressRejectReason: function(oEvent) {
+        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+        jQuery.sap.require("js.helper.Dictionary");
         var oCurrentPath,tblRejection,oCurrentModel,currentItem,RejectIdCatalog, tblAppRenovations, oCurrentRenovation, oModelError, createSubsequence, selectDialogReject;
+        var oDictionary, oRequest, oRenovationBuffer;
+
         //console.log("Selección de motivo de rechazo y envío a RFC");    
         //var currentView;
         oCurrentPath = oEvent.getParameters().listItem.getBindingContext().sPath;
@@ -501,6 +556,23 @@ sap.ui.getCore().AppContext.loader.show("Enviando motivo de rechazo");/*
         promiseSubsequence.then(function(response) {
             sap.ui.getCore().AppContext.loader.close();
             console.log(response);
+
+            oDictionary = new sap.ui.helper.Dictionary();
+            oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+            oRequest = {
+                id: currentItemRenovations.PreLoanRequestID,
+                requestMethod: oDictionary.oMethods.POST,
+                //requestUrl: oDictionary.oDataTypes.Insurance,
+                requestBodyId: createSubsequence.PreLoanRequestID,
+                requestStatus: oDictionary.oRequestStatus.Initial
+            };
+
+            oRenovationBuffer.postRequest(oRequest)
+                .then(function(oResult) {
+                    console.log("Registro renovation guardado");
+                    //Se valida si existe BussinessError en una s
+                });
+
             //Envia mensaje en pantalla
             sap.m.MessageToast.show("Se rechazó la oportunidad.", {
                 duration: 4000
