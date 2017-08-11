@@ -6649,36 +6649,36 @@
 			"uri": "CustomerSet('CustomerIdCRM%2050')/LinkPreloanRequest"
 		}
 	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 51",
-	"CustomerIdMD": "CustomerIdMD 51",
+},  {
+	"CustomerIdCRM": "2000000301",
+	"CustomerIdMD": "99000000000000000000000000002",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 51",
-		"MiddleName": "MiddleName 51",
-		"LastName": "LastName 51",
-		"SecondName": "SecondName 51"
+		"FirstName": "OSCAR",
+		"MiddleName": "",
+		"LastName": "MONROY",
+		"SecondName": "GARCIA"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 51",
-		"RegistrationDate": "/Date(1412445047000)/",
-		"RoleId": "RoleId 51",
-		"StatusId": "StatusId 51",
-		"StatusReasonId": "StatusReasonId 51",
-		"SourceName": "SourceName 51",
-		"LeadIdCRM": "LeadIdCRM 51",
-		"ServiceOfficeID": "ServiceOfficeID 51",
-		"ServiceOfficeName": "ServiceOfficeName 51",
-		"ContactLaterDate": "/Date(1333648247000)/",
-		"ContactLaterTime": "PT9H22M52S",
-		"Cycle": 9847,
-		"RemainingDays": 473,
-		"ServiceLevelId": 6530,
-		"SourceId": "SourceId 51",
-		"ControlListsResult": "ControlListsResult 51",
-		"RiskLevel": "RiskLevel 51",
+		"ProductId": "C_IND_CI",
+		"RegistrationDate": "/Date(1243533044000)/",
+		"RoleId": "ZFS004",
+		"StatusId": "E0006",
+		"StatusReasonId": "",
+		"SourceName": "Promoción Directa",
+		"LeadIdCRM": "9900000002",
+		"ServiceOfficeID": "XYZ001",
+		"ServiceOfficeName": "TOLUCA",
+		"ContactLaterDate": "/Date(1433440244000)/",
+		"ContactLaterTime": "PT5H44M32S",
+		"Cycle": 0,
+		"RemainingDays": 20,
+		"ServiceLevelId": 3488,
+		"SourceId": "Z14",
+		"ControlListsResult": "0",
+		"RiskLevel": "0",
 		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 1693
+		"AccumulatedCycle": 2
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 51",
@@ -6782,36 +6782,36 @@
 			"uri": "CustomerSet('CustomerIdCRM%2051')/LinkPreloanRequest"
 		}
 	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 52",
-	"CustomerIdMD": "CustomerIdMD 52",
+},  {
+	"CustomerIdCRM": "2010000302",
+	"CustomerIdMD": "99000000000000000000000000003",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 52",
-		"MiddleName": "MiddleName 52",
-		"LastName": "LastName 52",
-		"SecondName": "SecondName 52"
+		"FirstName": "MIGUEL",
+		"MiddleName": "",
+		"LastName": "MOTA",
+		"SecondName": "DIAZ"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 52",
-		"RegistrationDate": "/Date(1253382647000)/",
-		"RoleId": "RoleId 52",
-		"StatusId": "StatusId 52",
-		"StatusReasonId": "StatusReasonId 52",
-		"SourceName": "SourceName 52",
-		"LeadIdCRM": "LeadIdCRM 52",
-		"ServiceOfficeID": "ServiceOfficeID 52",
-		"ServiceOfficeName": "ServiceOfficeName 52",
-		"ContactLaterDate": "/Date(1230922247000)/",
-		"ContactLaterTime": "PT11H56M42S",
-		"Cycle": 7674,
-		"RemainingDays": 9663,
-		"ServiceLevelId": 1711,
-		"SourceId": "SourceId 52",
-		"ControlListsResult": "ControlListsResult 52",
-		"RiskLevel": "RiskLevel 52",
+		"ProductId": "C_IND_CI",
+		"RegistrationDate": "/Date(1243533044000)/",
+		"RoleId": "ZFS004",
+		"StatusId": "E0006",
+		"StatusReasonId": "",
+		"SourceName": "Promoción Directa",
+		"LeadIdCRM": "9900000003",
+		"ServiceOfficeID": "XYZ001",
+		"ServiceOfficeName": "TOLUCA",
+		"ContactLaterDate": "/Date(1433440244000)/",
+		"ContactLaterTime": "PT5H44M32S",
+		"Cycle": 0,
+		"RemainingDays": 20,
+		"ServiceLevelId": 3488,
+		"SourceId": "Z14",
+		"ControlListsResult": "0",
+		"RiskLevel": "0",
 		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 8159
+		"AccumulatedCycle": 2
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 52",
@@ -6915,36 +6915,36 @@
 			"uri": "CustomerSet('CustomerIdCRM%2052')/LinkPreloanRequest"
 		}
 	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 53",
-	"CustomerIdMD": "CustomerIdMD 53",
+},  {
+	"CustomerIdCRM": "2020000303",
+	"CustomerIdMD": "99000000000000000000000000004",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 53",
-		"MiddleName": "MiddleName 53",
-		"LastName": "LastName 53",
-		"SecondName": "SecondName 53"
+		"FirstName": "ANGELA",
+		"MiddleName": "",
+		"LastName": "VILLANUEVA",
+		"SecondName": "VALDEZ"
 	},
 	"BpMainData": {
-		"ProductId": "ProductId 53",
-		"RegistrationDate": "/Date(1498413047000)/",
-		"RoleId": "RoleId 53",
-		"StatusId": "StatusId 53",
-		"StatusReasonId": "StatusReasonId 53",
-		"SourceName": "SourceName 53",
-		"LeadIdCRM": "LeadIdCRM 53",
-		"ServiceOfficeID": "ServiceOfficeID 53",
-		"ServiceOfficeName": "ServiceOfficeName 53",
-		"ContactLaterDate": "/Date(1314985847000)/",
-		"ContactLaterTime": "PT4H8M50S",
-		"Cycle": 1833,
-		"RemainingDays": 2428,
-		"ServiceLevelId": 655,
-		"SourceId": "SourceId 53",
-		"ControlListsResult": "ControlListsResult 53",
-		"RiskLevel": "RiskLevel 53",
+		"ProductId": "C_IND_CI",
+		"RegistrationDate": "/Date(1243533044000)/",
+		"RoleId": "ZFS004",
+		"StatusId": "E0006",
+		"StatusReasonId": "",
+		"SourceName": "Promoción Directa",
+		"LeadIdCRM": "9900000004",
+		"ServiceOfficeID": "XYZ001",
+		"ServiceOfficeName": "TOLUCA",
+		"ContactLaterDate": "/Date(1433440244000)/",
+		"ContactLaterTime": "PT5H44M32S",
+		"Cycle": 0,
+		"RemainingDays": 20,
+		"ServiceLevelId": 3488,
+		"SourceId": "Z14",
+		"ControlListsResult": "0",
+		"RiskLevel": "0",
 		"IsContactLaterEditable": false,
-		"AccumulatedCycle": 2204
+		"AccumulatedCycle": 2
 	},
 	"BpComplementaryData": {
 		"Curp": "Curp 53",
