@@ -498,4 +498,54 @@
 		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2050',CustomerIdCRM='CustomerIdCRM%2050')",
 		"type": "AOMobile.Phone"
 	}
+},{
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "28102016052701221502388048659",
+	"PhoneNumber": "55888878567",
+	"CustomerIdMD": "28102016052701221502388048659",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2050',CustomerIdCRM='CustomerIdCRM%2050')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "28102016052701221502387967222",
+	"PhoneNumber": "55888878567",
+	"CustomerIdMD": "28102016052701221502387967222",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2050',CustomerIdCRM='CustomerIdCRM%2050')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "28102016052701221502388071147",
+	"PhoneNumber": "55888878567",
+	"CustomerIdMD": "28102016052701221502388071147",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2050',CustomerIdCRM='CustomerIdCRM%2050')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "28102016052701221502388083933",
+	"PhoneNumber": "55888878567",
+	"CustomerIdMD": "28102016052701221502388083933",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2050',CustomerIdCRM='CustomerIdCRM%2050')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "28102016052701221502388100257",
+	"PhoneNumber": "55888878567",
+	"CustomerIdMD": "28102016052701221502388100257",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2050',CustomerIdCRM='CustomerIdCRM%2050')",
+		"type": "AOMobile.Phone"
+	}
 }]

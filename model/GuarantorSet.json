@@ -1,7 +1,7 @@
 [{
-	"CustomerIdCRM": "CustomerIdCRM 1",
+	"CustomerIdCRM": "28102016052701221502388048659",
 	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 1",
+	"CustomerIdMD": "28102016052701221502388048659",
 	"BpName": {
 		"FirstName": "María ",
 		"MiddleName": "Mireya",
@@ -30,7 +30,7 @@
 		"AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "MASM020203MDFRNTA6",
+		"Curp": "AEMM690113MDFCNR02",
 		"Dependents": "0",
 		"JobId": "COMR",
 		"Email": "ejemplo@gmail.com",
@@ -43,7 +43,7 @@
 		"EconomicActivityId": "",
 		"IsIndivWBusiness": false,
 		"FielNumber": "",
-		"Rfc": "DOTP850516",
+		"Rfc": "AEMM690113IP8",
 		"Homoclave": "",
 		"MonthlySalary": 6.166586502871024
 	},
@@ -122,9 +122,9 @@
 		}
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 2",
+	"CustomerIdCRM": "28102016052701221502387967222",
 	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 2",
+	"CustomerIdMD": "28102016052701221502387967222",
 	"BpName": {
 		"FirstName": "Juliana",
 		"MiddleName": "",
@@ -153,7 +153,7 @@
           "AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "MASM020203MDFRNTA6",
+		"Curp": "GOVJ810626MCMNLL02",
 		"Dependents": "0",
 		"JobId": "COMR",
 		"Email": "",
@@ -166,7 +166,7 @@
 		"EconomicActivityId": "",
 		"IsIndivWBusiness": false,
 		"FielNumber": "",
-		"Rfc": "DOTP850516",
+		"Rfc": "GOVJ810626P76",
 		"Homoclave": "",
 		"MonthlySalary": 6.423069454752639
 	},
@@ -245,9 +245,9 @@
 		}
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 3",
+	"CustomerIdCRM": "28102016052701221502388071147",
 	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 3",
+	"CustomerIdMD": "28102016052701221502388071147",
 	"BpName": {
 		"FirstName": "Nora",
 		"MiddleName": "María",
@@ -276,7 +276,7 @@
 		"AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "MASM020203MDFRNTA6",
+		"Curp": "MAFN400610MDGTRR09",
 		"Dependents": "0",
 		"JobId": "ASAL",
 		"Email": "",
@@ -289,7 +289,7 @@
 		"EconomicActivityId": "",
 		"IsIndivWBusiness": false,
 		"FielNumber": "",
-		"Rfc": "TEAT870507",
+		"Rfc": "MAFN400610CH9",
 		"Homoclave": "",
 		"MonthlySalary": 7.891706177980953
 	},
@@ -368,9 +368,9 @@
 		}
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 4",
+	"CustomerIdCRM": "28102016052701221502388083933",
 	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 4",
+	"CustomerIdMD": "28102016052701221502388083933",
 	"BpName": {
 		"FirstName": "Enrique",
 		"MiddleName": "Conrado",
@@ -399,7 +399,7 @@
 		"AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "MASM020203MDFRNTA6",
+		"Curp": "REEE400626HVZBGN02",
 		"Dependents": "0",
 		"JobId": "ASAL",
 		"Email": "",
@@ -412,7 +412,7 @@
 		"EconomicActivityId": "",
 		"IsIndivWBusiness": false,
 		"FielNumber": "",
-		"Rfc": "TEAT870507",
+		"Rfc": "REEE4006268G2",
 		"Homoclave": "",
 		"MonthlySalary": "0.0000000000000000E+00"
 	},
@@ -491,9 +491,9 @@
 		}
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 4",
+	"CustomerIdCRM": "28102016052701221502388100257",
 	"CollaboratorID": "Genesis",
-	"CustomerIdMD": "CustomerIdMD 5",
+	"CustomerIdMD": "28102016052701221502388100257",
 	"BpName": {
 		"FirstName": "Carlos",
 		"MiddleName": "",
@@ -522,7 +522,7 @@
 		"AccumulatedCycle": 1
 	},
 	"BpComplementaryData": {
-		"Curp": "MASM020203MDFRNTA6",
+		"Curp": "LABC641209HMSZRR09",
 		"Dependents": "0",
 		"JobId": "ASAL",
 		"Email": "",
@@ -535,7 +535,7 @@
 		"EconomicActivityId": "",
 		"IsIndivWBusiness": false,
 		"FielNumber": "",
-		"Rfc": "TEAT870507",
+		"Rfc": "LABC641209SFA",
 		"Homoclave": "",
 		"MonthlySalary": "0.0000000000000000E+00"
 	},

@@ -132,7 +132,11 @@ sap.ui.controller("originacion.GuarantorDetail", {
     tabSelect: function(tab) {
         this.curentTab = tab;
         var oForm = null;
+        
         var bEnabled = this.getView().getModel("BPDetailsModel").getProperty("/results/0/IsEntityInQueue");
+        if(bEnabled===undefined){
+            bEnabled=false;
+        }
 
         switch (tab) {
             case "Name":
