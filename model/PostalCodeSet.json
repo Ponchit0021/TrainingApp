@@ -29,30 +29,30 @@
 		"type": "AOMobile.PostalCode"
 	}
 }, {
-	"Code": "Code 3",
-	"SuburbName": "SuburbName 3",
-	"CountryId": "CountryId 3",
-	"CountryName": "CountryName 3",
+	"Code": "03020",
+	"SuburbName": "Narvarte",
+	"CountryId": "MX",
+	"CountryName": "EM",
 	"StateId": "StateId 3",
-	"StateName": "StateName 3",
-	"TownId": "TownId 3",
-	"TownName": "TownName 3",
-	"City": "City 3",
+	"StateName": "MÉXICO",
+	"TownId": "1",
+	"TownName": "Benito Juarez",
+	"City": "BENITO JUAREZ",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%203',SuburbName='SuburbName%203')",
 		"type": "AOMobile.PostalCode"
 	}
 }, {
-	"Code": "Code 4",
-	"SuburbName": "SuburbName 4",
-	"CountryId": "CountryId 4",
-	"CountryName": "CountryName 4",
-	"StateId": "StateId 4",
-	"StateName": "StateName 4",
-	"TownId": "TownId 4",
-	"TownName": "TownName 4",
-	"City": "City 4",
+	"Code": "03100",
+	"SuburbName": "Del Valle",
+	"CountryId": "MX",
+	"CountryName": "MÉXICO",
+	"StateId": "DF",
+	"StateName": "DF",
+	"TownId": "BENITO JUAREZ",
+	"TownName": "BENITO JUAREZ",
+	"City": "BENITO JUAREZ",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%204',SuburbName='SuburbName%204')",

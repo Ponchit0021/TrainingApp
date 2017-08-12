@@ -188,8 +188,8 @@
 		"type": "AOMobile.Address"
 	}
 }, {
-	"AddressTypeId": "AddressTypeId 8",
-	"CustomerIdCRM": "CustomerIdCRM 8",
+	"AddressTypeId": "XXDEFAULT",
+	"CustomerIdCRM": "1502388100257",
 	"IsMainAddress": true,
 	"Latitude": 7.895034589700094,
 	"Longitude": 4.878470654359899,
@@ -216,7 +216,7 @@
 	}
 }, {
 	"AddressTypeId": "3",
-	"CustomerIdCRM": "CustomerIdCRM 9",
+	"CustomerIdCRM": "1502388083933",
 	"IsMainAddress": true,
 	"Latitude": 8.97072345543801,
 	"Longitude": 0.8941156777266057,
@@ -242,8 +242,62 @@
 		"type": "AOMobile.Address"
 	}
 }, {
+	"AddressTypeId": "XXDEFAULT",
+	"CustomerIdCRM": "1502387967222",
+	"IsMainAddress": true,
+	"Latitude": 9.305614964082734,
+	"Longitude": 0.1997572227443678,
+	"CustomerIdMD": "CustomerIdMD 10",
+	"Place": {
+		"PostalCode": "03020",
+		"CountryID": "MX",
+		"StateId": "XXDEFAULT",
+		"TownId": "1",
+		"City": "BENITO JUAREZ",
+		"Suburb": "Narvarte",
+		"Street": " Av. Universidad",
+		"OutsideNumber": "473",
+		"BetweenStreets1": "",
+		"BetweenStreets2": "",
+		"LocationReference": "",
+		"InteriorNumber": "",
+		"Comments": ""
+	},
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "AddressSet(AddressTypeId='AddressTypeId%2010',CustomerIdCRM='CustomerIdCRM%2010')",
+		"type": "AOMobile.Address"
+	}
+}, {
 	"AddressTypeId": "2",
-	"CustomerIdCRM": "CustomerIdCRM 10",
+	"CustomerIdCRM": "1502388048659",
+	"IsMainAddress": true,
+	"Latitude": 9.305614964082734,
+	"Longitude": 0.1997572227443678,
+	"CustomerIdMD": "CustomerIdMD 10",
+	"Place": {
+		"PostalCode": "03020",
+		"CountryID": "MX",
+		"StateId": "1",
+		"TownId": "1",
+		"City": "BENITO JUAREZ",
+		"Suburb": "Narvarte",
+		"Street": " Av. Universidad",
+		"OutsideNumber": "473",
+		"BetweenStreets1": "",
+		"BetweenStreets2": "",
+		"LocationReference": "",
+		"InteriorNumber": "",
+		"Comments": ""
+	},
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "AddressSet(AddressTypeId='AddressTypeId%2010',CustomerIdCRM='CustomerIdCRM%2010')",
+		"type": "AOMobile.Address"
+	}
+},{
+	"AddressTypeId": "XXDEFAULT",
+	"CustomerIdCRM": "1502388071147",
 	"IsMainAddress": true,
 	"Latitude": 9.305614964082734,
 	"Longitude": 0.1997572227443678,
