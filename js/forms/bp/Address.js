@@ -8,6 +8,8 @@
   jQuery.sap.require("js.base.PopupBase");
   jQuery.sap.require("js.base.ListBase");
   jQuery.sap.require("js.base.DisplayBase");
+  jQuery.sap.require("js.base.ContainerBase");
+  
 
   
   var oPopupBase = new sap.ui.mw.PopupBase();
@@ -58,6 +60,7 @@
     var oActionBase = new sap.ui.mw.ActionBase();
     var oDisplayBase = new sap.ui.mw.DisplayBase();
     var oLayoutBase = new sap.ui.mw.LayoutBase();
+    var oContainerBase=new sap.ui.mw.ContainerBase();
     var addressDialog = new sap.ui.mw.PopupBase().createDialog(
         "", "Agregar Dirección", "Message", "");
     addressDialog.setContentWidth("80%").setContentHeight("85%");
