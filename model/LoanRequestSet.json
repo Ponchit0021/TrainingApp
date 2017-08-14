@@ -1,9 +1,9 @@
 [{
-	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
-	"LoanRequestIdMD": "LoanRequestIdMD 1",
+	"LoanRequestIdCRM": "3000000004",
+	"LoanRequestIdMD": "99000000000000000000000000214",
 	"CollaboratorID": "Genesis",
 	"ProductID": "C_IND_CI",
-	"ProcessType": "ProcessType 1",
+	"ProcessType": "",
 	"GroupRequestData": {
 		"GroupID": "GroupID 1",
 		"GroupName": "GroupName 1",
@@ -31,20 +31,20 @@
 			"Comments": "Comments 1"
 		},
 		"GroupMeetingPhone": {
-			"PhoneTypeId": "PhoneTypeId 1",
-			"PhoneNumber": "PhoneNumber 1"
+			"PhoneTypeId": "2",
+			"PhoneNumber": "5587993203"
 		}
 	},
 	"GeneralLoanRequestData": {
 		"IsRenewal": false,
 		"StartDate": "/Date(1409867974000)/",
 		"Cycle": 0,
-		"StatusId": "StatusId 1",
-		"StatusText": "StatusText 1",
+		"StatusId": "E0006",
+		"StatusText": "EN PROCESO",
 		"FirstPaymentDate": "/Date(1308607174000)/",
-		"ExpenditureDate": "/Date(946853974000)/",
-		"Term": "Term 1",
-		"Frequency": "Frequency 1",
+		"ExpenditureDate": "/Date(1309807184000)/",
+		"Term": "",
+		"Frequency": "Z1422",
 		"IsReadyToApprove": true,
 		"IsReadyToApproveDescription": "IsReadyToApproveDescription 1",
 		"InsuranceMinimumCycle": "InsuranceMinimumCycle 1",

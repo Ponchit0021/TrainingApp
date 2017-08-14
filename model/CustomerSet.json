@@ -1,12 +1,12 @@
 [{
-	"CustomerIdCRM": "CustomerIdCRM 1",
-	"CustomerIdMD": "CustomerIdMD 1",
+	"CustomerIdCRM": "2021000303",
+	"CustomerIdMD": "99000000000000000000000000014",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "Ramiro",
-		"MiddleName": "Ramón",
-		"LastName": "Individual",
-		"SecondName": "Robles"
+		"FirstName": "ENRIQUE",
+		"MiddleName": "",
+		"LastName": "IGLESIAS",
+		"SecondName": "ROBLES"
 	},
 	"BpMainData": {
 		"ProductId": "C_IND_CI",
