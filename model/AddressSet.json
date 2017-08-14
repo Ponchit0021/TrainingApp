@@ -162,6 +162,33 @@
 	}
 }, {
 	"AddressTypeId": "2",
+	"CustomerIdCRM": "CustomerIdCRM 17",
+	"IsMainAddress": true,
+	"Latitude": 6.309357254358217,
+	"Longitude": 7.880559674384946,
+	"CustomerIdMD": "CustomerIdMD 17",
+	"Place": {
+		"PostalCode": "03020",
+		"CountryID": "MX",
+		"StateId": "1",
+		"TownId": "1",
+		"City": "BENITO JUAREZ",
+		"Suburb": "Narvarte",
+		"Street": "Nicolás San Juan",
+		"OutsideNumber": "327",
+		"BetweenStreets1": "",
+		"BetweenStreets2": "",
+		"LocationReference": "",
+		"InteriorNumber": "",
+		"Comments": ""
+	},
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "AddressSet(AddressTypeId='AddressTypeId%207',CustomerIdCRM='CustomerIdCRM%207')",
+		"type": "AOMobile.Address"
+	}
+},{
+	"AddressTypeId": "2",
 	"CustomerIdCRM": "CustomerIdCRM 7",
 	"IsMainAddress": true,
 	"Latitude": 6.309357254358217,
@@ -298,6 +325,33 @@
 },{
 	"AddressTypeId": "XXDEFAULT",
 	"CustomerIdCRM": "1502388071147",
+	"IsMainAddress": true,
+	"Latitude": 9.305614964082734,
+	"Longitude": 0.1997572227443678,
+	"CustomerIdMD": "CustomerIdMD 10",
+	"Place": {
+		"PostalCode": "03020",
+		"CountryID": "MX",
+		"StateId": "1",
+		"TownId": "1",
+		"City": "BENITO JUAREZ",
+		"Suburb": "Narvarte",
+		"Street": " Av. Universidad",
+		"OutsideNumber": "473",
+		"BetweenStreets1": "",
+		"BetweenStreets2": "",
+		"LocationReference": "",
+		"InteriorNumber": "",
+		"Comments": ""
+	},
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "AddressSet(AddressTypeId='AddressTypeId%2010',CustomerIdCRM='CustomerIdCRM%2010')",
+		"type": "AOMobile.Address"
+	}
+},{
+	"AddressTypeId": "XXDEFAULT",
+	"CustomerIdCRM": "CustomerIdCRM 64",
 	"IsMainAddress": true,
 	"Latitude": 9.305614964082734,
 	"Longitude": 0.1997572227443678,
