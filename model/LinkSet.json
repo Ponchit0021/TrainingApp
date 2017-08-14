@@ -3700,15 +3700,15 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 61",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 61",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
 	"CustomerIdMD": "CustomerIdMD 61",
-	"LoanRequestIdMD": "LoanRequestIdMD 61",
+	"LoanRequestIdMD": "LoanRequestIdMD 6",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 61",
 		"CreditAmount": 6.604192491873542,
 		"AuthorizedAmount": 3.7676567063950017,
-		"RejectionCauseId": "RejectionCauseId 61"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 9883,
@@ -3774,15 +3774,15 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 62",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 62",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
 	"CustomerIdMD": "CustomerIdMD 62",
-	"LoanRequestIdMD": "LoanRequestIdMD 62",
+	"LoanRequestIdMD": "LoanRequestIdMD 6",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 62",
 		"CreditAmount": 6.2021055712724955,
 		"AuthorizedAmount": 9.97958799407626,
-		"RejectionCauseId": "RejectionCauseId 62"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 8560,
@@ -3848,9 +3848,9 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 63",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 63",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
 	"CustomerIdMD": "CustomerIdMD 63",
-	"LoanRequestIdMD": "LoanRequestIdMD 63",
+	"LoanRequestIdMD": "LoanRequestIdMD 5",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 63",
@@ -4440,15 +4440,15 @@
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 71",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 71",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
 	"CustomerIdMD": "CustomerIdMD 71",
-	"LoanRequestIdMD": "LoanRequestIdMD 71",
+	"LoanRequestIdMD": "LoanRequestIdMD 9",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 71",
 		"CreditAmount": 2.3954507479864784,
 		"AuthorizedAmount": 3.8863731687482383,
-		"RejectionCauseId": "RejectionCauseId 71"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 6774,
@@ -4499,30 +4499,30 @@
 		"LoanDestiny": "LoanDestiny 71"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2071')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2071')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2071')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
 		}
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 72",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 72",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
 	"CustomerIdMD": "CustomerIdMD 72",
-	"LoanRequestIdMD": "LoanRequestIdMD 72",
+	"LoanRequestIdMD": "LoanRequestIdMD 9",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 72",
 		"CreditAmount": 3.685662751743015,
 		"AuthorizedAmount": 4.825025412222111,
-		"RejectionCauseId": "RejectionCauseId 72"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 9415,
@@ -4573,30 +4573,30 @@
 		"LoanDestiny": "LoanDestiny 72"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2072',LoanRequestIdCRM='LoanRequestIdCRM%2072')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2072',LoanRequestIdCRM='LoanRequestIdCRM%209')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2072',LoanRequestIdCRM='LoanRequestIdCRM%2072')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2072',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2072',LoanRequestIdCRM='LoanRequestIdCRM%2072')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2072',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
 		}
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 73",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 73",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
 	"CustomerIdMD": "CustomerIdMD 73",
-	"LoanRequestIdMD": "LoanRequestIdMD 73",
+	"LoanRequestIdMD": "LoanRequestIdMD 9",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 73",
 		"CreditAmount": 0.5464192643484056,
 		"AuthorizedAmount": 1.1810001990247199,
-		"RejectionCauseId": "RejectionCauseId 73"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 6202,
@@ -4647,30 +4647,30 @@
 		"LoanDestiny": "LoanDestiny 73"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2073',LoanRequestIdCRM='LoanRequestIdCRM%2073')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2073',LoanRequestIdCRM='LoanRequestIdCRM%209')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2073',LoanRequestIdCRM='LoanRequestIdCRM%2073')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2073',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2073',LoanRequestIdCRM='LoanRequestIdCRM%2073')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2073',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
 		}
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 74",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 74",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
 	"CustomerIdMD": "CustomerIdMD 74",
-	"LoanRequestIdMD": "LoanRequestIdMD 74",
+	"LoanRequestIdMD": "LoanRequestIdMD 9",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 74",
 		"CreditAmount": 8.13010249061832,
 		"AuthorizedAmount": 2.0988418234913953,
-		"RejectionCauseId": "RejectionCauseId 74"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 2034,
@@ -4721,30 +4721,30 @@
 		"LoanDestiny": "LoanDestiny 74"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2074',LoanRequestIdCRM='LoanRequestIdCRM%2074')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2074',LoanRequestIdCRM='LoanRequestIdCRM%209')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2074',LoanRequestIdCRM='LoanRequestIdCRM%2074')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2074',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2074',LoanRequestIdCRM='LoanRequestIdCRM%2074')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2074',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
 		}
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 75",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 75",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
 	"CustomerIdMD": "CustomerIdMD 75",
-	"LoanRequestIdMD": "LoanRequestIdMD 75",
+	"LoanRequestIdMD": "LoanRequestIdMD 9",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 75",
 		"CreditAmount": 9.180465182028962,
 		"AuthorizedAmount": 7.106025516285557,
-		"RejectionCauseId": "RejectionCauseId 75"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 8479,
@@ -4795,30 +4795,30 @@
 		"LoanDestiny": "LoanDestiny 75"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2075',LoanRequestIdCRM='LoanRequestIdCRM%2075')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2075',LoanRequestIdCRM='LoanRequestIdCRM%209')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2075',LoanRequestIdCRM='LoanRequestIdCRM%2075')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2075',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2075',LoanRequestIdCRM='LoanRequestIdCRM%2075')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2075',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
 		}
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 76",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 76",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
 	"CustomerIdMD": "CustomerIdMD 76",
-	"LoanRequestIdMD": "LoanRequestIdMD 76",
+	"LoanRequestIdMD": "LoanRequestIdMD 10",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 76",
 		"CreditAmount": 2.3494896538364385,
 		"AuthorizedAmount": 2.613408095896108,
-		"RejectionCauseId": "RejectionCauseId 76"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 8697,
@@ -4869,30 +4869,30 @@
 		"LoanDestiny": "LoanDestiny 76"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2076')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2076')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2076')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
 		}
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 77",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 77",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
 	"CustomerIdMD": "CustomerIdMD 77",
-	"LoanRequestIdMD": "LoanRequestIdMD 77",
+	"LoanRequestIdMD": "LoanRequestIdMD 10",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 77",
 		"CreditAmount": 6.23140905359331,
 		"AuthorizedAmount": 6.7205492075395945,
-		"RejectionCauseId": "RejectionCauseId 77"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 3922,
@@ -4943,30 +4943,30 @@
 		"LoanDestiny": "LoanDestiny 77"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2077',LoanRequestIdCRM='LoanRequestIdCRM%2077')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2077',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2077',LoanRequestIdCRM='LoanRequestIdCRM%2077')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2077',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2077',LoanRequestIdCRM='LoanRequestIdCRM%2077')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2077',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
 		}
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 78",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 78",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
 	"CustomerIdMD": "CustomerIdMD 78",
-	"LoanRequestIdMD": "LoanRequestIdMD 78",
+	"LoanRequestIdMD": "LoanRequestIdMD 10",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 78",
 		"CreditAmount": 4.726024597764564,
 		"AuthorizedAmount": 7.841106451408317,
-		"RejectionCauseId": "RejectionCauseId 78"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 156,
@@ -5017,30 +5017,30 @@
 		"LoanDestiny": "LoanDestiny 78"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2078',LoanRequestIdCRM='LoanRequestIdCRM%2078')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2078',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2078',LoanRequestIdCRM='LoanRequestIdCRM%2078')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2078',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2078',LoanRequestIdCRM='LoanRequestIdCRM%2078')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2078',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
 		}
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 79",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 79",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
 	"CustomerIdMD": "CustomerIdMD 79",
-	"LoanRequestIdMD": "LoanRequestIdMD 79",
+	"LoanRequestIdMD": "LoanRequestIdMD 10",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 79",
 		"CreditAmount": 8.79646388864085,
 		"AuthorizedAmount": 2.6171624292856666,
-		"RejectionCauseId": "RejectionCauseId 79"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 9722,
@@ -5091,30 +5091,30 @@
 		"LoanDestiny": "LoanDestiny 79"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2079',LoanRequestIdCRM='LoanRequestIdCRM%2079')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2079',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2079',LoanRequestIdCRM='LoanRequestIdCRM%2079')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2079',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2079',LoanRequestIdCRM='LoanRequestIdCRM%2079')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2079',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
 		}
 	}
 }, {
 	"CustomerIdCRM": "CustomerIdCRM 80",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 80",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
 	"CustomerIdMD": "CustomerIdMD 80",
-	"LoanRequestIdMD": "LoanRequestIdMD 80",
+	"LoanRequestIdMD": "LoanRequestIdMD 10",
 	"CollaboratorID": "Genesis",
 	"GroupLoanData": {
 		"RoleInTheGroupId": "RoleInTheGroupId 80",
 		"CreditAmount": 7.341817920439513,
 		"AuthorizedAmount": 5.810512255120552,
-		"RejectionCauseId": "RejectionCauseId 80"
+		"RejectionCauseId": ""
 	},
 	"IndividualLoanData": {
 		"YearsOnHouse": 9080,
@@ -5165,17 +5165,17 @@
 		"LoanDestiny": "LoanDestiny 80"
 	},
 	"__metadata": {
-		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2080',LoanRequestIdCRM='LoanRequestIdCRM%2080')",
+		"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2080',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
 		"type": "AOMobile.Link"
 	},
 	"Customer": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2080',LoanRequestIdCRM='LoanRequestIdCRM%2080')/Customer"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2080',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
 		}
 	},
 	"LoanRequest": {
 		"__deferred": {
-			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2080',LoanRequestIdCRM='LoanRequestIdCRM%2080')/LoanRequest"
+			"uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2080',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
 		}
 	}
 }]

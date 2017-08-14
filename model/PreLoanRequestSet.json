@@ -1,47 +1,116 @@
 [{
-	"PreLoanRequestID": "dc897c8e-5e0e-4acd-b210-c39000cfcb94",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
+	"PreLoanRequestID": "c865d6d0-f84c-4456-9fb6-8aeddaa64f92",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
 	"CollaboratorID": "Genesis",
 	"ServiceOfficeId": 767,
 	"StatusId": "StatusId 1",
 	"CreationDate": "/Date(957996037000)/",
 	"ChangeDate": "/Date(1306447237000)/",
 	"LoanEndDate": "/Date(1219874437000)/",
-	"LoanAssignedName": "RAMIRO RAMÓN ROBLES",
-	"IsRenovation": false,
-	"LoanRequestIdMD": "LoanRequestIdMD 1",
+	"LoanAssignedName": "SABRINA SARAI SÁNCHEZ",
+	"IsRenovation": true,
+	"LoanRequestIdMD": "LoanRequestIdMD 4",
 	"ProcessType": "ZOPI",
 	"LoanRejectIdCatalog": "",
 	"__metadata": {
-		"uri": "PreLoanRequestSet(guid'dc897c8e-5e0e-4acd-b210-c39000cfcb94')",
+		"uri": "PreLoanRequestSet(guid'c865d6d0-f84c-4456-9fb6-8aeddaa64f92')",
 		"type": "AOMobile.PreLoanRequest"
 	},
 	"LinkPreloanRequestSet": {
 		"__deferred": {
-			"uri": "PreLoanRequestSet(guid'dc897c8e-5e0e-4acd-b210-c39000cfcb94')/LinkPreloanRequestSet"
+			"uri": "PreLoanRequestSet(guid'c865d6d0-f84c-4456-9fb6-8aeddaa64f92')/LinkPreloanRequestSet"
 		}
 	}
 }, {
-	"PreLoanRequestID": "db316aa1-6465-465f-9a22-47a34d0791f5",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
+	"PreLoanRequestID": "05f455f3-f298-4dfd-8845-3b02bb3ed19a",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
 	"CollaboratorID": "Genesis",
 	"ServiceOfficeId": 7380,
-	"StatusId": "StatusId 2",
+	"StatusId": "E0007",
 	"CreationDate": "/Date(1459292437000)/",
 	"ChangeDate": "/Date(1057528837000)/",
 	"LoanEndDate": "/Date(1447628437000)/",
-	"LoanAssignedName": "GRUPO A",
+	"LoanAssignedName": "GROUPMUJER2",
 	"IsRenovation": true,
-	"LoanRequestIdMD": "LoanRequestIdMD 1",
+	"LoanRequestIdMD": "LoanRequestIdMD 5",
 	"ProcessType": "ZOPG",
 	"LoanRejectIdCatalog": "",
 	"__metadata": {
-		"uri": "PreLoanRequestSet(guid'db316aa1-6465-465f-9a22-47a34d0791f5')",
+		"uri": "PreLoanRequestSet(guid'05f455f3-f298-4dfd-8845-3b02bb3ed19a')",
 		"type": "AOMobile.PreLoanRequest"
 	},
 	"LinkPreloanRequestSet": {
 		"__deferred": {
-			"uri": "PreLoanRequestSet(guid'db316aa1-6465-465f-9a22-47a34d0791f5')/LinkPreloanRequestSet"
+			"uri": "PreLoanRequestSet(guid'05f455f3-f298-4dfd-8845-3b02bb3ed19a')/LinkPreloanRequestSet"
+		}
+	}
+}, {
+	"PreLoanRequestID": "83d9e9af-ee9a-43ea-9ab1-d0fc263a7c2e",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
+	"CollaboratorID": "Genesis",
+	"ServiceOfficeId": 7380,
+	"StatusId": "E0007",
+	"CreationDate": "/Date(1459292437000)/",
+	"ChangeDate": "/Date(1057528837000)/",
+	"LoanEndDate": "/Date(1447628437000)/",
+	"LoanAssignedName": "GROUPCOMERCIANTE2",
+	"IsRenovation": true,
+	"LoanRequestIdMD": "LoanRequestIdMD 6",
+	"ProcessType": "ZOPG",
+	"LoanRejectIdCatalog": "",
+	"__metadata": {
+		"uri": "PreLoanRequestSet(guid'83d9e9af-ee9a-43ea-9ab1-d0fc263a7c2e')",
+		"type": "AOMobile.PreLoanRequest"
+	},
+	"LinkPreloanRequestSet": {
+		"__deferred": {
+			"uri": "PreLoanRequestSet(guid'83d9e9af-ee9a-43ea-9ab1-d0fc263a7c2e')/LinkPreloanRequestSet"
+		}
+	}
+}, {
+	"PreLoanRequestID": "6d49e464-2f31-4a79-80ad-93d777781c2d",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 7",
+	"CollaboratorID": "Genesis",
+	"ServiceOfficeId": 7380,
+	"StatusId": "E0007",
+	"CreationDate": "/Date(1459292437000)/",
+	"ChangeDate": "/Date(1057528837000)/",
+	"LoanEndDate": "/Date(1447628437000)/",
+	"LoanAssignedName": "GROUPMUJER3",
+	"IsRenovation": true,
+	"LoanRequestIdMD": "LoanRequestIdMD 7",
+	"ProcessType": "ZOPG",
+	"LoanRejectIdCatalog": "",
+	"__metadata": {
+		"uri": "PreLoanRequestSet(guid'6d49e464-2f31-4a79-80ad-93d777781c2d')",
+		"type": "AOMobile.PreLoanRequest"
+	},
+	"LinkPreloanRequestSet": {
+		"__deferred": {
+			"uri": "PreLoanRequestSet(guid'6d49e464-2f31-4a79-80ad-93d777781c2d')/LinkPreloanRequestSet"
+		}
+	}
+}, {
+	"PreLoanRequestID": "50c93c4a-cc69-456e-b34b-e0dfd691379e",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
+	"CollaboratorID": "Genesis",
+	"ServiceOfficeId": 7380,
+	"StatusId": "E0007",
+	"CreationDate": "/Date(1459292437000)/",
+	"ChangeDate": "/Date(1057528837000)/",
+	"LoanEndDate": "/Date(1447628437000)/",
+	"LoanAssignedName": "GROUPCOMERCIANTE3",
+	"IsRenovation": true,
+	"LoanRequestIdMD": "LoanRequestIdMD 8",
+	"ProcessType": "ZOPG",
+	"LoanRejectIdCatalog": "",
+	"__metadata": {
+		"uri": "PreLoanRequestSet(guid'50c93c4a-cc69-456e-b34b-e0dfd691379e')",
+		"type": "AOMobile.PreLoanRequest"
+	},
+	"LinkPreloanRequestSet": {
+		"__deferred": {
+			"uri": "PreLoanRequestSet(guid'50c93c4a-cc69-456e-b34b-e0dfd691379e')/LinkPreloanRequestSet"
 		}
 	}
 }]
