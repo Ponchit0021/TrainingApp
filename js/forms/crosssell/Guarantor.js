@@ -28,7 +28,7 @@
 
         oForm.addContent(oActionBase.createButton("btnCrossSellAsignarAval", "Asignar Aval", "Emphasized", "sap-icon://add", _oController.onShowGuarantors, _oController));
         oForm.addContent(oDisplayBase.createLabel("", "ID Aval*"));
-        oForm.addContent(oInputBase.createInputText("txtCrossSellIdAval", "Number", "00000000000", "{CrossSellApplicationModel>/GroupCrossSellAssignedGuarantorSet/CustomerIdCRM}", true, false).attachChange(null));
+        oForm.addContent(oInputBase.createInputText("txtCrossSellIdAval", "Text", "00000000000", "{CrossSellApplicationModel>/GroupCrossSellAssignedGuarantorSet/CustomerIdCRM}", true, false).attachChange(null));
 
         oForm.addContent(oDisplayBase.createLabel("", "Nombre del Aval*"));
         oInputGuaranteeName = oInputBase.createInputText(

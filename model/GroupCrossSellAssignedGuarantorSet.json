@@ -1,20 +1,20 @@
 [{
-	"CustomerIdCRM": "CustomerIdCRM 1",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 1",
+	"CustomerIdCRM": "CustomerIdCRM 72",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 13",
 	"GuarantorName": {
-		"FirstName": "FirstName 1",
-		"MiddleName": "MiddleName 1",
-		"LastName": "LastName 1",
-		"SecondName": "SecondName 1"
+		"FirstName": "ZOILA",
+        "MiddleName": "HORTENCIA",
+        "LastName": "ROMAN",
+        "SecondName": "CANCINO"
 	},
 	"FilterResults": {
-		"InsuranceAmount": 7.370701125798302,
-		"ControlListsResult": 8607,
-		"RiskLevel": 3383,
-		"SavingsAmount": 9.789038317224868,
-		"DispersionMediumId": "DispersionMediumId 1",
-		"DispersionChannelId": "DispersionChannelId 1",
-		"SemaphoreResultFilters": 7639
+		"InsuranceAmount": 0.00,
+		"ControlListsResult": 1,
+		"RiskLevel": 1,
+		"SavingsAmount": 0.00,
+		"DispersionMediumId": "",
+		"DispersionChannelId": "",
+		"SemaphoreResultFilters": 2
 	},
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -22,22 +22,22 @@
 		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 2",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 2",
+	"CustomerIdCRM": "CustomerIdCRM 71",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 14",
 	"GuarantorName": {
-		"FirstName": "FirstName 2",
-		"MiddleName": "MiddleName 2",
-		"LastName": "LastName 2",
-		"SecondName": "SecondName 2"
+		"FirstName": "YOLANDA",
+        "MiddleName": "ELIZABETH",
+        "LastName": "CULEBRO",
+        "SecondName": "ROMAN"
 	},
 	"FilterResults": {
-		"InsuranceAmount": 4.627431382584604,
-		"ControlListsResult": 2067,
-		"RiskLevel": 6681,
-		"SavingsAmount": 7.602888863577739,
-		"DispersionMediumId": "DispersionMediumId 2",
-		"DispersionChannelId": "DispersionChannelId 2",
-		"SemaphoreResultFilters": 4164
+		"InsuranceAmount": 0.00,
+		"ControlListsResult": 1,
+		"RiskLevel": 1,
+		"SavingsAmount": 0.00,
+		"DispersionMediumId": "",
+		"DispersionChannelId": "",
+		"SemaphoreResultFilters": 2
 	},
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -45,22 +45,22 @@
 		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 3",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 3",
+	"CustomerIdCRM": "CustomerIdCRM 77",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 15",
 	"GuarantorName": {
-		"FirstName": "FirstName 3",
-		"MiddleName": "MiddleName 3",
-		"LastName": "LastName 3",
-		"SecondName": "SecondName 3"
+		"FirstName": "ALEJANDRO",
+		"MiddleName": "SALVADOR",
+		"LastName": "SABORIO",
+		"SecondName": "CULEBRO"
 	},
 	"FilterResults": {
-		"InsuranceAmount": 0.5495257731866587,
-		"ControlListsResult": 6589,
-		"RiskLevel": 7108,
-		"SavingsAmount": 1.1628329053333397,
-		"DispersionMediumId": "DispersionMediumId 3",
-		"DispersionChannelId": "DispersionChannelId 3",
-		"SemaphoreResultFilters": 5680
+		"InsuranceAmount": 0.00,
+		"ControlListsResult": 1,
+		"RiskLevel": 1,
+		"SavingsAmount": 0.00,
+		"DispersionMediumId": "",
+		"DispersionChannelId": "",
+		"SemaphoreResultFilters": 2
 	},
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -68,164 +68,26 @@
 		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 4",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 4",
+	"CustomerIdCRM": "CustomerIdCRM 76",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 16",
 	"GuarantorName": {
-		"FirstName": "FirstName 4",
-		"MiddleName": "MiddleName 4",
-		"LastName": "LastName 4",
-		"SecondName": "SecondName 4"
+		"FirstName": "JOSE",
+		"MiddleName": "ANTONIO",
+		"LastName": "VILLATORO",
+		"SecondName": "LEON"
 	},
 	"FilterResults": {
-		"InsuranceAmount": 4.0111236886242185,
-		"ControlListsResult": 4462,
-		"RiskLevel": 7880,
-		"SavingsAmount": 2.1795912224622116,
-		"DispersionMediumId": "DispersionMediumId 4",
-		"DispersionChannelId": "DispersionChannelId 4",
-		"SemaphoreResultFilters": 1779
+		"InsuranceAmount": 0.00,
+		"ControlListsResult": 1,
+		"RiskLevel": 1,
+		"SavingsAmount": 0.00,
+		"DispersionMediumId": "",
+		"DispersionChannelId": "",
+		"SemaphoreResultFilters": 2
 	},
 	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%204',LoanRequestIdCRM='LoanRequestIdCRM%204')",
-		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 5",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 5",
-	"GuarantorName": {
-		"FirstName": "FirstName 5",
-		"MiddleName": "MiddleName 5",
-		"LastName": "LastName 5",
-		"SecondName": "SecondName 5"
-	},
-	"FilterResults": {
-		"InsuranceAmount": 9.43692806046502,
-		"ControlListsResult": 5874,
-		"RiskLevel": 9530,
-		"SavingsAmount": 1.3800086341515416,
-		"DispersionMediumId": "DispersionMediumId 5",
-		"DispersionChannelId": "DispersionChannelId 5",
-		"SemaphoreResultFilters": 2443
-	},
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%205',LoanRequestIdCRM='LoanRequestIdCRM%205')",
-		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 6",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 6",
-	"GuarantorName": {
-		"FirstName": "FirstName 6",
-		"MiddleName": "MiddleName 6",
-		"LastName": "LastName 6",
-		"SecondName": "SecondName 6"
-	},
-	"FilterResults": {
-		"InsuranceAmount": 1.6284518448990282,
-		"ControlListsResult": 8199,
-		"RiskLevel": 8250,
-		"SavingsAmount": 7.973240888611635,
-		"DispersionMediumId": "DispersionMediumId 6",
-		"DispersionChannelId": "DispersionChannelId 6",
-		"SemaphoreResultFilters": 5475
-	},
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%206',LoanRequestIdCRM='LoanRequestIdCRM%206')",
-		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 7",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 7",
-	"GuarantorName": {
-		"FirstName": "FirstName 7",
-		"MiddleName": "MiddleName 7",
-		"LastName": "LastName 7",
-		"SecondName": "SecondName 7"
-	},
-	"FilterResults": {
-		"InsuranceAmount": 4.525584366396512,
-		"ControlListsResult": 4267,
-		"RiskLevel": 5936,
-		"SavingsAmount": 7.522378814931725,
-		"DispersionMediumId": "DispersionMediumId 7",
-		"DispersionChannelId": "DispersionChannelId 7",
-		"SemaphoreResultFilters": 6699
-	},
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%207',LoanRequestIdCRM='LoanRequestIdCRM%207')",
-		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 8",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 8",
-	"GuarantorName": {
-		"FirstName": "FirstName 8",
-		"MiddleName": "MiddleName 8",
-		"LastName": "LastName 8",
-		"SecondName": "SecondName 8"
-	},
-	"FilterResults": {
-		"InsuranceAmount": 9.698980952252125,
-		"ControlListsResult": 4474,
-		"RiskLevel": 1880,
-		"SavingsAmount": 2.648788071300421,
-		"DispersionMediumId": "DispersionMediumId 8",
-		"DispersionChannelId": "DispersionChannelId 8",
-		"SemaphoreResultFilters": 7522
-	},
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%208',LoanRequestIdCRM='LoanRequestIdCRM%208')",
-		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 9",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 9",
-	"GuarantorName": {
-		"FirstName": "FirstName 9",
-		"MiddleName": "MiddleName 9",
-		"LastName": "LastName 9",
-		"SecondName": "SecondName 9"
-	},
-	"FilterResults": {
-		"InsuranceAmount": 1.8970624014349902,
-		"ControlListsResult": 6149,
-		"RiskLevel": 3288,
-		"SavingsAmount": 7.854400838372508,
-		"DispersionMediumId": "DispersionMediumId 9",
-		"DispersionChannelId": "DispersionChannelId 9",
-		"SemaphoreResultFilters": 1540
-	},
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%209',LoanRequestIdCRM='LoanRequestIdCRM%209')",
-		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
-	}
-}, {
-	"CustomerIdCRM": "CustomerIdCRM 10",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 10",
-	"GuarantorName": {
-		"FirstName": "FirstName 10",
-		"MiddleName": "MiddleName 10",
-		"LastName": "LastName 10",
-		"SecondName": "SecondName 10"
-	},
-	"FilterResults": {
-		"InsuranceAmount": 9.272766610064686,
-		"ControlListsResult": 2957,
-		"RiskLevel": 3623,
-		"SavingsAmount": 1.4094830155906646,
-		"DispersionMediumId": "DispersionMediumId 10",
-		"DispersionChannelId": "DispersionChannelId 10",
-		"SemaphoreResultFilters": 26
-	},
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "GroupCrossSellAssignedGuarantorSet(CustomerIdCRM='CustomerIdCRM%2010',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
 		"type": "AOMobile.GroupCrossSellAssignedGuarantor"
 	}
 }]
