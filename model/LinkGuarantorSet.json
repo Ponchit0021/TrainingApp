@@ -62,4 +62,36 @@
 			"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%204',LoanRequestIdCRM='LoanRequestIdCRM%204')/Guarantor"
 		}
 	}
+},{
+	"CustomerIdCRM": "1502388100300",
+	"LoanRequestIdCRM": "3000000004",
+	"LoanRequestIdMD": "99000000000000000000000000214",
+	"CustomerIdMD": "28102016052701221502388100300",
+	"GeneralLoanData": {
+		"InsuranceAmount": 0,
+		"ControlListsResult": 1,
+		"RiskLevel": 1,
+		"SavingsAmount": 20000,
+		"DispersionMediumId": "",
+		"DispersionChannelId": "",
+		"SemaphoreResultFilters": 1
+	},
+	"TotalIncomeAmountGuarantee": 30000,
+	"TotalOutcomeAmountGuarantee": 15000,
+	"GuarantorPaymentCapacity": 15000,
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%204',LoanRequestIdCRM='LoanRequestIdCRM%204')",
+		"type": "AOMobile.LinkGuarantor"
+	},
+	"LoanRequest": {
+		"__deferred": {
+			"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%204',LoanRequestIdCRM='LoanRequestIdCRM%204')/LoanRequest"
+		}
+	},
+	"Guarantor": {
+		"__deferred": {
+			"uri": "LinkGuarantorSet(CustomerIdCRM='CustomerIdCRM%204',LoanRequestIdCRM='LoanRequestIdCRM%204')/Guarantor"
+		}
+	}
 }]

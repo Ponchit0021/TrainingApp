@@ -2755,12 +2755,12 @@ sap.ui.controller("originacion.IndividualApplications", {
                             currentController.onFormEnable(false, "itIndividual2");
                             sap.ui.getCore().byId("btnNciPorAprobar").setEnabled(false);
                         } else {
-                            if (sap.ui.getCore().AppContext.isConected) {
+                           /* if (sap.ui.getCore().AppContext.isConected) {
                                 sap.ui.getCore().byId("btnNciPorAprobar").setEnabled(true);
 
                             } else {
                                 sap.ui.getCore().byId("btnNciPorAprobar").setEnabled(false);
-                            }
+                            }*/
 
                             if (currentController.bIsCreating) {
                                
@@ -3260,8 +3260,12 @@ sap.ui.controller("originacion.IndividualApplications", {
             bdLoader.setText("Aprobando...");
             bdLoader.open();
 
-            setTimeout(function() {
-                promiseApprove = sap.ui.getCore().AppContext.myRest.read("/OpportunityApproval?loanRequestIdCRM='" + oIdOportunidad + "'&processType='" + oIdProcessType + "'", true); // servicio - consulta solicitantes sin oportunidad asignada
+            //setTimeout(function() {
+
+                 sap.ui.getCore().AppContext.bSaveApprove = true;
+                 oController.saveApprove();
+
+               /* promiseApprove = sap.ui.getCore().AppContext.myRest.read("/OpportunityApproval?loanRequestIdCRM='" + oIdOportunidad + "'&processType='" + oIdProcessType + "'", true); // servicio - consulta solicitantes sin oportunidad asignada
                 promiseApprove.then(function(response) {
                     if (sap.OData) {
                         sap.OData.applyHttpClient();
@@ -3285,8 +3289,8 @@ sap.ui.controller("originacion.IndividualApplications", {
                     sap.m.MessageToast.show("Se produjo un error al aprobar la oportunidad, por favor intente nuevamente. ");
                     bdLoader.close();
                   
-                });
-            }, 0);
+                });*/
+           // }, 0);
 
 
         };
