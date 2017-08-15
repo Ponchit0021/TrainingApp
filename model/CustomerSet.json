@@ -11,8 +11,8 @@
 	"BpMainData": {
 		"ProductId": "C_IND_CI",
 		"RegistrationDate": "/Date(1489445094000)/",
-		"RoleId": "ZFS004",
-		"StatusId": "E0006",
+		"RoleId": "ZFS003",
+		"StatusId": "E0003",
 		"StatusReasonId": "",
 		"SourceName": "Promoción Directa",
 		"LeadIdCRM": "0000000001",

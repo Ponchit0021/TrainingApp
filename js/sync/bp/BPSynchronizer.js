@@ -23,6 +23,10 @@
             this.dataDB.setSchema(oSchemaDB.getDataDBSchema());
             this.syncDB = new sap.ui.db.Pouch(_syncDB);
             this.syncDB.setSchema(oSchemaDB.getSyncDBSchema());
+            //TRAINING
+            this.notiDB = new sap.ui.db.Pouch("notiDB");
+            this.notiDB.setSchema(oSchemaDB.getNotiDBSchema());
+
             this.oDictionary = new sap.ui.helper.Dictionary();
             this.loggerSMPComponent = "Guarantor_SYNC";
             this.ERROR = "ERROR";
@@ -261,7 +265,7 @@
             // Aqui
 
             this.oSyncResultHelper.reportResult(this.oSyncResultHelper.getResultObject("SYNC", this.OK, _oQueueItem.id, _oQueueItem.requestDescription, "OK", this.sEntity.toUpperCase()))
-            .then(_resolveSendPromise(this.OK))
+            .then(this.sendNotification(_oQueueItem, result, _resolveSendPromise))
 
 
         ).catch(function(sError) {
@@ -271,6 +275,31 @@
 
 
 
+    };
+
+    sap.ui.sync.BP.prototype.sendNotification = function(_oQueueItem, _result, _resolveSendPromise) {
+        return new Promise(function(resolveSendNotification, rejectSendNotification) {
+            jQuery.sap.require("js.buffer.notification.CustomerSystemNotificationBuffer");
+            var oNotificationBuffer = new sap.ui.buffer.CustomerSystemNotification("notiDB");
+            var oRequest = {
+                id: _oQueueItem.id,
+                notificationID: "123456",
+                dateTime: "2017-07-19T21:05:27.280Z",
+                status: 1,
+                messageID: 109,
+                message: "BP CREADO EXITOSAMENTE",
+                objectTypeID: "1",
+                objectDMID: _result.data.CustomerIdMD,
+                objectCRMID: _result.data.CustomerIdCRM,
+                attended: "0",
+                customerDMID: _oQueueItem.id
+            };
+
+            oNotificationBuffer.postRequest(oRequest)
+                .then(function() {
+                    _resolveSendPromise("ok");
+                });
+        });
     };
 
     /**
@@ -679,17 +708,29 @@
                 //// 00000000000000 Regresar filtros 000000000000000000//
 
             .then(function(result) {
-                    var oMainPromise;
-                    oMainPromise = this.createIndividualPromises(resolve, result); //.bind(this);
-                    oMainPromise.then(
-                        function(result) {
-                            Promise.all(result)
-                                .then(this.processResults.bind(this, resolve, oNow))
-                                .catch(function(error) {
-                                    this.handleError.bind(this, "CGT01", "¡Ups!, Ocurrio un error CGT01 al sincronizar " + this.sEntityFormatted + ", por favor comunicate con mesa de servicio.");
-                                    resolve(this.ERROR);
-                                }.bind(this));
-                        }.bind(this));
+                //TRAINING - Consulta de notifiaciones de sistema en PouchDB
+                jQuery.sap.require("js.buffer.notification.CustomerSystemNotificationBuffer");
+                var oNotificationBuffer = new sap.ui.buffer.CustomerSystemNotification("notiDB");
+
+                oNotificationBuffer.searchInNotiDB(this.oDictionary.oQueues.CustomerSystemNotification)
+                    .then(function(result) {
+                        var oMainPromise;
+                        oMainPromise = this.createIndividualPromises(resolve, result); //.bind(this);
+                        oMainPromise.then(
+                            function(result) {
+                                Promise.all(result)
+                                    .then(this.processResults.bind(this, resolve, oNow))
+                                    .catch(function(error) {
+                                        this.handleError.bind(this, "CGT01", "¡Ups!, Ocurrio un error CGT01 al sincronizar " + this.sEntityFormatted + ", por favor comunicate con mesa de servicio.");
+                                        resolve(this.ERROR);
+                                    }.bind(this));
+                            }.bind(this));
+                    }.bind(this))
+                    .catch(function(error) {
+                        this.handleError("CINS01", "Error general en la confirmación de SEGURO. Error al obtener las notificaciones de seguros", error);
+                        this.oSyncResultHelper.reportResult(this.oSyncResultHelper.getResultObject("NOTIFICATION", this.ERROR, "", "", "Error al obtener las notificaciones de seguros", "NOTIFICATION"));
+                        resolve(this.ERROR);
+                    }.bind(this));
 
                 }.bind(this))
                 .catch(function(error) {
@@ -1043,7 +1084,7 @@
      * @param  {[Object]} oNotification [Notification to process]
      * @return {[Promise]}               [Promise]
      */
-    sap.ui.sync.BP.prototype.updateAttended = function(oNotification) {
+    /* sap.ui.sync.BP.prototype.updateAttended = function(oNotification) {
 
         this.handleTrace("CGT10", "Actualizar status de attended para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
 
@@ -1061,6 +1102,28 @@
                 ).catch(function(error) {
 
                     this.handleError("CGT10", "Error Actualizar status de attended para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
+                        .then(this.saveUpdateError(oNotification))
+                        .then(resolve(this.OK))
+
+                }.bind(this));
+
+        }.bind(this));
+    }; */
+
+    sap.ui.sync.BP.prototype.updateAttended = function(oNotification) {
+
+        this.handleTrace("CINS14", "TRAINING - Eliminar notificacion de sistema (PouchDB): " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
+
+        return new Promise(function(resolve, reject) {
+
+
+            //sap.ui.getCore().AppContext.oRest.update("/SystemNotifications('" + oNotification.notificationID + "')", oBody, true)
+            this.notiDB.delete(this.oDictionary.oQueues.CustomerSystemNotification, oNotification.id, oNotification.rev)
+                .then(this.handleTrace("CINS14", "TRAINING - Notificacion de Sistema elimnada de PouchDB: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
+                    .then(resolve(this.OK))
+                ).catch(function(error) {
+
+                    this.handleError("CINS14", "TRAINING - Error eliminar notificacion de sistema (PouchDB) para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
                         .then(this.saveUpdateError(oNotification))
                         .then(resolve(this.OK))
 
