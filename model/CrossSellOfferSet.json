@@ -15,7 +15,7 @@
 	}
 }, {
 	"CandidateIdCRM": "CandidateIdCRM 2",
-	"CrossSellProductId": "CrossSellProductId 2",
+	"CrossSellProductId": "C_IND_CCM",
 	"OfferDate": "/Date(1468879257000)/",
 	"MinAmountOffered": 0.6827948523446037,
 	"MaxAmountOffered": 4.499198373627385,
@@ -30,7 +30,7 @@
 	}
 }, {
 	"CandidateIdCRM": "CandidateIdCRM 3",
-	"CrossSellProductId": "CrossSellProductId 3",
+	"CrossSellProductId": "C_IND_CA_CCR",
 	"OfferDate": "/Date(968796057000)/",
 	"MinAmountOffered": 5.99520421266395,
 	"MaxAmountOffered": 7.177751446663823,
@@ -45,7 +45,7 @@
 	}
 }, {
 	"CandidateIdCRM": "CandidateIdCRM 4",
-	"CrossSellProductId": "CrossSellProductId 4",
+	"CrossSellProductId": "C_IND_CCM_CCR",
 	"OfferDate": "/Date(953420457000)/",
 	"MinAmountOffered": 0.8771330527155485,
 	"MaxAmountOffered": 1.229114857016056,
