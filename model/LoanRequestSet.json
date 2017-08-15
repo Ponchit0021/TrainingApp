@@ -3,7 +3,7 @@
 	"LoanRequestIdMD": "99000000000000000000000000214",
 	"CollaboratorID": "Genesis",
 	"ProductID": "C_IND_CI",
-	"ProcessType": "",
+	"ProcessType": "0",
 	"GroupRequestData": {
 		"GroupID": "GroupID 1",
 		"GroupName": "GroupName 1",

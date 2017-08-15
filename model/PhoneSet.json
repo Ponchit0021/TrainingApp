@@ -548,4 +548,14 @@
 		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2050',CustomerIdCRM='CustomerIdCRM%2050')",
 		"type": "AOMobile.Phone"
 	}
+},{
+	"PhoneTypeId": "1",
+	"CustomerIdCRM": "1502388100300",
+	"PhoneNumber": "55888878501",
+	"CustomerIdMD": "28102016052701221502388100300",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2051',CustomerIdCRM='CustomerIdCRM%2051')",
+		"type": "AOMobile.Phone"
+	}
 }]

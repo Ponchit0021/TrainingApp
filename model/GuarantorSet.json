@@ -613,4 +613,127 @@
 			"uri": "GuarantorSet('CustomerIdCRM%204')/ImageSet"
 		}
 	}
+},{
+	"CustomerIdCRM": "1502388100300",
+	"CollaboratorID": "Genesis",
+	"CustomerIdMD": "28102016052701221502388100300",
+	"BpName": {
+		"FirstName": "FERNANDO",
+		"MiddleName": "",
+		"LastName": "LAGOS",
+		"SecondName": "BARROS"
+	},
+	"BpMainData": {
+		"ProductId": "",
+		"RegistrationDate": "/Date(1494306000000)/",
+		"RoleId": "",
+		"StatusId": "",
+		"StatusReasonId": "",
+		"SourceName": "",
+		"LeadIdCRM": "",
+		"ServiceOfficeID": "242",
+		"ServiceOfficeName": "TOLUCA",
+		"ContactLaterDate": null,
+		"ContactLaterTime": "PT00H00M00S",
+		"Cycle": 0,
+		"RemainingDays": 0,
+		"ServiceLevelId": 0,
+		"SourceId": "",
+		"ControlListsResult": "ACEPTADO",
+		"RiskLevel": 1,
+		"IsContactLaterEditable": false,
+		"AccumulatedCycle": 1
+	},
+	"BpComplementaryData": {
+		"Curp": "LABC641209HMSZRR09",
+		"Dependents": "0",
+		"JobId": "ASAL",
+		"Email": "",
+		"TimeInTheActivityId": "004",
+		"HowActivityId": "7",
+		"HowMuchBusinessId": "001",
+		"OtherSourceId": "008",
+		"TimeInTheBusiness": "004",
+		"ShopFromWhoId": "",
+		"EconomicActivityId": "",
+		"IsIndivWBusiness": false,
+		"FielNumber": "",
+		"Rfc": "LABC641209SFA",
+		"Homoclave": "",
+		"MonthlySalary": "0.0000000000000000E+00"
+	},
+	"BpBasicData": {
+		"GenderId": "2",
+		"BirthdDate": "/Date(547365600000)/",
+		"ElectorKey": "CRRNCY87091319H800",
+		"CountryOfBirthId": "MX",
+		"BirthPlace": "COA",
+		"NationalityId": "MX",
+		"MaritalStatusId": "1",
+		"Children": "0",
+		"SchoolLevelId": "6",
+		"HouseTypeId": "1",
+		"TypeOfStoreId": "003",
+		"GiroId": "8",
+		"IndustryId": "132",
+		"EconomicActivityId": "1211028",
+		"VoterRegistration": "0619082200335",
+		"IsPEP": false,
+		"NamePEP": "",
+		"IsRelatedToGentera": false,
+		"RelatedName": "",
+		"BasicDataStartDTime": "",
+		"RelationshipId": ""
+	},
+	"BpAdditionalData": {
+		"Spouse": {
+			"Job": "Job 4",
+			"WorkPhone": "5523423424",
+			"BPIdSpouse": "BPIdSpouse 4",
+			"BpNameData": {
+				"FirstName": "Yolanda ",
+				"MiddleName": "",
+				"LastName": "Margáin",
+				"SecondName": "Gleason"
+			}
+		}
+	},
+	"BpFlag": {
+		"BPFlagDistinction": 6.346111275499577
+	},
+	"IsAvailableForReq": true,
+	"__metadata": {
+		"uri": "GuarantorSet('CustomerIdCRM%204')",
+		"type": "AOMobile.Guarantor"
+	},
+	"LinkGuarantorSet": {
+		"__deferred": {
+			"uri": "GuarantorSet('CustomerIdCRM%204')/LinkGuarantorSet"
+		}
+	},
+	"AddressSet": {
+		"__deferred": {
+			"uri": "GuarantorSet('CustomerIdCRM%204')/AddressSet"
+		}
+	},
+	"PhoneSet": {
+		"__deferred": {
+			"uri": "GuarantorSet('CustomerIdCRM%204')/PhoneSet"
+		}
+	},
+	"PersonalReferenceSet": {
+		"__deferred": {
+			"uri": "GuarantorSet('CustomerIdCRM%204')/PersonalReferenceSet"
+		}
+	},
+	"EmployerSet": {
+		"__deferred": {
+			"uri": "GuarantorSet('CustomerIdCRM%204')/EmployerSet"
+		}
+	},
+	"ImageSet": {
+		"__deferred": {
+			"uri": "GuarantorSet('CustomerIdCRM%204')/ImageSet"
+		}
+	}
 }]
