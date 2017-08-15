@@ -2021,8 +2021,8 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 21",
 	"LoanRequestIdMD": "LoanRequestIdMD 21",
-	"CollaboratorID": "CollaboratorID 21",
-	"ProductID": "ProductID 21",
+	"CollaboratorID": "Genesis",
+	"ProductID": "C_IND_CI",
 	"ProcessType": "ProcessType 21",
 	"GroupRequestData": {
 		"GroupID": "GroupID 21",
@@ -2058,16 +2058,16 @@
 	"GeneralLoanRequestData": {
 		"IsRenewal": false,
 		"StartDate": "/Date(1162838985000)/",
-		"Cycle": 2701,
-		"StatusId": "StatusId 21",
-		"StatusText": "StatusText 21",
+		"Cycle": 1,
+		"StatusId": "E0007",
+		"StatusText": "En Proceso",
 		"FirstPaymentDate": "/Date(956425785000)/",
 		"ExpenditureDate": "/Date(1334598585000)/",
-		"Term": "Term 21",
+		"Term": "6",
 		"Frequency": "Frequency 21",
 		"IsReadyToApprove": true,
 		"IsReadyToApproveDescription": "IsReadyToApproveDescription 21",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 21",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": "InsuranceProductId 21"
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 21",
@@ -2122,8 +2122,8 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 22",
 	"LoanRequestIdMD": "LoanRequestIdMD 22",
-	"CollaboratorID": "CollaboratorID 22",
-	"ProductID": "ProductID 22",
+	"CollaboratorID": "Genesis",
+	"ProductID": "C_GRUPAL_CCR",
 	"ProcessType": "ProcessType 22",
 	"GroupRequestData": {
 		"GroupID": "GroupID 22",
@@ -2223,8 +2223,8 @@
 }, {
 	"LoanRequestIdCRM": "LoanRequestIdCRM 23",
 	"LoanRequestIdMD": "LoanRequestIdMD 23",
-	"CollaboratorID": "CollaboratorID 23",
-	"ProductID": "ProductID 23",
+	"CollaboratorID": "Genesis",
+	"ProductID": "C_GRUPAL_CM",
 	"ProcessType": "ProcessType 23",
 	"GroupRequestData": {
 		"GroupID": "GroupID 23",
