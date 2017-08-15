@@ -18,6 +18,10 @@
             this.dataDB.setSchema(oSchemaDB.getDataDBSchema());
             this.syncDB = new sap.ui.db.Pouch(_syncDB);
             this.syncDB.setSchema(oSchemaDB.getSyncDBSchema());
+            //TRAINING
+            this.notiDB = new sap.ui.db.Pouch("notiDB");
+            this.notiDB.setSchema(oSchemaDB.getNotiDBSchema());
+
             this.oDictionary = new sap.ui.helper.Dictionary();
             this.loggerSMPComponent = "CROSSSELLOFFER_SYNC";
             this.ERROR = "ERROR";
@@ -137,7 +141,7 @@
             this.oSyncResultHelper.reportResult(this.oSyncResultHelper.getResultObject("SYNC", this.OK, _oQueueItem.id, _oQueueItem.requestDescription, "OK", this.sEntity.toUpperCase()))
             //TRAINING - Se comenta para realizar petición de envio de notificación sendNotification()
             //.then(_resolveSendPromise(this.OK))
-            .then(this.sendNotification())
+            .then(this.sendNotification(_oQueueItem, result, _resolveSendPromise))
         ).catch(function(sError) {
             this.handleError.bind("SCSO6", "Error al actualizar Sync Queue a status 'Sent' de " + this.sEntity + " " + _oQueueItem.id, sError);
             _resolveSendPromise(this.ERROR);
@@ -205,24 +209,32 @@
     /*TRAINING - Se agrega método sendNotification para emular notificaciones de sistema
      * @params
      */
-    sap.ui.sync.CrossSellOffer.prototype.sendNotification = function() {
-       
-       return new Promise(function(resolveSendNotification, rejectSendNotification) {
+    sap.ui.sync.CrossSellOffer.prototype.sendNotification = function(_oQueueItem, result, _resolveSendPromise) {
+
+        return new Promise(function(resolveSendNotification, rejectSendNotification) {
             jQuery.sap.require("js.buffer.notification.CrossSellSystemNotificationBuffer");
             var oSystemNotificationBuffer = new sap.ui.buffer.CrossSellSystemNotification("notiDB");
+            
             var oRequest = {
-                id: "idTest",
-                notificationID: "12345",
-                dateTime: "2017-07-19T21:05:27.280Z",
+                id: _oQueueItem.id,
+                notificationID: _oQueueItem.id,
+                dateTime: new Date(),
                 status: 1,
                 messageID: 125,
-                message: "La Oferta de Credito Hijo fue Aceptada",
-                objectTypeID: "4",
-                objectDMID: "DMIDTest",
-                objectCRMID: "CRMIDTest",
-                attended: "0",
-                insuranceDMID: null
+                message: "",
+                objectTypeID: "5",
+                description: _oQueueItem.requestDescription,
+                objectDMID: _oQueueItem.id,
+                productId: result.data.CrossSellProductId,
+                attended: "0"
             };
+
+            //TRAINING - Se ajusta mensaje de notificación
+            if (result.data.IsAccepted === true) {
+                oRequest.message = "La Oferta de Credito Hijo fue Aceptada"
+            } else {
+                oRequest.message = "La Oferta de Credito Hijo fue Rechazada"
+            }
 
             oSystemNotificationBuffer.postRequest(oRequest)
                 .then(function() {
@@ -271,7 +283,12 @@
                 this.handleTrace("CCSO01", "Inicio de confirmación || " + new Date());
                 this.handleTrace("CCSO01", "Obtener notificaciones de tipo Loan Request - Productos Hijo");
                 //se obtienen notificaciones de tipo LoanRequest - Productos Hijo
-                sap.ui.getCore().AppContext.oRest.read("/SystemNotifications", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Promotor + "' and attended eq '0' and objectTypeID eq '5'", true)
+
+                //TRAINING - Consulta de notifiaciones de sistema en PouchDB
+                jQuery.sap.require("js.buffer.notification.CrossSellSystemNotificationBuffer");
+                var oSystemNotificationBuffer = new sap.ui.buffer.CrossSellSystemNotification("notiDB");
+                //sap.ui.getCore().AppContext.oRest.read("/SystemNotifications", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Promotor + "' and attended eq '0' and objectTypeID eq '5'", true)
+                oSystemNotificationBuffer.searchInNotiDB(this.oDictionary.oQueues.CrossSellSystemNotification)
                     .then(function(result) {
                         var oMainPromise;
                         oMainPromise = this.createIndividualPromises(resolve, result);
@@ -540,7 +557,7 @@
      * @param  {[Object]} oNotification [Notification to process]
      * @return {[Promise]}               [Promise]
      */
-    sap.ui.sync.CrossSellOffer.prototype.updateAttended = function(oNotification) {
+    /*sap.ui.sync.CrossSellOffer.prototype.updateAttended = function(oNotification) {
         this.handleTrace("CCSO09", "Actualizar status de attended para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
         return new Promise(function(resolve, reject) {
             var oBody;
@@ -555,7 +572,29 @@
                         .then(resolve(this.OK))
                 }.bind(this));
         }.bind(this));
+    };*/
+
+    /** 
+     * TRAINING - [updateAttended Delete de system notification from PouchDB]
+     * @param  {[Object]} oNotification [Notification to process]
+     * @return {[Promise]}               [Promise]
+     */
+    sap.ui.sync.CrossSellOffer.prototype.updateAttended = function(oNotification) {
+        this.handleTrace("CCSO09", "TRAINING - Elimina notifcación de sistema de PouchDB para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
+        return new Promise(function(resolve, reject) {
+            this.notiDB.delete(this.oDictionary.oQueues.CrossSellSystemNotification, oNotification.id, oNotification.rev)
+                .then(
+                    this.handleTrace("CCSO09", "TRAINING - Notificacion de Sistema elimnada de PouchDB: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
+                    .then(resolve(this.OK))
+                ).catch(function(error) {
+                    this.handleError("CCSO09", "TRAINING - Error eliminar notificacion de sistema (PouchDB) para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
+                        .then(this.saveUpdateError(oNotification))
+                        .then(resolve(this.OK))
+                }.bind(this));
+        }.bind(this));
     };
+
+
     /**
      * [saveUpdateError Save the error (if present) when trying to update the status of a Notification in IGW]
      * @param  {[Object]} oNotification [Notification to process]
