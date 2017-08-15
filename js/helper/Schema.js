@@ -163,6 +163,9 @@
         return [{
             singular: "InsuranceSystemNotification",
             plural: "InsuranceSystemNotificationSet"
+        },{
+            singular: "CustomerSystemNotification",
+            plural: "CustomerSystemNotificationSet"
         }];
     };
 

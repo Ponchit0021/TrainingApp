@@ -71,7 +71,9 @@
         CrossSellOffer: "RequestQueueCrossSellOffer",
         GroupCrossSellGuarantorCandidate: "RequestQueueGroupCrossSellGuarantorCandidate",
         GroupCrossSellAssignedGuarantor: "RequestQueueGroupCrossSellAssignedGuarantor",
-        InsuranceSystemNotification: "InsuranceSystemNotification"
+        InsuranceSystemNotification: "InsuranceSystemNotification",
+        CrossSellSystemNotification: "CrossSellSystemNotification",
+        CustomerSystemNotification: "CustomerSystemNotification"
     };
 
     sap.ui.helper.Dictionary.prototype.oErrors = {

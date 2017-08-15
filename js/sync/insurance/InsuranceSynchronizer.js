@@ -94,7 +94,7 @@
     };
 
     /**
-     * [retrieveInsuranceRequests Retrieves all LoanRequests from PouchDB]
+     * [retrieveInsuranceRequests Retrieves all LoanRequestIdCRMs from PouchDB]
      * @return {[type]} [description]
      */
     sap.ui.sync.Insurance.prototype.retrieveInsuranceRequests = function() {
@@ -201,7 +201,7 @@
 
             this.oSyncResultHelper.reportResult(this.oSyncResultHelper.getResultObject("SYNC", this.OK, _oQueueItem.id, _oQueueItem.requestDescription, "OK", "INS"))
             //.then(this.clearBusinessError(_oQueueItem, _resolveSendPromise))
-            .then(this.sendNotification(_oQueueItem, _resolveSendPromise))
+            .then(this.sendNotification(_oQueueItem, result, _resolveSendPromise))
 
         ).catch(function(sError) {
             this.handleError.bind("SINS6", "Error al actualizar SynC Queue a status 'Sent' del seguro  " + _oQueueItem.id, sError);
@@ -209,8 +209,11 @@
         }.bind(this));
     };
 
-    //TRAINING - Se emula base de datos de notificaciones
-    sap.ui.sync.Insurance.prototype.sendNotification = function(_oQueueItem, _resolveSendPromise) {
+    /*TRAINING - Se emula base de datos de notificaciones
+     * id - InsuranceIdMD
+     * objectDMID - LoanRequestIdMD, se requiere para eliminar de PouchDB
+     */
+    sap.ui.sync.Insurance.prototype.sendNotification = function(_oQueueItem, _result, _resolveSendPromise) {
         return new Promise(function(resolveSendNotification, rejectSendNotification) {
             jQuery.sap.require("js.buffer.notification.NotificationBuffer");
             var oNotificationBuffer = new sap.ui.buffer.Notification("notiDB");
@@ -222,8 +225,8 @@
                 messageID: 122,
                 message: "Proceso asignación seguro finalizado",
                 objectTypeID: "4",
-                objectDMID: _oQueueItem.id,
-                objectCRMID: _oQueueItem.id,
+                objectDMID: _result.data.LoanRequestIdMD,
+                objectCRMID: _result.data.LoanRequestIdCRM,
                 attended: "0",
                 insuranceDMID: _oQueueItem.id
             };
@@ -466,7 +469,7 @@
     sap.ui.sync.Insurance.prototype.deleteBusinessError = function(_oQueueItem, _resolveSendPromise) {
 
 
-        return this.syncDB.getById(this.oDictionary.oErrors.LoanRequest, _oQueueItem.id)
+        return this.syncDB.getById(this.oDictionary.oErrors.LoanRequestIdCRM, _oQueueItem.id)
             .then(function(result) { /// Confirmar si ya existe el registro del error, hacer upsert
 
                 if (!_resolveSendPromise) {
@@ -474,11 +477,11 @@
                 }
 
                 var aResults;
-                aResults = this.validatePouchResults(result, "BusinessErrorLoanRequestSet");
+                aResults = this.validatePouchResults(result, "BusinessErrorLoanRequestIdCRMSet");
 
                 if (aResults.length > 0) {
 
-                    this.syncDB.delete(this.oDictionary.oErrors.LoanRequest, result.BusinessErrorLoanRequestSet[0].id, result.BusinessErrorLoanRequestSet[0].rev)
+                    this.syncDB.delete(this.oDictionary.oErrors.LoanRequestIdCRM, result.BusinessErrorLoanRequestIdCRMSet[0].id, result.BusinessErrorLoanRequestIdCRMSet[0].rev)
                         .then(_resolveSendPromise(this.ERROR));
 
                 } else {
@@ -695,7 +698,7 @@
                             }
                         }.bind(this, oMainInsurance));
 
-                        //Busca la oportunidad en la lista de registros descargados de SystemNotifications para eliminar los registros de PDB
+                        //Busca el seguro en la lista de registros descargados de SystemNotifications para eliminar los registros de PDB
                         for (var oInsuranceOpportunity in oMainInsurance) {
                             if (oMainInsurance.hasOwnProperty(oInsuranceOpportunity)) {
                                 if (oMainInsurance[oInsuranceOpportunity].hasOwnProperty("mainNotification")) {
@@ -834,7 +837,7 @@
     sap.ui.sync.Insurance.prototype.confirmNotification = function(oNotification) {
 
 
-        this.handleTrace("CINS06", "Revisa si Insurance existe en DataDB para Notificacion : " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
+        this.handleTrace("CINS06", "Revisa si Insurance existe en DataDB para Notificacion : " + oNotification.mainNotification.notificationID + " ObjectIDDM: " + oNotification.mainNotification.objectDMID);
 
         return new Promise(function(oNotification, confirmNotificationResolve, confirmNotificationReject) {
 
@@ -843,7 +846,7 @@
 
             //this.dataDB.getById(this.oDictionary.oTypes.LinkInsurance, oNotification.mainNotification.objectDMID)
             //TRAINING 
-            this.dataDB.getById(this.oDictionary.oTypes.LinkInsurance, oNotification.objectDMID)
+            this.dataDB.getById(this.oDictionary.oTypes.LinkInsurance, oNotification.mainNotification.objectDMID)
                 //.then(function(result){ console.log("result " +  JSON.stringify(result) )})
                 .then(this.verifyNotificationContent.bind(this, oNotification, confirmNotificationResolve))
                 .catch(function(error) {
@@ -867,7 +870,7 @@
         aInsurancePromises = [];
         this.iExcluded = 0;
 
-        this.handleTrace("CINS07", "Verificar información contenida en la notificación : " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
+        this.handleTrace("CINS07", "Verificar información contenida en la notificación : " + oNotification.mainNotification.notificationID + " ObjectIDDM: " + oNotification.mainNotification.objectDMID);
 
         if (oResult.LinkInsuranceSet.length > 0) {
 
@@ -1130,11 +1133,9 @@
 
             //sap.ui.getCore().AppContext.oRest.update("/SystemNotifications('" + oNotification.notificationID + "')", oBody, true)
             this.notiDB.delete(this.oDictionary.oQueues.InsuranceSystemNotification, oNotification.id, oNotification.rev)
-                .then(function(res) {
-                    console.log(res);
-                    this.handleTrace("CINS14", "TRAINING - Notificacion de Sistema elimnada de PouchDB: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
-                        .then(resolve(this.OK))
-                }).catch(function(error) {
+                .then(this.handleTrace("CINS14", "TRAINING - Notificacion de Sistema elimnada de PouchDB: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
+                    .then(resolve(this.OK))
+                ).catch(function(error) {
 
                     this.handleError("CINS14", "TRAINING - Error eliminar notificacion de sistema (PouchDB) para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
                         .then(this.saveUpdateError(oNotification))

@@ -20,6 +20,9 @@
             this.syncDB = new sap.ui.db.Pouch(_syncDB);
             this.syncDB.setSchema(oSchemaDB.getSyncDBSchema());
 
+            this.notiDB = new sap.ui.db.Pouch("notiDB");
+            this.notiDB.setSchema(oSchemaDB.getNotiDBSchema());
+
 
 
         },
@@ -59,6 +62,8 @@
 
         return function(_oDictionary, _oCustomerQueueItem, result) {
 
+            this.sendNotification(_oCustomerQueueItem,result,_resolveSendPromise);
+
             this.syncDB.getById(_oDictionary.oErrors.Customer, _oCustomerQueueItem.id)
                 .then(function(_oCustomerQueueItem, _oDictionary, result) { /// Confirmar si ya existe el registro del error, hacer upsert
                     if (result.BusinessErrorCustomerSet) {
@@ -89,6 +94,32 @@
 
        }.bind(this, _oDictionary, _oCustomerQueueItem)
 
+    };
+
+    /*TRAINING - Se emula base de datos de notificaciones*/
+    sap.ui.sync.Customer.prototype.sendNotification = function(_oQueueItem, _result, _resolveSendPromise) {
+        return new Promise(function(resolveSendNotification, rejectSendNotification) {
+            jQuery.sap.require("js.buffer.notification.CustomerSystemNotificationBuffer");
+            var oNotificationBuffer = new sap.ui.buffer.CustomerSystemNotification("notiDB");
+            var oRequest = {
+                id: _oQueueItem.id,
+                notificationID: "12345",
+                dateTime: "2017-07-19T21:05:27.280Z",
+                status: 1,
+                messageID: 109,
+                message: "Proceso de Customer finalizado",
+                objectTypeID: "1",
+                objectDMID: _result.data.LoanRequestIdMD,
+                objectCRMID: _result.data.LoanRequestIdCRM,
+                attended: "0",
+                insuranceDMID: _oQueueItem.id
+            };
+
+            oNotificationBuffer.postRequest(oRequest)
+                .then(function() {
+                    _resolveSendPromise("ok");
+                });
+        });
     };
 
     sap.ui.sync.Customer.prototype.sendQueue = function() {
@@ -144,6 +175,7 @@
 
                                                         this.syncDB.post(_oDictionary.oQueues.Customer, _oCustomerQueueItem).then(
 
+                                                            
                                                             this.deleteBusinessErrorOnOK(_oDictionary, _oCustomerQueueItem, resolveSendPromise)
 
                                                         ).catch(function(error) {
