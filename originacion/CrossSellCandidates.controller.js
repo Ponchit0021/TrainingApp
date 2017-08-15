@@ -24,11 +24,14 @@ sap.ui.controller("originacion.CrossSellCandidates", {
 
         oNavigatorBase = new sap.ui.mw.NavigatorBase();
         if (oNavigatorBase.testUserAgent()) { //Se está operando desde un DM
-            if (sap.ui.getCore().AppContext.isConected === true) {
+
+            //TRAININIG - El módulo debe funcionar aun estando OFFLINE
+             bQueryService = true;
+            /*if (sap.ui.getCore().AppContext.isConected === true) {
                 sap.OData.removeHttpClient();
             } else {
                 bQueryService = false;
-            }
+            }*/
         }
 
         if (bQueryService) {
@@ -119,9 +122,9 @@ sap.ui.controller("originacion.CrossSellCandidates", {
     backToTiles: function() {
         var oNavigatorBase = new sap.ui.mw.NavigatorBase();
 
-        if (oNavigatorBase.testUserAgent()) { //Se está operando desde un DM
+       /* if (oNavigatorBase.testUserAgent()) { //Se está operando desde un DM
             sap.OData.applyHttpClient();
-        }
+        }*/
 
         setTimeout(function() {
             window.history.go(-1);

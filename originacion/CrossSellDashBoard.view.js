@@ -20,10 +20,12 @@ sap.ui.jsview("originacion.CrossSellDashBoard", {
         oContainerBase = new sap.ui.mw.ContainerBase();
         oDisplayBase = new sap.ui.mw.DisplayBase();
         oActionBase = new sap.ui.mw.ActionBase();
+        //TRAINING
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) !== true) {
             currentUser = "TEST";
         } else {
-            currentUser = sap.ui.getCore().AppContext.applicationContext.registrationContext.user;
+            //currentUser = sap.ui.getCore().AppContext.applicationContext.registrationContext.user;
+            currentUser = "TEST";
         }
 
         oTitleBar = oContainerBase.createBar("oTitleBarCrSellDashBoard", oActionBase.createButton("oNavButtonCrSellDB", "", null, "sap-icon://navigation-left-arrow", oController.backToTiles, oController), null, oDisplayBase.createText("", currentUser).addStyleClass("userBar"));

@@ -64,10 +64,10 @@
 
                 }.bind(this))
 
-            .catch(function(error) {
-                this.handleError("SCSO1", "Error general de sincronización ", error)
-                    .then(resolveMasterPromise(this.oSyncResultHelper.reportResult(this.oSyncResultHelper.getResultObject("SYNC", this.ERROR, "", "", "¡Ups!, Ocurrio un error SCSO1 al sincronizar " + this.sEntityFormatted + ", por favor comunicate con mesa de servicio.", ""))))
-            }.bind(this));
+                .catch(function(error) {
+                    this.handleError("SCSO1", "Error general de sincronización ", error)
+                        .then(resolveMasterPromise(this.oSyncResultHelper.reportResult(this.oSyncResultHelper.getResultObject("SYNC", this.ERROR, "", "", "¡Ups!, Ocurrio un error SCSO1 al sincronizar " + this.sEntityFormatted + ", por favor comunicate con mesa de servicio.", ""))))
+                }.bind(this));
 
         }.bind(this));
     };
@@ -135,7 +135,9 @@
         _oQueueItem.requestStatus = this.oDictionary.oRequestStatus.Sent;
         this.updateSyncQueue(_oQueueItem).then(
             this.oSyncResultHelper.reportResult(this.oSyncResultHelper.getResultObject("SYNC", this.OK, _oQueueItem.id, _oQueueItem.requestDescription, "OK", this.sEntity.toUpperCase()))
-            .then(_resolveSendPromise(this.OK))
+            //TRAINING - Se comenta para realizar petición de envio de notificación sendNotification()
+            //.then(_resolveSendPromise(this.OK))
+            .then(this.sendNotification())
         ).catch(function(sError) {
             this.handleError.bind("SCSO6", "Error al actualizar Sync Queue a status 'Sent' de " + this.sEntity + " " + _oQueueItem.id, sError);
             _resolveSendPromise(this.ERROR);
@@ -199,6 +201,36 @@
         this.handleTrace("SCSO1", "Fin de sincronización, Tiempo transcurrido: " + moment.utc(moment(oThen, "DD/MM/YYYY HH:mm:ss").diff(moment(oNow, "DD/MM/YYYY HH:mm:ss"))).format("mm:ss"));
         _resolveMasterPromise("OK");
     };
+
+    /*TRAINING - Se agrega método sendNotification para emular notificaciones de sistema
+     * @params
+     */
+    sap.ui.sync.CrossSellOffer.prototype.sendNotification = function() {
+       
+       return new Promise(function(resolveSendNotification, rejectSendNotification) {
+            jQuery.sap.require("js.buffer.notification.CrossSellSystemNotificationBuffer");
+            var oSystemNotificationBuffer = new sap.ui.buffer.CrossSellSystemNotification("notiDB");
+            var oRequest = {
+                id: "idTest",
+                notificationID: "12345",
+                dateTime: "2017-07-19T21:05:27.280Z",
+                status: 1,
+                messageID: 125,
+                message: "La Oferta de Credito Hijo fue Aceptada",
+                objectTypeID: "4",
+                objectDMID: "DMIDTest",
+                objectCRMID: "CRMIDTest",
+                attended: "0",
+                insuranceDMID: null
+            };
+
+            oSystemNotificationBuffer.postRequest(oRequest)
+                .then(function() {
+                    _resolveSendPromise("ok");
+                });
+        });
+    };
+
     //******************************** Fin - Proceso de envio **************************
 
 
@@ -339,27 +371,27 @@
      * @return {[Promise]}               [Promise]
      */
     sap.ui.sync.CrossSellOffer.prototype.reviewFormerNotificationError = function(oNotification) {
-            return new Promise(function(resolve) {
-                this.handleTrace("CCSO04", "Revision de error previo para Notificacion : " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
-                this.syncDB.getById(this.oDictionary.oErrors.Notification, oNotification.notificationID)
-                    .then(function(oResult) {
-                        if (oResult.SystemErrorNotificationSet.length === 0) {
-                            // Realizar procesamiento normal de la notificación 
-                            resolve("NormalProcessing");
-                        } else {
-                            // Existe un error previo para la actualización del status de la notificación
-                            // hacia el status "Attended", como la notificación ya fue procesada, no procesar
-                            // nuevamente
-                            this.retryNotificationUpdate(oNotification, oResult).then(resolve(this.ERROR));
-                        }
-                    }.bind(this));
-            }.bind(this));
-        }
-        /**
-         * [retryNotificationUpdate Make Update to notification in IGW in case the original update had failed]
-         * @param  {[Object]} oNotification [Notification to process]
-         * @return {[Promise]}               [Promise]
-         */
+        return new Promise(function(resolve) {
+            this.handleTrace("CCSO04", "Revision de error previo para Notificacion : " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
+            this.syncDB.getById(this.oDictionary.oErrors.Notification, oNotification.notificationID)
+                .then(function(oResult) {
+                    if (oResult.SystemErrorNotificationSet.length === 0) {
+                        // Realizar procesamiento normal de la notificación 
+                        resolve("NormalProcessing");
+                    } else {
+                        // Existe un error previo para la actualización del status de la notificación
+                        // hacia el status "Attended", como la notificación ya fue procesada, no procesar
+                        // nuevamente
+                        this.retryNotificationUpdate(oNotification, oResult).then(resolve(this.ERROR));
+                    }
+                }.bind(this));
+        }.bind(this));
+    }
+    /**
+     * [retryNotificationUpdate Make Update to notification in IGW in case the original update had failed]
+     * @param  {[Object]} oNotification [Notification to process]
+     * @return {[Promise]}               [Promise]
+     */
     sap.ui.sync.CrossSellOffer.prototype.retryNotificationUpdate = function(oNotification, oResult) {
         return new Promise(function(resolve, reject) {
             this.handleTrace("CLR05", "Reintentar actualización del status de la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID + " (a Attended) ");
