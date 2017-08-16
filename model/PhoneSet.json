@@ -299,7 +299,7 @@
 		"type": "AOMobile.Phone"
 	}
 },{
-	"PhoneTypeId": "31",
+	"PhoneTypeId": "2",
 	"CustomerIdCRM": "CustomerIdCRM 31",
 	"PhoneNumber": "5586523233",
 	"CustomerIdMD": "CustomerIdMD 31",
@@ -556,6 +556,16 @@
 	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2051',CustomerIdCRM='CustomerIdCRM%2051')",
+		"type": "AOMobile.Phone"
+	}
+},{
+	"PhoneTypeId": "3",
+	"CustomerIdCRM": "CustomerIdCRM 31",
+	"PhoneNumber": "55555555",
+	"CustomerIdMD": "CustomerIdMD 31",
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "PhoneSet(PhoneTypeId='PhoneTypeId%2051',CustomerIdCRM='CustomerIdCRM%2031')",
 		"type": "AOMobile.Phone"
 	}
 }]
