@@ -195,7 +195,7 @@
 
        
 
-        sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
+        this.resultLoanRequest(_oQueueItem,result)
             .then(this.processODataResponse.bind(this, _oQueueItem, _resolveSendPromise))
             .catch(this.processODataResponseError.bind(this, _oQueueItem, _resolveSendPromise));
 
@@ -257,9 +257,9 @@
                 status: 1,
                 messageID: 126,
                 message: "SOLICITUD CREADA Y/O MODIFICADA CORRECTAMENTE",
-                objectTypeID: "2",
-                objectDMID: _result.data.LoanRequestIdMD,
-                objectCRMID: _result.data.LoanRequestIdCRM,
+                objectTypeID: "4",
+                objectDMID: _result.LoanRequestIdMD,
+                objectCRMID: _result.LoanRequestIdCRM,
                 attended: "1",
                 insuranceDMID: _oQueueItem.id
             };
@@ -270,6 +270,24 @@
                 });
         });
     };
+
+    /*TRAINING - Se emula respuesta create
+     */
+    sap.ui.sync.LoanRequest.prototype.resultLoanRequest = function(_oQueueItem,_result) {
+        return new Promise(function(resolveUpdatePromise) {
+
+        var oResults = {
+                statusCode: 201,
+                LoanRequestIdMD: _result.LoanRequestIdMD,
+                LoanRequestIdCRM: _result.LoanRequestIdCRM
+            };
+         resolveUpdatePromise(oResults);
+
+        
+        }.bind(this));
+
+    };
+
 
 
     /**
@@ -985,11 +1003,7 @@
                             return oResult.LoanRequestSet[0].GroupRequestData.GroupName;
                             break;
                         case "C_IND_CI": /// Get Name from Link
-                            if (oResult.hasOwnProperty("LinkSet")) {
-                                if (oResult.LinkSet.hasOwnProperty("Customer")) {
-                                    return oResult.LinkSet[0].Customer.FirstName + " " + oResult.LinkSet[0].Customer.MiddleName + " " + oResult.LinkSet[0].Customer.LastName + " " + oResult.LinkSet[0].Customer.SecondName;
-                                }
-                            }
+                            return "SOLICITUD INDIVIDUAL";
                             break;
 
                         default:
