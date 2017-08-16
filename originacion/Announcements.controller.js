@@ -16,8 +16,12 @@ sap.ui.controller("originacion.Announcements", {
         }.bind(this), 1000);
     },
     renderAnnouncements: function(_msg, _aDataAnnouncement) {
-        var oTitle, oNum, oModelAnnouncements, currentController, oAnnouncementsNotificationGroup;
+        var oTitle, oNum, oModelAnnouncements, currentController, oAnnouncementsNotificationGroup, announcement = [], count=0;
         currentController = this;
+        
+        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+        var oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+
         return new Promise(function(resolve, reject) {
             //número de mis pendientes sin leer
             oTitle = sap.ui.getCore().byId("oPageMasterAnnouncements");
@@ -27,19 +31,37 @@ sap.ui.controller("originacion.Announcements", {
             oAnnouncementsNotificationGroup = sap.ui.getCore().byId("ngAnnouncement", "items");
             oModelAnnouncements = new sap.ui.model.json.JSONModel();
             oModelAnnouncements.setSizeLimit(oNum);
-            oModelAnnouncements.setData(_aDataAnnouncement);
+            /*oModelAnnouncements.setData(_aDataAnnouncement);
             oAnnouncementsNotificationGroup.setModel(oModelAnnouncements);
-            oModelAnnouncements = null;
+            oModelAnnouncements = null;*/
             setTimeout(function() {
                 if (_msg) {
                     sap.m.MessageToast.show(_msg, { duration: 4000 });
                 }
             }, 0)
-            oAnnouncementsNotificationGroup.bindAggregation("items", {
-                path: "/results",
-                factory: function(_id, _context) {
-                    return currentController.onLoadAnnouncements(_context);
-                }
+
+            _aDataAnnouncement.results.forEach(function(currAnnouncement, i) {
+                oRenovationBuffer.searchInRenoDB(currAnnouncement.notificationID)
+                .then(function(oResult) {
+                    announcement[count] = oResult;
+
+                    if(oResult) _aDataAnnouncement.results[_.indexOf(_aDataAnnouncement.results, currAnnouncement)].attended = "1";
+                    else _aDataAnnouncement.results[_.indexOf(_aDataAnnouncement.results, currAnnouncement)].attended = "0";
+
+                    if(count++ == _aDataAnnouncement.results.length - 1){
+
+                        oModelAnnouncements.setData(_aDataAnnouncement);
+                        oAnnouncementsNotificationGroup.setModel(oModelAnnouncements);
+                        oModelAnnouncements = null;
+
+                        oAnnouncementsNotificationGroup.bindAggregation("items", {
+                            path: "/results",
+                            factory: function(_id, _context) {
+                                return currentController.onLoadAnnouncements(_context);
+                            }
+                        });
+                    }
+                });
             });
             if (oNum === 0) {
                 sap.ui.getCore().AppContext.loader.close();
@@ -214,11 +236,29 @@ sap.ui.controller("originacion.Announcements", {
     },
     //actualización de estatus de notificación - avisos
     updateStatus: function(oNotification) {
+        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+        jQuery.sap.require("js.helper.Dictionary");
+        var oDictionary, oRequest, oRenovationBuffer;
+
+        oDictionary = new sap.ui.helper.Dictionary();
+        oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+        oRequest = {
+            id: oNotification,
+            requestMethod: oDictionary.oMethods.POST,
+            //requestUrl: oDictionary.oDataTypes.Insurance,
+            requestBodyId: oNotification,
+            requestStatus: oDictionary.oRequestStatus.Initial
+        };
+
         var oBody = {};
         oBody.notificationID = oNotification;
         return new Promise(function(resolve, reject) {
             sap.ui.getCore().AppContext.oRest.update("/AnnouncementsPromoterSet('" + oNotification + "')", oBody, true)
                 .then(function(resp) {
+                    oRenovationBuffer.postRequest(oRequest)
+                    .then(function(oResult) {
+                        console.log("Registro aviso guardado");
+                    });
                     resolve(resp)
                 }).catch(reject);
         });

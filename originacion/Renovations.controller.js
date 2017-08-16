@@ -93,8 +93,6 @@ sap.ui.controller("originacion.Renovations", {
                                         oModel.refresh();
                                         count++;
                                     }
-                                    else
-                                        console.log('no existe' + currPreLoanRequest.PreLoanRequestID);
 
                                     aux++;
 
