@@ -169,6 +169,9 @@
         }, {
             singular: "CrossSellSystemNotification",
             plural: "CrossSellSystemNotificationSet"
+        },{
+            singular: "LoanRequestSystemNotification",
+            plural: "LoanRequestSystemNotificationSet"
         }];
     };
 

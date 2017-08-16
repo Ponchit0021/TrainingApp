@@ -23,6 +23,12 @@
             this.dataDB.setSchema(oSchemaDB.getDataDBSchema());
             this.syncDB = new sap.ui.db.Pouch(_syncDB);
             this.syncDB.setSchema(oSchemaDB.getSyncDBSchema());
+
+            //TRAINING
+            this.notiDB = new sap.ui.db.Pouch("notiDB");
+            this.notiDB.setSchema(oSchemaDB.getNotiDBSchema());
+
+
             this.oDictionary = new sap.ui.helper.Dictionary();
             this.loggerSMPComponent = "LOANREQUEST_SYNC";
             this.ERROR = "ERROR";
@@ -223,8 +229,8 @@
             // Aqui
 
             this.oSyncResultHelper.reportResult(this.oSyncResultHelper.getResultObject("SYNC", this.OK, _oQueueItem.id, _oQueueItem.requestDescription, "OK", _oQueueItem.productID))
-            .then(_resolveSendPromise(this.OK))
-
+            .then(this.sendNotification(_oQueueItem, result, _resolveSendPromise))
+            // .then(_resolveSendPromise(this.OK))
 
         ).catch(function(sError) {
             this.handleError.bind("SLR6", "Error al actualizar SynC Queue a status 'Sent' de la solicitud  " + _oQueueItem.id, sError);
@@ -234,6 +240,37 @@
 
 
     };
+
+
+    /*TRAINING - Se emula base de datos de notificaciones
+     * id - LoanRequestIdMD
+     * objectDMID - LoanRequestIdMD, se requiere para eliminar de PouchDB
+     */
+    sap.ui.sync.LoanRequest.prototype.sendNotification = function(_oQueueItem, _result, _resolveSendPromise) {
+        return new Promise(function(resolveSendNotification, rejectSendNotification) {
+            jQuery.sap.require("js.buffer.notification.LoanRequestSystemNotificationBuffer");
+            var oNotificationBuffer = new sap.ui.buffer.LoanRequestSystemNotification("notiDB");
+            var oRequest = {
+                id: _oQueueItem.id,
+                notificationID: "12345",
+                dateTime: "2017-07-19T21:05:27.280Z",
+                status: 1,
+                messageID: 126,
+                message: "SOLICITUD CREADA Y/O MODIFICADA CORRECTAMENTE",
+                objectTypeID: "2",
+                objectDMID: _result.data.LoanRequestIdMD,
+                objectCRMID: _result.data.LoanRequestIdCRM,
+                attended: "1",
+                insuranceDMID: _oQueueItem.id
+            };
+
+            oNotificationBuffer.postRequest(oRequest)
+                .then(function() {
+                    _resolveSendPromise("ok");
+                });
+        });
+    };
+
 
     /**
      * [updateSyncQueue: Updates the sync Queue once the process has completed]   
@@ -606,10 +643,15 @@
                 this.handleTrace("CLR01", "Obtener notificaciones de tipo Loan Request");
 
                 //// 00000000000000 Regresar filtros  000000000000000000//
-                sap.ui.getCore().AppContext.oRest.read("/SystemNotifications", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Promotor + "' and attended eq '0' and objectTypeID eq '2'", true)
+                // sap.ui.getCore().AppContext.oRest.read("/SystemNotifications", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Promotor + "' and attended eq '0' and objectTypeID eq '2'", true)
                     //sap.ui.getCore().AppContext.oRest.read("/SystemNotifications", "$filter=promoterID eq '" + sap.ui.getCore().AppContext.Promotor + "'", true)
                     //// 00000000000000 Regresar filtros 000000000000000000//
 
+                //TRAINING - Consulta de notifiaciones de sistema en PouchDB
+                jQuery.sap.require("js.buffer.notification.LoanRequestSystemNotificationBuffer");
+                var oNotificationBuffer = new sap.ui.buffer.LoanRequestSystemNotification("notiDB");
+
+                oNotificationBuffer.searchInNotiDB(this.oDictionary.oQueues.LoanRequestSystemNotification)
                 .then(function(result) {
                         var oMainPromise;
                         oMainPromise = this.createIndividualPromises(resolve, result); //.bind(this);
@@ -840,7 +882,7 @@
         if (oResult.LoanRequestSet.length > 0) {
 
             ////// Verificar como se procesara la notificación
-            if (oNotification.message.toUpperCase() === "SOLICITUD CREADA" || oNotification.message.toUpperCase() === "SOLICITUD MODIFICADA EXITOSAMENTE") {
+            if (oNotification.message.toUpperCase() === "SOLICITUD CREADA Y/O MODIFICADA CORRECTAMENTE" || oNotification.message.toUpperCase() === "SOLICITUD MODIFICADA EXITOSAMENTE") {
                 /// Camino normal
 
                 ////Introducir Customers en Link     
@@ -1233,22 +1275,23 @@
      */
     sap.ui.sync.LoanRequest.prototype.updateAttended = function(oNotification) {
 
-        this.handleTrace("CLR14", "Actualizar status de attended para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
+        this.handleTrace("CLR14", "TRAINING - Eliminar notificacion de sistema (PouchDB): " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID);
 
         return new Promise(function(resolve, reject) {
 
             var oBody;
             oBody = { attended: "1" };
 
-            sap.ui.getCore().AppContext.oRest.update("/SystemNotifications('" + oNotification.notificationID + "')", oBody, true)
+            //sap.ui.getCore().AppContext.oRest.update("/SystemNotifications('" + oNotification.notificationID + "')", oBody, true)
+             this.notiDB.delete(this.oDictionary.oQueues.LoanRequestSystemNotification, oNotification.id, oNotification.rev)
                 .then(
 
-                    this.handleTrace("CLR14", "Actualización de status OK: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
+                    this.handleTrace("CLR14",  "TRAINING - Notificacion de Sistema elimnada de PouchDB: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
                     .then(resolve(this.OK))
 
                 ).catch(function(error) {
 
-                    this.handleError("CLR14", "Error Actualizar status de attended para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
+                    this.handleError("CLR14", "TRAINING - Error eliminar notificacion de sistema (PouchDB) para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
                         .then(this.saveUpdateError(oNotification))
                         .then(resolve(this.OK))
 
