@@ -226,12 +226,24 @@
 
         //sap.ui.getCore().AppContext.oPostValidator.ValidateRequest(result, this.sEntity);
 
-        sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
+        //sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
+        this.simulatePost(_oQueueItem.requestUrl, result)
             .then(this.processODataResponse.bind(this, _oQueueItem, _resolveSendPromise))
             .catch(this.processODataResponseError.bind(this, _oQueueItem, _resolveSendPromise));
 
 
     };
+    sap.ui.sync.BP.prototype.simulatePost = function(_oQueueItem, _result) {
+        return new Promise(function(resolveSimulatePromise, rejectSimulatePromise) {
+            var oResult = {
+                data: _result,
+                statusCode: 201,
+                statusText: "Created"
+            };
+            resolveSimulatePromise(oResult)
+        });
+    };
+        
 
     /**
      * [processODataResponse Process OK result from OData call]
