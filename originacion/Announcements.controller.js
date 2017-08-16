@@ -16,7 +16,7 @@ sap.ui.controller("originacion.Announcements", {
         }.bind(this), 1000);
     },
     renderAnnouncements: function(_msg, _aDataAnnouncement) {
-        var oTitle, oNum, oModelAnnouncements, currentController, oAnnouncementsNotificationGroup, announcement = [], count=0;
+        var oTitle, oNum, oModelAnnouncements, currentController, oAnnouncementsNotificationGroup;
         currentController = this;
         
         jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
@@ -40,29 +40,27 @@ sap.ui.controller("originacion.Announcements", {
                 }
             }, 0)
 
-            _aDataAnnouncement.results.forEach(function(currAnnouncement, i) {
-                oRenovationBuffer.searchInRenoDB(currAnnouncement.notificationID)
-                .then(function(oResult) {
-                    announcement[count] = oResult;
+            oRenovationBuffer.searchAllInRenoDB()
+            .then(function(oResult){
+                _aDataAnnouncement.results.forEach(function(currAnnouncement, i) {
+                    oResult.RenovationSet.forEach(function(currAnnouncementDB,j) {
+                        if(currAnnouncement.notificationID === currAnnouncementDB.id)
+                            _aDataAnnouncement.results[_.indexOf(_aDataAnnouncement.results, currAnnouncement)].attended = "1";
+                    });
+                });
 
-                    if(oResult) _aDataAnnouncement.results[_.indexOf(_aDataAnnouncement.results, currAnnouncement)].attended = "1";
-                    else _aDataAnnouncement.results[_.indexOf(_aDataAnnouncement.results, currAnnouncement)].attended = "0";
+                oModelAnnouncements.setData(_aDataAnnouncement);
+                oAnnouncementsNotificationGroup.setModel(oModelAnnouncements);
+                oModelAnnouncements = null;
 
-                    if(count++ == _aDataAnnouncement.results.length - 1){
-
-                        oModelAnnouncements.setData(_aDataAnnouncement);
-                        oAnnouncementsNotificationGroup.setModel(oModelAnnouncements);
-                        oModelAnnouncements = null;
-
-                        oAnnouncementsNotificationGroup.bindAggregation("items", {
-                            path: "/results",
-                            factory: function(_id, _context) {
-                                return currentController.onLoadAnnouncements(_context);
-                            }
-                        });
+                oAnnouncementsNotificationGroup.bindAggregation("items", {
+                    path: "/results",
+                    factory: function(_id, _context) {
+                        return currentController.onLoadAnnouncements(_context);
                     }
                 });
             });
+
             if (oNum === 0) {
                 sap.ui.getCore().AppContext.loader.close();
             }

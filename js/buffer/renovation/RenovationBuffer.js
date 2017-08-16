@@ -61,4 +61,18 @@
         });
     };
 
+    sap.ui.buffer.Renovation.prototype.searchAllInRenoDB = function(){
+        var oController, oDictionary;
+        oController = this;
+        oDictionary = new sap.ui.helper.Dictionary();
+        return new Promise(function(resolve, reject) {
+            oController.renoDB.get(oDictionary.oQueues.Renovation)
+                .then(function(oResult){
+                    resolve(oResult);
+                }).catch(function(e) {
+                    reject(e);
+                });
+        });
+    };
+
 })();

@@ -41,7 +41,7 @@ sap.ui.controller("originacion.MyPendings", {
         sap.m.MessageToast.show("Por favor intentelo de nuevo " + error);
     },
     renderPendingstoTable: function(_msg, _aDataPending) {
-        var oTitle, oNum, oModelPendings, myPending = [], count=0;
+        var oTitle, oNum, oModelPendings;
         currentController = this;
 
         jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
@@ -60,26 +60,23 @@ sap.ui.controller("originacion.MyPendings", {
             oPendingsNotificationGroup.setModel(oModelPendings);
             oModelPendings = null;*/
 
+            oRenovationBuffer.searchAllInRenoDB()
+            .then(function(oResult){
+                _aDataPending.results.forEach(function(currMyPending, i) {
+                    oResult.RenovationSet.forEach(function(currMyPendingDB,j) {
+                        if(currMyPending.notificationID === currMyPendingDB.id)
+                            _aDataPending.results[_.indexOf(_aDataPending.results, currMyPending)].attended = "1";
+                    });
+                });
 
-            _aDataPending.results.forEach(function(currMyPending, i) {
-                oRenovationBuffer.searchInRenoDB(currMyPending.notificationID)
-                .then(function(oResult) {
-                    myPending[count] = oResult;
+                oModelPendings.setData(_aDataPending);
+                oPendingsNotificationGroup.setModel(oModelPendings);
+                oModelPendings = null;
 
-                    if(oResult) _aDataPending.results[_.indexOf(_aDataPending.results, currMyPending)].attended = "1";
-                    else _aDataPending.results[_.indexOf(_aDataPending.results, currMyPending)].attended = "0";
-
-                    if(count++ == _aDataPending.results.length - 1){
-                        oModelPendings.setData(_aDataPending);
-                        oPendingsNotificationGroup.setModel(oModelPendings);
-                        oModelPendings = null;
-
-                        oPendingsNotificationGroup.bindAggregation("items", {
-                            path: "/results",
-                            factory: function(_id, _context) {
-                                return currentController.onLoadTablePendings(_context);
-                            }
-                        });
+                oPendingsNotificationGroup.bindAggregation("items", {
+                    path: "/results",
+                    factory: function(_id, _context) {
+                        return currentController.onLoadTablePendings(_context);
                     }
                 });
             });
