@@ -376,4 +376,31 @@
 		"uri": "AddressSet(AddressTypeId='AddressTypeId%2011',CustomerIdCRM='CustomerIdCRM%2011')",
 		"type": "AOMobile.Address"
 	}
+},{
+	"AddressTypeId": "XXDEFAULT",
+	"CustomerIdCRM": "CustomerIdCRM 31",
+	"IsMainAddress": true,
+	"Latitude": 9.305614964082734,
+	"Longitude": 0.1997572227443678,
+	"CustomerIdMD": "CustomerIdMD 31",
+	"Place": {
+		"PostalCode": "03020",
+		"CountryID": "MX",
+		"StateId": "1",
+		"TownId": "1",
+		"City": "BENITO JUAREZ",
+		"Suburb": "Narvarte",
+		"Street": " Av. Universidad",
+		"OutsideNumber": "473",
+		"BetweenStreets1": "",
+		"BetweenStreets2": "",
+		"LocationReference": "",
+		"InteriorNumber": "",
+		"Comments": ""
+	},
+	"CollaboratorID": "Genesis",
+	"__metadata": {
+		"uri": "AddressSet(AddressTypeId='AddressTypeId%2011',CustomerIdCRM='CustomerIdCRM%2011')",
+		"type": "AOMobile.Address"
+	}
 }]
