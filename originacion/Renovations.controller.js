@@ -171,7 +171,7 @@ sap.ui.controller("originacion.Renovations", {
         jQuery.sap.require("js.base.NavigatorBase");
         oNavigatorBase = new sap.ui.mw.NavigatorBase();
 
-        if (oNavigatorBase.testUserAgent()) {
+        /*if (oNavigatorBase.testUserAgent()) {
             if (sap.ui.getCore().AppContext.isConected === true) {
                 sap.OData.removeHttpClient();
                 setTimeout(function() {
@@ -188,14 +188,15 @@ sap.ui.controller("originacion.Renovations", {
                     }
                 });
             }        
-        };         
+        };  */
+        oController._onRouteMatched();       
     },
 
     toBack: function() {
         jQuery.sap.require("js.base.NavigatorBase");
         oNavigatorBase = new sap.ui.mw.NavigatorBase();
 
-        if (!oNavigatorBase.testUserAgent()) {
+        /*if (!oNavigatorBase.testUserAgent()) {
             setTimeout(function() {
                 window.history.go(-1);
             }, 1000);
@@ -208,8 +209,8 @@ sap.ui.controller("originacion.Renovations", {
             setTimeout(function() {
                 window.history.go(-1);
             }, 1000);
-        };
-
+        };*/
+        window.history.go(-1);
     },
     getRenovationData: function(isRenovation) {
         var promiseSubsequence, context, oportunidad, createSubsequence, oModelError;
