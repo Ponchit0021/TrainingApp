@@ -41,8 +41,12 @@ sap.ui.controller("originacion.MyPendings", {
         sap.m.MessageToast.show("Por favor intentelo de nuevo " + error);
     },
     renderPendingstoTable: function(_msg, _aDataPending) {
-        var oTitle, oNum, oModelPendings;
+        var oTitle, oNum, oModelPendings, myPending = [], count=0;
         currentController = this;
+
+        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+        var oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+
         return new Promise(function(resolve, reject) {
 
             oTitle = sap.ui.getCore().byId("oPagePendings");
@@ -52,15 +56,34 @@ sap.ui.controller("originacion.MyPendings", {
             oPendingsNotificationGroup = sap.ui.getCore().byId("ngPendings", "items");
             oModelPendings = new sap.ui.model.json.JSONModel();
             oModelPendings.setSizeLimit(oNum);
-            oModelPendings.setData(_aDataPending);
+            /*oModelPendings.setData(_aDataPending);
             oPendingsNotificationGroup.setModel(oModelPendings);
-            oModelPendings = null;
-            oPendingsNotificationGroup.bindAggregation("items", {
-                path: "/results",
-                factory: function(_id, _context) {
-                    return currentController.onLoadTablePendings(_context);
-                }
+            oModelPendings = null;*/
+
+
+            _aDataPending.results.forEach(function(currMyPending, i) {
+                oRenovationBuffer.searchInRenoDB(currMyPending.notificationID)
+                .then(function(oResult) {
+                    myPending[count] = oResult;
+
+                    if(oResult) _aDataPending.results[_.indexOf(_aDataPending.results, currMyPending)].attended = "1";
+                    else _aDataPending.results[_.indexOf(_aDataPending.results, currMyPending)].attended = "0";
+
+                    if(count++ == _aDataPending.results.length - 1){
+                        oModelPendings.setData(_aDataPending);
+                        oPendingsNotificationGroup.setModel(oModelPendings);
+                        oModelPendings = null;
+
+                        oPendingsNotificationGroup.bindAggregation("items", {
+                            path: "/results",
+                            factory: function(_id, _context) {
+                                return currentController.onLoadTablePendings(_context);
+                            }
+                        });
+                    }
+                });
             });
+            
             sap.ui.getCore().AppContext.loader.close();
             setTimeout(function() {
                 if (_msg) {
@@ -85,7 +108,18 @@ sap.ui.controller("originacion.MyPendings", {
         oMessage = _context.getProperty("reason");
         currentController = this;
         var pendingNotification = new sap.ui.mw.NotificationListItem();
-        return pendingNotification.createNotificationAO(_context.getProperty("objectName"), _context.getProperty("comment"), _context.getProperty("objectCRMID"), oMessage, oDocument,_context.getProperty("documentID"), _context.getProperty("attended"), currentController.navToModules.bind(this, _context.getObject()),_context.getProperty("objectTypeID"));
+        return pendingNotification.createNotificationAO(
+            _context.getProperty("objectName"),
+            _context.getProperty("comment"),
+            _context.getProperty("objectCRMID"),
+            oMessage, oDocument,_context.getProperty("documentID"),
+            _context.getProperty("attended"),
+            currentController.navToModules.bind(
+                this,
+                _context.getObject()
+            ),
+            _context.getProperty("objectTypeID")
+        );
 
         /*var pendingNotification = new sap.m.NotificationListItem({
             title: _context.getProperty("objectName"),
@@ -143,6 +177,12 @@ sap.ui.controller("originacion.MyPendings", {
                         pending: 1
                     }
                 }, false);
+                if (_context.attended === "0") {
+                    this.updateStatus(_context.notificationID, "true")
+                        .then(function(res) {
+                            console.log(res);
+                        });
+                }
                 break;
             case "2":
                 switch (_context.productID) {
@@ -182,6 +222,12 @@ sap.ui.controller("originacion.MyPendings", {
                         }, false); 
                         break;
                 }
+                if (_context.attended === "0") {
+                    this.updateStatus(_context.notificationID, "true")
+                        .then(function(res) {
+                            console.log(res);
+                        });
+                }
                 break;
             case "3": //Aval
                 sap.ui.getCore().AppContext.flagPending = true;
@@ -194,6 +240,12 @@ sap.ui.controller("originacion.MyPendings", {
                         pending: 1
                     }
                 }, false);
+                if (_context.attended === "0") {
+                    this.updateStatus(_context.notificationID, "true")
+                        .then(function(res) {
+                            console.log(res);
+                        });
+                }
                 break;
             case "4": //Seguro
                 sap.ui.getCore().AppContext.flagPending = true;
@@ -206,6 +258,12 @@ sap.ui.controller("originacion.MyPendings", {
                         source: 2
                     }
                 }, false);
+                if (_context.attended === "0") {
+                    this.updateStatus(_context.notificationID, "true")
+                        .then(function(res) {
+                            console.log(res);
+                        });
+                }
                 break;
             case "6": //Digitalización
                 sap.m.MessageToast.show("Acude a la OS para recuperar el documento.", { duration: 4000 });
@@ -231,6 +289,19 @@ sap.ui.controller("originacion.MyPendings", {
         oCurrentApp.back();
     },
     updateStatus: function(_notificationID, _isRead) {
+        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+        jQuery.sap.require("js.helper.Dictionary");
+        var oDictionary, oRequest, oRenovationBuffer;
+
+        oDictionary = new sap.ui.helper.Dictionary();
+        oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+        oRequest = {
+            id: _notificationID,
+            requestMethod: oDictionary.oMethods.POST,
+            //requestUrl: oDictionary.oDataTypes.Insurance,
+            requestBodyId: _notificationID,
+            requestStatus: oDictionary.oRequestStatus.Initial
+        };
 
         return new Promise(function(resolve, reject) {
 
@@ -240,7 +311,11 @@ sap.ui.controller("originacion.MyPendings", {
 
                 sap.ui.getCore().AppContext.oRest.update("/PendingsPromoterSet('" + _notificationID + "')", oBody, true)
                     .then(function(resp) {
-                        console.log(resp)
+                        oRenovationBuffer.postRequest(oRequest)
+                        .then(function(oResult) {
+                            console.log("Registro mi  pendiente guardado");
+                            console.log(resp)
+                        });
                         resolve(resp)
                     }).catch(reject);
 

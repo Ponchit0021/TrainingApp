@@ -1,32 +1,9 @@
 [{
-    "notificationID": "800",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "PAG",
-    "documentType": "Pagarés",
-    "reason": "No vigente",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "6",
-    "objectTypeName": "Digitalización",
-    "objectDMID": "8E9CB51253A2192F5E4698E4D71D9",
-    "objectCRMID": "0060010016",
-    "productID": "",
-    "objectName": "PRUEBA DE NUEVOS ID",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
     "notificationID": "801",
     "promoterID": "Genesis",
     "dateTime": "/Date(1523138381000)/",
-    "documentID": "CBU",
-    "documentType": "Autorización a buró",
+    "documentID": "IDO",
+    "documentType": "Identificación frente",
     "reason": "Documento inválido",
     "comment": "",
     "attended": "0",
@@ -35,40 +12,17 @@
     "categoryName": "Mis pendientes",
     "objectTypeID": "1",
     "objectTypeName": "Solicitantes",
-    "objectDMID": "F597187A5056083D1498610643754",
-    "objectCRMID": "0065727852",
+    "objectDMID": "CustomerIdMD 5",
+    "objectCRMID": "CustomerIdCRM 5",
     "productID": "",
-    "objectName": "YULIT CHIPULI",
+    "objectName": "Juan Damián Salgado",
     "customerCRMID": "",
     "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
+        "uri": "PendingsPromoterSet('801')",
         "type": "IGWSERVICESV5.PendingsPromoter"
     }
 }, {
     "notificationID": "802",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "85",
-    "documentType": "",
-    "reason": "Actualización de datos",
-    "comment": "",
-    "attended": "1",
-    "updateDateTime": "/Date(1523138381000)/",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "1",
-    "objectTypeName": "Solicitantes",
-    "objectDMID": "C0AE5DCA261A18D4818956E1BEB6A",
-    "objectCRMID": "0065714182",
-    "productID": "",
-    "objectName": "HENING AHEDO BELIT YANICIA",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "803",
     "promoterID": "Genesis",
     "dateTime": "/Date(1523138381000)/",
     "documentID": "NA",
@@ -81,17 +35,17 @@
     "categoryName": "Mis pendientes",
     "objectTypeID": "2",
     "objectTypeName": "Solicitudes",
-    "objectDMID": "0010011124",
-    "objectCRMID": "0010011124",
+    "objectDMID": "LoanRequestIdMD 5",
+    "objectCRMID": "LoanRequestIdCRM 5",
     "productID": "C_IND_CA",
     "objectName": "ELISALET YOLITZIN DAYEDT SARACHO",
     "customerCRMID": "",
     "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
+        "uri": "PendingsPromoterSet('802')",
         "type": "IGWSERVICESV5.PendingsPromoter"
     }
 }, {
-    "notificationID": "804",
+    "notificationID": "803",
     "promoterID": "Genesis",
     "dateTime": "/Date(1523138381000)/",
     "documentID": "CCR",
@@ -110,149 +64,11 @@
     "objectName": "",
     "customerCRMID": "",
     "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
+        "uri": "PendingsPromoterSet('803')",
         "type": "IGWSERVICESV5.PendingsPromoter"
     }
 }, {
-    "notificationID": "805",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "IDO",
-    "documentType": "Identificación frente",
-    "reason": "No se encontró el documento dentro del expediente del BP",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "1",
-    "objectTypeName": "Solicitantes",
-    "objectDMID": "5108538C7989DC971498489023643",
-    "objectCRMID": "0065727789",
-    "productID": "",
-    "objectName": "JORGE RAMIREZ",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "806",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "ID2",
-    "documentType": "Identificación reverso",
-    "reason": "No se encontró el documento dentro del expediente del BP",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "1",
-    "objectTypeName": "Solicitantes",
-    "objectDMID": "5108538C7989DC971498489023643",
-    "objectCRMID": "0065727789",
-    "productID": "",
-    "objectName": "JORGE RAMIREZ",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "807",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "CDO",
-    "documentType": "Comprobante de domicilio",
-    "reason": "La fotografía está ilegible",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "1",
-    "objectTypeName": "Solicitantes",
-    "objectDMID": "5108538C7989DC971498489023643",
-    "objectCRMID": "0065727789",
-    "productID": "",
-    "objectName": "JORGE RAMIREZ",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "808",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "VEN",
-    "documentType": "Verificación del Negocio",
-    "reason": "Inválido",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "6",
-    "objectTypeName": "Digitalización",
-    "objectDMID": "F7F7454ABC9F240B1498152665340",
-    "objectCRMID": "0010011302",
-    "productID": "",
-    "objectName": "MAYTE DURAN",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "809",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "SSI",
-    "documentType": "Solicitud/Consentimiento de Seguro Individual",
-    "reason": "Inválido",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "6",
-    "objectTypeName": "Digitalización",
-    "objectDMID": "F7F7454ABC9F240B1498152665340",
-    "objectCRMID": "0010011302",
-    "productID": "",
-    "objectName": "MAYTE DURAN",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "810",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "PAG",
-    "documentType": "Pagarés",
-    "reason": "Ilegible",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "6",
-    "objectTypeName": "Digitalización",
-    "objectDMID": "F7F7454ABC9F240B1498152665340",
-    "objectCRMID": "0010011302",
-    "productID": "",
-    "objectName": "MAYTE DURAN",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "811",
+    "notificationID": "804",
     "promoterID": "Genesis",
     "dateTime": "/Date(1523138381000)/",
     "documentID": "EVN",
@@ -271,30 +87,7 @@
     "objectName": "MAYTE DURAN",
     "customerCRMID": "",
     "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "812",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "CCR",
-    "documentType": "Contrato de Crédito",
-    "reason": "Inválido",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "6",
-    "objectTypeName": "Digitalización",
-    "objectDMID": "F7F7454ABC9F240B1498152665340",
-    "objectCRMID": "0010011302",
-    "productID": "",
-    "objectName": "MAYTE DURAN",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('notificationID%201')",
+        "uri": "PendingsPromoterSet('804')",
         "type": "IGWSERVICESV5.PendingsPromoter"
     }
 }]
