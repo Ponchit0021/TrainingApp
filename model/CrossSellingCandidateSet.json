@@ -1,12 +1,12 @@
 [{
 	"CandidateIdCRM": "CandidateIdCRM 1",
 	"CandidateName": {
-		"FirstName": "FirstName 1",
-		"MiddleName": "MiddleName 1",
-		"LastName": "LastName 1",
-		"SecondName": "SecondName 1"
+		"FirstName": "YOLANDA",
+        "MiddleName": "ELIZABETH",
+        "LastName": "CULEBRO",
+        "SecondName": "ROMAN"
 	},
-	"ParentGroupName": "ParentGroupName 1",
+	"ParentGroupName": "HIJOSMUJER1",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 1",
 	"IsMarkedToDownload": true,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 1",
@@ -23,12 +23,12 @@
 }, {
 	"CandidateIdCRM": "CandidateIdCRM 2",
 	"CandidateName": {
-		"FirstName": "FirstName 2",
-		"MiddleName": "MiddleName 2",
-		"LastName": "LastName 2",
-		"SecondName": "SecondName 2"
+		"FirstName": "ZOILA",
+        "MiddleName": "HORTENCIA",
+        "LastName": "ROMAN",
+        "SecondName": "CANCINO"
 	},
-	"ParentGroupName": "ParentGroupName 2",
+	"ParentGroupName": "HIJOSMUJER1",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 2",
 	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 2",
@@ -45,12 +45,12 @@
 }, {
 	"CandidateIdCRM": "CandidateIdCRM 3",
 	"CandidateName": {
-		"FirstName": "FirstName 3",
-		"MiddleName": "MiddleName 3",
-		"LastName": "LastName 3",
-		"SecondName": "SecondName 3"
+		"FirstName": "ALEJANDRO",
+		"MiddleName": "SALVADOR",
+		"LastName": "SABORIO",
+		"SecondName": "CULEBRO"
 	},
-	"ParentGroupName": "ParentGroupName 3",
+	"ParentGroupName": "HIJOSCOMERCIANTE1",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 3",
 	"IsMarkedToDownload": true,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 3",
@@ -67,12 +67,12 @@
 }, {
 	"CandidateIdCRM": "CandidateIdCRM 4",
 	"CandidateName": {
-		"FirstName": "FirstName 4",
-		"MiddleName": "MiddleName 4",
-		"LastName": "LastName 4",
-		"SecondName": "SecondName 4"
+		"FirstName": "JOSE",
+		"MiddleName": "ANTONIO",
+		"LastName": "VILLATORO",
+		"SecondName": "LEON"
 	},
-	"ParentGroupName": "ParentGroupName 4",
+	"ParentGroupName": "HIJOSCOMERCIANTE1",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 4",
 	"IsMarkedToDownload": true,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 4",
@@ -84,138 +84,6 @@
 	"CrossSellOfferSet": {
 		"__deferred": {
 			"uri": "CrossSellingCandidateSet('CandidateIdCRM%204')/CrossSellOfferSet"
-		}
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 5",
-	"CandidateName": {
-		"FirstName": "FirstName 5",
-		"MiddleName": "MiddleName 5",
-		"LastName": "LastName 5",
-		"SecondName": "SecondName 5"
-	},
-	"ParentGroupName": "ParentGroupName 5",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 5",
-	"IsMarkedToDownload": false,
-	"WeeklyMeetingDay": "WeeklyMeetingDay 5",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "CrossSellingCandidateSet('CandidateIdCRM%205')",
-		"type": "AOMobile.CrossSellingCandidate"
-	},
-	"CrossSellOfferSet": {
-		"__deferred": {
-			"uri": "CrossSellingCandidateSet('CandidateIdCRM%205')/CrossSellOfferSet"
-		}
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 6",
-	"CandidateName": {
-		"FirstName": "FirstName 6",
-		"MiddleName": "MiddleName 6",
-		"LastName": "LastName 6",
-		"SecondName": "SecondName 6"
-	},
-	"ParentGroupName": "ParentGroupName 6",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 6",
-	"IsMarkedToDownload": true,
-	"WeeklyMeetingDay": "WeeklyMeetingDay 6",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "CrossSellingCandidateSet('CandidateIdCRM%206')",
-		"type": "AOMobile.CrossSellingCandidate"
-	},
-	"CrossSellOfferSet": {
-		"__deferred": {
-			"uri": "CrossSellingCandidateSet('CandidateIdCRM%206')/CrossSellOfferSet"
-		}
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 7",
-	"CandidateName": {
-		"FirstName": "FirstName 7",
-		"MiddleName": "MiddleName 7",
-		"LastName": "LastName 7",
-		"SecondName": "SecondName 7"
-	},
-	"ParentGroupName": "ParentGroupName 7",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 7",
-	"IsMarkedToDownload": true,
-	"WeeklyMeetingDay": "WeeklyMeetingDay 7",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "CrossSellingCandidateSet('CandidateIdCRM%207')",
-		"type": "AOMobile.CrossSellingCandidate"
-	},
-	"CrossSellOfferSet": {
-		"__deferred": {
-			"uri": "CrossSellingCandidateSet('CandidateIdCRM%207')/CrossSellOfferSet"
-		}
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 8",
-	"CandidateName": {
-		"FirstName": "FirstName 8",
-		"MiddleName": "MiddleName 8",
-		"LastName": "LastName 8",
-		"SecondName": "SecondName 8"
-	},
-	"ParentGroupName": "ParentGroupName 8",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 8",
-	"IsMarkedToDownload": true,
-	"WeeklyMeetingDay": "WeeklyMeetingDay 8",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "CrossSellingCandidateSet('CandidateIdCRM%208')",
-		"type": "AOMobile.CrossSellingCandidate"
-	},
-	"CrossSellOfferSet": {
-		"__deferred": {
-			"uri": "CrossSellingCandidateSet('CandidateIdCRM%208')/CrossSellOfferSet"
-		}
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 9",
-	"CandidateName": {
-		"FirstName": "FirstName 9",
-		"MiddleName": "MiddleName 9",
-		"LastName": "LastName 9",
-		"SecondName": "SecondName 9"
-	},
-	"ParentGroupName": "ParentGroupName 9",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 9",
-	"IsMarkedToDownload": false,
-	"WeeklyMeetingDay": "WeeklyMeetingDay 9",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "CrossSellingCandidateSet('CandidateIdCRM%209')",
-		"type": "AOMobile.CrossSellingCandidate"
-	},
-	"CrossSellOfferSet": {
-		"__deferred": {
-			"uri": "CrossSellingCandidateSet('CandidateIdCRM%209')/CrossSellOfferSet"
-		}
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 10",
-	"CandidateName": {
-		"FirstName": "FirstName 10",
-		"MiddleName": "MiddleName 10",
-		"LastName": "LastName 10",
-		"SecondName": "SecondName 10"
-	},
-	"ParentGroupName": "ParentGroupName 10",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 10",
-	"IsMarkedToDownload": false,
-	"WeeklyMeetingDay": "WeeklyMeetingDay 10",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "CrossSellingCandidateSet('CandidateIdCRM%2010')",
-		"type": "AOMobile.CrossSellingCandidate"
-	},
-	"CrossSellOfferSet": {
-		"__deferred": {
-			"uri": "CrossSellingCandidateSet('CandidateIdCRM%2010')/CrossSellOfferSet"
 		}
 	}
 }]

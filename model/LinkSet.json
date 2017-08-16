@@ -4470,15 +4470,15 @@
 		"MaxRecurrentAmount": 0.20435440633167712
 	},
 	"GeneralLoanData": {
-		"InsuranceAmount": 0.545525468186423,
-		"ControlListsResult": 1643,
-		"RiskLevel": 1734,
-		"SavingsAmount": 0.904830804533101,
-		"DispersionMediumId": "DispersionMediumId 71",
-		"DispersionChannelId": "DispersionChannelId 71",
-		"SemaphoreResultFilters": 7431
+		"InsuranceAmount": 0.00,
+		"ControlListsResult": 1,
+		"RiskLevel": 1,
+		"SavingsAmount": 0.00,
+		"DispersionMediumId": "",
+		"DispersionChannelId": "",
+		"SemaphoreResultFilters": 2
 	},
-	"AvailableToFilter": "AvailableToFilter 71",
+	"AvailableToFilter": "",
 	"GrpCrossSellData": {
 		"BusinessIncome": 2.2573273430661023,
 		"SpouseContribution": 8.259538802081439,
@@ -5210,15 +5210,15 @@
 		"MaxRecurrentAmount": 0.20435440633167712
 	},
 	"GeneralLoanData": {
-		"InsuranceAmount": 0.545525468186423,
-		"ControlListsResult": 1643,
-		"RiskLevel": 1734,
-		"SavingsAmount": 0.904830804533101,
-		"DispersionMediumId": "DispersionMediumId 71",
-		"DispersionChannelId": "DispersionChannelId 71",
-		"SemaphoreResultFilters": 7431
+		"InsuranceAmount": 0.00,
+		"ControlListsResult": 1,
+		"RiskLevel": 1,
+		"SavingsAmount": 0.00,
+		"DispersionMediumId": "",
+		"DispersionChannelId": "",
+		"SemaphoreResultFilters": 2
 	},
-	"AvailableToFilter": "AvailableToFilter 71",
+	"AvailableToFilter": "",
 	"GrpCrossSellData": {
 		"BusinessIncome": 2.2573273430661023,
 		"SpouseContribution": 8.259538802081439,
@@ -5952,13 +5952,13 @@
 	"GeneralLoanData": {
 		"InsuranceAmount": 0.00,
 		"ControlListsResult": 1,
-		"RiskLevel": 0,
+		"RiskLevel": 1,
 		"SavingsAmount": 0.00,
 		"DispersionMediumId": "",
 		"DispersionChannelId": "",
-		"SemaphoreResultFilters": 0
+		"SemaphoreResultFilters": 2
 	},
-	"AvailableToFilter": "AvailableToFilter 71",
+	"AvailableToFilter": "",
 	"GrpCrossSellData": {
 		"BusinessIncome": 0.00,
 		"SpouseContribution": 0.00,
