@@ -116,9 +116,22 @@
     };
     sap.ui.sync.CrossSellOffer.prototype.sendRequest = function(_oQueueItem, _resolveSendPromise, result) {
         this.handleTrace("SCSO5", _oQueueItem.id + " Payload: " + JSON.stringify(result));
-        sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
+        //TRAINING - Se simula el POST
+        //sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
+        this.simulatePost(_oQueueItem.requestUrl, result)
             .then(this.processODataResponse.bind(this, _oQueueItem, _resolveSendPromise))
             .catch(this.processODataResponseError.bind(this, _oQueueItem, _resolveSendPromise));
+    };
+    //TRAINING - Simulación de POST
+    sap.ui.sync.CrossSellOffer.prototype.simulatePost = function(_oQueueItem, _result) {
+        return new Promise(function(resolveSimulatePromise, rejectSimulatePromise) {
+            var oResult = {
+                data: _result,
+                statusCode: 201,
+                statusText: "Created"
+            };
+            resolveSimulatePromise(oResult)
+        });
     };
     sap.ui.sync.CrossSellOffer.prototype.updateSyncQueue = function(_oQueueItem) {
         return new Promise(function(resolveUpdatePromise, rejectUpdatePromise) {
@@ -214,7 +227,7 @@
         return new Promise(function(resolveSendNotification, rejectSendNotification) {
             jQuery.sap.require("js.buffer.notification.CrossSellSystemNotificationBuffer");
             var oSystemNotificationBuffer = new sap.ui.buffer.CrossSellSystemNotification("notiDB");
-            
+
             var oRequest = {
                 id: _oQueueItem.id,
                 notificationID: _oQueueItem.id,

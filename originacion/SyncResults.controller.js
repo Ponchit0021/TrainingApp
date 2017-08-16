@@ -252,7 +252,7 @@ sap.ui.controller("originacion.SyncResults", {
             sType = "Seguro";
         }
         //agregar otra validacion para diferenciar de la oportunidad
-        if (oItem.objectType == "C_IND_CA_CCR" || oItem.objectType == "C_IND_CCM_CCR" || oItem.objectType == "CROSSSELLOFFER") {
+        if (oItem.objectType == "C_IND_CA" || oItem.objectType == "C_IND_CCM" || oItem.objectType == "C_IND_CA_CCR" || oItem.objectType == "C_IND_CCM_CCR" || oItem.objectType == "CROSSSELLOFFER") {
             sType = "Oferta de Crédito";
         }
 
