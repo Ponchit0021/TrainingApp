@@ -515,6 +515,8 @@
             if (oResult.hasOwnProperty("CrossSellOfferSet")) {
 
                 switch (oResult.CrossSellOfferSet[0].CrossSellProductId) {
+                    case "C_IND_CA":
+                    case "C_IND_CCM":
                     case "C_IND_CCM_CCR":
                     case "C_IND_CA_CCR":
                         return oResult.CrossSellOfferSet[0].CrossSellProductId;
