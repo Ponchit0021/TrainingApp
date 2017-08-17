@@ -1081,8 +1081,10 @@ sap.ui.controller("originacion.ApplicantDetail", {
         } else {
             if (oApplicantValidator.currentTab && oApplicantValidator.isTab) {
                 this.tabSelect(oApplicantValidator.currentTab);
-                var oValidatorForm = new sap.ui.validations.Validator();
-                oValidatorForm.validate("itfApplicants" + oApplicantValidator.currentTab);
+                setTimeout(function(){
+                    var oValidatorForm = new sap.ui.validations.Validator();
+                    oValidatorForm.validate("itfApplicants" + oApplicantValidator.currentTab);
+                }, 0);
             } else {
                 this.goToDocs("", oApplicantValidator);
             }
