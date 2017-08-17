@@ -12,7 +12,14 @@
 
     sap.ui.base.Object.extend('sap.ui.mw.forms.initial.logon', {});
     sap.ui.mw.forms.initial.logon.prototype.reviewUser=function(user){
-        if(sap.ui.getCore().byId("txtPassword").getValue()===sap.ui.getCore().AppContext.Config.getProperty("passPromoterId")){
+        var txtPassword,configPassword,txtUserName,promoterId;
+        txtUserName=sap.ui.getCore().byId("txtUserName").getValue();
+        txtPassword=sap.ui.getCore().byId("txtPassword").getValue();
+
+        promoterId=sap.ui.getCore().AppContext.Config.getProperty("promoterId");
+        configPassword=sap.ui.getCore().AppContext.Config.getProperty("passPromoterId");
+        
+        if(txtPassword===configPassword && txtUserName === promoterId ){
             sap.ui.getCore().byId("formLogon").destroyContent();
             var passCodeForm=new sap.ui.mw.forms.initial.ConfirmPasscode();
             passCodeForm.createForm(this).placeAt("content");
@@ -58,15 +65,15 @@
 
                 oForm.addContent(oDisplayBase.createLabelHTML("lblCodAccesoOriginacion1","lblMessage","Introduzca la siguiente información como se indica en las instrucciones de su gestor TI"));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
-                oForm.addContent(oInputBase.createInputText("txtUserName", "Text", "Nombre de usuario", "Genesis", false, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
+                oForm.addContent(oInputBase.createInputText("txtUserName", "Text", "", "", true, true, "^(([A-Za-zÑñ]+)\\s?)*$", true).setMaxLength(26));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
                 oForm.addContent(oInputBase.createInputText("txtPassword", "Password", "", "", true, true, "", true));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
-                sap.ui.getCore().byId("txtUserName").setValue("Genesis")
                 oForm.addContent(oActionBase.createButton("", "OK", "Emphasized", "", _self.reviewUser, _self));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
                 oForm.addContent(oActionBase.createButton("", "Cancelar", "Default", "", function(){}, _self));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
+                oForm.addContent(oDisplayBase.createImage("", "img/sapLogo.png", "sapLogo"));
                 oForm.addContent(oDisplayBase.createLabelHTML("","class","Copyright"));
                 oForm.placeAt("content");
                 resolve(false)
