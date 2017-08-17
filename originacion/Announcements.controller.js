@@ -19,8 +19,8 @@ sap.ui.controller("originacion.Announcements", {
         var oTitle, oNum, oModelAnnouncements, currentController, oAnnouncementsNotificationGroup;
         currentController = this;
         
-        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
-        var oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+        jQuery.sap.require("js.buffer.message.MessageBuffer");
+        var oMessageBuffer = new sap.ui.buffer.Message("messageDB");
 
         return new Promise(function(resolve, reject) {
             //número de mis pendientes sin leer
@@ -40,10 +40,10 @@ sap.ui.controller("originacion.Announcements", {
                 }
             }, 0)
 
-            oRenovationBuffer.searchAllInRenoDB()
+            oMessageBuffer.searchAllInMessageDB()
             .then(function(oResult){
                 _aDataAnnouncement.results.forEach(function(currAnnouncement, i) {
-                    oResult.RenovationSet.forEach(function(currAnnouncementDB,j) {
+                    oResult.MessageSet.forEach(function(currAnnouncementDB,j) {
                         if(currAnnouncement.notificationID === currAnnouncementDB.id)
                             _aDataAnnouncement.results[_.indexOf(_aDataAnnouncement.results, currAnnouncement)].attended = "1";
                     });
@@ -234,12 +234,12 @@ sap.ui.controller("originacion.Announcements", {
     },
     //actualización de estatus de notificación - avisos
     updateStatus: function(oNotification) {
-        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+        jQuery.sap.require("js.buffer.message.MessageBuffer");
         jQuery.sap.require("js.helper.Dictionary");
-        var oDictionary, oRequest, oRenovationBuffer;
+        var oDictionary, oRequest, oMessageBuffer;
 
         oDictionary = new sap.ui.helper.Dictionary();
-        oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+        oMessageBuffer = new sap.ui.buffer.Message("messageDB");
         oRequest = {
             id: oNotification,
             requestMethod: oDictionary.oMethods.POST,
@@ -253,7 +253,7 @@ sap.ui.controller("originacion.Announcements", {
         return new Promise(function(resolve, reject) {
             sap.ui.getCore().AppContext.oRest.update("/AnnouncementsPromoterSet('" + oNotification + "')", oBody, true)
                 .then(function(resp) {
-                    oRenovationBuffer.postRequest(oRequest)
+                    oMessageBuffer.postRequest(oRequest)
                     .then(function(oResult) {
                         console.log("Registro aviso guardado");
                     });

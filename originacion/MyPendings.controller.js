@@ -44,8 +44,8 @@ sap.ui.controller("originacion.MyPendings", {
         var oTitle, oNum, oModelPendings;
         currentController = this;
 
-        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
-        var oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+        jQuery.sap.require("js.buffer.message.MessageBuffer");
+        var oMessageBuffer = new sap.ui.buffer.Message("messageDB");
 
         return new Promise(function(resolve, reject) {
 
@@ -60,10 +60,10 @@ sap.ui.controller("originacion.MyPendings", {
             oPendingsNotificationGroup.setModel(oModelPendings);
             oModelPendings = null;*/
 
-            oRenovationBuffer.searchAllInRenoDB()
+            oMessageBuffer.searchAllInMessageDB()
             .then(function(oResult){
                 _aDataPending.results.forEach(function(currMyPending, i) {
-                    oResult.RenovationSet.forEach(function(currMyPendingDB,j) {
+                    oResult.MessageSet.forEach(function(currMyPendingDB,j) {
                         if(currMyPending.notificationID === currMyPendingDB.id)
                             _aDataPending.results[_.indexOf(_aDataPending.results, currMyPending)].attended = "1";
                     });
@@ -286,12 +286,12 @@ sap.ui.controller("originacion.MyPendings", {
         oCurrentApp.back();
     },
     updateStatus: function(_notificationID, _isRead) {
-        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+        jQuery.sap.require("js.buffer.message.MessageBuffer");
         jQuery.sap.require("js.helper.Dictionary");
-        var oDictionary, oRequest, oRenovationBuffer;
+        var oDictionary, oRequest, oMessageBuffer;
 
         oDictionary = new sap.ui.helper.Dictionary();
-        oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
+        oMessageBuffer = new sap.ui.buffer.Message("messageDB");
         oRequest = {
             id: _notificationID,
             requestMethod: oDictionary.oMethods.POST,
@@ -308,7 +308,7 @@ sap.ui.controller("originacion.MyPendings", {
 
                 sap.ui.getCore().AppContext.oRest.update("/PendingsPromoterSet('" + _notificationID + "')", oBody, true)
                     .then(function(resp) {
-                        oRenovationBuffer.postRequest(oRequest)
+                        oMessageBuffer.postRequest(oRequest)
                         .then(function(oResult) {
                             console.log("Registro mi  pendiente guardado");
                             console.log(resp)

@@ -65,6 +65,7 @@
         LoanRequest: "RequestQueueLoanRequest",
         Insurance: "RequestQueueInsurance",
         Renovation: "Renovation",
+        Message: "Message",
         Link: "RequestQueueLink",
         Guarantor: "RequestQueueGuarantor",
         CrossSellingCandidate: "RequestQueueCrossSellingCandidate",

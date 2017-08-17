@@ -30,6 +30,12 @@
 
     };
 
+    sap.ui.helper.Schema.prototype.getMessageDBName = function() {
+
+        return "messageDB"
+
+    };
+
     sap.ui.helper.Schema.prototype.getDataDBSchema = function() {
         return [{
             singular: "Customer",
@@ -179,6 +185,13 @@
         return [{
             singular: "Renovation",
             plural: "RenovationSet"
+        }];
+    }
+
+    sap.ui.helper.Schema.prototype.getMessageDBSchema = function() {
+        return [{
+            singular: "Message",
+            plural: "MessageSet"
         }];
     }
 

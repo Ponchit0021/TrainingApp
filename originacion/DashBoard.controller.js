@@ -22,6 +22,7 @@ sap.ui.controller("originacion.DashBoard", {
         //TRAINING - se genera instancia de base de notificaciones y renovaciones en PouchDB
         new sap.ui.db.Pouch(sap.ui.getCore().AppContext.Config.getProperty("notiDB"));
         new sap.ui.db.Pouch(sap.ui.getCore().AppContext.Config.getProperty("renoDB"));
+        new sap.ui.db.Pouch(sap.ui.getCore().AppContext.Config.getProperty("messageDB"));
         if (!sap.ui.getCore().byId("tileSolicitantes")) {
             new sap.ui.db.Pouch(sap.ui.getCore().AppContext.Config.getProperty("dataDB"));
             fileBase.loadFile("data-map/catalogos/tiles.json")
