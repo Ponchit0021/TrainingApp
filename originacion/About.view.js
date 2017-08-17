@@ -20,10 +20,20 @@ sap.ui.jsview("originacion.About", {
       
         var oContainerBase,currentView,oPageAbout;
         oContainerBase = new sap.ui.mw.ContainerBase();
-        var oListBase = new sap.ui.mw.ListBase();
-        var noveltiesList, oListNovelties;
+		var oListBase = new sap.ui.mw.ListBase();
+		var oActionBase = new sap.ui.mw.ActionBase();
+		var oPopupBase = new sap.ui.mw.PopupBase();
+		var noveltiesList, oListNovelties;
+		
+		oFooterButtons = [
+            oActionBase.createButton("btnClearCache", "Limpiar Caché", "Emphasized", "sap-icon://delete", oController.clearCacheButton, oController)
+        ];
+		oBarAbout = oContainerBase.createBar("", null, oFooterButtons, null);
+
+
+
       
-        oPageAbout = oContainerBase.createPage("oPageMasterAbout", "Novedades", true, true, true, false, oController.toBack, oController, null);
+        oPageAbout = oContainerBase.createPage("oPageMasterAbout", "Novedades", true, true, true, true, oController.toBack, oController, oBarAbout);
         noveltiesList = new sap.ui.model.json.JSONModel("data-map/catalogos/novelties.json");
 		
 		oController.getVersionNumber().then(function(version){
@@ -32,7 +42,9 @@ sap.ui.jsview("originacion.About", {
         }).catch(function(error) {
 			oListNovelties = oListBase.createListCol("oListNovelties", "Versión 0.0.0", noveltiesList, "/Novelties", "{Novelty}");
 	        oPageAbout.addContent(oListNovelties);
-        });
+		});
+		
+		oPopupBase.createDialog("appDialogClearCache", "Confirmación", "Message", "");
 		
 		return oPageAbout;
 	}
