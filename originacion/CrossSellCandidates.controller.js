@@ -355,7 +355,7 @@ sap.ui.controller("originacion.CrossSellCandidates", {
 
             //TRAININIG - Se realiza simulación de petición BATCH
             //promiseODataPostCrSellCandidates = sap.ui.getCore().AppContext.myRest.executePostBatchRequest("/CrossSellingCandidateSet", aAllTableItems, true);
-            promiseODataPostCrSellCandidates = this.simulateBatch();
+            promiseODataPostCrSellCandidates = this.simulateBatch(aAllTableItems);
             promiseODataPostCrSellCandidates.then(
                 function(response) {
                     currentController.backToTiles();
@@ -370,9 +370,26 @@ sap.ui.controller("originacion.CrossSellCandidates", {
         }
     },
     //TRAINING - Simulación de peticion BATCH
-    simulateBatch: function() {
+    simulateBatch: function(_candidates) {
         return new Promise(function(resolveSimulatePromise, rejectedSimulatePromise) {
-            resolveSimulatePromise(this.ok);
+            jQuery.sap.require("js.buffer.crosssell.CrossSellCandidatesBuffer");
+            var oBuffer, oSelectedCandidates, oCandidates;
+            oBuffer = new sap.ui.buffer.CrossSellCandidates("crossDB");
+            var oSelectedCandidates = []
+
+            if (_candidates.length > 0) {
+                _candidates.forEach(function(item) {
+                    if (item.IsMarkedToDownload === true) {
+                        oSelectedCandidates.push(item.CandidateIdCRM);
+                    }
+                });
+            }
+            oCandidates = { selectedCandidates: oSelectedCandidates };
+            console.log(oCandidates);
+            oBuffer.postRequest(oCandidates)
+                .then(function() {
+                    resolveSimulatePromise(this.ok);
+                });
         });
     },
 
