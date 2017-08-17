@@ -36,6 +36,12 @@
 
     };
 
+    sap.ui.helper.Schema.prototype.getCrossDBName = function() {
+
+        return "crossDB"
+
+    };
+
     sap.ui.helper.Schema.prototype.getDataDBSchema = function() {
         return [{
             singular: "Customer",
@@ -186,13 +192,20 @@
             singular: "Renovation",
             plural: "RenovationSet"
         }];
-    }
+    };
 
     sap.ui.helper.Schema.prototype.getMessageDBSchema = function() {
         return [{
             singular: "Message",
             plural: "MessageSet"
         }];
-    }
+    };
+
+    sap.ui.helper.Schema.prototype.getCrossDBSchema = function() {
+        return [{
+            singular: "CrossSellBatch",
+            plural: "CrossSellBatchSet"
+        }];
+    };
 
 })();
