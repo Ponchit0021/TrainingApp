@@ -172,10 +172,22 @@
     sap.ui.sync.Insurance.prototype.sendRequest = function(_oQueueItem, _resolveSendPromise, result) {
         this.handleTrace("SINS5", _oQueueItem.id + " Payload: " + JSON.stringify(result));
 
-
-        sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
+        //TRAINING - Se simula el POST
+        //sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
+        this.simulatePost(_oQueueItem.requestUrl, result)
             .then(this.processODataResponse.bind(this, _oQueueItem, _resolveSendPromise))
             .catch(this.processODataResponseError.bind(this, _oQueueItem, _resolveSendPromise));
+    };
+    //TRAINING - Simulación de POST
+    sap.ui.sync.Insurance.prototype.simulatePost = function(_oQueueItem, _result) {
+        return new Promise(function(resolveSimulatePromise, rejectSimulatePromise) {
+            var oResult = {
+                data: _result,
+                statusCode: 201,
+                statusText: "Created"
+            };
+            resolveSimulatePromise(oResult)
+        });
     };
 
     /**

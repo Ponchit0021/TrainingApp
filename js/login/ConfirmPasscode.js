@@ -12,17 +12,42 @@
     sap.ui.base.Object.extend('sap.ui.mw.forms.initial.ConfirmPasscode', {});
     sap.ui.mw.forms.initial.ConfirmPasscode.prototype.confirmPassCode=function(user){
 
-        if(sap.ui.getCore().byId("txtPasscode").getValue()===sap.ui.getCore().byId("txtPasscodeConfirm").getValue())
+        var txtPasscode,txtPasscodeConfirm;
+        var loginBasic= new sap.ui.login.Basic();
+        txtPasscode=sap.ui.getCore().byId("txtPasscode").getValue();
+        txtPasscodeConfirm= sap.ui.getCore().byId("txtPasscodeConfirm").getValue()
+
+        if(txtPasscode===txtPasscodeConfirm)
         {
-            var loginBasic= new sap.ui.login.Basic();
+
+            if(txtPasscode.length>=8){
+                
             
-            localStorage.setItem("isAuth",true);
-            localStorage.setItem("passCode",sap.ui.getCore().byId("txtPasscode").getValue());
-            loginBasic.destroyContent("passCodeForm");
-            loginBasic.createShell();
+                localStorage.setItem("isAuth",true);
+                localStorage.setItem("passCode",sap.ui.getCore().byId("txtPasscode").getValue());
+                loginBasic.destroyContent("passCodeForm");
+                loginBasic.createShell();
+            }else{
+                sap.m.MessageBox.alert("Código de acceso inválido.", {
+                    title: "Error de registro",
+                    onClose: null,
+                    styleClass: "sapUiSizeCompact",
+                    initialFocus: null ,
+                    textDirection: sap.ui.core.TextDirection.Inherit
+                });
+
+            }
+            
         }
         else{
-            alert("Passcode inválido");
+            sap.m.MessageBox.alert("Código de acceso inválido.", {
+                title: "Error de registro",
+                onClose: null,
+                styleClass: "sapUiSizeCompact",
+                initialFocus: null ,
+                textDirection: sap.ui.core.TextDirection.Inherit
+            });
+            
         }
 
 

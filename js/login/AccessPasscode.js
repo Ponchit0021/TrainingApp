@@ -21,7 +21,13 @@
             loginBasic.createShell();
         }
         else{
-            alert("passcode incorrecto");
+            sap.m.MessageBox.alert("Código de acceso incorrecto.", {
+                    title: "Error de registro",
+                    onClose: null,
+                    styleClass: "sapUiSizeCompact",
+                    initialFocus: null ,
+                    textDirection: sap.ui.core.TextDirection.Inherit
+                });
         }
         
 

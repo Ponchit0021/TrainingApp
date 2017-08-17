@@ -297,7 +297,7 @@
 		"SecondName": "SecondName 21"
 	},
 	"CustomerIdCRM": "CustomerIdCRM 21",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 21",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 210",
 	"BeneficiaryType": "00001100",
 	"BeneficiaryGenderID": "1",
 	"BeneficiaryRelationship": "ZA01",
@@ -326,7 +326,7 @@
 		"SecondName": "SecondName 22"
 	},
 	"CustomerIdCRM": "CustomerIdCRM 22",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 22",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 220",
 	"BeneficiaryType": "BeneficiaryType 22",
 	"BeneficiaryGenderID": "BeneficiaryGenderID 22",
 	"BeneficiaryRelationship": "BeneficiaryRelationship 22",
@@ -334,7 +334,7 @@
 	"InsuranceIdCRM": "InsuranceIdCRM 22",
 	"InsuranceBeneficiaryIdCRM": "InsuranceBeneficiaryIdCRM 22",
 	"BeneficiaryIdMDToReplace": "BeneficiaryIdMDToReplace 22",
-	"RemoveBeneficiary": true,
+	"RemoveBeneficiary": false,
 	"CollaboratorID": "CollaboratorID 22",
 	"InsuranceIdMD": "InsuranceIdMD 22",
 	"__metadata": {
@@ -355,7 +355,7 @@
 		"SecondName": "SecondName 23"
 	},
 	"CustomerIdCRM": "CustomerIdCRM 23",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 23",
+	"LoanRequestIdCRM": "LoanRequestIdCRM 230",
 	"BeneficiaryType": "BeneficiaryType 23",
 	"BeneficiaryGenderID": "BeneficiaryGenderID 23",
 	"BeneficiaryRelationship": "BeneficiaryRelationship 23",

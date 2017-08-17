@@ -8,7 +8,7 @@
 	},
 	"ParentGroupName": "HIJOSMUJER1",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 1",
-	"IsMarkedToDownload": true,
+	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 1",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -52,7 +52,7 @@
 	},
 	"ParentGroupName": "HIJOSCOMERCIANTE1",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 3",
-	"IsMarkedToDownload": true,
+	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 3",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -74,7 +74,7 @@
 	},
 	"ParentGroupName": "HIJOSCOMERCIANTE1",
 	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 4",
-	"IsMarkedToDownload": true,
+	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 4",
 	"CollaboratorID": "Genesis",
 	"__metadata": {

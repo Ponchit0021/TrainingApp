@@ -395,3 +395,6 @@ input[type=email] {
   color: #000 !important;
   box-shadow: 1px 1px 1px #ccc !important;
 }
+.sapLogo {
+  width: 80px !important;
+}

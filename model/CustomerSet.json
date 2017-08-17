@@ -2664,10 +2664,10 @@
 	"CustomerIdMD": "CustomerIdMD 21",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 21",
-		"MiddleName": "MiddleName 21",
-		"LastName": "LastName 21",
-		"SecondName": "SecondName 21"
+		"FirstName": "INDIVIDUAL 1",
+		"MiddleName": "",
+		"LastName": "SEGURO",
+		"SecondName": ""
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 21",
@@ -2797,10 +2797,10 @@
 	"CustomerIdMD": "CustomerIdMD 22",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 22",
-		"MiddleName": "MiddleName 22",
-		"LastName": "LastName 22",
-		"SecondName": "SecondName 22"
+		"FirstName": "JÜRGEN",
+		"MiddleName": "",
+		"LastName": "KLINSMANN",
+		"SecondName": ""
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 22",
@@ -2930,10 +2930,10 @@
 	"CustomerIdMD": "CustomerIdMD 23",
 	"CollaboratorID": "Genesis",
 	"BpName": {
-		"FirstName": "FirstName 23",
-		"MiddleName": "MiddleName 23",
-		"LastName": "LastName 23",
-		"SecondName": "SecondName 23"
+		"FirstName": "MARIA",
+		"MiddleName": "",
+		"LastName": "MÜLLER",
+		"SecondName": ""
 	},
 	"BpMainData": {
 		"ProductId": "ProductId 23",

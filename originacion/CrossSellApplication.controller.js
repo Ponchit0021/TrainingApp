@@ -156,7 +156,12 @@ sap.ui.controller('originacion.CrossSellApplication', {
             bdLoader.setText("Aprobando...");
             bdLoader.open();
 
+                // PARA TRAINING NOS VAMOS DIRECTAMENTE AL METODO SAVEAPROVE() Y EVITAMOS LA LLAMADA AL SERVICIO ONLINE
+                sap.ui.getCore().AppContext.bSaveApprove = true;
+                oController.saveApprove();
 
+                //SE COMENTA ESTE CÓDIGOPARA TRAINING, ASI EVITAMOS IR POR EL SERVICIO  
+            /*
             //se utiliza el mismo servicio que valida por arobar en oportunidades individuales
             setTimeout(function() {
                 promiseApprove = sap.ui.getCore().AppContext.myRest.read("/OpportunityApproval?loanRequestIdCRM='" + oIdOportunidad + "'&processType='" + oIdProcessType + "'", true);
@@ -185,7 +190,7 @@ sap.ui.controller('originacion.CrossSellApplication', {
                     bdLoader.close();
                     console.log(error);
                 });
-            }, 0);
+            }, 0); */
         };
     },
 

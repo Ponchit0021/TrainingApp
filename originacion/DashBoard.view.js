@@ -27,11 +27,7 @@ sap.ui.jsview("originacion.DashBoard", {
         oContainerBase = new sap.ui.mw.ContainerBase();
         oDisplayBase = new sap.ui.mw.DisplayBase();
         oActionBase = new sap.ui.mw.ActionBase();
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) !== true) {
-            currentUser = "TEST";
-        } else {
-            currentUser = "TEST";
-        }
+        currentUser= sap.ui.getCore().AppContext.Config.getProperty("promoterId");
         var arrayButtons = [];
         var buttonLog = oActionBase.createButton("btnLog", "Registros", null, "sap-icon://activity-items", oController.viewLogList, oController);
         arrayButtons.push(buttonLog);
