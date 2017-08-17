@@ -233,14 +233,21 @@
 
 
     };
-    sap.ui.sync.BP.prototype.simulatePost = function(_oQueueItem, _result) {
+    sap.ui.sync.BP.prototype.simulatePost = function(requestUrl, _result) {
         return new Promise(function(resolveSimulatePromise, rejectSimulatePromise) {
-            var oResult = {
+            if(_result.CustomerIdCRM===""){
+                sap.ui.getCore().AppContext.myRest.create(requestUrl, _result, true).then(function(resp){resolveSimulatePromise(resp)})
+            }
+            else{
+                var oResult = {
                 data: _result,
                 statusCode: 201,
                 statusText: "Created"
             };
             resolveSimulatePromise(oResult)
+
+            }
+            
         });
     };
         
