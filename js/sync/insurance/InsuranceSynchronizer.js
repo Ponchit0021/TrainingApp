@@ -171,12 +171,32 @@
      */
     sap.ui.sync.Insurance.prototype.sendRequest = function(_oQueueItem, _resolveSendPromise, result) {
         this.handleTrace("SINS5", _oQueueItem.id + " Payload: " + JSON.stringify(result));
-
         //TRAINING - Se simula el POST
-        //sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
-        this.simulatePost(_oQueueItem.requestUrl, result)
-            .then(this.processODataResponse.bind(this, _oQueueItem, _resolveSendPromise))
-            .catch(this.processODataResponseError.bind(this, _oQueueItem, _resolveSendPromise));
+        var oBeneficiarios = result.InsuranceBeneficiarySet;
+        var isInsNew = false;
+        var isBenNew = false;
+        //Seguro Nuevo
+        if (result.InsuranceIdCRM === "") {
+            isInsNew = true;
+        } 
+        /*else {
+            oBeneficiarios.forEach(function(item) {
+                if (item.InsuranceBeneficiaryIdCRM === "") {
+                    isBenNew = true;
+                }
+            });
+        }*/
+
+
+        if (isInsNew) {
+            sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, result, true)
+                .then(this.processODataResponse.bind(this, _oQueueItem, _resolveSendPromise))
+                .catch(this.processODataResponseError.bind(this, _oQueueItem, _resolveSendPromise));
+        } else {
+            this.simulatePost(_oQueueItem.requestUrl, result)
+                .then(this.processODataResponse.bind(this, _oQueueItem, _resolveSendPromise))
+                .catch(this.processODataResponseError.bind(this, _oQueueItem, _resolveSendPromise));
+        }
     };
     //TRAINING - Simulación de POST
     sap.ui.sync.Insurance.prototype.simulatePost = function(_oQueueItem, _result) {

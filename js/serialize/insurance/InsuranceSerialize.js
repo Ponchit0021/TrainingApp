@@ -334,11 +334,10 @@
         //Training
         var element = _oArg.CustomerIdCRM;
         var index = element.split(" ");
-        var id = 'Insurance_2_InsuranceIdMD ' + index[1]
         oIndexes = ['data.CustomerIdCRM'];
         oFilters = {
             $and: [{
-                '_id': { $eq: id }
+                '_id': { $gte: "Insurance_2_" }
             }, {
                 'data.CustomerIdCRM': { $eq: _oArg.CustomerIdCRM }
             }]
