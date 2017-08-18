@@ -44,12 +44,13 @@
 
     sap.ui.mw.forms.initial.logon.prototype.createForm = function(oController) {
 
-        var oInputBase, oDisplayBase,oActionBase,oLayoutBase,oEventBase,oForm,loginBasic;
+        var oInputBase, oDisplayBase,oActionBase,oLayoutBase,oEventBase,oForm,loginBasic,oContainerBase;
         oInputBase = new sap.ui.mw.InputBase();
         oDisplayBase = new sap.ui.mw.DisplayBase();
         oActionBase = new sap.ui.mw.ActionBase();
         oLayoutBase = new sap.ui.mw.LayoutBase();
         loginBasic= new sap.ui.login.Basic();
+        oContainerBase=new sap.ui.mw.ContainerBase();
         var _self=this;
 
        return new Promise(function(resolve, reject) {
@@ -73,6 +74,7 @@
                 oForm.addContent(oDisplayBase.createLabel("", ""));
                 oForm.addContent(oActionBase.createButton("", "Cancelar", "Default", "", function(){}, _self));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
+                oForm.addContent(oContainerBase.createPanel("",false,true));
                 oForm.addContent(oDisplayBase.createImage("", "img/sapLogo.png", "sapLogo"));
                 oForm.addContent(oDisplayBase.createLabelHTML("","class","Copyright"));
                 oForm.placeAt("content");

@@ -236,6 +236,7 @@
     sap.ui.sync.BP.prototype.simulatePost = function(requestUrl, _result) {
         return new Promise(function(resolveSimulatePromise, rejectSimulatePromise) {
             if(_result.CustomerIdCRM===""){
+                _result.isNew=true;
                 sap.ui.getCore().AppContext.myRest.create(requestUrl, _result, true).then(function(resp){resolveSimulatePromise(resp)})
             }
             else{
@@ -300,13 +301,23 @@
         return new Promise(function(resolveSendNotification, rejectSendNotification) {
             jQuery.sap.require("js.buffer.notification.CustomerSystemNotificationBuffer");
             var oNotificationBuffer = new sap.ui.buffer.CustomerSystemNotification("notiDB");
+            var message;
+
+            
+
+            if (_result.data.isNew) {
+                message="BP CREADO EXITOSAMENTE";
+              
+            }else{
+                message="BP no ha sido actualizado";
+            }
             var oRequest = {
                 id: _oQueueItem.id,
                 notificationID: "123456",
                 dateTime: "2017-07-19T21:05:27.280Z",
                 status: 1,
                 messageID: 109,
-                message: "BP CREADO EXITOSAMENTE",
+                message: message,
                 objectTypeID: "1",
                 objectDMID: _result.data.CustomerIdMD,
                 objectCRMID: _result.data.CustomerIdCRM,
