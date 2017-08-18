@@ -276,14 +276,18 @@
     sap.ui.sync.LoanRequest.prototype.resultLoanRequest = function(_oQueueItem,_result) {
         return new Promise(function(resolveUpdatePromise) {
 
-        var oResults = {
+        if(_result.LoanRequestIdCRM===""){
+                 delete _result.LinkSet;
+                 sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, _result, true).then(function(resp){resolveUpdatePromise(resp)})
+        }else{
+
+           var oResults = {
                 statusCode: 201,
                 LoanRequestIdMD: _result.LoanRequestIdMD,
                 LoanRequestIdCRM: _result.LoanRequestIdCRM
             };
-         resolveUpdatePromise(oResults);
-
-        
+            resolveUpdatePromise(oResults);
+        }
         }.bind(this));
 
     };

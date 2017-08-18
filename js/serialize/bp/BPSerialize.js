@@ -328,11 +328,11 @@
                                         aPouchIDs.push(oPouchResult.CustomerIdMD);
 
 
-                                        if (oPouchResult.hasOwnProperty("IsEntityInQueue")) {
-                                            if (oPouchResult.IsEntityInQueue === true) {
+                                       // if (oPouchResult.hasOwnProperty("IsEntityInQueue")) {
+                                         //   if (oPouchResult.IsEntityInQueue === true) {
                                                 return true;
-                                            }
-                                        }
+                                          //  }
+                                        //}
 
                                     }
                                 }
