@@ -355,7 +355,7 @@
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 4",
 	"SubsequenceType": "SubsequenceType 4",
-	"IsApproved": true,
+	"IsApproved": false,
 	"LRGeneralCrossSell": {
 		"ParentLoanRequestIdCRM": "",
 		"ParentLoanRequestIdMD": "",
@@ -456,7 +456,7 @@
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 5",
 	"SubsequenceType": "SubsequenceType 5",
-	"IsApproved": true,
+	"IsApproved": false,
 	"LRGeneralCrossSell": {
 		"ParentLoanRequestIdCRM": "",
 		"ParentLoanRequestIdMD": "",
@@ -658,7 +658,7 @@
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 7",
 	"SubsequenceType": "SubsequenceType 7",
-	"IsApproved": true,
+	"IsApproved": false,
 	"LRGeneralCrossSell": {
 		"ParentLoanRequestIdCRM": "",
 		"ParentLoanRequestIdMD": "",
@@ -759,7 +759,7 @@
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 8",
 	"SubsequenceType": "SubsequenceType 8",
-	"IsApproved": true,
+	"IsApproved": false,
 	"LRGeneralCrossSell": {
 		"ParentLoanRequestIdCRM": "",
 		"ParentLoanRequestIdMD": "",
