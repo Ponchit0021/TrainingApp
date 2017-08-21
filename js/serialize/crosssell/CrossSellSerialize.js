@@ -85,7 +85,7 @@
         return new Promise(function(resolve, reject) {
             this.crossDB.get(oDictionary.oQueues.CrossSellBatch)
                 .then(function(result) {
-                    if (result.CrossSellBatchSet) {
+                    if (result.CrossSellBatchSet.length > 0) {
                         _.each(result.CrossSellBatchSet[0].selectedCandidates, function(item) {
                             _.each(oArray, function(candidate, i) {
                                 if (item === candidate.CandidateIdCRM) {
