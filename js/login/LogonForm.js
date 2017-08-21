@@ -60,6 +60,7 @@
             passCodeForm.createForm(this).placeAt("content");
             resolve(true);
             }else{
+
                 oForm = oLayoutBase.createForm("formLogon", true, 1, "").destroyContent();
                 oForm.addStyleClass("form-logon");
                // loginBasic.hideForm('.form-logon');
