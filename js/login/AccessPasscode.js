@@ -70,7 +70,8 @@
         oForm.addContent(oDisplayBase.createLabel("", ""));
         oForm.addContent(oActionBase.createButton("", "Código de Acceso olvidado", "Default", "", this.forgotPassword, this));
         oForm.addContent(oDisplayBase.createLabel("", ""));
-        oForm.addContent(oDisplayBase.createLabelHTML("","class","Copyright"));
+        oForm.addContent(oDisplayBase.createLabelHTML("","","<div class='blank-space'></div>"));
+                oForm.addContent(oDisplayBase.createLabelHTML("","","<div class='footer-sap-container'><div><img class='sapLogo' src='img/sapLogo.png' alt=''></div><div class='sap-copy'>Copyright &#169 2016 SAP SE.<br> Reservados todos los derechos.</div></div>"));
 
 
         
