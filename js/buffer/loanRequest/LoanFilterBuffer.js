@@ -20,7 +20,7 @@
         }
     });
 
-
+    //TRAINING
     sap.ui.buffer.LoanFilter.prototype.postRequest = function(_oData) {
         var oController, oDictionary, oFilterData;
         oController = this;
@@ -51,6 +51,27 @@
                         }
                     }
                 }.bind(oController, oFilterData));
+        });
+    };
+
+    //TRAINING
+    sap.ui.buffer.LoanFilter.prototype.getLoanFilter = function() {
+        var oController, oDictionary, oFilterList;
+        oController = this;
+        oDictionary = new sap.ui.helper.Dictionary();
+        oFilterList = [];
+        
+        return new Promise(function(resolve, reject) {
+            oController.loanfilterDB.get(oDictionary.oQueues.LoanFilter)
+                .then(function(result) {
+                    if (result.LoanFilterSet) {
+                        _.each(result.LoanFilterSet, function(item) {
+                            console.log(item.LoanRequestIdCRM);
+                            oFilterList.push(item.LoanRequestIdCRM);
+                        });
+                        resolve(oFilterList)
+                    }
+                }.bind(this));
         });
     };
 
