@@ -239,6 +239,7 @@
                 description: _oQueueItem.requestDescription,
                 objectDMID: _oQueueItem.id,
                 productId: result.data.CrossSellProductId,
+                LoanRequestIdCRM: result.data.ParentLoanRequestIdCRM,
                 attended: "0"
             };
 
@@ -601,7 +602,7 @@
                 .then(
                     this.handleTrace("CCSO09", "TRAINING - Notificacion de Sistema elimnada de PouchDB: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
                     .then(function() {
-                        if (oNotification.message = "La Oferta de Credito Hijo fue Aceptada") {
+                        if (oNotification.message === "La Oferta de Credito Hijo fue Aceptada") {
                             this.setVisible(oNotification)
                         } else {
                             resolve(this.OK)

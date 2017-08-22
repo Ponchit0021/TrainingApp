@@ -22,31 +22,35 @@
 
 
     sap.ui.buffer.LoanFilter.prototype.postRequest = function(_oData) {
-        var oController, oDictionary;
+        var oController, oDictionary, oFilterData;
         oController = this;
         oDictionary = new sap.ui.helper.Dictionary();
+        oFilterData = {
+            id: _oData.LoanRequestIdCRM,
+            LoanRequestIdCRM: _oData.LoanRequestIdCRM
+        };
 
         return new Promise(function(resolve, reject) {
-            oController.loanfilterDB.getById(oDictionary.oQueues.LoanFilter, _oData.id)
-                .then(function(_oData,result) {
+            oController.loanfilterDB.getById(oDictionary.oQueues.LoanFilter, oFilterData.id)
+                .then(function(oFilterData, result) {
                     if (result.LoanFilterSet) {
-                         if (result.LoanFilterSet.length > 0) { // update
-                             oController.loanfilterDB.update(oDictionary.oQueues.LoanFilter, _oData.id, _oData)
-                                 .then(function(oResult) {
-                                     resolve(oResult);
-                                 }).catch(function(e) {
-                                     reject(e);
-                                 });
-                         } else { // new element
-                             oController.loanfilterDB.post(oDictionary.oQueues.LoanFilter, _oData)
-                                 .then(function(oResult) {
-                                     resolve(oResult);
-                                 }).catch(function(e) {
-                                     reject(e);
-                                 });
-                         }
-                     }
-                }.bind(oController, _oData));
+                        if (result.LoanFilterSet.length > 0) { // update
+                            oController.loanfilterDB.update(oDictionary.oQueues.LoanFilter, oFilterData.id, oFilterData)
+                                .then(function(oResult) {
+                                    resolve(oResult);
+                                }).catch(function(e) {
+                                    reject(e);
+                                });
+                        } else { // new element
+                            oController.loanfilterDB.post(oDictionary.oQueues.LoanFilter, oFilterData)
+                                .then(function(oResult) {
+                                    resolve(oResult);
+                                }).catch(function(e) {
+                                    reject(e);
+                                });
+                        }
+                    }
+                }.bind(oController, oFilterData));
         });
     };
 

@@ -8,7 +8,7 @@
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 1",
 	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 1",
+	"ParentLoanRequestIdCRM": "LoanRequestIdCRM 13",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%201',CrossSellProductId='CrossSellProductId%201')",
 		"type": "AOMobile.CrossSellOffer"
@@ -23,7 +23,7 @@
 	"IsRejected": true,
 	"RejectionReasonId": "RejectionReasonId 2",
 	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 2",
+	"ParentLoanRequestIdCRM": "LoanRequestIdCRM 14",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%202',CrossSellProductId='CrossSellProductId%202')",
 		"type": "AOMobile.CrossSellOffer"
@@ -38,7 +38,7 @@
 	"IsRejected": true,
 	"RejectionReasonId": "RejectionReasonId 3",
 	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 3",
+	"ParentLoanRequestIdCRM": "LoanRequestIdCRM 16",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%203',CrossSellProductId='CrossSellProductId%203')",
 		"type": "AOMobile.CrossSellOffer"
@@ -53,7 +53,7 @@
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 4",
 	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 4",
+	"ParentLoanRequestIdCRM": "LoanRequestIdCRM 15",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%204',CrossSellProductId='CrossSellProductId%204')",
 		"type": "AOMobile.CrossSellOffer"
