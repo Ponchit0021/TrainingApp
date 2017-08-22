@@ -838,18 +838,57 @@
                             return d.ProductID === "C_IND_CI" || d.ProductID === "C_GRUPAL_CCR" || d.ProductID === "C_GRUPAL_CM"
                         });
                     }
+                   
+                //TRAINING - Visualización de oportunidades Crádito Hijo Aceptadas
+                    jQuery.sap.require("js.buffer.loanRequest.LoanFilterBuffer");
+                    var oFilterBuffer = new sap.ui.buffer.LoanFilter("loanfilterDB");
+                    oFilterBuffer.getLoanFilter()
+                        .then(function(acceptedChildLoans) {
+                            console.log(acceptedChildLoans)
 
+                            var oKapselParent={}, oKapselChild = {}, oFinalKapselChild = {};
+                            var oChildCreditAccepted = [];
+                            oKapselParent.results = [];
+                            oKapselChild.results = [];
+                            oFinalKapselChild.results=[];
 
-                    //oDataModel.setData(oFinalKapsel);
+                            if (_module === "applications") {
+                                oKapselParent.results = _.filter(oFinalKapsel.results, function(d) {
+                                    return d.ProductID === "C_IND_CI" || d.ProductID === "C_GRUPAL_CCR" || d.ProductID === "C_GRUPAL_CM"
+                                });
 
-                    //TRAINING - Visualización de oportunidades renovadas (Simulación)
-                    this.simulateHideRenovations(oFinalKapsel)
-                        .then(function(selectedLoans) {
-                            oDataModel.setData(selectedLoans);
-                            resolve(oDataModel);
-                        });
+                                oKapselChild.results = _.filter(oFinalKapsel.results, function(d) {
+                                    return d.ProductID === "C_IND_CA" || d.ProductID === "C_IND_CA_CCR" || d.ProductID === "C_IND_CCM_CCR" || d.ProductID === "C_IND_CCM"
+                                });
 
-                    //resolve(oDataModel);
+                            console.log("oKapselParent.results",oKapselParent.results);
+                            console.log("oKapselChild.results",oKapselChild.results);
+                            
+                            _.each(acceptedChildLoans, function(item) {    
+                                _.each(oKapselChild.results, function(obj) { 
+                                        if (item == obj.LoanRequestIdCRM){
+                                            oFinalKapselChild.results.push(obj);
+                                    }
+                                });
+                            });
+                        
+                            oFinalKapsel.results = _.union(oKapselParent.results, oFinalKapselChild.results);
+                            
+                            console.log("oFinalKapsel.results",oFinalKapsel.results);
+                            
+                            }
+    
+                           //oDataModel.setData(oFinalKapsel);
+
+                            //TRAINING - Visualización de oportunidades renovadas (Simulación)
+                            this.simulateHideRenovations(oFinalKapsel)
+                                .then(function(selectedLoans) {
+                                    oDataModel.setData(selectedLoans);
+                                    resolve(oDataModel);
+                                });
+                            //resolve(oDataModel);
+                            //resolve("OK");
+                        }.bind(this));  
                 }.bind(this));
         }.bind(this));
     };
