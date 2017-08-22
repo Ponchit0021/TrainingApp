@@ -19,6 +19,9 @@
 
             oSchemaDB = new sap.ui.helper.Schema();
             this.dataDB = new sap.ui.db.Pouch(_dataDB);
+            //TRAINING
+            this.renoDB = new sap.ui.db.Pouch("renoDB");
+            this.renoDB.setSchema(oSchemaDB.getRenoDBSchema());
 
             /////////// ::: Estos datos deberian venir del diccionario
 
@@ -837,9 +840,74 @@
                     }
 
 
-                    oDataModel.setData(oFinalKapsel);
+                    //oDataModel.setData(oFinalKapsel);
 
-                    resolve(oDataModel);
+                    //TRAINING - Visualización de oportunidades renovadas (Simulación)
+                    this.simulateHideRenovations(oFinalKapsel)
+                        .then(function(selectedLoans) {
+                            oDataModel.setData(selectedLoans);
+                            resolve(oDataModel);
+                        });
+
+                    //resolve(oDataModel);
+                }.bind(this));
+        }.bind(this));
+    };
+
+    //TRAINING - Visualización de oportunidades renovadas (Simulación)
+    sap.ui.serialize.LoanRequest.prototype.simulateHideRenovations = function(_selectedLoans) {
+        var oDictionary = new sap.ui.helper.Dictionary();
+        var finalLoans = { results: null };
+        var oArray, oLoans = [], oLoansReno = [];
+        return new Promise(function(resolve, reject) {
+            this.renoDB.get(oDictionary.oQueues.Renovation)
+                .then(function(result) {
+
+                    console.log(result);
+                    var oPromise = sap.ui.getCore().AppContext.myRest.read("/PreLoanRequestSet",
+                        "$filter=CollaboratorID eq '" + sap.ui.getCore().AppContext.Promotor + "'&$expand=LinkPreloanRequestSet/CustomerSet&format=json", true);   
+                    oPromise
+                    .then(function(oResult) {
+
+                        oResult.results.forEach(function(currRenovation){
+                            _selectedLoans.results.forEach(function(currSelectedLoan){
+                                if(currRenovation.LoanRequestIdCRM === currSelectedLoan.LoanRequestIdCRM){
+                                    _selectedLoans.results = _.reject(_selectedLoans.results, function(item){
+                                        if(item.LoanRequestIdCRM == currRenovation.LoanRequestIdCRM)
+                                            oLoans.push(item);
+                                        return item.LoanRequestIdCRM === currRenovation.LoanRequestIdCRM;
+                                    });
+                                }
+                            });
+                        });
+
+                        result.RenovationSet.forEach(function(currRenovation){
+                            oLoans.forEach(function(currSelectedLoan){
+                                if(currRenovation.loanRequestIdCRM === currSelectedLoan.LoanRequestIdCRM && currRenovation.accepted){
+                                    oLoansReno.push(currSelectedLoan);
+                                }
+                            });
+                        });
+
+                        oArray = _selectedLoans.results;
+
+                        if (result.RenovationSet.length > 0) {
+                            _.each(oLoansReno, function(item) {
+                                oArray.push(item);
+                            });
+                        }
+
+                        finalLoans = { results: oArray };
+                        resolve(finalLoans);
+
+                    }).catch(function(e) {
+                        resolve(e);
+                         sap.ui.getCore().AppContext.loader.close();
+                    });
+
+                    
+
+
                 }.bind(this));
         }.bind(this));
     };

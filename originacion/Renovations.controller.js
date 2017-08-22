@@ -70,21 +70,62 @@ sap.ui.controller("originacion.Renovations", {
                     .then(function(oResult) {
 
                         console.log(oResult);
+                        jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
+                        var oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
                           
                         sap.ui.getCore().AppContext.loader.close();
                         oModel = new sap.ui.model.json.JSONModel();
                         oModel.setData(oResult);
-                        oPreLoanRequests = oModel.getProperty("/results")
+                        oPreLoanRequests = oModel.getProperty("/results");
                         console.log(oPreLoanRequests);
 
                         currentData = oModel.getData();
                         console.log(currentData.results.length);
 
+                        /*oRenovationBuffer.searchAllInRenoDB()
+                        .then(function(ooResult){
+
+                            oPreLoanRequests.forEach(function(currPreLoanRequest) {
+                                ooResult.RenovationSet.forEach(function(currPreLoanRequestDB) {
+                                    if(currPreLoanRequest.PreLoanRequestID === currPreLoanRequestDB.id){
+                                        //while(_.where(currentData.results, {PreLoanRequestID: currPreLoanRequest.PreLoanRequestID}).length > 0){
+                                            
+                                            currentData.results = _.filter(currentData.results, function(item){
+                                                item.PreLoanRequestID = currPreLoanRequest.PreLoanRequestID;
+                                            });
+
+                                            oModel.refresh();
+                                        //}
+                                    }
+                                });
+                            });
+
+                            if (oResult.results.length > 0) {
+                                myTableRenovations = sap.ui.getCore().byId("tblAppRenovations", "items");
+
+                                myTableRenovations.setModel(oModel);
+                                itemsTemplate = new sap.m.ColumnListItem({});
+                                myTableRenovations.bindAggregation("items", {
+                                    path: "/results",
+                                    factory: function(_id, _context) {
+                                        return oController.onLoadTableRenovations(_context,oController);
+                                    }
+                                });
+                                //resolve(oDataModel);
+                                sap.ui.getCore().AppContext.loader.close();
+                            } else {
+                              
+                                sap.ui.getCore().AppContext.loader.close();
+                               // sap.m.MessageToast.show("No se logró cargar toda la información, intente de nuevo por favor.");
+                                resolve(oResult);
+                              
+                            }
+                        });
+                        */
+
                         oPreLoanRequests.forEach(function(currPreLoanRequest, i) {
                             console.log(currPreLoanRequest);
 
-                            jQuery.sap.require("js.buffer.renovation.RenovationBuffer");
-                            var oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
                             oRenovationBuffer.searchInRenoDB(currPreLoanRequest.PreLoanRequestID)
                                 .then(function(ooResult) {
                                     if (ooResult) {
@@ -287,6 +328,8 @@ sap.ui.controller("originacion.Renovations", {
             oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
             oRequest = {
                 id: context.PreLoanRequestID,
+                loanRequestIdCRM: context.LoanRequestIdCRM,
+                accepted: true,
                 requestMethod: oDictionary.oMethods.POST,
                 //requestUrl: oDictionary.oDataTypes.Insurance,
                 requestBodyId: context.PreLoanRequestID,
@@ -560,6 +603,8 @@ sap.ui.getCore().AppContext.loader.show("Enviando motivo de rechazo");/*
             oRenovationBuffer = new sap.ui.buffer.Renovation("renoDB");
             oRequest = {
                 id: currentItemRenovations.PreLoanRequestID,
+                loanRequestIdCRM: currentItemRenovations.LoanRequestIdCRM,
+                accepted: false,
                 requestMethod: oDictionary.oMethods.POST,
                 //requestUrl: oDictionary.oDataTypes.Insurance,
                 requestBodyId: createSubsequence.PreLoanRequestID,
