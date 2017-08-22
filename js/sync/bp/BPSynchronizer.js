@@ -236,10 +236,54 @@
     sap.ui.sync.BP.prototype.simulatePost = function(requestUrl, _result) {
         return new Promise(function(resolveSimulatePromise, rejectSimulatePromise) {
             if(_result.CustomerIdCRM===""){
+                var aPhone=_result.PhoneSet;
+                var aAddress=_result.AddressSet;
+                var aImage=_result.ImageSet;
+                var aEmployer=_result.EmployerSet;
+                var aPersonalReference=_result.PersonalReferenceSet;
+                delete _result.PhoneSet;
+                delete _result.AddressSet;
+                delete _result.ImageSet;
+                delete _result.EmployerSet;
+                delete _result.PersonalReferenceSet;
+
+                
                 _result.isNew=true;
-                sap.ui.getCore().AppContext.myRest.create(requestUrl, _result, true).then(function(resp){resolveSimulatePromise(resp)})
+                sap.ui.getCore().AppContext.myRest.create(requestUrl, _result, true)
+                .then(function(respCustomer){
+                    aPhone.forEach(function(entry) {
+                        entry.CustomerIdCRM=respCustomer.data.CustomerIdCRM;
+                        sap.ui.getCore().AppContext.myRest.create("/PhoneSet", entry, true)
+                        .then(function(resp){console.log(resp)});
+                    });
+                    aAddress.forEach(function(entry) {
+                        entry.CustomerIdCRM=respCustomer.data.CustomerIdCRM;
+                        sap.ui.getCore().AppContext.myRest.create("/AddressSet", entry, true)
+                        .then(function(resp){console.log(resp)});
+                    });
+                    aImage.forEach(function(entry) {
+                        entry.CustomerIdCRM=respCustomer.data.CustomerIdCRM;
+                        sap.ui.getCore().AppContext.myRest.create("/ImageSet", entry, true)
+                        .then(function(resp){console.log(resp)});
+                    });
+                    aEmployer.forEach(function(entry) {
+                        entry.CustomerIdCRM=respCustomer.data.CustomerIdCRM;
+                        sap.ui.getCore().AppContext.myRest.create("/EmployerSet", entry, true)
+                        .then(function(resp){console.log(resp)});
+                    });
+                    aPersonalReference.forEach(function(entry) {
+                        entry.CustomerIdCRM=respCustomer.data.CustomerIdCRM;
+                        sap.ui.getCore().AppContext.myRest.create("/PersonalReferenceSet", entry, true)
+                        .then(function(resp){console.log(resp)});
+                    });
+                    resolveSimulatePromise(respCustomer)
+                    
+                   
+                    
+                })
             }
             else{
+                _result.isNew=false;
                 var oResult = {
                 data: _result,
                 statusCode: 201,
