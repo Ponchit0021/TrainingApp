@@ -61,7 +61,7 @@ sap.ui.controller("originacion.DashBoard", {
                  }); */
 
             var oVersion = sap.ui.getCore().byId("tileAcercaDe");
-            oVersion.setNumber(0);
+            oVersion.setNumber("CAP");
 
             resolve("ok");
 

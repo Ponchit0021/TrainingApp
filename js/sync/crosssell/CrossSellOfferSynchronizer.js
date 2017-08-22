@@ -600,7 +600,15 @@
             this.notiDB.delete(this.oDictionary.oQueues.CrossSellSystemNotification, oNotification.id, oNotification.rev)
                 .then(
                     this.handleTrace("CCSO09", "TRAINING - Notificacion de Sistema elimnada de PouchDB: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID)
-                    .then(resolve(this.OK))
+                    .then(function() {
+                        if (oNotification.message = "La Oferta de Credito Hijo fue Aceptada") {
+                            this.setVisible(oNotification)
+                        } else {
+                            resolve(this.OK)
+                        }
+                    }.bind(this))
+                    /* this.setVisible()
+                     .then(resolve(this.OK))*/
                 ).catch(function(error) {
                     this.handleError("CCSO09", "TRAINING - Error eliminar notificacion de sistema (PouchDB) para la notificación: " + oNotification.notificationID + " ObjectIDDM: " + oNotification.objectDMID, error)
                         .then(this.saveUpdateError(oNotification))
@@ -609,6 +617,19 @@
         }.bind(this));
     };
 
+    /**
+     * TRAINING - [Inserta id de oportunidad a PouchDB para mostrarla en el módulo de solicitudes]
+     */
+    sap.ui.sync.CrossSellOffer.prototype.setVisible = function(_data) {
+        jQuery.sap.require("js.buffer.loanRequest.LoanFilterBuffer");
+        var oFilterBuffer = new sap.ui.buffer.LoanFilter("loanfilterDB");
+        return new Promise(function(resolve, reject) {
+            oFilterBuffer.postRequest(_data)
+                .then(function() {
+                    resolve("OK");
+                });
+        });
+    };
 
     /**
      * [saveUpdateError Save the error (if present) when trying to update the status of a Notification in IGW]

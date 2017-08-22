@@ -75,9 +75,10 @@
                 oForm.addContent(oDisplayBase.createLabel("", ""));
                 oForm.addContent(oActionBase.createButton("", "Cancelar", "Default", "", function(){}, _self));
                 oForm.addContent(oDisplayBase.createLabel("", ""));
-                oForm.addContent(oContainerBase.createPanel("",false,true));
-                oForm.addContent(oDisplayBase.createImage("", "img/sapLogo.png", "sapLogo"));
-                oForm.addContent(oDisplayBase.createLabelHTML("","class","Copyright"));
+                //oForm.addContent(oDisplayBase.createLabelHTML("","","<div class='blank-space'></div>"));
+                oForm.addContent(oDisplayBase.createLabelHTML("","","<div class='footer-sap-container'><div><img class='sapLogo' src='img/sapLogo.png' alt=''></div><div class='sap-copy'>Copyright &#169 2016 SAP SE.<br> Reservados todos los derechos.</div></div>"));
+                //oForm.addContent(oDisplayBase.createImage("", "img/sapLogo.png", "sapLogo"));
+                //oForm.addContent(oDisplayBase.createLabelHTML("","class","Copyright"));
                 oForm.placeAt("content");
                 resolve(false)
             }
