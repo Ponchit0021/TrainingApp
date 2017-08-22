@@ -42,7 +42,7 @@
 
     };
     //TRAINING
-    sap.ui.helper.Schema.prototype.getCrossDBName = function() {
+    sap.ui.helper.Schema.prototype.getLoanFilterDBName = function() {
 
         return "loanfilterDB"
 
