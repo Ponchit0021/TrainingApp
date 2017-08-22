@@ -35,10 +35,16 @@
         return "messageDB"
 
     };
-
+    //TRAINING
     sap.ui.helper.Schema.prototype.getCrossDBName = function() {
 
         return "crossDB"
+
+    };
+    //TRAINING
+    sap.ui.helper.Schema.prototype.getCrossDBName = function() {
+
+        return "loanfilterDB"
 
     };
 
@@ -181,7 +187,7 @@
         }, {
             singular: "CrossSellSystemNotification",
             plural: "CrossSellSystemNotificationSet"
-        },{
+        }, {
             singular: "LoanRequestSystemNotification",
             plural: "LoanRequestSystemNotificationSet"
         }];
@@ -205,6 +211,13 @@
         return [{
             singular: "CrossSellBatch",
             plural: "CrossSellBatchSet"
+        }];
+    };
+
+     sap.ui.helper.Schema.prototype.getLoanFilterDBSchema = function() {
+        return [{
+            singular: "LoanFilter",
+            plural: "LoanFilterSet"
         }];
     };
 

@@ -76,7 +76,8 @@
         CrossSellSystemNotification: "CrossSellSystemNotification",
         CustomerSystemNotification: "CustomerSystemNotification",
         LoanRequestSystemNotification: "LoanRequestSystemNotification",
-        CrossSellBatch: "CrossSellBatch"
+        CrossSellBatch: "CrossSellBatch",
+        LoanFilter: "LoanFilter"
     };
 
     sap.ui.helper.Dictionary.prototype.oErrors = {
