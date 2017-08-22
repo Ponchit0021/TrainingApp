@@ -128,7 +128,7 @@
     oDlgDetailGuarantor.addButton(oActionBase.createButton(
         "", "Aceptar", "Default", "",
         oController.onCancelFilterGuarantor, oDlgDetailGuarantor));
-     oDlgDetailGuarantor.addContent(oDisplayBase.createLabel("", oModel.LastName+" "+oModel.SecondName+" "+oModel.FirstName+" "+oModel.MiddleName).setWidth("100%"));
+     oDlgDetailGuarantor.addContent(oDisplayBase.createLabel("", oModel.LastName.toUpperCase()+" "+oModel.SecondName.toUpperCase()+" "+oModel.FirstName.toUpperCase()+" "+oModel.MiddleName.toUpperCase()).setWidth("100%"));
      oDlgDetailGuarantor.addContent(oDisplayBase.createLabel("", "Fecha de Nacimiento: "+birthdDate).setWidth("100%"));
      oDlgDetailGuarantor.addContent(oDisplayBase.createLabel("", "Id Client: "+oModel.BPIdCRM).setWidth("100%"));
     return oDlgDetailGuarantor;

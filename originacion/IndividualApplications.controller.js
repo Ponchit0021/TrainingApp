@@ -1706,7 +1706,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         oView = oController.getView();
         oPath = oEvent.getParameters().listItem.getBindingContext().sPath;
         oSelectedRow = oEvent.oSource.getModel().getProperty(oPath);
-        sAllName = oSelectedRow.BpName.FirstName + " " + oSelectedRow.BpName.MiddleName + " " + oSelectedRow.BpName.LastName + " " + oSelectedRow.BpName.SecondName;
+        sAllName = oSelectedRow.BpName.FirstName.toUpperCase() + " " + oSelectedRow.BpName.MiddleName.toUpperCase() + " " + oSelectedRow.BpName.LastName.toUpperCase() + " " + oSelectedRow.BpName.SecondName.toUpperCase();
         //Se lanza mensaje de confirmación
         jQuery.sap.require("sap.m.MessageBox");
         sap.m.MessageBox.confirm("Se asignará el avál " + sAllName + " a la solicitud. ¿Desea Continuar?", {
@@ -1766,7 +1766,7 @@ sap.ui.controller("originacion.IndividualApplications", {
                     /////// RISK LEVEL FIX
 
                     sap.ui.getCore().byId("txtNciIdAval").setValue(oSelectedRow.CustomerIdCRM);
-                    sap.ui.getCore().byId("txtNciNombreDelAval").setValue(oSelectedRow.BpName.LastName + " " + oSelectedRow.BpName.SecondName + " " + oSelectedRow.BpName.FirstName + " " + oSelectedRow.BpName.MiddleName);
+                    sap.ui.getCore().byId("txtNciNombreDelAval").setValue(oSelectedRow.BpName.LastName.toUpperCase() + " " + oSelectedRow.BpName.SecondName.toUpperCase() + " " + oSelectedRow.BpName.FirstName.toUpperCase() + " " + oSelectedRow.BpName.MiddleName.toUpperCase());
 
                     if (oSelectedRow.hasOwnProperty("PhoneSet")) {
                         if (oSelectedRow.PhoneSet.hasOwnProperty("results")) {
@@ -2618,7 +2618,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         itemsTemplate = new sap.m.ColumnListItem({
             type: "Active"
         });
-        itemsTemplate.addCell(oDisplayBase.createText("", _context.getProperty("BpName/LastName") + " " + _context.getProperty("BpName/SecondName") + " " + _context.getProperty("BpName/FirstName") + " " + _context.getProperty("BpName/MiddleName")));
+        itemsTemplate.addCell(oDisplayBase.createText("", _context.getProperty("BpName/LastName").toUpperCase() + " " + _context.getProperty("BpName/SecondName").toUpperCase() + " " + _context.getProperty("BpName/FirstName").toUpperCase() + " " + _context.getProperty("BpName/MiddleName").toUpperCase()));
         itemsTemplate.addCell(oDisplayBase.createText("", oDisplayBase.formatDate(_context.getProperty("BpMainData/RegistrationDate"), "dd.MM.yyyy")));
         itemsTemplate.addCell(oDisplayBase.createText("", _context.getProperty("CustomerIdCRM")));
 
