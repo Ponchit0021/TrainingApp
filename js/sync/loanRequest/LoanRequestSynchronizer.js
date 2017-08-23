@@ -285,88 +285,32 @@
 
         if(_result.LoanRequestIdCRM===""){
                 var arrayLinkSet = _result.LinkSet;
+                var aLinkGuarantorSet = _result.LinkGuarantorSet;
                  delete _result.LinkSet;
+                 delete _result.LinkGuarantorSet;
                 _result.GeneralLoanRequestData.Cycle = 0;
                  //sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, _result, true).then(function(resp){resolveUpdatePromise(resp)})
                 sap.ui.getCore().AppContext.myRest.create(_oQueueItem.requestUrl, _result, true).then(
                     function(result) {
-                        arrayLinkSet;
                         for(var i=0; i<arrayLinkSet.length; i++){
 
-                        var linkSet = {
-                            "CustomerIdCRM": "",
-                            "LoanRequestIdCRM": "",
-                            "CustomerIdMD": "",
-                            "LoanRequestIdMD": "",
-                            "CollaboratorID": "Genesis",
-                            "GroupLoanData": {
-                                "RoleInTheGroupId": "",
-                                "CreditAmount": 0,
-                                "AuthorizedAmount": 0,
-                                "RejectionCauseId": ""
-                            },
-                            "IndividualLoanData": {
-                                "YearsOnHouse": 10,
-                                "MonthsOnHouse": 5,
-                                "YearsOnLocal": 4,
-                                "MonthsOnLocal": 3,
-                                "TotalIncomeAmount": 60000,
-                                "TotalOutcomeAmount": 15000,
-                                "FeeEnabledToPay": 10000,
-                                "LoanDestiny": "1",
-                                "IsCreditGuaranteeWarrant": true,
-                                "RequiredAmount": 30000,
-                                "ProposedAmount": 30000,
-                                "ProposedFrequency": "Z1422",
-                                "ProposedFee": 3000,
-                                "ProposedPeriod": 10,
-                                "MaxLiquidity": 2500,
-                                "PaymentFrequency": "PaymentFrequency 1",
-                                "MaxRecurrentAmount": ""
-                            },
-                            "GeneralLoanData": {
-                                "InsuranceAmount": 3000,
-                                "ControlListsResult": 1,
-                                "RiskLevel": "1",
-                                "SavingsAmount": 9000,
-                                "DispersionMediumId": "1",
-                                "DispersionChannelId": "3",
-                                "SemaphoreResultFilters": 2
-                            },
-                            "AvailableToFilter": "",
-                            "GrpCrossSellData": {
-                                "BusinessIncome": 0,
-                                "SpouseContribution": 0,
-                                "FamilyContribution": 0,
-                                "MoneyTransfer": 0,
-                                "OtherIncome": 0,
-                                "TotalIncome": 0,
-                                "BusinessExpenses": 0,
-                                "HouseholdExpenses": 0,
-                                "ServiceAndRentExpenses":0,
-                                "CompartamosFee": 0,
-                                "OtherDebts": 0,
-                                "TotalExpenses": 0,
-                                "TotalMonthlyLiquidity": 0,
-                                "MaxAllowedLiquidity": 0,
-                                "RequiredAmount": 0,
-                                "FeeEnabledToPay": 0,
-                                "LoanDestiny": "LoanDestiny 1"
-                            }
-                        };
-
-                        linkSet.LoanRequestIdCRM = result.data.LoanRequestIdCRM;
-                        linkSet.LoanRequestIdMD = result.data.LoanRequestIdMD;
-                        linkSet.CustomerIdCRM = arrayLinkSet[i].CustomerIdCRM;
-                        linkSet.LoanRequestIdMD = arrayLinkSet[i].CustomerIdMD;
-                        sap.ui.getCore().AppContext.myRest.create("/LinkSet", linkSet, true).then(function(resp){resolveUpdatePromise(resp)});
-
+                        arrayLinkSet[i].LoanRequestIdCRM = result.data.LoanRequestIdCRM;
+                        arrayLinkSet[i].LoanRequestIdMD = result.data.LoanRequestIdMD;
+                        arrayLinkSet[i].CustomerIdCRM = arrayLinkSet[i].CustomerIdCRM;
+                        arrayLinkSet[i].CustomerIdMD = arrayLinkSet[i].CustomerIdMD;
+                        sap.ui.getCore().AppContext.myRest.create("/LinkSet", arrayLinkSet[i], true)
+                        .then(function(resp){console.log(resp)});
                         }
-                        
 
+                        for(var i=0; i<aLinkGuarantorSet.length; i++){
+                        aLinkGuarantorSet[i].LoanRequestIdCRM = result.data.LoanRequestIdCRM;
+                        aLinkGuarantorSet[i].LoanRequestIdMD = result.data.LoanRequestIdMD;
+                        sap.ui.getCore().AppContext.myRest.create("/LinkGuarantorSet", aLinkGuarantorSet[i], true)
+                        .then(function(resp){console.log(resp)});
+                        }
+                        resolveUpdatePromise(result)
                        
-                    }
-                )
+                    })
         }else{
 
            var oResults = {
