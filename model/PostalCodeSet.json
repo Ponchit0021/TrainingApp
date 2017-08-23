@@ -32,11 +32,11 @@
 	"Code": "03020",
 	"SuburbName": "Narvarte",
 	"CountryId": "MX",
-	"CountryName": "EM",
-	"StateId": "StateId 3",
+	"CountryName": "MÉXICO",
+	"StateId": "DF",
 	"StateName": "MÉXICO",
-	"TownId": "1",
-	"TownName": "Benito Juarez",
+	"TownId": "BENITO JUAREZ",
+	"TownName": "BENITO JUAREZ",
 	"City": "BENITO JUAREZ",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
@@ -56,96 +56,6 @@
 	"CollaboratorID": "Genesis",
 	"__metadata": {
 		"uri": "PostalCodeSet(Code='Code%204',SuburbName='SuburbName%204')",
-		"type": "AOMobile.PostalCode"
-	}
-}, {
-	"Code": "Code 5",
-	"SuburbName": "SuburbName 5",
-	"CountryId": "CountryId 5",
-	"CountryName": "CountryName 5",
-	"StateId": "StateId 5",
-	"StateName": "StateName 5",
-	"TownId": "TownId 5",
-	"TownName": "TownName 5",
-	"City": "City 5",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "PostalCodeSet(Code='Code%205',SuburbName='SuburbName%205')",
-		"type": "AOMobile.PostalCode"
-	}
-}, {
-	"Code": "Code 6",
-	"SuburbName": "SuburbName 6",
-	"CountryId": "CountryId 6",
-	"CountryName": "CountryName 6",
-	"StateId": "StateId 6",
-	"StateName": "StateName 6",
-	"TownId": "TownId 6",
-	"TownName": "TownName 6",
-	"City": "City 6",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "PostalCodeSet(Code='Code%206',SuburbName='SuburbName%206')",
-		"type": "AOMobile.PostalCode"
-	}
-}, {
-	"Code": "Code 7",
-	"SuburbName": "SuburbName 7",
-	"CountryId": "CountryId 7",
-	"CountryName": "CountryName 7",
-	"StateId": "StateId 7",
-	"StateName": "StateName 7",
-	"TownId": "TownId 7",
-	"TownName": "TownName 7",
-	"City": "City 7",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "PostalCodeSet(Code='Code%207',SuburbName='SuburbName%207')",
-		"type": "AOMobile.PostalCode"
-	}
-}, {
-	"Code": "Code 8",
-	"SuburbName": "SuburbName 8",
-	"CountryId": "CountryId 8",
-	"CountryName": "CountryName 8",
-	"StateId": "StateId 8",
-	"StateName": "StateName 8",
-	"TownId": "TownId 8",
-	"TownName": "TownName 8",
-	"City": "City 8",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "PostalCodeSet(Code='Code%208',SuburbName='SuburbName%208')",
-		"type": "AOMobile.PostalCode"
-	}
-}, {
-	"Code": "Code 9",
-	"SuburbName": "SuburbName 9",
-	"CountryId": "CountryId 9",
-	"CountryName": "CountryName 9",
-	"StateId": "StateId 9",
-	"StateName": "StateName 9",
-	"TownId": "TownId 9",
-	"TownName": "TownName 9",
-	"City": "City 9",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "PostalCodeSet(Code='Code%209',SuburbName='SuburbName%209')",
-		"type": "AOMobile.PostalCode"
-	}
-}, {
-	"Code": "Code 10",
-	"SuburbName": "SuburbName 10",
-	"CountryId": "CountryId 10",
-	"CountryName": "CountryName 10",
-	"StateId": "StateId 10",
-	"StateName": "StateName 10",
-	"TownId": "TownId 10",
-	"TownName": "TownName 10",
-	"City": "City 10",
-	"CollaboratorID": "Genesis",
-	"__metadata": {
-		"uri": "PostalCodeSet(Code='Code%2010',SuburbName='SuburbName%2010')",
 		"type": "AOMobile.PostalCode"
 	}
 }]
