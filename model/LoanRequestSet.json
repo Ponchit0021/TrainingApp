@@ -107,7 +107,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099906",
-		"GroupName": "GroupoMujer1",
+		"GroupName": "LAS ABEJITAS",
 		"ContractID": "1002137502",
 		"MemberIDSharingHouseCRM": "1000000002",
 		"MeetingDate": "1",
@@ -208,7 +208,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099900",
-		"GroupName": "GroupoComerciante1",
+		"GroupName": "LOS GUAPOS DEL BARRIO",
 		"ContractID": "1002137503",
 		"MemberIDSharingHouseCRM": "1000000015",
 		"MeetingDate": "1",
@@ -346,7 +346,7 @@
 		"StatusText": "En Proceso",
 		"FirstPaymentDate": "/Date(1521241174000)/",
 		"ExpenditureDate": "/Date(1362092374000)/",
-		"Term": "0000000000",
+		"Term": "6",
 		"Frequency": "Z1412",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
@@ -410,7 +410,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099907",
-		"GroupName": "GroupMujer2",
+		"GroupName": "LAS CHABELAS",
 		"ContractID": "1002137505",
 		"MemberIDSharingHouseCRM": "1000000041",
 		"MeetingDate": "1",
@@ -511,7 +511,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099901",
-		"GroupName": "GroupComerciante2",
+		"GroupName": "LOS RUDOS",
 		"ContractID": "1002137506",
 		"MemberIDSharingHouseCRM": "1000000046",
 		"MeetingDate": "1",
@@ -612,7 +612,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099908",
-		"GroupName": "GroupMujer3",
+		"GroupName": "LAS EMPRENDERORAS",
 		"ContractID": "1002137507",
 		"MemberIDSharingHouseCRM": "",
 		"MeetingDate": "1",
@@ -713,7 +713,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099909",
-		"GroupName": "GroupComerciante3",
+		"GroupName": "LOS COMERCIANTES",
 		"ContractID": "1002137508",
 		"MemberIDSharingHouseCRM": "",
 		"MeetingDate": "1",
@@ -814,7 +814,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099909",
-		"GroupName": "HIJOSMUJER1",
+		"GroupName": "LAS FLORECITAS",
 		"ContractID": "1002137509",
 		"MemberIDSharingHouseCRM": "1000000071",
 		"MeetingDate": "1",
@@ -915,7 +915,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099910",
-		"GroupName": "HIJOSCOMERCIANTE1",
+		"GroupName": "CHAMBEADORES",
 		"ContractID": "1002137510",
 		"MemberIDSharingHouseCRM": "1000000076",
 		"MeetingDate": "1",
@@ -1016,7 +1016,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099911",
-		"GroupName": "HIJOSMUJER1",
+		"GroupName": "LAS FLORECITAS",
 		"ContractID": "1002137511",
 		"MemberIDSharingHouseCRM": "1000000071",
 		"MeetingDate": "1",
@@ -1117,7 +1117,7 @@
 	"ProcessType": "ZOPG",
 	"GroupRequestData": {
 		"GroupID": "1020099912",
-		"GroupName": "HIJOSCOMERCIANTE1",
+		"GroupName": "CHAMBEADORES",
 		"ContractID": "1002137512",
 		"MemberIDSharingHouseCRM": "1000000076",
 		"MeetingDate": "1",
