@@ -140,14 +140,14 @@
     "BpName": {
       "FirstName": "Geovana",
       "MiddleName": "Grisel",
-      "LastName": "Mujer1",
+      "LastName": "Juarez",
       "SecondName": "Farfan"
     },
     "BpMainData": {
       "ProductId": "C_GRUPAL_CM",
       "RegistrationDate": "/Date(1516921177000)/",
       "RoleId": "ZFS004",
-      "StatusId": "E0006",
+      "StatusId": "E0004",
       "StatusReasonId": "",
       "SourceName": "Promoción Directa",
       "LeadIdCRM": "0000000002",
@@ -274,14 +274,14 @@
     "BpName": {
       "FirstName": "Margarita",
       "MiddleName": "Mendez",
-      "LastName": "Mujer1",
+      "LastName": "Zapata",
       "SecondName": "Gutierrez"
     },
     "BpMainData": {
       "ProductId": "C_GRUPAL_CM",
       "RegistrationDate": "/Date(1046473177000)/",
       "RoleId": "ZFS004",
-      "StatusId": "E0006",
+      "StatusId": "E0004",
       "StatusReasonId": "",
       "SourceName": "Promoción Directa",
       "LeadIdCRM": "0000000003",
@@ -408,7 +408,7 @@
     "BpName": {
       "FirstName": "Sabrina",
       "MiddleName": "Sarai",
-      "LastName": "Individual",
+      "LastName": "Yépez",
       "SecondName": "Sánchez"
     },
     "BpMainData": {
@@ -542,14 +542,14 @@
     "BpName": {
       "FirstName": "Juan",
       "MiddleName": "Damian",
-      "LastName": "Comerciante1",
+      "LastName": "Suárez",
       "SecondName": "Salgado"
     },
     "BpMainData": {
       "ProductId": "C_GRUPAL_CCR",
       "RegistrationDate": "/Date(1187992777000)/",
       "RoleId": "ZFS004",
-      "StatusId": "E0006",
+      "StatusId": "E0004",
       "StatusReasonId": "",
       "SourceName": "Promoción Directa",
       "LeadIdCRM": "0000000005",
@@ -559,8 +559,8 @@
       "ContactLaterTime": "PT9H51M7S",
       "Cycle": 0,
       "RemainingDays": 0,
-      "ServiceLevelId": 3354,
-      "SourceId": "3",
+      "ServiceLevelId": 3,
+      "SourceId": "Z01",
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
@@ -669,21 +669,21 @@
       }
     }
   },
-  {
+  { 	        
     "CustomerIdCRM": "1000000006",
     "CustomerIdMD": "1000000006",
     "CollaboratorID": "Genesis",
     "BpName": {
       "FirstName": "Samuel",
       "MiddleName": "Salomón",
-      "LastName": "Comerciante1",
+      "LastName": "Galicia",
       "SecondName": "Salazar"
     },
     "BpMainData": {
       "ProductId": "C_GRUPAL_CCR",
       "RegistrationDate": "/Date(1135810777000)/",
       "RoleId": "ZFS004",
-      "StatusId": "E0006",
+      "StatusId": "E0004",
       "StatusReasonId": "",
       "SourceName": "Promoción Directa",
       "LeadIdCRM": "0000000006",
@@ -693,8 +693,8 @@
       "ContactLaterTime": "PT17H9M2S",
       "Cycle": 0,
       "RemainingDays": 0,
-      "ServiceLevelId": 680,
-      "SourceId": "3",
+      "ServiceLevelId": 3,
+      "SourceId": "Z01",
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
@@ -4046,7 +4046,7 @@
       "ServiceLevelId": 3,
       "SourceId": "Z01",
       "ControlListsResult": "ACEPTADO",
-      "RiskLevel": "",
+      "RiskLevel": "3",
       "IsContactLaterEditable": false,
       "AccumulatedCycle": 0
     },
