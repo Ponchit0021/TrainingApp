@@ -1,151 +1,61 @@
 [{
-	"CandidateIdCRM": "CandidateIdCRM 1",
+	"CandidateIdCRM": "1000000071",
 	"CrossSellProductId": "C_IND_CA",
 	"OfferDate": "/Date(1492812057000)/",
-	"MinAmountOffered": 4.777025421499445,
-	"MaxAmountOffered": 8.656089570701074,
+	"MinAmountOffered": 4000.00,
+	"MaxAmountOffered": 7000.00,
 	"IsAccepted": true,
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 1",
 	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "LoanRequestIdCRM 13",
+	"ParentLoanRequestIdCRM": "2000000013",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%201',CrossSellProductId='CrossSellProductId%201')",
 		"type": "AOMobile.CrossSellOffer"
 	}
 }, {
-	"CandidateIdCRM": "CandidateIdCRM 2",
+	"CandidateIdCRM": "1000000072",
 	"CrossSellProductId": "C_IND_CCM",
 	"OfferDate": "/Date(1468879257000)/",
-	"MinAmountOffered": 0.6827948523446037,
-	"MaxAmountOffered": 4.499198373627385,
+	"MinAmountOffered": 4000.00,
+	"MaxAmountOffered": 7000.00,
 	"IsAccepted": true,
 	"IsRejected": true,
 	"RejectionReasonId": "RejectionReasonId 2",
 	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "LoanRequestIdCRM 14",
+	"ParentLoanRequestIdCRM": "2000000014",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%202',CrossSellProductId='CrossSellProductId%202')",
 		"type": "AOMobile.CrossSellOffer"
 	}
 }, {
-	"CandidateIdCRM": "CandidateIdCRM 3",
+	"CandidateIdCRM": "1000000077",
 	"CrossSellProductId": "C_IND_CA_CCR",
 	"OfferDate": "/Date(968796057000)/",
-	"MinAmountOffered": 5.99520421266395,
-	"MaxAmountOffered": 7.177751446663823,
+	"MinAmountOffered": 8000.00,
+	"MaxAmountOffered": 30000.00,
 	"IsAccepted": true,
 	"IsRejected": true,
 	"RejectionReasonId": "RejectionReasonId 3",
 	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "LoanRequestIdCRM 16",
+	"ParentLoanRequestIdCRM": "2000000016",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%203',CrossSellProductId='CrossSellProductId%203')",
 		"type": "AOMobile.CrossSellOffer"
 	}
 }, {
-	"CandidateIdCRM": "CandidateIdCRM 4",
+	"CandidateIdCRM": "1000000076",
 	"CrossSellProductId": "C_IND_CCM_CCR",
 	"OfferDate": "/Date(953420457000)/",
-	"MinAmountOffered": 0.8771330527155485,
-	"MaxAmountOffered": 1.229114857016056,
+	"MinAmountOffered": 8000.00,
+	"MaxAmountOffered": 30000.00,
 	"IsAccepted": true,
 	"IsRejected": false,
 	"RejectionReasonId": "RejectionReasonId 4",
 	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "LoanRequestIdCRM 15",
+	"ParentLoanRequestIdCRM": "2000000015",
 	"__metadata": {
 		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%204',CrossSellProductId='CrossSellProductId%204')",
-		"type": "AOMobile.CrossSellOffer"
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 5",
-	"CrossSellProductId": "CrossSellProductId 5",
-	"OfferDate": "/Date(1548370857000)/",
-	"MinAmountOffered": 0.3478840938217975,
-	"MaxAmountOffered": 0.3711677157937854,
-	"IsAccepted": false,
-	"IsRejected": false,
-	"RejectionReasonId": "RejectionReasonId 5",
-	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 5",
-	"__metadata": {
-		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%205',CrossSellProductId='CrossSellProductId%205')",
-		"type": "AOMobile.CrossSellOffer"
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 6",
-	"CrossSellProductId": "CrossSellProductId 6",
-	"OfferDate": "/Date(1564264857000)/",
-	"MinAmountOffered": 1.1691623020183228,
-	"MaxAmountOffered": 6.35923259631954,
-	"IsAccepted": true,
-	"IsRejected": false,
-	"RejectionReasonId": "RejectionReasonId 6",
-	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 6",
-	"__metadata": {
-		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%206',CrossSellProductId='CrossSellProductId%206')",
-		"type": "AOMobile.CrossSellOffer"
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 7",
-	"CrossSellProductId": "CrossSellProductId 7",
-	"OfferDate": "/Date(1337032857000)/",
-	"MinAmountOffered": 0.3574169947319761,
-	"MaxAmountOffered": 0.3307183111015899,
-	"IsAccepted": false,
-	"IsRejected": true,
-	"RejectionReasonId": "RejectionReasonId 7",
-	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 7",
-	"__metadata": {
-		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%207',CrossSellProductId='CrossSellProductId%207')",
-		"type": "AOMobile.CrossSellOffer"
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 8",
-	"CrossSellProductId": "CrossSellProductId 8",
-	"OfferDate": "/Date(1358636457000)/",
-	"MinAmountOffered": 8.192293075371172,
-	"MaxAmountOffered": 0.3725268204499721,
-	"IsAccepted": false,
-	"IsRejected": false,
-	"RejectionReasonId": "RejectionReasonId 8",
-	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 8",
-	"__metadata": {
-		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%208',CrossSellProductId='CrossSellProductId%208')",
-		"type": "AOMobile.CrossSellOffer"
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 9",
-	"CrossSellProductId": "CrossSellProductId 9",
-	"OfferDate": "/Date(1118527257000)/",
-	"MinAmountOffered": 8.032303138379795,
-	"MaxAmountOffered": 2.3383905316413878,
-	"IsAccepted": false,
-	"IsRejected": true,
-	"RejectionReasonId": "RejectionReasonId 9",
-	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 9",
-	"__metadata": {
-		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%209',CrossSellProductId='CrossSellProductId%209')",
-		"type": "AOMobile.CrossSellOffer"
-	}
-}, {
-	"CandidateIdCRM": "CandidateIdCRM 10",
-	"CrossSellProductId": "CrossSellProductId 10",
-	"OfferDate": "/Date(1329865257000)/",
-	"MinAmountOffered": 9.631097858076226,
-	"MaxAmountOffered": 6.636003514875597,
-	"IsAccepted": false,
-	"IsRejected": false,
-	"RejectionReasonId": "RejectionReasonId 10",
-	"CollaboratorID": "Genesis",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 10",
-	"__metadata": {
-		"uri": "CrossSellOfferSet(CandidateIdCRM='CandidateIdCRM%2010',CrossSellProductId='CrossSellProductId%2010')",
 		"type": "AOMobile.CrossSellOffer"
 	}
 }]

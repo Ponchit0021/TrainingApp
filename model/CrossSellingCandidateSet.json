@@ -1,5 +1,5 @@
 [{
-	"CandidateIdCRM": "CandidateIdCRM 1",
+	"CandidateIdCRM": "1000000071",
 	"CandidateName": {
 		"FirstName": "YOLANDA",
         "MiddleName": "ELIZABETH",
@@ -7,7 +7,7 @@
         "SecondName": "ROMAN"
 	},
 	"ParentGroupName": "HIJOSMUJER1",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 1",
+	"ParentLoanRequestIdCRM": "2000000011",
 	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 1",
 	"CollaboratorID": "Genesis",
@@ -21,7 +21,7 @@
 		}
 	}
 }, {
-	"CandidateIdCRM": "CandidateIdCRM 2",
+	"CandidateIdCRM": "1000000072",
 	"CandidateName": {
 		"FirstName": "ZOILA",
         "MiddleName": "HORTENCIA",
@@ -29,7 +29,7 @@
         "SecondName": "CANCINO"
 	},
 	"ParentGroupName": "HIJOSMUJER1",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 2",
+	"ParentLoanRequestIdCRM": "2000000011",
 	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 2",
 	"CollaboratorID": "Genesis",
@@ -43,7 +43,7 @@
 		}
 	}
 }, {
-	"CandidateIdCRM": "CandidateIdCRM 3",
+	"CandidateIdCRM": "1000000077",
 	"CandidateName": {
 		"FirstName": "ALEJANDRO",
 		"MiddleName": "SALVADOR",
@@ -51,7 +51,7 @@
 		"SecondName": "CULEBRO"
 	},
 	"ParentGroupName": "HIJOSCOMERCIANTE1",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 3",
+	"ParentLoanRequestIdCRM": "2000000012",
 	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 3",
 	"CollaboratorID": "Genesis",
@@ -65,7 +65,7 @@
 		}
 	}
 }, {
-	"CandidateIdCRM": "CandidateIdCRM 4",
+	"CandidateIdCRM": "1000000076",
 	"CandidateName": {
 		"FirstName": "JOSE",
 		"MiddleName": "ANTONIO",
@@ -73,7 +73,7 @@
 		"SecondName": "LEON"
 	},
 	"ParentGroupName": "HIJOSCOMERCIANTE1",
-	"ParentLoanRequestIdCRM": "ParentLoanRequestIdCRM 4",
+	"ParentLoanRequestIdCRM": "2000000012",
 	"IsMarkedToDownload": false,
 	"WeeklyMeetingDay": "WeeklyMeetingDay 4",
 	"CollaboratorID": "Genesis",
