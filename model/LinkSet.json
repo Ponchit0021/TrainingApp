@@ -4273,5 +4273,1485 @@
         "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2077',LoanRequestIdCRM='LoanRequestIdCRM%2016')/LoanRequest"
       }
     }
+  },{
+    "CustomerIdCRM": "1000000021",
+    "LoanRequestIdCRM": "2000000009",
+    "CustomerIdMD": "1000000021",
+    "LoanRequestIdMD": "2000000009",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 21",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 21",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 21",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 21"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000022",
+    "LoanRequestIdCRM": "2000000009",
+    "CustomerIdMD": "1000000022",
+    "LoanRequestIdMD": "2000000009",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 22",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 22",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 22",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 22"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000023",
+    "LoanRequestIdCRM": "2000000009",
+    "CustomerIdMD": "1000000023",
+    "LoanRequestIdMD": "2000000009",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 23",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 23",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 23",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 23"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000024",
+    "LoanRequestIdCRM": "2000000009",
+    "CustomerIdMD": "1000000024",
+    "LoanRequestIdMD": "2000000009",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 24",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 24",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 24",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 24"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000025",
+    "LoanRequestIdCRM": "2000000009",
+    "CustomerIdMD": "1000000025",
+    "LoanRequestIdMD": "2000000009",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 25",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 25",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 25",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 25"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%209')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000026",
+    "LoanRequestIdCRM": "2000000010",
+    "CustomerIdMD": "1000000026",
+    "LoanRequestIdMD": "2000000010",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 26",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 26",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 26",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 26",
+      "DispersionChannelId": "DispersionChannelId 26",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 26",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 26"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000027",
+    "LoanRequestIdCRM": "2000000010",
+    "CustomerIdMD": "1000000027",
+    "LoanRequestIdMD": "2000000010",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 27",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 27",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 27",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 27",
+      "DispersionChannelId": "DispersionChannelId 27",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 27",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 27"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000028",
+    "LoanRequestIdCRM": "2000000010",
+    "CustomerIdMD": "1000000028",
+    "LoanRequestIdMD": "2000000010",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 28",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 28",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 28",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 28",
+      "DispersionChannelId": "DispersionChannelId 28",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 28",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 28"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000029",
+    "LoanRequestIdCRM": "2000000010",
+    "CustomerIdMD": "1000000029",
+    "LoanRequestIdMD": "2000000010",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 29",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 29",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 29",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 29",
+      "DispersionChannelId": "DispersionChannelId 29",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 29",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 29"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000030",
+    "LoanRequestIdCRM": "2000000010",
+    "CustomerIdMD": "1000000030",
+    "LoanRequestIdMD": "2000000010",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 30",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 30",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 30",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 30",
+      "DispersionChannelId": "DispersionChannelId 30",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 30",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 30"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2010')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000021",
+    "LoanRequestIdCRM": "2000000011",
+    "CustomerIdMD": "1000000021",
+    "LoanRequestIdMD": "2000000011",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 21",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 21",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 21",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 21"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000022",
+    "LoanRequestIdCRM": "2000000011",
+    "CustomerIdMD": "1000000022",
+    "LoanRequestIdMD": "2000000011",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 22",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 22",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 22",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 22"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000023",
+    "LoanRequestIdCRM": "2000000011",
+    "CustomerIdMD": "1000000023",
+    "LoanRequestIdMD": "2000000011",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 23",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 23",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 23",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 23"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000024",
+    "LoanRequestIdCRM": "2000000011",
+    "CustomerIdMD": "1000000024",
+    "LoanRequestIdMD": "2000000011",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 24",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 24",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 24",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 24"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000025",
+    "LoanRequestIdCRM": "2000000011",
+    "CustomerIdMD": "1000000025",
+    "LoanRequestIdMD": "2000000011",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG01",
+      "CreditAmount": 2.3954507479864784,
+      "AuthorizedAmount": 3.8863731687482383,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 6774,
+      "MonthsOnHouse": 2938,
+      "YearsOnLocal": 5049,
+      "MonthsOnLocal": 3454,
+      "TotalIncomeAmount": 0.9036508079324146,
+      "TotalOutcomeAmount": 6.416056326497235,
+      "FeeEnabledToPay": 0.022652529835620605,
+      "LoanDestiny": "LoanDestiny 25",
+      "IsCreditGuaranteeWarrant": false,
+      "RequiredAmount": 3.763135375492086,
+      "ProposedAmount": 9.722085935780477,
+      "ProposedFrequency": "ProposedFrequency 25",
+      "ProposedFee": 3.571855175435754,
+      "ProposedPeriod": 0.36423993292154844,
+      "MaxLiquidity": 9.856095980367606,
+      "PaymentFrequency": "PaymentFrequency 25",
+      "MaxRecurrentAmount": 0.20435440633167712
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0,
+      "ControlListsResult": 1,
+      "RiskLevel": 1,
+      "SavingsAmount": 0,
+      "DispersionMediumId": "",
+      "DispersionChannelId": "",
+      "SemaphoreResultFilters": 2
+    },
+    "AvailableToFilter": "",
+    "GrpCrossSellData": {
+      "BusinessIncome": 2.2573273430661023,
+      "SpouseContribution": 8.259538802081439,
+      "FamilyContribution": 7.923483186628985,
+      "MoneyTransfer": 9.039769394377705,
+      "OtherIncome": 1.3580834851246681,
+      "TotalIncome": 6.108271326162336,
+      "BusinessExpenses": 6.8898322739280005,
+      "HouseholdExpenses": 5.2939610985067205,
+      "ServiceAndRentExpenses": 5.615191735235683,
+      "CompartamosFee": 8.026047163743211,
+      "OtherDebts": 2.671967856029769,
+      "TotalExpenses": 4.350153182048871,
+      "TotalMonthlyLiquidity": 4.016338269840826,
+      "MaxAllowedLiquidity": 3.248251524128829,
+      "RequiredAmount": 8.319710681073813,
+      "FeeEnabledToPay": 1.9867932151445955,
+      "LoanDestiny": "LoanDestiny 25"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2071',LoanRequestIdCRM='LoanRequestIdCRM%2011')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000026",
+    "LoanRequestIdCRM": "2000000012",
+    "CustomerIdMD": "1000000026",
+    "LoanRequestIdMD": "2000000012",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 26",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 26",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 26",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 26",
+      "DispersionChannelId": "DispersionChannelId 26",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 26",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 26"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000027",
+    "LoanRequestIdCRM": "2000000012",
+    "CustomerIdMD": "1000000027",
+    "LoanRequestIdMD": "2000000012",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 27",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 27",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 27",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 27",
+      "DispersionChannelId": "DispersionChannelId 27",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 27",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 27"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000028",
+    "LoanRequestIdCRM": "2000000012",
+    "CustomerIdMD": "1000000028",
+    "LoanRequestIdMD": "2000000012",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 28",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 28",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 28",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 28",
+      "DispersionChannelId": "DispersionChannelId 28",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 28",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 28"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000029",
+    "LoanRequestIdCRM": "2000000012",
+    "CustomerIdMD": "1000000029",
+    "LoanRequestIdMD": "2000000012",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 29",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 29",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 29",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 29",
+      "DispersionChannelId": "DispersionChannelId 29",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 29",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 29"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/LoanRequest"
+      }
+    }
+  },{
+    "CustomerIdCRM": "1000000030",
+    "LoanRequestIdCRM": "2000000012",
+    "CustomerIdMD": "1000000030",
+    "LoanRequestIdMD": "2000000012",
+    "CollaboratorID": "Genesis",
+    "GroupLoanData": {
+      "RoleInTheGroupId": "ZG04",
+      "CreditAmount": 2.3494896538364385,
+      "AuthorizedAmount": 2.613408095896108,
+      "RejectionCauseId": ""
+    },
+    "IndividualLoanData": {
+      "YearsOnHouse": 8697,
+      "MonthsOnHouse": 5061,
+      "YearsOnLocal": 2730,
+      "MonthsOnLocal": 3556,
+      "TotalIncomeAmount": 8.54508993468156,
+      "TotalOutcomeAmount": 7.399369758739239,
+      "FeeEnabledToPay": 4.786077014178907,
+      "LoanDestiny": "LoanDestiny 30",
+      "IsCreditGuaranteeWarrant": true,
+      "RequiredAmount": 3.092929418492516,
+      "ProposedAmount": 2.5522362324585623,
+      "ProposedFrequency": "ProposedFrequency 30",
+      "ProposedFee": 7.702196446952215,
+      "ProposedPeriod": 5.659983032152267,
+      "MaxLiquidity": 8.438938918898412,
+      "PaymentFrequency": "PaymentFrequency 30",
+      "MaxRecurrentAmount": 8.297783979963654
+    },
+    "GeneralLoanData": {
+      "InsuranceAmount": 0.4372705893700002,
+      "ControlListsResult": 2167,
+      "RiskLevel": 7242,
+      "SavingsAmount": 1.0526817012889378,
+      "DispersionMediumId": "DispersionMediumId 30",
+      "DispersionChannelId": "DispersionChannelId 30",
+      "SemaphoreResultFilters": 7265
+    },
+    "AvailableToFilter": "AvailableToFilter 30",
+    "GrpCrossSellData": {
+      "BusinessIncome": 3.7861678325236103,
+      "SpouseContribution": 9.027431890606332,
+      "FamilyContribution": 8.651990224711719,
+      "MoneyTransfer": 4.039290468251709,
+      "OtherIncome": 0.24965112007632628,
+      "TotalIncome": 6.66422601623287,
+      "BusinessExpenses": 6.997117873737393,
+      "HouseholdExpenses": 0.32501577377859414,
+      "ServiceAndRentExpenses": 4.469477966559197,
+      "CompartamosFee": 0.6112115164404464,
+      "OtherDebts": 5.689823677950145,
+      "TotalExpenses": 4.860576414037543,
+      "TotalMonthlyLiquidity": 3.2717235080567852,
+      "MaxAllowedLiquidity": 4.485072342280141,
+      "RequiredAmount": 3.7830463561749483,
+      "FeeEnabledToPay": 1.6784122702417403,
+      "LoanDestiny": "LoanDestiny 30"
+    },
+    "__metadata": {
+      "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')",
+      "type": "AOMobile.Link"
+    },
+    "Customer": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/Customer"
+      }
+    },
+    "LoanRequest": {
+      "__deferred": {
+        "uri": "LinkSet(CustomerIdCRM='CustomerIdCRM%2076',LoanRequestIdCRM='LoanRequestIdCRM%2012')/LoanRequest"
+      }
+    }
   }
 ]
