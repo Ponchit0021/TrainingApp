@@ -346,7 +346,7 @@
 		"StatusText": "En Proceso",
 		"FirstPaymentDate": "/Date(1521241174000)/",
 		"ExpenditureDate": "/Date(1362092374000)/",
-		"Term": "6",
+		"Term": "0000000006",
 		"Frequency": "Z1412",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
