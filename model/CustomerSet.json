@@ -430,7 +430,7 @@
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
-      "AccumulatedCycle": 0
+      "AccumulatedCycle": 2
     },
     "BpComplementaryData": {
       "Curp": "GUTR721106HDFGHJ09",
@@ -9408,7 +9408,7 @@
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
-      "AccumulatedCycle": 1
+      "AccumulatedCycle": 2
     },
     "BpComplementaryData": {
       "Curp": "HEMH671015MCSRLM02",
