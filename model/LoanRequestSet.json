@@ -47,7 +47,7 @@
 		"Frequency": "Z1422",
 		"IsReadyToApprove": true,
 		"IsReadyToApproveDescription": "IsReadyToApproveDescription 1",
-		"InsuranceMinimumCycle": "InsuranceMinimumCycle 1",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": "InsuranceProductId 1"
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 1",
@@ -148,7 +148,7 @@
 		"Frequency": "Z1412",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 2",
@@ -249,7 +249,7 @@
 		"Frequency": "Z1410",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 3",
@@ -350,7 +350,7 @@
 		"Frequency": "Z1412",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 4",
@@ -447,11 +447,11 @@
 		"StatusText": "En Proceso",
 		"FirstPaymentDate": "/Date(1201042774000)/",
 		"ExpenditureDate": "/Date(1387753174000)/",
-		"Term": "0000000000",
+		"Term": "0000000006",
 		"Frequency": "Z1412",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 5",
@@ -548,11 +548,11 @@
 		"StatusText": "En Proceso",
 		"FirstPaymentDate": "/Date(1201042774000)/",
 		"ExpenditureDate": "/Date(1387753174000)/",
-		"Term": "0000000000",
+		"Term": "0000000006",
 		"Frequency": "Z1410",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 6",
@@ -653,7 +653,7 @@
 		"Frequency": "Z1412",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 7",
@@ -754,7 +754,7 @@
 		"Frequency": "Z1410",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 8",
@@ -855,7 +855,7 @@
 		"Frequency": "Z1412",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 11",
@@ -956,7 +956,7 @@
 		"Frequency": "Z1410",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "002",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": "SEGURO VIDA BÁSICO COMERCIANTE"
 	},
 	"LoanRequestIdCRMParent": "LoanRequestIdCRMParent 12",
@@ -1057,7 +1057,7 @@
 		"Frequency": "Z1440",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "",
@@ -1158,7 +1158,7 @@
 		"Frequency": "Z1440",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "",
@@ -1259,7 +1259,7 @@
 		"Frequency": "Z1440",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "",
@@ -1360,7 +1360,7 @@
 		"Frequency": "Z1440",
 		"IsReadyToApprove": false,
 		"IsReadyToApproveDescription": "",
-		"InsuranceMinimumCycle": "",
+		"InsuranceMinimumCycle": "2",
 		"InsuranceProductId": ""
 	},
 	"LoanRequestIdCRMParent": "",
