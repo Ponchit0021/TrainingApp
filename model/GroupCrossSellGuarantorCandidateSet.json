@@ -1,6 +1,6 @@
 [{
-	"CustomerIdCRM": "CustomerIdCRM 71",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 11",
+	"CustomerIdCRM": "1000000071",
+	"LoanRequestIdCRM": "2000000011",
 	"GuarantorCandidateName": {
 		"FirstName": "YOLANDA",
         "MiddleName": "ELIZABETH",
@@ -14,8 +14,8 @@
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 72",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 11",
+	"CustomerIdCRM": "1000000072",
+	"LoanRequestIdCRM": "2000000011",
 	"GuarantorCandidateName": {
 		"FirstName": "ZOILA",
         "MiddleName": "HORTENCIA",
@@ -29,8 +29,8 @@
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 73",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 11",
+	"CustomerIdCRM": "1000000073",
+	"LoanRequestIdCRM": "2000000011",
 	"GuarantorCandidateName": {
 		"FirstName": "NELLY",
         "MiddleName": "ANTONIETA",
@@ -44,8 +44,8 @@
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 74",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 11",
+	"CustomerIdCRM": "1000000074",
+	"LoanRequestIdCRM": "2000000011",
 	"GuarantorCandidateName": {
 		"FirstName": "LIDIA",
         "MiddleName": "RUTH",
@@ -59,8 +59,8 @@
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 75",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 11",
+	"CustomerIdCRM": "1000000075",
+	"LoanRequestIdCRM": "2000000011",
 	"GuarantorCandidateName": {
 		"FirstName": "FRANCISCA",
         "MiddleName": "HORTENCIA",
@@ -74,8 +74,8 @@
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 76",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 12",
+	"CustomerIdCRM": "1000000076",
+	"LoanRequestIdCRM": "2000000012",
 	"GuarantorCandidateName": {
 		"FirstName": "JOSE",
 		"MiddleName": "ANTONIO",
@@ -89,8 +89,8 @@
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 77",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 12",
+	"CustomerIdCRM": "1000000077",
+	"LoanRequestIdCRM": "2000000012",
 	"GuarantorCandidateName": {
 		"FirstName": "ALEJANDRO",
 		"MiddleName": "SALVADOR",
@@ -104,8 +104,8 @@
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 78",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 12",
+	"CustomerIdCRM": "1000000078",
+	"LoanRequestIdCRM": "2000000012",
 	"GuarantorCandidateName": {
 		"FirstName": "AUSENCIO",
 		"MiddleName": "LUIS",
@@ -119,8 +119,8 @@
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 79",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 12",
+	"CustomerIdCRM": "1000000079",
+	"LoanRequestIdCRM": "2000000012",
 	"GuarantorCandidateName": {
 		"FirstName": "ENRIQUETA",
 		"MiddleName": "ALICIA",
@@ -134,8 +134,8 @@
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
-	"CustomerIdCRM": "CustomerIdCRM 80",
-	"LoanRequestIdCRM": "LoanRequestIdCRM 12",
+	"CustomerIdCRM": "1000000080",
+	"LoanRequestIdCRM": "2000000012",
 	"GuarantorCandidateName": {
 		"FirstName": "AMPARO",
 		"MiddleName": "SOLEDAD",
