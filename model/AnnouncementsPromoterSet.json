@@ -9,10 +9,10 @@
     "categoryName": "Avisos",
     "objectTypeID": "1",
     "objectTypeName": "Solicitantes",
-    "objectDMID": "CustomerIdMD 5",
-    "objectCRMID": "CustomerIdCRM 5",
-    "productID": "",
-    "objectName": "Juan Damian Salgado",
+    "objectDMID": "1000000051",
+    "objectCRMID": "1000000051",
+    "productID": "C_IND_CI",
+    "objectName": "Oscar Monroy Garcia",
     "customerCRMID": "",
     "__metadata": {
         "uri": "AnnouncementsPromoterSet('1000')",
@@ -20,6 +20,26 @@
     }
 }, {
     "notificationID": "1001",
+    "promoterID": "Genesis",
+    "dateTime": "/Date(1523138381000)/",
+    "message": "BP creado exitosamente",
+    "attended": "0",
+    "updateDateTime": "",
+    "categoryID": "1",
+    "categoryName": "Avisos",
+    "objectTypeID": "1",
+    "objectTypeName": "Solicitantes",
+    "objectDMID": "1000000064",
+    "objectCRMID": "1000000064",
+    "productID": "C_GRUPAL_CM",
+    "objectName": "Barbara Balbuena Caso",
+    "customerCRMID": "",
+    "__metadata": {
+        "uri": "AnnouncementsPromoterSet('1001')",
+        "type": "IGWSERVICESV5.AnnouncementsPromoter"
+    }
+}, {
+    "notificationID": "1002",
     "promoterID": "Genesis",
     "dateTime": "/Date(1454713177000)/",
     "message": "Solicitud creada",
@@ -29,13 +49,53 @@
     "categoryName": "Avisos",
     "objectTypeID": "2",
     "objectTypeName": "Solicitudes",
-    "objectDMID": "LoanRequestIdMD 4",
-    "objectCRMID": "LoanRequestIdCRM 4",
+    "objectDMID": "2000000004",
+    "objectCRMID": "2000000004",
     "productID": "C_IND_CI",
     "objectName": "Sabrina Sarai Sánchez",
     "customerCRMID": "",
     "__metadata": {
-        "uri": "AnnouncementsPromoterSet('1001')",
+        "uri": "AnnouncementsPromoterSet('1002')",
+        "type": "IGWSERVICESV5.AnnouncementsPromoter"
+    }
+}, {
+    "notificationID": "1003",
+    "promoterID": "Genesis",
+    "dateTime": "/Date(1454713177000)/",
+    "message": "Solicitud creada",
+    "attended": "0",
+    "updateDateTime": "",
+    "categoryID": "1",
+    "categoryName": "Avisos",
+    "objectTypeID": "2",
+    "objectTypeName": "Solicitudes",
+    "objectDMID": "2000000002",
+    "objectCRMID": "2000000002",
+    "productID": "C_GRUPAL_CM",
+    "objectName": "Las Abejitas",
+    "customerCRMID": "",
+    "__metadata": {
+        "uri": "AnnouncementsPromoterSet('1003')",
+        "type": "IGWSERVICESV5.AnnouncementsPromoter"
+    }
+}, {
+    "notificationID": "1004",
+    "promoterID": "Genesis",
+    "dateTime": "/Date(1523138381000)/",
+    "message": "BP duplicado, misma OS, sin cartera activa",
+    "attended": "0",
+    "updateDateTime": "",
+    "categoryID": "1",
+    "categoryName": "Avisos",
+    "objectTypeID": "1",
+    "objectTypeName": "Solicitantes",
+    "objectDMID": "1000000028",
+    "objectCRMID": "1000000028",
+    "productID": "C_IND_CCM_CCR",
+    "objectName": "Enrique Joaquin Buendia Hidalgo",
+    "customerCRMID": "",
+    "__metadata": {
+        "uri": "AnnouncementsPromoterSet('1004')",
         "type": "IGWSERVICESV5.AnnouncementsPromoter"
     }
 }]

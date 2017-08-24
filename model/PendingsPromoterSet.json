@@ -12,8 +12,8 @@
     "categoryName": "Mis pendientes",
     "objectTypeID": "1",
     "objectTypeName": "Solicitantes",
-    "objectDMID": "CustomerIdMD 5",
-    "objectCRMID": "CustomerIdCRM 5",
+    "objectDMID": "1000000005",
+    "objectCRMID": "1000000005",
     "productID": "",
     "objectName": "Juan Damián Salgado",
     "customerCRMID": "",
@@ -23,52 +23,6 @@
     }
 }, {
     "notificationID": "802",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "NA",
-    "documentType": "Solicitud de modificación de oportunidad",
-    "reason": "Día de Reunión",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "2",
-    "objectTypeName": "Solicitudes",
-    "objectDMID": "LoanRequestIdMD 5",
-    "objectCRMID": "LoanRequestIdCRM 5",
-    "productID": "C_IND_CA",
-    "objectName": "ELISALET YOLITZIN DAYEDT SARACHO",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('802')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "803",
-    "promoterID": "Genesis",
-    "dateTime": "/Date(1523138381000)/",
-    "documentID": "CCR",
-    "documentType": "Contrato de Crédito",
-    "reason": "Ilegible",
-    "comment": "",
-    "attended": "0",
-    "updateDateTime": "",
-    "categoryID": "2",
-    "categoryName": "Mis pendientes",
-    "objectTypeID": "6",
-    "objectTypeName": "Digitalización",
-    "objectDMID": "C0F6AEFAA3162CA61496081216873",
-    "objectCRMID": "0030004688",
-    "productID": "",
-    "objectName": "",
-    "customerCRMID": "",
-    "__metadata": {
-        "uri": "PendingsPromoterSet('803')",
-        "type": "IGWSERVICESV5.PendingsPromoter"
-    }
-}, {
-    "notificationID": "804",
     "promoterID": "Genesis",
     "dateTime": "/Date(1523138381000)/",
     "documentID": "EVN",
@@ -87,7 +41,7 @@
     "objectName": "MAYTE DURAN",
     "customerCRMID": "",
     "__metadata": {
-        "uri": "PendingsPromoterSet('804')",
+        "uri": "PendingsPromoterSet('802')",
         "type": "IGWSERVICESV5.PendingsPromoter"
     }
 }]
