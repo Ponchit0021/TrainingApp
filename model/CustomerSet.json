@@ -5388,7 +5388,7 @@
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
-      "AccumulatedCycle": 1
+      "AccumulatedCycle": 2
     },
     "BpComplementaryData": {
       "Curp": "CURP870909MDFGYF01",
@@ -5522,7 +5522,7 @@
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
-      "AccumulatedCycle": 1
+      "AccumulatedCycle": 2
     },
     "BpComplementaryData": {
       "Curp": "CURP870909MDFGYF01",
@@ -5581,7 +5581,7 @@
     "BpFlag": {
       "BPFlagDistinction": 8.382893975857366
     },
-    "PreLoanRequestID": "816c1443-c96f-454f-b317-0fa5efa60e87",
+    "PreLoanRequestID": "05f455f3-f298-4dfd-8845-3b02bb3ed19a",
     "__metadata": {
       "uri": "CustomerSet('CustomerIdCRM%2042')",
       "type": "AOMobile.Customer"
@@ -5656,7 +5656,7 @@
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
-      "AccumulatedCycle": 1
+      "AccumulatedCycle": 2
     },
     "BpComplementaryData": {
       "Curp": "CURP870909MDFGYF01",
@@ -5715,7 +5715,7 @@
     "BpFlag": {
       "BPFlagDistinction": 6.158385905638124
     },
-    "PreLoanRequestID": "07326d3e-1690-4864-94a4-938f59cee843",
+    "PreLoanRequestID": "05f455f3-f298-4dfd-8845-3b02bb3ed19a",
     "__metadata": {
       "uri": "CustomerSet('CustomerIdCRM%2043')",
       "type": "AOMobile.Customer"
@@ -5790,7 +5790,7 @@
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
-      "AccumulatedCycle": 1
+      "AccumulatedCycle": 2
     },
     "BpComplementaryData": {
       "Curp": "CURP870909MDFGYF01",
@@ -5849,7 +5849,7 @@
     "BpFlag": {
       "BPFlagDistinction": 7.794860121689227
     },
-    "PreLoanRequestID": "085e0ceb-0457-4a96-8116-18b024590ae4",
+    "PreLoanRequestID": "05f455f3-f298-4dfd-8845-3b02bb3ed19a",
     "__metadata": {
       "uri": "CustomerSet('CustomerIdCRM%2044')",
       "type": "AOMobile.Customer"
@@ -5983,7 +5983,7 @@
     "BpFlag": {
       "BPFlagDistinction": 5.644139925560543
     },
-    "PreLoanRequestID": "eaa8b7fe-5af3-4a34-afdd-05880784ad50",
+    "PreLoanRequestID": "05f455f3-f298-4dfd-8845-3b02bb3ed19a",
     "__metadata": {
       "uri": "CustomerSet('CustomerIdCRM%2045')",
       "type": "AOMobile.Customer"
@@ -6058,7 +6058,7 @@
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
-      "AccumulatedCycle": 1
+      "AccumulatedCycle": 2
     },
     "BpComplementaryData": {
       "Curp": "GUTR721106HDFGHJ09",
@@ -6117,7 +6117,7 @@
     "BpFlag": {
       "BPFlagDistinction": 3.8039528260541378
     },
-    "PreLoanRequestID": "9d46d512-2189-4523-9aa4-a6eb3d9ca713",
+    "PreLoanRequestID": "83d9e9af-ee9a-43ea-9ab1-d0fc263a7c2e",
     "__metadata": {
       "uri": "CustomerSet('CustomerIdCRM%2046')",
       "type": "AOMobile.Customer"
@@ -6192,7 +6192,7 @@
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
-      "AccumulatedCycle": 1
+      "AccumulatedCycle": 2
     },
     "BpComplementaryData": {
       "Curp": "GUTR721106HDFGHJ09",
@@ -6251,7 +6251,7 @@
     "BpFlag": {
       "BPFlagDistinction": 8.80340579253376
     },
-    "PreLoanRequestID": "71723438-fd36-43f0-bad1-d6feddef7778",
+    "PreLoanRequestID": "83d9e9af-ee9a-43ea-9ab1-d0fc263a7c2e",
     "__metadata": {
       "uri": "CustomerSet('CustomerIdCRM%2047')",
       "type": "AOMobile.Customer"
@@ -6326,7 +6326,7 @@
       "ControlListsResult": "ACEPTADO",
       "RiskLevel": "",
       "IsContactLaterEditable": false,
-      "AccumulatedCycle": 1
+      "AccumulatedCycle": 2
     },
     "BpComplementaryData": {
       "Curp": "GUTR721106HDFGHJ09",
@@ -6385,7 +6385,7 @@
     "BpFlag": {
       "BPFlagDistinction": 4.089930611241607
     },
-    "PreLoanRequestID": "28ad443d-ef2a-4008-ab8c-d5c0d763ae03",
+    "PreLoanRequestID": "83d9e9af-ee9a-43ea-9ab1-d0fc263a7c2e",
     "__metadata": {
       "uri": "CustomerSet('CustomerIdCRM%2048')",
       "type": "AOMobile.Customer"
@@ -6519,7 +6519,7 @@
     "BpFlag": {
       "BPFlagDistinction": 1.0902351536357902
     },
-    "PreLoanRequestID": "ba244ae2-472b-4357-b67a-5cdf000ea631",
+    "PreLoanRequestID": "83d9e9af-ee9a-43ea-9ab1-d0fc263a7c2e",
     "__metadata": {
       "uri": "CustomerSet('CustomerIdCRM%2049')",
       "type": "AOMobile.Customer"
@@ -6653,7 +6653,7 @@
     "BpFlag": {
       "BPFlagDistinction": 6.3523662233117495
     },
-    "PreLoanRequestID": "082a9b5a-b087-4779-a78d-eec65748138d",
+    "PreLoanRequestID": "83d9e9af-ee9a-43ea-9ab1-d0fc263a7c2e",
     "__metadata": {
       "uri": "CustomerSet('CustomerIdCRM%2050')",
       "type": "AOMobile.Customer"
@@ -8324,7 +8324,7 @@
       "StatusId": "E0006",
       "StatusReasonId": "",
       "SourceName": "Promoción Directa",
-      "LeadIdCRM": "0000000041",
+      "LeadIdCRM": "0000000063",
       "ServiceOfficeID": "242",
       "ServiceOfficeName": "TOLUCA",
       "ContactLaterDate": "/Date(1502254800000)/",
