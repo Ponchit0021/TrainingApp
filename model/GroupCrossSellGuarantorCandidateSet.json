@@ -10,7 +10,7 @@
 	"RegistrationDate": "/Date(1418943662000)/",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
-		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%201',LoanRequestIdCRM='LoanRequestIdCRM%201')",
+		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='1000000071',LoanRequestIdCRM='2000000011')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
@@ -25,7 +25,7 @@
 	"RegistrationDate": "/Date(1364511662000)/",
 	"CollaboratorID": "Genesis",
 	"__metadata": {
-		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='CustomerIdCRM%202',LoanRequestIdCRM='LoanRequestIdCRM%202')",
+		"uri": "GroupCrossSellGuarantorCandidateSet(CustomerIdCRM='1000000072',LoanRequestIdCRM='2000000011')",
 		"type": "AOMobile.GroupCrossSellGuarantorCandidate"
 	}
 }, {
