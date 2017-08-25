@@ -3287,6 +3287,7 @@
      },
 
      closeSendCore: function() {
+         sap.ui.getCore().AppContext.loader.close();
          var oCurrentDialog = sap.ui.getCore().byId("appDialogSendCore");
          //Se destruye el contenido del dialogo y se cierra dialogo
          oCurrentDialog.destroyContent();
