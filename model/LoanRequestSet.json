@@ -1064,8 +1064,8 @@
 	"SubsequenceType": "Z02",
 	"IsApproved": false,
 	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "LoanRequestIdCRM 11",
-		"ParentLoanRequestIdMD": "LoanRequestIdMD 11",
+		"ParentLoanRequestIdCRM": "2000000011",
+		"ParentLoanRequestIdMD": "2000000011",
 		"ParentProductId": "C_GRUPAL_CM",
 		"CrossSellProductId": "C_IND_CA",
 		"MinAmountOffered": "8.0000000000000000E+03",
@@ -1073,7 +1073,7 @@
 	},
 	"LRGroupCrossSell": {
 		"ParentGroupId": "1020099911",
-		"ParentGroupName": "HIJOSMUJER1"
+		"ParentGroupName": "LAS FLORECITAS"
 	},
 	"__metadata": {
 		"uri": "LoanRequestSet('LoanRequestIdCRM%2013')",
@@ -1165,8 +1165,8 @@
 	"SubsequenceType": "Z02",
 	"IsApproved": false,
 	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "LoanRequestIdCRM 11",
-		"ParentLoanRequestIdMD": "LoanRequestIdMD 11",
+		"ParentLoanRequestIdCRM": "2000000011",
+		"ParentLoanRequestIdMD": "2000000011",
 		"ParentProductId": "C_GRUPAL_CM",
 		"CrossSellProductId": "C_IND_CCM",
 		"MinAmountOffered": "8.0000000000000000E+03",
@@ -1174,7 +1174,7 @@
 	},
 	"LRGroupCrossSell": {
 		"ParentGroupId": "1020099911",
-		"ParentGroupName": "HIJOSMUJER1"
+		"ParentGroupName": "LAS FLORECITAS"
 	},
 	"__metadata": {
 		"uri": "LoanRequestSet('LoanRequestIdCRM%2014')",
@@ -1266,8 +1266,8 @@
 	"SubsequenceType": "Z02",
 	"IsApproved": false,
 	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "LoanRequestIdCRM 12",
-		"ParentLoanRequestIdMD": "LoanRequestIdMD 12",
+		"ParentLoanRequestIdCRM": "2000000012",
+		"ParentLoanRequestIdMD": "2000000012",
 		"ParentProductId": "C_GRUPAL_CCR",
 		"CrossSellProductId": "C_IND_CCM_CCR",
 		"MinAmountOffered": "8.0000000000000000E+03",
@@ -1275,7 +1275,7 @@
 	},
 	"LRGroupCrossSell": {
 		"ParentGroupId": "1020099912",
-		"ParentGroupName": "HIJOSCOMERCIANTE1"
+		"ParentGroupName": "CHAMBEADORES"
 	},
 	"__metadata": {
 		"uri": "LoanRequestSet('LoanRequestIdCRM%2015')",
@@ -1367,8 +1367,8 @@
 	"SubsequenceType": "Z02",
 	"IsApproved": false,
 	"LRGeneralCrossSell": {
-		"ParentLoanRequestIdCRM": "LoanRequestIdCRM 12",
-		"ParentLoanRequestIdMD": "LoanRequestIdMD 12",
+		"ParentLoanRequestIdCRM": "2000000012",
+		"ParentLoanRequestIdMD": "2000000012",
 		"ParentProductId": "C_GRUPAL_CCR",
 		"CrossSellProductId": "C_IND_CA_CCR",
 		"MinAmountOffered": "8.0000000000000000E+03",
@@ -1376,7 +1376,7 @@
 	},
 	"LRGroupCrossSell": {
 		"ParentGroupId": "1020099912",
-		"ParentGroupName": "HIJOSCOMERCIANTE1"
+		"ParentGroupName": "CHAMBEADORES"
 	},
 	"__metadata": {
 		"uri": "LoanRequestSet('LoanRequestIdCRM%2016')",
