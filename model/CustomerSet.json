@@ -77,7 +77,7 @@
         "WorkPhone": "",
         "BPIdSpouse": "0060009983",
         "BpNameData": {
-          "FirstName": "Jesús",
+          "FirstName": "Jesus",
           "MiddleName": "Ernesto",
           "LastName": "Reyes",
           "SecondName": "Almeira"
@@ -406,10 +406,10 @@
     "CustomerIdMD": "1000000004",
     "CollaboratorID": "Genesis",
     "BpName": {
-      "FirstName": "Sabrina",
-      "MiddleName": "Sarai",
-      "LastName": "Yépez",
-      "SecondName": "Sánchez"
+      "FirstName": "SABRINA",
+      "MiddleName": "SARAI",
+      "LastName": "YEPEZ",
+      "SecondName": "SANCHEZ"
     },
     "BpMainData": {
       "ProductId": "C_IND_CI",
@@ -479,7 +479,7 @@
         "WorkPhone": "",
         "BPIdSpouse": "0060009983",
         "BpNameData": {
-          "FirstName": "Jesús",
+          "FirstName": "JESUS",
           "MiddleName": "Ernesto",
           "LastName": "Reyes",
           "SecondName": "Almeira"
@@ -542,7 +542,7 @@
     "BpName": {
       "FirstName": "Juan",
       "MiddleName": "Damian",
-      "LastName": "Suárez",
+      "LastName": "Suarez",
       "SecondName": "Salgado"
     },
     "BpMainData": {
@@ -675,7 +675,7 @@
     "CollaboratorID": "Genesis",
     "BpName": {
       "FirstName": "Samuel",
-      "MiddleName": "Salomón",
+      "MiddleName": "Salomon",
       "LastName": "Galicia",
       "SecondName": "Salazar"
     },
@@ -2686,7 +2686,7 @@
     "BpName": {
       "FirstName": "PAULINA",
       "MiddleName": "TERESA",
-      "LastName": "ÁLVAREZ",
+      "LastName": "ALVAREZ",
       "SecondName": "BECERRA"
     },
     "BpMainData": {
@@ -2821,7 +2821,7 @@
       "FirstName": "TANIA",
       "MiddleName": "JULIETA",
       "LastName": "DIEGO",
-      "SecondName": "ROMÁN"
+      "SecondName": "ROMAN"
     },
     "BpMainData": {
       "ProductId": "C_GRUPAL_CM",
@@ -3759,7 +3759,7 @@
       "FirstName": "BERENICE",
       "MiddleName": "BEATRIZ",
       "LastName": "VALDEZ",
-      "SecondName": "PÉREZ"
+      "SecondName": "PEREZ"
     },
     "BpMainData": {
       "ProductId": "C_IND_CCM_CCR",
@@ -3891,7 +3891,7 @@
     "CollaboratorID": "Genesis",
     "BpName": {
       "FirstName": "BRENDA",
-      "MiddleName": "YAZMÍN",
+      "MiddleName": "YAZMIN",
       "LastName": "MORENO",
       "SecondName": "QUEZADA"
     },
@@ -5097,7 +5097,7 @@
     "CollaboratorID": "Genesis",
     "BpName": {
       "FirstName": "ANTONIO",
-      "MiddleName": "JOSÉ",
+      "MiddleName": "JOSE",
       "LastName": "YUNEZ",
       "SecondName": "YARRINGTON"
     },
@@ -5902,7 +5902,7 @@
     "BpName": {
       "FirstName": "LILIA",
       "MiddleName": "LAURA",
-      "LastName": "SAÚL",
+      "LastName": "SAUL",
       "SecondName": "NIÑO"
     },
     "BpMainData": {
@@ -6438,7 +6438,7 @@
     "BpName": {
       "FirstName": "ALEJANDRO",
       "MiddleName": "ANTONIO",
-      "LastName": "PÁEZ",
+      "LastName": "PAEZ",
       "SecondName": "VARELA"
     },
     "BpMainData": {
@@ -6571,7 +6571,7 @@
     "CollaboratorID": "Genesis",
     "BpName": {
       "FirstName": "RAFAEL",
-      "MiddleName": "RAÚL",
+      "MiddleName": "RAUL",
       "LastName": "ROCHA",
       "SecondName": "MARQUEZ"
     },
@@ -7243,7 +7243,7 @@
       "FirstName": "LEONARDO",
       "MiddleName": "",
       "LastName": "CAMARILLO",
-      "SecondName": "JUÁREZ"
+      "SecondName": "JUAREZ"
     },
     "BpMainData": {
       "ProductId": "C_GRUPAL_CCR",
@@ -8314,7 +8314,7 @@
     "BpName": {
       "FirstName": "EDGAR",
       "MiddleName": "",
-      "LastName": "ENSUÁSTEGUI",
+      "LastName": "ENSUASTEGUI",
       "SecondName": "BRAVO"
     },
     "BpMainData": {
