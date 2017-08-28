@@ -585,7 +585,7 @@
                             oObjectBase.deletePropertyFromObject(oLoan.GeneralLoanRequestData, "StatusText");
                             oObjectBase.deletePropertyFromObject(oLoan.GeneralLoanRequestData, "IsReadyToApprove");
                             oObjectBase.deletePropertyFromObject(oLoan.GeneralLoanRequestData, "IsReadyToApproveDescription");
-                            oObjectBase.deletePropertyFromObject(oLoan.GeneralLoanRequestData, "Term");
+                            //oObjectBase.deletePropertyFromObject(oLoan.GeneralLoanRequestData, "Term");
                             oObjectBase.deletePropertyFromObject(oLoan.GeneralLoanRequestData, "InsuranceProductId");
                             oObjectBase.deletePropertyFromObject(oLoan.GeneralLoanRequestData, "InsuranceMinimumCycle");
                             oObjectBase.deletePropertyFromObject(oLoan.LRGeneralCrossSell, "__metadata");
