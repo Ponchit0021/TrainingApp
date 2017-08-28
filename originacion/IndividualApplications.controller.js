@@ -12,7 +12,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         }
         return _oDate;
     },
-    onMessageWarningDialogPress: function(oEvent) { 
+    onMessageWarningDialogPress: function(oEvent) {
         var currentController;
         currentController = this;
         jQuery.sap.require("sap.m.MessageBox");
@@ -49,7 +49,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         if (sap.ui.getCore().AppContext.flagAnnoucement) {
             sap.ui.getCore().AppContext.flagAnnoucement = false;
             this.getRouter().navTo("announcementList", {}, true);
-        } else if(sap.ui.getCore().AppContext.flagPending) {
+        } else if (sap.ui.getCore().AppContext.flagPending) {
             sap.ui.getCore().AppContext.flagPending = false;
             this.getRouter().navTo("pendingList", {}, true);
         } else {
@@ -60,15 +60,15 @@ sap.ui.controller("originacion.IndividualApplications", {
 
     sendInformationToCore: function() {
 
-        var sloanRequestIdMD, oLoanRequestModel,oLoanRequestSerializer;
+        var sloanRequestIdMD, oLoanRequestModel, oLoanRequestSerializer;
         var oRequest;
         var oLoanRequestBuffer;
         var sRequestDescription;
-       
+
         var oNotification;
         var oLoanRequestSync;
 
-        
+
 
         /////// Retrieve model loanRequestIdMD
 
@@ -142,10 +142,10 @@ sap.ui.controller("originacion.IndividualApplications", {
         return sap.ui.core.UIComponent.getRouterFor(this);
     },
 
-    
+
     _onRouteMatched: function(oEvent) {
 
-        var  oGuaranteeTab, oItbIndividualApplication, oCreditTab, oProposalTab, isAnnouncement;
+        var oGuaranteeTab, oItbIndividualApplication, oCreditTab, oProposalTab, isAnnouncement;
         var oArgs, oController, oGeneralSerialize, oLoanRequestSerialize, oDictionary, oParams;
 
         isAnnouncement = false;
@@ -160,7 +160,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         oDictionary = new sap.ui.helper.Dictionary();
 
         oController = this;
-      
+
         oArgs = oEvent.getParameter("arguments");
 
         //Cambiar el parametro de entrada cuando nos confirme el equipo de odata
@@ -541,7 +541,7 @@ sap.ui.controller("originacion.IndividualApplications", {
                     this.onUpdateDispersion(oTmpModel.getProperty("/LinkSet/results/0/GeneralLoanData/DispersionChannelId"));
                     oTmpModel.refresh(true);
                     bdLoader.close();
-                    
+
                 }
             }
             bdLoader.close();
@@ -595,7 +595,7 @@ sap.ui.controller("originacion.IndividualApplications", {
     //////////////// MODIFICADO
     signatures: function() {
 
-        
+
         this.signatureOpen = true;
         //Middleware de componentes SAPUI5
         var oInputBase, oActionBase, oDisplayBase, oLayoutBase;
@@ -609,7 +609,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         oActionBase = new sap.ui.mw.ActionBase();
         oDisplayBase = new sap.ui.mw.DisplayBase();
         oLayoutBase = new sap.ui.mw.LayoutBase();
-        
+
 
         dialogSignature = sap.ui.getCore().byId('appDialogSignatureIndividual');
         dialogSignature.destroyContent();
@@ -650,7 +650,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         //Se declaran objetos de Middleware de componentes SAPUI5
         oActionBase = new sap.ui.mw.ActionBase();
         oDisplayBase = new sap.ui.mw.DisplayBase();
-     
+
 
         dialogPrivacy = sap.ui.getCore().byId("privacyNoticeIndividual");
 
@@ -673,11 +673,11 @@ sap.ui.controller("originacion.IndividualApplications", {
     },
     readPDF: function() {
 
-        var dialogPrivacy, message, oActionBase, oDisplayBase ;
+        var dialogPrivacy, message, oActionBase, oDisplayBase;
         //Se declaran objetos de Middleware de componentes SAPUI5
         oActionBase = new sap.ui.mw.ActionBase();
         oDisplayBase = new sap.ui.mw.DisplayBase();
-        
+
         dialogPrivacy = sap.ui.getCore().byId("privacyNoticePDFIndividual");
 
         message = oDisplayBase.createReaderPDF("../www/js/vendor/pdfjs/web/viewer.html", "sapReaderPDF")
@@ -743,7 +743,7 @@ sap.ui.controller("originacion.IndividualApplications", {
                                         sap.m.MessageToast.show("Se debe capturar firma");
                                     }
                                 } else {
-                                   
+
                                     this.signatureOpen = false;
                                     signatureDialog.destroyContent();
                                     signatureDialog.destroyButtons();
@@ -815,7 +815,7 @@ sap.ui.controller("originacion.IndividualApplications", {
             var oCurrentDialog;
             var images, oLoanRequestModel, oElectronicSignatureSet, i, bAlreadyAggregated, oElectronicSignature;
             var sCustomerIdMD, sBPIdCRM;
-            
+
 
             oLoanRequestModel = sap.ui.getCore().getModel("loanRequestModel"); // Modulo de Firmas, por el momento no se modifica nada.
             sCustomerIdMD = oLoanRequestModel.getProperty("/LinkSet/results/0/CustomerIdMD");
@@ -985,7 +985,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         }
     },
     onChangingExpress: function(_oLocalRegularExpression) {
-        var  oLocalRegularExpression;
+        var oLocalRegularExpression;
         oLocalRegularExpression = _oLocalRegularExpression;
         return function(oEvent) {
             if (_oLocalRegularExpression) {
@@ -1012,7 +1012,7 @@ sap.ui.controller("originacion.IndividualApplications", {
 
     },
     onChanging: function(_oLocalRegularExpression) {
-        var  oLocalRegularExpression;
+        var oLocalRegularExpression;
 
         oLocalRegularExpression = _oLocalRegularExpression;
         return function(oEvent) {
@@ -1084,7 +1084,7 @@ sap.ui.controller("originacion.IndividualApplications", {
             oTxtCuotaQuePuedePagar, oTxtNciLiquidezMaxima;
 
         /////// MODIFICADO
-        var oModelImages,bIsIndivWBusiness;
+        var oModelImages, bIsIndivWBusiness;
         /////// MODIFICADO
 
         oController = this;
@@ -1128,7 +1128,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         oTxtNciMontoSolicitado = sap.ui.getCore().byId("txtNciMontoSolicitado");
         oTxtIngresosMensuales = sap.ui.getCore().byId("txtIngresosMensuales");
         oTxtGastosMensuales = sap.ui.getCore().byId("txtGastosMensuales");
-       
+
         oTxtCuotaQuePuedePagar = sap.ui.getCore().byId("txtCuotaQuePuedePagar");
         oTxtNciLiquidezMaxima = sap.ui.getCore().byId("txtNciLiquidezMaxima");
 
@@ -1237,7 +1237,7 @@ sap.ui.controller("originacion.IndividualApplications", {
 
         //   Se tienen los datos complementarios del BP ??
 
-      
+
         oLoanRequestModel = oView.getModel("oLoanRequestModel");
         bIsIndivWBusiness = oLoanRequestModel.getProperty("/LinkSet/results/0/Customer/BpComplementaryData/IsIndivWBusiness");
         sMessageNotValidData = "Al revisar los datos complemetarios del cliente no fue posible validar: ";
@@ -1301,7 +1301,7 @@ sap.ui.controller("originacion.IndividualApplications", {
                 sMessageNotValidData = sMessageNotValidData + " Tiempo en el negocio actual \n";
                 bValidData = false;
             }
-           
+
         } else {
 
             if (oLoanRequestModel.getProperty("/LinkSet/results/0/Customer/BpComplementaryData/Curp") === "") {
@@ -1553,7 +1553,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         //////// Validar la primera pantalla al menos para poder enviar al core
         var sMessage, bIsValid, oController, oView;
         var oTxtNciIdClienteValue, oTxtNciNombreCompletoValue, oSelectNciTipoDeProductoValue,
-            oTxtNciCicloValue, oTxtNciEstatusDeLaOportunidadValue, 
+            oTxtNciCicloValue, oTxtNciEstatusDeLaOportunidadValue,
             oSelectNciCanalDispersorValue, oSelectNciMedioDeDispersionValue;
 
         /* Se valida solo el estado */
@@ -1570,7 +1570,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         oSelectNciTipoDeProductoValue = sap.ui.getCore().byId("selectNciTipoDeProducto").getSelectedKey();
         oTxtNciCicloValue = sap.ui.getCore().byId("txtNciCiclo").getValue();
         oTxtNciEstatusDeLaOportunidadValue = sap.ui.getCore().byId("txtNciEstatusDeLaOportunidad").getValue();
-        
+
         oSelectNciCanalDispersorValue = sap.ui.getCore().byId("selectNciCanalDispersor").getSelectedKey();
         oSelectNciMedioDeDispersionValue = sap.ui.getCore().byId("selectNciMedioDeDispersion").getSelectedKey();
 
@@ -1578,7 +1578,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         oTxtNciMontoSolicitado = sap.ui.getCore().byId("txtNciMontoSolicitado");
         oTxtIngresosMensuales = sap.ui.getCore().byId("txtIngresosMensuales");
         oTxtGastosMensuales = sap.ui.getCore().byId("txtGastosMensuales");
-       
+
         oTxtCuotaQuePuedePagar = sap.ui.getCore().byId("txtCuotaQuePuedePagar");
         oTxtNciLiquidezMaxima = sap.ui.getCore().byId("txtNciLiquidezMaxima");
 
@@ -1716,7 +1716,7 @@ sap.ui.controller("originacion.IndividualApplications", {
             onClose: function(MessageValue) {
 
                 if (MessageValue === sap.m.MessageBox.Action.OK) {
-                   
+
                     loanRequestModel = oView.getModel("oLoanRequestModel");
 
                     //Se obtienen valores asociados a LinkGuarantor
@@ -1855,14 +1855,14 @@ sap.ui.controller("originacion.IndividualApplications", {
                     /////////////////////////// Agregado para el modelo de Pouch
 
                     jQuery.sap.require("js.serialize.loanRequest.LoanRequestSerialize");
-                  
+
                     sloanRequestIdMD = loanRequestModel.getProperty("/LoanRequestIdMD");
                     sloanRequestIdCRM = loanRequestModel.getProperty("/LoanRequestIdCRM");
                     oController.guaranteeRelation.setBPIdCRM(oSelectedRow.CustomerIdCRM);
                     oController.guaranteeRelation.setCustomerIdMD(oSelectedRow.CustomerIdMD);
                     oController.guaranteeRelation.setLoanRequestIdMD(sloanRequestIdMD);
                     loanRequestModel.setProperty("/LinkGuarantorSet/results/0/LoanRequestIdMD", sloanRequestIdMD);
-           
+
                     loanRequestModel.setProperty("/LinkGuarantorSet/results/0/LoanRequestIdCRM", sloanRequestIdCRM);
 
                     loanRequestModel.refresh(true);
@@ -1910,7 +1910,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         oMonthsAtLocal = sap.ui.getCore().byId("selectNciTiempoEnElLocalMeses");
         oFirstPaymentDate = sap.ui.getCore().byId("dtpNciDateFechaDePrimerPago");
         oLoanDestination = sap.ui.getCore().byId("rbGroupOptionDestinoPrestamo");
-     
+
         oExpenditureDate = sap.ui.getCore().byId("txtNciDateFechaDeDesembolso");
         oProposedAmount = sap.ui.getCore().byId("txtNciMontoPropuesto");
         oProposedFrequency = sap.ui.getCore().byId("txtNciFrecuenciaPropuesta");
@@ -1924,7 +1924,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         oTxtNciMontoSolicitado = sap.ui.getCore().byId("txtNciMontoSolicitado");
         oTxtIngresosMensuales = sap.ui.getCore().byId("txtIngresosMensuales");
         oTxtGastosMensuales = sap.ui.getCore().byId("txtGastosMensuales");
-      
+
         oTxtCuotaQuePuedePagar = sap.ui.getCore().byId("txtCuotaQuePuedePagar");
         oTxtNciLiquidezMaxima = sap.ui.getCore().byId("txtNciLiquidezMaxima");
 
@@ -2044,7 +2044,7 @@ sap.ui.controller("originacion.IndividualApplications", {
             sap.m.MessageToast.show(sMessage);
         } else {
             sap.m.MessageToast.show("Guardado");
-           
+
         }
 
         return bIsValid;
@@ -2062,9 +2062,9 @@ sap.ui.controller("originacion.IndividualApplications", {
 
     onUpdateDispersion: function(_oDispersionChannelKey) {
 
-      
+
         var oFilterChannel, oDispersionChannel, oDispersionChannelKey, oSelectNgDispersionMedium;
-        var  oItem, oView;
+        var oItem, oView;
 
         oView = this.getView();
         if (_oDispersionChannelKey) {
@@ -2076,7 +2076,7 @@ sap.ui.controller("originacion.IndividualApplications", {
             oDispersionChannelKey = oDispersionChannel.getSelectedKey();
         }
 
-     
+
 
         oItem = new sap.ui.core.Item({
             text: "{MediumDescription}",
@@ -2105,7 +2105,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         promiseReadDispersion = sap.ui.getCore().AppContext.myRest.read("/ChannelMediumDispersionSet", "$filter=CollaboratorID eq '" + sap.ui.getCore().AppContext.Promotor + "'", "", false, "dispersionModel");
         promiseReadDispersion
             .then(function(response) {
-             
+
                 oTmpDispersionModel = new sap.ui.model.json.JSONModel();
                 oTmpDispersionModel.setData(response);
                 oView.setModel(oTmpDispersionModel, "dispersionModel");
@@ -2158,10 +2158,10 @@ sap.ui.controller("originacion.IndividualApplications", {
 
             }).catch(function() {
                 sap.m.MessageToast.show("¡Ups! Existe un error en la red, intente más tarde");
-                
+
             });
     },
-   
+
     onShowSynchronizeConfirmation: function() {
 
     },
@@ -2214,12 +2214,12 @@ sap.ui.controller("originacion.IndividualApplications", {
 
         guaranteeSerialize.getMainModelWithOutLoan("GuarantorSet", sap.ui.getCore().AppContext.Promotor).then(function(response) {
 
-           
+
             oTmpGuaranteeModel = oView.getModel("guaranteeModel");
             if (!oTmpGuaranteeModel) {
                 oTmpGuaranteeModel = new sap.ui.model.json.JSONModel();
             }
-           
+
 
             oTmpGuaranteeModel.setData(response);
 
@@ -2229,7 +2229,7 @@ sap.ui.controller("originacion.IndividualApplications", {
 
         }).catch(function() {
             sap.m.MessageToast.show("Se ha producido un error al consultar la lista de avales, por favor intente nuevamente. ");
-           
+
             bdLoader.close();
         })
     },
@@ -2242,8 +2242,8 @@ sap.ui.controller("originacion.IndividualApplications", {
     },
     onShowProposal: function() {
 
-        var   Frecuencia,amountRequested, typeClient, typeRisk, terms, frequency, resEvaluationProposal, sParameterFrequency;
-        var  amountRequestedLiq;
+        var Frecuencia, amountRequested, typeClient, typeRisk, terms, frequency, resEvaluationProposal, sParameterFrequency;
+        var amountRequestedLiq;
         typeClient = sap.ui.getCore().byId("txtNciTipoDeCliente").getValue();
         typeRisk = sap.ui.getCore().byId("txtNciNivelDeRiesgo").getValue();
         /*******MedioHardCode*******/
@@ -2329,7 +2329,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         montoSolicitado = sap.ui.getCore().byId("txtNciMontoSolicitado").getValue();
         frecuanciaSolicitada = sap.ui.getCore().byId("selectNciFrecuenciaSolicitada").getSelectedKey();
         liquidezMaxima = sap.ui.getCore().byId("txtNciLiquidezMaxima").getValue();
-        
+
         frecuenciaFiltrada = frecuanciaSolicitada.substring(1, 3);
         if (frecuenciaFiltrada === "14") {
             frecuenciaFiltrada = 2;
@@ -2349,7 +2349,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         requestCreditSimulator
             .then(function(response) {
 
-              
+
                 if (sap.OData) {
                     sap.OData.applyHttpClient();
                 }
@@ -2380,11 +2380,11 @@ sap.ui.controller("originacion.IndividualApplications", {
 
                     }
                     newJson.setProperty("/results/", propertyJson);
-                
+
                     sap.ui.getCore().setModel(newJson, "newJson");
                     oPopupNciProposal = sap.ui.getCore().byId("popupNciPropuesta");
                     oPopupNciProposal.open();
-                  
+
 
                     comboSelectNciCuotaPlazo = sap.ui.getCore().byId("selectNciCuotaPlazo");
                     comboSelectNciCuotaPlazo.setModel(newJson);
@@ -2407,7 +2407,7 @@ sap.ui.controller("originacion.IndividualApplications", {
 
                 }
             }).catch(function() {
-               
+
                 sap.m.MessageToast.show("Se presento un error al realizar la consulta de la simulación de crédito, por favor verifique los datos e intente nuevamente");
 
                 if (sap.OData) {
@@ -2451,7 +2451,7 @@ sap.ui.controller("originacion.IndividualApplications", {
             jsonDeadLines = "data-map/catalogos/deadlinesmensual.json";
         }
 
-      
+
 
         oModel.loadData(jsonDeadLines, null, false);
         sap.ui.getCore().setModel(oModel, "oModel");
@@ -2579,7 +2579,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         }
 
         ///////// Lanzar la aplicación
-         levelRiskValue = oView.getModel('oLoanRequestModel').getProperty('/LinkGuarantorSet/results/0/GeneralLoanData/RiskLevel');
+        levelRiskValue = oView.getModel('oLoanRequestModel').getProperty('/LinkGuarantorSet/results/0/GeneralLoanData/RiskLevel');
         sApp = startApp.set({ /* params */
             "component": [sap.ui.getCore().AppContext.Config.getProperty("appEDN"), sap.ui.getCore().AppContext.Config.getProperty("appEDNMain")]
         }, { /* extras */
@@ -2588,7 +2588,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         });
 
         sApp.start(function(message) { /* success */
-                
+
         }, function(error) { /* fail */
             sap.m.MessageToast.show("Hubo un problema al ejecutar la aplicación " + error);
         });
@@ -2663,7 +2663,7 @@ sap.ui.controller("originacion.IndividualApplications", {
         contentFlag = currentTabFilter.getContent().length;
 
         if (option === "itIndividual3") {
-            
+
             var oTmpLoanRequestModel = oView.getModel("oLoanRequestModel");
             if (!oTmpLoanRequestModel) {
                 oTmpLoanRequestModel = new sap.ui.model.json.JSONModel();
@@ -2709,11 +2709,11 @@ sap.ui.controller("originacion.IndividualApplications", {
                         //se agrega formulario al tab
                         var oTmpLoanRequestModel;
 
-                       
+
                         oTmpLoanRequestModel = oView.getModel("oLoanRequestModel");
                         if (!oTmpLoanRequestModel) {
                             oTmpLoanRequestModel = new sap.ui.model.json.JSONModel();
-                           
+
                             oView.setModel(oTmpLoanRequestModel, "oLoanRequestModel");
                         }
 
@@ -2738,7 +2738,7 @@ sap.ui.controller("originacion.IndividualApplications", {
                         //Bind a frecuencias
                         oSelectNciFrecuenciaSolicitada = sap.ui.getCore().byId("selectNciFrecuenciaSolicitada");
                         oFrecuenciasModel = new sap.ui.model.json.JSONModel("data-map/catalogos/frecuencia_C_IND_CI.json");
-                     
+
                         oView.setModel(oFrecuenciasModel, "frecuenciasModel");
                         oSelectNciFrecuenciaSolicitada.setModel(oFrecuenciasModel);
                         oItemSelect = new sap.ui.core.Item({
@@ -2755,15 +2755,15 @@ sap.ui.controller("originacion.IndividualApplications", {
                             currentController.onFormEnable(false, "itIndividual2");
                             sap.ui.getCore().byId("btnNciPorAprobar").setEnabled(false);
                         } else {
-                           /* if (sap.ui.getCore().AppContext.isConected) {
-                                sap.ui.getCore().byId("btnNciPorAprobar").setEnabled(true);
+                            /* if (sap.ui.getCore().AppContext.isConected) {
+                                 sap.ui.getCore().byId("btnNciPorAprobar").setEnabled(true);
 
-                            } else {
-                                sap.ui.getCore().byId("btnNciPorAprobar").setEnabled(false);
-                            }*/
+                             } else {
+                                 sap.ui.getCore().byId("btnNciPorAprobar").setEnabled(false);
+                             }*/
 
                             if (currentController.bIsCreating) {
-                               
+
                             }
                         }
 
@@ -2782,11 +2782,11 @@ sap.ui.controller("originacion.IndividualApplications", {
                         oGuaranteeTmpModel = oView.getModel("guaranteeModel");
                         if (!oGuaranteeTmpModel) {
                             oGuaranteeTmpModel = new sap.ui.model.json.JSONModel();
-                         
+
                             oView.setModel(oGuaranteeTmpModel, "guaranteeModel");
                         }
 
-                       
+
                         var oTmpLoanRequestModel = oView.getModel("oLoanRequestModel");
                         if (!oTmpLoanRequestModel) {
                             oTmpLoanRequestModel = new sap.ui.model.json.JSONModel();
@@ -2845,7 +2845,7 @@ sap.ui.controller("originacion.IndividualApplications", {
                                 semaphoreIcon.addStyleClass('semaphoreInitial');
                             }
 
-                       
+
 
 
                         }
@@ -2917,15 +2917,15 @@ sap.ui.controller("originacion.IndividualApplications", {
 
     onSendToCore: function() {
         //Middleware de componentes SAPUI5
-        var  oActionBase, oDisplayBase;
+        var oActionBase, oDisplayBase;
         //Variables para dialogo.
-        var dialogAdds,  oCurrentController;
+        var dialogAdds, oCurrentController;
 
         //Se declaran objetos de Middleware de componentes SAPUI5
-       
+
         oActionBase = new sap.ui.mw.ActionBase();
         oDisplayBase = new sap.ui.mw.DisplayBase();
-       
+
         oCurrentController = this;
 
 
@@ -2944,15 +2944,15 @@ sap.ui.controller("originacion.IndividualApplications", {
     //Guardar: se debe realizar actualización de ésta sección cuando se integré Offline
     onSaveApplication: function() {
         //Middleware de componentes SAPUI5
-        var  oActionBase, oDisplayBase;
+        var oActionBase, oDisplayBase;
         //Variables para dialogo.
         var dialogAdds, oCurrentController;
 
         //Se declaran objetos de Middleware de componentes SAPUI5
-      
+
         oActionBase = new sap.ui.mw.ActionBase();
         oDisplayBase = new sap.ui.mw.DisplayBase();
-       
+
 
         oCurrentController = this;
 
@@ -2980,23 +2980,23 @@ sap.ui.controller("originacion.IndividualApplications", {
     },
 
     save: function() {
-      
+
         jQuery.sap.require("js.base.DisplayBase");
         //NOTA: ******** Aqui se deben realizar las validaciones de formulario ********
-        var   oTxtNciMontoSolicitado;
+        var oTxtNciMontoSolicitado;
         var oDtpNciFirstPaymentDate, oTxtNciDateExpenditureDate, oDate;
         var oFinalModel, amountRequested;
 
-     
+
         ///////// Validacion de fechas
         ///
 
         oDate = new Date();
 
         oDtpNciFirstPaymentDate = this.getView().getModel("oLoanRequestModel").getProperty("/GeneralLoanRequestData/FirstPaymentDate");
-      
-        if (moment(oDtpNciFirstPaymentDate).isValid() && oDtpNciFirstPaymentDate !==undefined ) {
-            if (moment(oDtpNciFirstPaymentDate.setHours(0, 0, 0, 0))<=moment(oDate.setHours(0, 0, 0, 0))) {
+
+        if (moment(oDtpNciFirstPaymentDate).isValid() && oDtpNciFirstPaymentDate !== undefined) {
+            if (moment(oDtpNciFirstPaymentDate.setHours(0, 0, 0, 0)) <= moment(oDate.setHours(0, 0, 0, 0))) {
                 this.closeSave();
                 sap.m.MessageToast.show("La fecha de 'Primer Pago' debe ser mayor a la fecha actual.");
                 return;
@@ -3010,10 +3010,10 @@ sap.ui.controller("originacion.IndividualApplications", {
 
 
         oTxtNciDateExpenditureDate = this.getView().getModel("oLoanRequestModel").getProperty("/GeneralLoanRequestData/ExpenditureDate");
-       
 
-        if (moment(oTxtNciDateExpenditureDate).isValid() && oTxtNciDateExpenditureDate !==undefined) {
-            if (moment(oTxtNciDateExpenditureDate.setHours(0, 0, 0, 0))<=moment(oDate.setHours(0, 0, 0, 0))) {
+
+        if (moment(oTxtNciDateExpenditureDate).isValid() && oTxtNciDateExpenditureDate !== undefined) {
+            if (moment(oTxtNciDateExpenditureDate.setHours(0, 0, 0, 0)) <= moment(oDate.setHours(0, 0, 0, 0))) {
                 this.closeSave();
                 sap.m.MessageToast.show("La fecha de 'Desembolso' debe ser mayor a la fecha actual.");
                 return;
@@ -3072,7 +3072,7 @@ sap.ui.controller("originacion.IndividualApplications", {
 
         oLoanRequestSerializer.serialize(oFinalModel).then(function(msg) {
 
-        
+
             /// TODO: Convertir en promesa, en el then:
             var oDisplayBase; //Para evitar error en databinding contra los datepickers cuando las fechas están en formato JSON
             oDisplayBase = new sap.ui.mw.DisplayBase();
@@ -3091,7 +3091,7 @@ sap.ui.controller("originacion.IndividualApplications", {
 
 
         }.bind(this)).catch(function() {
-          
+
 
         });
 
@@ -3105,9 +3105,9 @@ sap.ui.controller("originacion.IndividualApplications", {
         oController = this;
         oView = oController.getView();
 
-      
+
         oModelLoanRequest = oView.getModel('oLoanRequestModel');
-       
+
         oModelFinal = jQuery.extend({}, oModelLoanRequest.getProperty("/"));
         oModelFinal.LinkSet = new Array();
         oModelFinal.LinkGuarantorSet = new Array();
@@ -3223,7 +3223,7 @@ sap.ui.controller("originacion.IndividualApplications", {
 
         delete oModelFinal['IsEntityInQueue'];
 
-        
+
         return oModelFinal;
     },
 
@@ -3238,7 +3238,7 @@ sap.ui.controller("originacion.IndividualApplications", {
             oView = oController.getView();
             //modal cargando datos
 
-          
+
             oModelLoanRequest = oView.getModel('oLoanRequestModel');
             oIdOportunidad = oModelLoanRequest.getProperty('/LoanRequestIdCRM');
             oIdProcessType = oModelLoanRequest.getProperty('/ProcessType');
@@ -3262,35 +3262,35 @@ sap.ui.controller("originacion.IndividualApplications", {
 
             //setTimeout(function() {
 
-                 sap.ui.getCore().AppContext.bSaveApprove = true;
-                 oController.saveApprove();
+            sap.ui.getCore().AppContext.bSaveApprove = true;
+            oController.saveApprove();
 
-               /* promiseApprove = sap.ui.getCore().AppContext.myRest.read("/OpportunityApproval?loanRequestIdCRM='" + oIdOportunidad + "'&processType='" + oIdProcessType + "'", true); // servicio - consulta solicitantes sin oportunidad asignada
-                promiseApprove.then(function(response) {
-                    if (sap.OData) {
-                        sap.OData.applyHttpClient();
-                    }
-                    if (response.results) {
-                        if (response.results.length <= 0) {
-                            sap.ui.getCore().AppContext.bSaveApprove = true; /////////// Guardar
-                        } else {
-                            sap.ui.getCore().AppContext.bSaveApprove = false; /////////// No Guardar
-                        }
-                    }
-                   
-                    oApproveModel = new sap.ui.model.json.JSONModel();
-                    oApproveModel.setData(response);
-                    oController.bindTableApprove(oApproveModel, oController);
-                    bdLoader.close();
-                }).catch(function() {
-                    if (sap.OData) {
-                        sap.OData.applyHttpClient();
-                    }
-                    sap.m.MessageToast.show("Se produjo un error al aprobar la oportunidad, por favor intente nuevamente. ");
-                    bdLoader.close();
-                  
-                });*/
-           // }, 0);
+            /* promiseApprove = sap.ui.getCore().AppContext.myRest.read("/OpportunityApproval?loanRequestIdCRM='" + oIdOportunidad + "'&processType='" + oIdProcessType + "'", true); // servicio - consulta solicitantes sin oportunidad asignada
+             promiseApprove.then(function(response) {
+                 if (sap.OData) {
+                     sap.OData.applyHttpClient();
+                 }
+                 if (response.results) {
+                     if (response.results.length <= 0) {
+                         sap.ui.getCore().AppContext.bSaveApprove = true; /////////// Guardar
+                     } else {
+                         sap.ui.getCore().AppContext.bSaveApprove = false; /////////// No Guardar
+                     }
+                 }
+                
+                 oApproveModel = new sap.ui.model.json.JSONModel();
+                 oApproveModel.setData(response);
+                 oController.bindTableApprove(oApproveModel, oController);
+                 bdLoader.close();
+             }).catch(function() {
+                 if (sap.OData) {
+                     sap.OData.applyHttpClient();
+                 }
+                 sap.m.MessageToast.show("Se produjo un error al aprobar la oportunidad, por favor intente nuevamente. ");
+                 bdLoader.close();
+               
+             });*/
+            // }, 0);
 
 
         };
@@ -3301,9 +3301,9 @@ sap.ui.controller("originacion.IndividualApplications", {
 
     bindTableApprove: function(oModel, oController) {
         //Middleware de componentes SAPUI5
-        var  oListBase, oCurrentController, oActionBase, oDialogAdds, tblApprove;
+        var oListBase, oCurrentController, oActionBase, oDialogAdds, tblApprove;
         //Se declaran objetos de Middleware de componentes SAPUI5
-        var  oCompoundFilter, tableFields, tableFieldVisibility, tableFieldDemandPopid;
+        var oCompoundFilter, tableFields, tableFieldVisibility, tableFieldDemandPopid;
         oActionBase = new sap.ui.mw.ActionBase();
         oListBase = new sap.ui.mw.ListBase();
 
@@ -3369,7 +3369,7 @@ sap.ui.controller("originacion.IndividualApplications", {
 
     saveApprove: function() {
 
-        var oFinalModel,oBtnGropuEnviarCore;            
+        var oFinalModel, oBtnGropuEnviarCore;
         jQuery.sap.require("js.serialize.loanRequest.LoanRequestSerialize");
         oLoanRequestSerializer = new sap.ui.serialize.LoanRequest("dataDB");
         oFinalModel = this.onCreate();
@@ -3391,7 +3391,7 @@ sap.ui.controller("originacion.IndividualApplications", {
             if (this.guaranteeRelation.getCustomerIdMD() !== "") {
                 oLoanRequestSerializer.relateGuaranteesToLoan(this.guaranteeRelation.getLoanRequestIdMD(), this.guaranteeRelation.getCustomerIdMD());
             }
-           
+
             /// TODO: Convertir en promesa, en el then:
             this.closeSave();
 
@@ -3402,8 +3402,10 @@ sap.ui.controller("originacion.IndividualApplications", {
             oBtnGropuEnviarCore = sap.ui.getCore().byId("btnNciEnviarALCore");
             oBtnGropuEnviarCore.setEnabled(true);
             //////// Habilitar
-            sap.m.MessageToast.show("Regresando a pantalla principal");
-            this.backToTiles();
+            setTimeout(function() {
+                sap.m.MessageToast.show("Exitoso");
+                this.backToTiles();
+            }.bind(this), 1500);
 
 
         }.bind(this)).catch(function(error) {
