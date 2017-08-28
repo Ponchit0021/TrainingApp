@@ -2174,14 +2174,8 @@
 
                          oForm.addContent(oDisplayBase.createLabel("", ""));
 
-                         if (oIdOportunidad !== "") {
-                             if (sap.ui.getCore().AppContext.isConected) {
-                                 oForm.addContent(oActionBase.createButton("btnForApprovalGroupal", "Por aprobar", "Emphasized", "sap-icon://accept", oCurrentController.toStateApprove(oIdOportunidad, processType), oCurrentController).setEnabled(true));
-                             } else {
-                                 oForm.addContent(oActionBase.createButton("btnForApprovalGroupal", "Por aprobar", "Emphasized", "sap-icon://accept", oCurrentController.toStateApprove(oIdOportunidad, processType), oCurrentController).setEnabled(false));
-                             }
-                         } else {
-                             oForm.addContent(oActionBase.createButton("btnForApprovalGroupal", "Por aprobar", "Emphasized", "sap-icon://accept", oCurrentController.toStateApprove(oIdOportunidad, processType), oCurrentController).setEnabled(false));
+                         if (oIdOportunidad !== "") {                             
+                                 oForm.addContent(oActionBase.createButton("btnForApprovalGroupal", "Por aprobar", "Emphasized", "sap-icon://accept", oCurrentController.toStateApprove(oIdOportunidad, processType), oCurrentController).setEnabled(true));                             
                          }
 
 
