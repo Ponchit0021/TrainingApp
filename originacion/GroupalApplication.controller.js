@@ -120,45 +120,6 @@
          };
      },
 
-
-
-     saveApprove: function() {
-         var oController = this,
-             oLoanRequestSerializer, oBtnGropuEnviarCore;
-
-         jQuery.sap.require("js.serialize.loanRequest.LoanRequestSerialize");
-         oLoanRequestSerializer = new sap.ui.serialize.LoanRequest("dataDB");
-
-         var createData = new sap.ui.serialize.BP("dataDB", "Customer")
-             .getMainModel("CustomerSet", sap.ui.getCore().AppContext.Promotor);
-
-         createData.then(oController.onCreate.bind(oController))
-             .then(function(oFinalModel) {
-                 oFinalModel.startDate = this.formatJSONDate(oFinalModel.startDate);
-                 oFinalModel.firstPaymentDate = this.formatJSONDate(oFinalModel.firstPaymentDate);
-                 oFinalModel.expenditureDate = this.formatJSONDate(oFinalModel.expenditureDate);
-                 oFinalModel.IsApproved = true; 
-
-                 oLoanRequestSerializer.serialize(oFinalModel).then(function(msg) {
-                     oLoanRequestSerializer.relateCustomersToLoan(oFinalModel.loanRequestIdMD, oFinalModel.CustomerSet);
-
-                     //////// Habilitar boton enviar al core
-                     this.bAlreadySavedOnPouch = true;
-                     oBtnGropuEnviarCore = sap.ui.getCore().byId("btnGropuEnviarCore");
-                     oBtnGropuEnviarCore.setEnabled(true);
-
-                     sap.m.MessageToast.show("Regresando a pantalla principal");
-                     this.backToTiles();
-
-
-                 }.bind(this)).catch(function() {
-                     sap.m.MessageToast.show("¡Ups! Existe un error en la red, intente más tarde.");
-
-                 });
-             });
-
-     },
-
      determineIfFormIsEnabled: function(oCurrentLoanRequest) {
          var bIsEnabledRevied;
          if (this.sLoanRequestId === "0") {
@@ -1078,16 +1039,19 @@
 
              //modal cargando datos
              bdLoader = sap.ui.getCore().byId("bdLoaderSolicitudes");
+             if (sap.OData) {
+                sap.OData.removeHttpClient();
+            }
              bdLoader.setText("Aprobando...");
              bdLoader.open();
 
-             if (sap.OData) {
-                 sap.OData.removeHttpClient();
-             }
-
-
-
-
+             
+             setTimeout(function() {
+                sap.ui.getCore().AppContext.bSaveApprove = true; /////////// Guardar
+                oController.saveApprove();
+                bdLoader.close();
+            }.bind(this), 2000);
+/*
              setTimeout(function() {
                  promiseApprove = sap.ui.getCore().AppContext.myRest.read("/OpportunityApproval?loanRequestIdCRM='" + oIdOportunidad + "'&processType='" + processType + "'", true); // servicio - consulta solicitantes sin oportunidad asignada
                  promiseApprove.then(function(response) {
@@ -1115,7 +1079,7 @@
 
                  });
              }.bind(this), 0);
-
+*/
 
 
          };
@@ -1193,6 +1157,47 @@
      },
 
 
+
+
+     saveApprove: function() {
+        var oController = this,
+            oLoanRequestSerializer, oBtnGropuEnviarCore;
+
+        jQuery.sap.require("js.serialize.loanRequest.LoanRequestSerialize");
+        oLoanRequestSerializer = new sap.ui.serialize.LoanRequest("dataDB");
+
+        var createData = new sap.ui.serialize.BP("dataDB", "Customer")
+            .getMainModel("CustomerSet", sap.ui.getCore().AppContext.Promotor);
+
+        createData.then(oController.onCreate.bind(oController))
+            .then(function(oFinalModel) {
+                oFinalModel.startDate = this.formatJSONDate(oFinalModel.startDate);
+                oFinalModel.firstPaymentDate = this.formatJSONDate(oFinalModel.firstPaymentDate);
+                oFinalModel.expenditureDate = this.formatJSONDate(oFinalModel.expenditureDate);
+                oFinalModel.IsApproved = true; 
+
+                oLoanRequestSerializer.serialize(oFinalModel).then(function(msg) {
+                    oLoanRequestSerializer.relateCustomersToLoan(oFinalModel.loanRequestIdMD, oFinalModel.CustomerSet);
+
+                    //////// Habilitar boton enviar al core
+                    this.bAlreadySavedOnPouch = true;
+                    oBtnGropuEnviarCore = sap.ui.getCore().byId("btnGropuEnviarCore");
+                    oBtnGropuEnviarCore.setEnabled(true);
+
+                    //////// Habilitar
+                    this.backToTiles();
+                    setTimeout(function() {
+                        sap.m.MessageToast.show("Exitoso");                        
+                    }.bind(this), 2000);
+
+
+                }.bind(this)).catch(function() {
+                    sap.m.MessageToast.show("¡Ups! Existe un error en la red, intente más tarde.");
+
+                });
+            }.bind(this));
+
+    },
 
 
      onCreditAmountChange: function() {
